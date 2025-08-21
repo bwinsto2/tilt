@@ -1,0 +1,2 @@
+﻿thisRow.t,notes,trials.label,trials.nReps,trials.startVal,trials.maxVal,trials.minVal,trials.stepSizes,trials.stepType,trials.nUp,trials.nDown,trials.nReversals,trials.thisIndex,trials.thisRepN,trials.thisN,trials.direction,trials.stepSize,trials.intensity,participant,session,date,expName,psychopyVersion,frameRate,expStart,
+,,low_start,10,-20,30,-30,"[0.1, 0.25, 0.5, 1, 2, 5]",lin,1,1,10,1,1,0,start,0.1,-20,,,,,,,,

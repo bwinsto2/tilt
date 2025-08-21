@@ -1,0 +1,153 @@
+8.4876 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+8.4889 	INFO 	Loaded monitor calibration from ['2025_01_25 22:17']
+8.6853 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fead2385c10>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fead2385b20>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fead23b1610>, multiSample=False, name='window1', numSamples=2, pos=[1320.0, 420.0], screen=1, size=array([800, 600]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+8.6853 	EXP 	window1: backgroundImage = ''
+8.6853 	EXP 	window1: backgroundFit = 'none'
+8.6937 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.6945 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.6953 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.6962 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.6971 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.6976 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.6984 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.6994 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.6997 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.7001 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.7009 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.7017 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.7024 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.7032 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.7039 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.7047 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.7054 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.7059 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.7065 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.7079 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.7083 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.7085 	DEBUG 	Uploading Texture Font fontname to graphics card
+8.7121 	DEBUG 	Upload of Texture Font fontname complete
+8.7195 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.7206 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.7216 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.7217 	DEBUG 	Uploading Texture Font fontname to graphics card
+8.7236 	DEBUG 	Upload of Texture Font fontname complete
+8.7252 	EXP 	window1: Attempting to measure frame rate of screen (1) ...
+8.7252 	EXP 	window1: recordFrameIntervals = False
+8.8009 	DATA 	Keypress: return
+8.9163 	EXP 	window1: recordFrameIntervals = True
+9.7514 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+9.7602 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.7612 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.7626 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.7643 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.7659 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.7676 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.7684 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.7698 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.7715 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.7730 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.7733 	DEBUG 	Uploading Texture Font fontname to graphics card
+9.7772 	DEBUG 	Upload of Texture Font fontname complete
+9.8009 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+13.3812 	INFO 	keyboard.Keyboard is using iohub backend.
+13.3812 	INFO 	keyboard.Keyboard is using iohub backend.
+13.3812 	EXP 	tilt_staircase: status = STARTED
+13.3865 	EXP 	Created surround = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, interpolate=True, mask='circle', maskParams=None, name='surround', opacity=1, ori=1.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([7., 7.]), size=array([0.75, 0.75]), tex='sin', texRes=128.0, units='height', win=Window(...))
+13.3880 	EXP 	Created center = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, interpolate=True, mask='circle', maskParams=None, name='center', opacity=1, ori=1.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([2., 2.]), size=array([0.3, 0.3]), tex='sin', texRes=128.0, units='height', win=Window(...))
+13.3937 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([ 1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+0.0391 	INFO 	Keyboard events cleared
+0.0388 	WARNING 	t of last frame was 32.99ms (=1/30)
+0.0388 	EXP 	surround: ori = 50.0
+0.0388 	EXP 	center: ori = 20.0
+0.0388 	EXP 	text: height = 0.05
+0.0388 	EXP 	text: height = 0.05
+0.0388 	EXP 	text: height = 0.05
+0.0388 	EXP 	text: text = 20.0
+0.0388 	EXP 	surround: autoDraw = True
+0.0388 	EXP 	center: autoDraw = True
+0.0388 	EXP 	text: autoDraw = True
+0.0388 	EXP 	surround: tex = 'sin'
+0.0388 	EXP 	center: tex = 'sin'
+3.7055 	DATA 	Keypress: right
+3.7083 	INFO 	Keyboard events cleared
+3.7080 	WARNING 	t of last frame was 67.32ms (=1/14)
+3.7080 	EXP 	surround: autoDraw = False
+3.7080 	EXP 	center: autoDraw = False
+3.7080 	EXP 	text: autoDraw = False
+3.7080 	EXP 	surround: ori = 55.0
+3.7080 	EXP 	center: ori = 25.0
+3.7080 	EXP 	text: height = 0.05
+3.7080 	EXP 	text: height = 0.05
+3.7080 	EXP 	text: height = 0.05
+3.7080 	EXP 	text: text = 25.0
+3.7080 	EXP 	surround: autoDraw = True
+3.7080 	EXP 	center: autoDraw = True
+3.7080 	EXP 	text: autoDraw = True
+6.6997 	DATA 	Keypress: left
+6.7010 	INFO 	Keyboard events cleared
+6.7008 	EXP 	surround: autoDraw = False
+6.7008 	EXP 	center: autoDraw = False
+6.7008 	EXP 	text: autoDraw = False
+6.7008 	EXP 	surround: ori = 60.0
+6.7008 	EXP 	center: ori = 30.0
+6.7008 	EXP 	text: height = 0.05
+6.7008 	EXP 	text: height = 0.05
+6.7008 	EXP 	text: height = 0.05
+6.7008 	EXP 	text: text = 30.0
+6.7008 	EXP 	surround: autoDraw = True
+6.7008 	EXP 	center: autoDraw = True
+6.7008 	EXP 	text: autoDraw = True
+8.8161 	DATA 	Keypress: left
+8.8177 	INFO 	Keyboard events cleared
+8.8174 	EXP 	surround: autoDraw = False
+8.8174 	EXP 	center: autoDraw = False
+8.8174 	EXP 	text: autoDraw = False
+8.8174 	EXP 	surround: ori = 60.0
+8.8174 	EXP 	center: ori = 30.0
+8.8174 	EXP 	text: height = 0.05
+8.8174 	EXP 	text: height = 0.05
+8.8174 	EXP 	text: height = 0.05
+8.8174 	EXP 	text: text = 30.0
+8.8174 	EXP 	surround: autoDraw = True
+8.8174 	EXP 	center: autoDraw = True
+8.8174 	EXP 	text: autoDraw = True
+9.5035 	DATA 	Keypress: left
+9.5101 	INFO 	Keyboard events cleared
+9.5099 	EXP 	surround: autoDraw = False
+9.5099 	EXP 	center: autoDraw = False
+9.5099 	EXP 	text: autoDraw = False
+9.5099 	EXP 	surround: ori = 60.0
+9.5099 	EXP 	center: ori = 30.0
+9.5099 	EXP 	text: height = 0.05
+9.5099 	EXP 	text: height = 0.05
+9.5099 	EXP 	text: height = 0.05
+9.5099 	EXP 	text: text = 30.0
+9.5099 	EXP 	surround: autoDraw = True
+9.5099 	EXP 	center: autoDraw = True
+9.5099 	EXP 	text: autoDraw = True
+9.6982 	DATA 	Keypress: left
+9.6995 	INFO 	Keyboard events cleared
+9.6993 	EXP 	surround: autoDraw = False
+9.6993 	EXP 	center: autoDraw = False
+9.6993 	EXP 	text: autoDraw = False
+9.6993 	EXP 	surround: ori = 60.0
+9.6993 	EXP 	center: ori = 30.0
+9.6993 	EXP 	text: height = 0.05
+9.6993 	EXP 	text: height = 0.05
+9.6993 	EXP 	text: height = 0.05
+9.6993 	EXP 	text: text = 30.0
+9.6993 	EXP 	surround: autoDraw = True
+9.6993 	EXP 	center: autoDraw = True
+9.6993 	EXP 	text: autoDraw = True
+10.4309 	DATA 	Keypress: escape
+10.4697 	EXP 	tilt_staircase: status = STOPPED
+10.4770 	EXP 	surround: autoDraw = False
+10.4770 	EXP 	center: autoDraw = False
+10.4770 	EXP 	text: autoDraw = False
+10.4787 	EXP 	tilt_staircase: status = STOPPED
+10.4808 	INFO 	saved data to '/Users/bwinsto2/Downloads/data/868848_tilt_staircase_2025-08-11_13h42.45.857.csv'
+10.4822 	INFO 	saved data to /Users/bwinsto2/Downloads/data/868848_tilt_staircase_2025-08-11_13h42.45.857.psydat
+10.7913 	DEBUG 	Saving data for tilt_staircase ExperimentHandler

@@ -1,0 +1,7 @@
+﻿center,surround,correct,opacity
+-30,-60,left,100
+-30,0,left,100
+30,60,right,100
+30,0,right,100
+-30,69,left,0
+30,69,right,0

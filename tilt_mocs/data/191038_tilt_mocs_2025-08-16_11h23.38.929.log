@@ -1,0 +1,1146 @@
+5.4970 	INFO 	Loaded monitor calibration from ['2025_08_13 14:32']
+5.7047 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fb8ea1057c0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fb8ea1056d0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fb8e8d1f1f0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.7048 	EXP 	window1: backgroundImage = ''
+5.7048 	EXP 	window1: backgroundFit = 'none'
+5.7552 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+5.7553 	EXP 	window1: recordFrameIntervals = False
+5.9958 	EXP 	window1: recordFrameIntervals = True
+6.8632 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+10.4803 	INFO 	keyboard.Keyboard is using iohub backend.
+10.4803 	INFO 	keyboard.Keyboard is using iohub backend.
+10.4803 	INFO 	keyboard.Keyboard is using iohub backend.
+10.4804 	INFO 	keyboard.Keyboard is using iohub backend.
+10.4804 	INFO 	keyboard.Keyboard is using iohub backend.
+10.4804 	INFO 	keyboard.Keyboard is using iohub backend.
+10.4804 	INFO 	keyboard.Keyboard is using iohub backend.
+10.4804 	INFO 	keyboard.Keyboard is using iohub backend.
+10.4805 	INFO 	keyboard.Keyboard is using iohub backend.
+10.4805 	EXP 	tilt_mocs: status = STARTED
+10.5261 	EXP 	Created text_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_5', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.5328 	EXP 	Created text_6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_6', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.5349 	EXP 	Created surround_practice = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([0.2, 0.2, 0.2]), colorSpace='rgb', contrast=0.2, depth=-1.0, draggable=False, interpolate=True, mask='circle', maskParams=None, name='surround_practice', opacity=1, ori=1.0, phase=array([1., 1.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([2.5, 2.5]), size=array([6., 6.]), tex='sin', texRes=128.0, units='cm', win=Window(...))
+10.5364 	EXP 	Created center_practice = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, interpolate=True, mask='circle', maskParams=None, name='center_practice', opacity=1, ori=1.0, phase=array([1., 1.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([2.5, 2.5]), size=array([2., 2.]), tex='sin', texRes=128.0, units='cm', win=Window(...))
+10.5398 	EXP 	Created text_11 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_11', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.5403 	EXP 	Created text_7 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_7', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.5473 	EXP 	Created text_8 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_8', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.5487 	EXP 	Created surround_practice_2 = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([0.2, 0.2, 0.2]), colorSpace='rgb', contrast=0.2, depth=0.0, draggable=False, interpolate=True, mask='circle', maskParams=None, name='surround_practice_2', opacity=1.0, ori=1.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([2.5, 2.5]), size=array([6., 6.]), tex='sin', texRes=128.0, units='cm', win=Window(...))
+10.5501 	EXP 	Created center_practice_2 = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([0.2, 0.2, 0.2]), colorSpace='rgb', contrast=0.2, depth=-1.0, draggable=False, interpolate=True, mask='circle', maskParams=None, name='center_practice_2', opacity=1, ori=1.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([2.5, 2.5]), size=array([2., 2.]), tex='sin', texRes=128.0, units='cm', win=Window(...))
+10.5525 	EXP 	Created text_12 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_12', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.5529 	EXP 	Created text_7 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_7', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.5575 	EXP 	Created text_13 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_13', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.5590 	EXP 	Created surround_grating = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([0.2, 0.2, 0.2]), colorSpace='rgb', contrast=0.2, depth=-1.0, draggable=False, interpolate=True, mask='circle', maskParams=None, name='surround_grating', opacity=1.0, ori=1.0, phase=array([1., 1.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([2.5, 2.5]), size=array([6., 6.]), tex='sin', texRes=128.0, units='cm', win=Window(...))
+10.5604 	EXP 	Created center_grating = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([0.2, 0.2, 0.2]), colorSpace='rgb', contrast=0.2, depth=-2.0, draggable=False, interpolate=True, mask='circle', maskParams=None, name='center_grating', opacity=1, ori=1.0, phase=array([1., 1.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([2.5, 2.5]), size=array([2., 2.]), tex='sin', texRes=128.0, units='cm', win=Window(...))
+10.5628 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_4', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.5645 	EXP 	Created text_14 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_14', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='thank you and have a pleasant day ', units='height', win=Window(...), wrapWidth=1)
+0.0206 	INFO 	Keyboard events cleared
+0.0204 	EXP 	text_5: autoDraw = True
+3.4322 	WARNING 	t of last frame was 27.38ms (=1/36)
+3.8560 	WARNING 	t of last frame was 20.39ms (=1/49)
+3.9896 	WARNING 	t of last frame was 20.05ms (=1/49)
+4.1715 	DATA 	Keypress: space
+4.1776 	WARNING 	t of last frame was 62.29ms (=1/16)
+5.2153 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+9.5463 	DATA 	Keypress: space
+9.5504 	INFO 	Keyboard events cleared
+9.5499 	EXP 	text_5: autoDraw = False
+9.5499 	EXP 	text_6: autoDraw = True
+9.8933 	EXP 	Imported /Users/bwinsto2/Downloads/tilt_practice_1.csv as conditions, 4 conditions, 3 params
+9.8938 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'center': 30, 'surround': 0, 'correct': 'right', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+9.8970 	DATA 	Keypress: space
+9.9018 	INFO 	Keyboard events cleared
+9.9015 	EXP 	text_6: autoDraw = False
+9.9015 	EXP 	surround_practice: ori = 0.0
+9.9015 	EXP 	surround_practice: phase = array([0.9051649, 0.9051649])
+9.9015 	EXP 	center_practice: ori = 30.0
+9.9015 	EXP 	center_practice: phase = array([0.62660499, 0.62660499])
+10.3856 	EXP 	surround_practice: autoDraw = True
+10.3856 	EXP 	center_practice: autoDraw = True
+10.3856 	EXP 	surround_practice: tex = 'sin'
+10.3856 	EXP 	center_practice: tex = 'sin'
+11.3734 	EXP 	text_11: autoDraw = True
+11.3822 	EXP 	surround_practice: autoDraw = False
+11.3822 	EXP 	center_practice: autoDraw = False
+12.2069 	DATA 	Keypress: right
+12.2109 	EXP 	surround_practice: autoDraw = False
+12.2109 	EXP 	center_practice: autoDraw = False
+12.2109 	EXP 	text_11: autoDraw = False
+12.2109 	EXP 	text_7: height = 0.05
+12.2109 	EXP 	text_7: height = 0.05
+12.2109 	EXP 	text_7: height = 0.05
+12.2109 	EXP 	text_7: text = 'Correct'
+12.2109 	EXP 	text_7: autoDraw = True
+13.6659 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'center': -30, 'surround': 0, 'correct': 'left', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+13.6723 	INFO 	Keyboard events cleared
+13.6719 	EXP 	text_7: autoDraw = False
+13.6719 	EXP 	surround_practice: ori = 0.0
+13.6719 	EXP 	surround_practice: phase = array([0.54535987, 0.54535987])
+13.6719 	EXP 	center_practice: ori = -30.0
+13.6719 	EXP 	center_practice: phase = array([0.53466364, 0.53466364])
+14.1486 	EXP 	surround_practice: autoDraw = True
+14.1486 	EXP 	center_practice: autoDraw = True
+14.5774 	DATA 	Keypress: left
+14.5817 	EXP 	surround_practice: autoDraw = False
+14.5817 	EXP 	center_practice: autoDraw = False
+14.5817 	EXP 	text_11: autoDraw = False
+14.5817 	EXP 	text_7: text = 'Correct'
+14.5817 	EXP 	text_7: autoDraw = True
+16.0667 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'center': 30, 'surround': 60, 'correct': 'right', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+16.0731 	INFO 	Keyboard events cleared
+16.0725 	EXP 	text_7: autoDraw = False
+16.0725 	EXP 	text_7: autoDraw = False
+16.0725 	EXP 	surround_practice: ori = 60.0
+16.0725 	EXP 	surround_practice: phase = array([0.81243149, 0.81243149])
+16.0725 	EXP 	center_practice: ori = 30.0
+16.0725 	EXP 	center_practice: phase = array([0.35096751, 0.35096751])
+16.5742 	EXP 	surround_practice: autoDraw = True
+16.5742 	EXP 	center_practice: autoDraw = True
+16.9605 	DATA 	Keypress: right
+16.9651 	EXP 	surround_practice: autoDraw = False
+16.9651 	EXP 	center_practice: autoDraw = False
+16.9651 	EXP 	text_11: autoDraw = False
+16.9651 	EXP 	text_7: text = 'Correct'
+16.9651 	EXP 	text_7: autoDraw = True
+18.4500 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'center': -30, 'surround': -60, 'correct': 'left', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+18.4559 	INFO 	Keyboard events cleared
+18.4555 	EXP 	text_7: autoDraw = False
+18.4555 	EXP 	text_7: autoDraw = False
+18.4555 	EXP 	surround_practice: ori = -60.0
+18.4555 	EXP 	surround_practice: phase = array([0.42808493, 0.42808493])
+18.4555 	EXP 	center_practice: ori = -30.0
+18.4555 	EXP 	center_practice: phase = array([0.52878687, 0.52878687])
+18.9567 	EXP 	surround_practice: autoDraw = True
+18.9567 	EXP 	center_practice: autoDraw = True
+19.4711 	DATA 	Keypress: left
+19.4755 	EXP 	surround_practice: autoDraw = False
+19.4755 	EXP 	center_practice: autoDraw = False
+19.4755 	EXP 	text_11: autoDraw = False
+19.4755 	EXP 	text_7: text = 'Correct'
+19.4755 	EXP 	text_7: autoDraw = True
+20.9739 	INFO 	Keyboard events cleared
+20.9735 	EXP 	text_7: autoDraw = False
+20.9735 	EXP 	text_7: autoDraw = False
+20.9735 	EXP 	text_8: autoDraw = True
+22.1254 	EXP 	Imported /Users/bwinsto2/Downloads/tilt_practice_2.csv as conditions, 6 conditions, 4 params
+22.1258 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'center': -30, 'surround': -60, 'correct': 'left', 'opacity': 100, 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+22.1297 	DATA 	Keypress: space
+22.1383 	INFO 	Keyboard events cleared
+22.1380 	EXP 	text_8: autoDraw = False
+22.1380 	EXP 	surround_practice_2: ori = -60.0
+22.1380 	EXP 	center_practice_2: ori = -30.0
+22.6190 	EXP 	surround_practice_2: autoDraw = True
+22.6190 	EXP 	center_practice_2: autoDraw = True
+22.6190 	EXP 	surround_practice_2: tex = 'sin'
+22.6190 	EXP 	center_practice_2: tex = 'sin'
+22.6898 	EXP 	surround_practice_2: autoDraw = False
+22.6898 	EXP 	center_practice_2: autoDraw = False
+22.6898 	EXP 	text_12: autoDraw = True
+23.2271 	DATA 	Keypress: left
+23.2315 	EXP 	surround_practice_2: autoDraw = False
+23.2315 	EXP 	center_practice_2: autoDraw = False
+23.2315 	EXP 	text_12: autoDraw = False
+23.2315 	EXP 	text_7: text = 'Correct'
+23.2315 	EXP 	text_7: autoDraw = True
+24.7163 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'center': -30, 'surround': 0, 'correct': 'left', 'opacity': 100, 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+24.7218 	INFO 	Keyboard events cleared
+24.7214 	EXP 	text_7: autoDraw = False
+24.7214 	EXP 	text_7: autoDraw = False
+24.7214 	EXP 	surround_practice_2: ori = 0.0
+24.7214 	EXP 	center_practice_2: ori = -30.0
+25.2225 	EXP 	surround_practice_2: autoDraw = True
+25.2225 	EXP 	center_practice_2: autoDraw = True
+25.2989 	EXP 	surround_practice_2: autoDraw = False
+25.2989 	EXP 	center_practice_2: autoDraw = False
+25.3031 	EXP 	text_12: autoDraw = True
+25.6207 	DATA 	Keypress: left
+25.6251 	EXP 	surround_practice_2: autoDraw = False
+25.6251 	EXP 	center_practice_2: autoDraw = False
+25.6251 	EXP 	text_12: autoDraw = False
+25.6251 	EXP 	text_7: text = 'Correct'
+25.6251 	EXP 	text_7: autoDraw = True
+27.1160 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'center': 30, 'surround': 60, 'correct': 'right', 'opacity': 100, 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+27.1208 	INFO 	Keyboard events cleared
+27.1203 	EXP 	text_7: autoDraw = False
+27.1203 	EXP 	text_7: autoDraw = False
+27.1203 	EXP 	surround_practice_2: ori = 60.0
+27.1203 	EXP 	center_practice_2: ori = 30.0
+27.6142 	EXP 	surround_practice_2: autoDraw = True
+27.6142 	EXP 	center_practice_2: autoDraw = True
+27.6891 	EXP 	surround_practice_2: autoDraw = False
+27.6891 	EXP 	center_practice_2: autoDraw = False
+27.6891 	EXP 	text_12: autoDraw = True
+27.9085 	DATA 	Keypress: right
+27.9141 	EXP 	surround_practice_2: autoDraw = False
+27.9141 	EXP 	center_practice_2: autoDraw = False
+27.9141 	EXP 	text_12: autoDraw = False
+27.9141 	EXP 	text_7: text = 'Correct'
+27.9141 	EXP 	text_7: autoDraw = True
+29.4001 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'center': 30, 'surround': 0, 'correct': 'right', 'opacity': 100, 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+29.4058 	INFO 	Keyboard events cleared
+29.4053 	EXP 	text_7: autoDraw = False
+29.4053 	EXP 	text_7: autoDraw = False
+29.4053 	EXP 	surround_practice_2: ori = 0.0
+29.4053 	EXP 	center_practice_2: ori = 30.0
+29.9059 	EXP 	surround_practice_2: autoDraw = True
+29.9059 	EXP 	center_practice_2: autoDraw = True
+29.9825 	EXP 	surround_practice_2: autoDraw = False
+29.9825 	EXP 	center_practice_2: autoDraw = False
+29.9825 	EXP 	text_12: autoDraw = True
+30.2582 	DATA 	Keypress: right
+30.2642 	EXP 	surround_practice_2: autoDraw = False
+30.2642 	EXP 	center_practice_2: autoDraw = False
+30.2642 	EXP 	text_12: autoDraw = False
+30.2642 	EXP 	text_7: text = 'Correct'
+30.2642 	EXP 	text_7: autoDraw = True
+31.7487 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'center': -30, 'surround': 69, 'correct': 'left', 'opacity': 0, 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+31.7546 	INFO 	Keyboard events cleared
+31.7544 	EXP 	text_7: autoDraw = False
+31.7544 	EXP 	text_7: autoDraw = False
+31.7544 	EXP 	surround_practice_2: ori = 69.0
+31.7544 	EXP 	center_practice_2: ori = -30.0
+32.2543 	EXP 	surround_practice_2: autoDraw = True
+32.2543 	EXP 	center_practice_2: autoDraw = True
+32.3310 	EXP 	surround_practice_2: autoDraw = False
+32.3310 	EXP 	center_practice_2: autoDraw = False
+32.3310 	EXP 	text_12: autoDraw = True
+33.6205 	DATA 	Keypress: left
+33.6249 	EXP 	surround_practice_2: autoDraw = False
+33.6249 	EXP 	center_practice_2: autoDraw = False
+33.6249 	EXP 	text_12: autoDraw = False
+33.6249 	EXP 	text_7: text = 'Correct'
+33.6249 	EXP 	text_7: autoDraw = True
+35.1164 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'center': 30, 'surround': 69, 'correct': 'right', 'opacity': 0, 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+35.1234 	INFO 	Keyboard events cleared
+35.1228 	EXP 	text_7: autoDraw = False
+35.1228 	EXP 	text_7: autoDraw = False
+35.1228 	EXP 	surround_practice_2: ori = 69.0
+35.1228 	EXP 	center_practice_2: ori = 30.0
+35.6142 	EXP 	surround_practice_2: autoDraw = True
+35.6142 	EXP 	center_practice_2: autoDraw = True
+35.6886 	EXP 	surround_practice_2: autoDraw = False
+35.6886 	EXP 	center_practice_2: autoDraw = False
+35.6886 	EXP 	text_12: autoDraw = True
+36.1902 	DATA 	Keypress: right
+36.1985 	EXP 	surround_practice_2: autoDraw = False
+36.1985 	EXP 	center_practice_2: autoDraw = False
+36.1985 	EXP 	text_12: autoDraw = False
+36.1985 	EXP 	text_7: text = 'Correct'
+36.1985 	EXP 	text_7: autoDraw = True
+37.6920 	INFO 	Keyboard events cleared
+37.6914 	EXP 	text_7: autoDraw = False
+37.6914 	EXP 	text_7: autoDraw = False
+37.6914 	EXP 	text_13: autoDraw = True
+39.2606 	EXP 	Imported practice_stims.csv as conditions, 60 conditions, 5 params
+39.2616 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'center': -1, 'surround': 0, 'type': 'p1', 'surr_type': 'noss', 'surr_opacity': 0, 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+39.2655 	DATA 	Keypress: space
+39.2705 	INFO 	Keyboard events cleared
+39.2702 	EXP 	text_13: autoDraw = False
+39.2702 	EXP 	surround_grating: ori = 0.0
+39.2702 	EXP 	surround_grating: phase = array([0.14278832, 0.14278832])
+39.2702 	EXP 	center_grating: ori = -1.0
+39.2702 	EXP 	center_grating: phase = array([0.5213467, 0.5213467])
+39.7552 	EXP 	surround_grating: autoDraw = True
+39.7552 	EXP 	center_grating: autoDraw = True
+39.7552 	EXP 	surround_grating: tex = 'sin'
+39.7552 	EXP 	center_grating: tex = 'sin'
+39.8215 	EXP 	text_4: autoDraw = True
+39.8321 	EXP 	surround_grating: autoDraw = False
+39.8321 	EXP 	center_grating: autoDraw = False
+40.7178 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'center': -2, 'surround': -15, 'type': 'PSE', 'surr_type': 'negs', 'surr_opacity': 100, 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+40.7218 	DATA 	Keypress: left
+40.7267 	INFO 	Keyboard events cleared
+40.7262 	EXP 	surround_grating: autoDraw = False
+40.7262 	EXP 	center_grating: autoDraw = False
+40.7262 	EXP 	text_4: autoDraw = False
+40.7262 	EXP 	surround_grating: ori = -15.0
+40.7262 	EXP 	surround_grating: phase = array([0.45758308, 0.45758308])
+40.7262 	EXP 	center_grating: ori = -2.0
+40.7262 	EXP 	center_grating: phase = array([0.85330424, 0.85330424])
+41.2147 	EXP 	surround_grating: autoDraw = True
+41.2147 	EXP 	center_grating: autoDraw = True
+41.2862 	EXP 	surround_grating: autoDraw = False
+41.2862 	EXP 	center_grating: autoDraw = False
+41.2862 	EXP 	text_4: autoDraw = True
+42.3069 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'center': 1, 'surround': 15, 'type': 'm1', 'surr_type': 'poss', 'surr_opacity': 100, 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+42.3103 	DATA 	Keypress: right
+42.3149 	INFO 	Keyboard events cleared
+42.3146 	EXP 	surround_grating: autoDraw = False
+42.3146 	EXP 	center_grating: autoDraw = False
+42.3146 	EXP 	text_4: autoDraw = False
+42.3146 	EXP 	surround_grating: ori = 15.0
+42.3146 	EXP 	surround_grating: phase = array([0.80995232, 0.80995232])
+42.3146 	EXP 	center_grating: ori = 1.0
+42.3146 	EXP 	center_grating: phase = array([0.98694474, 0.98694474])
+42.8066 	EXP 	surround_grating: autoDraw = True
+42.8066 	EXP 	center_grating: autoDraw = True
+42.8817 	EXP 	surround_grating: autoDraw = False
+42.8817 	EXP 	center_grating: autoDraw = False
+42.8817 	EXP 	text_4: autoDraw = True
+43.5033 	DATA 	Keypress: left
+43.5087 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'center': 0, 'surround': 0, 'type': 'm2', 'surr_type': 'noss', 'surr_opacity': 0, 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+43.5142 	INFO 	Keyboard events cleared
+43.5139 	EXP 	surround_grating: autoDraw = False
+43.5139 	EXP 	center_grating: autoDraw = False
+43.5139 	EXP 	text_4: autoDraw = False
+43.5139 	EXP 	surround_grating: ori = 0.0
+43.5139 	EXP 	surround_grating: phase = array([0.49851972, 0.49851972])
+43.5139 	EXP 	center_grating: ori = 0.0
+43.5139 	EXP 	center_grating: phase = array([0.22846085, 0.22846085])
+44.0074 	EXP 	surround_grating: autoDraw = True
+44.0074 	EXP 	center_grating: autoDraw = True
+44.0819 	EXP 	surround_grating: autoDraw = False
+44.0819 	EXP 	center_grating: autoDraw = False
+44.0819 	EXP 	text_4: autoDraw = True
+45.0889 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'center': -4, 'surround': -15, 'type': 'm2', 'surr_type': 'negs', 'surr_opacity': 100, 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+45.0925 	DATA 	Keypress: right
+45.0979 	INFO 	Keyboard events cleared
+45.0975 	EXP 	surround_grating: autoDraw = False
+45.0975 	EXP 	center_grating: autoDraw = False
+45.0975 	EXP 	text_4: autoDraw = False
+45.0975 	EXP 	surround_grating: ori = -15.0
+45.0975 	EXP 	surround_grating: phase = array([0.51133057, 0.51133057])
+45.0975 	EXP 	center_grating: ori = -4.0
+45.0975 	EXP 	center_grating: phase = array([0.5603634, 0.5603634])
+45.5808 	EXP 	surround_grating: autoDraw = True
+45.5808 	EXP 	center_grating: autoDraw = True
+45.6536 	EXP 	surround_grating: autoDraw = False
+45.6536 	EXP 	center_grating: autoDraw = False
+45.6656 	EXP 	text_4: autoDraw = True
+46.3173 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'center': 0, 'surround': -15, 'type': 'p2', 'surr_type': 'negs', 'surr_opacity': 100, 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+46.3206 	DATA 	Keypress: left
+46.3253 	INFO 	Keyboard events cleared
+46.3249 	EXP 	surround_grating: autoDraw = False
+46.3249 	EXP 	center_grating: autoDraw = False
+46.3249 	EXP 	text_4: autoDraw = False
+46.3249 	EXP 	surround_grating: ori = -15.0
+46.3249 	EXP 	surround_grating: phase = array([0.79145039, 0.79145039])
+46.3249 	EXP 	center_grating: ori = 0.0
+46.3249 	EXP 	center_grating: phase = array([0.49930709, 0.49930709])
+46.8149 	EXP 	surround_grating: autoDraw = True
+46.8149 	EXP 	center_grating: autoDraw = True
+46.8856 	EXP 	surround_grating: autoDraw = False
+46.8856 	EXP 	center_grating: autoDraw = False
+46.8856 	EXP 	text_4: autoDraw = True
+47.3341 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'center': 3, 'surround': 15, 'type': 'p1', 'surr_type': 'poss', 'surr_opacity': 100, 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+47.3374 	DATA 	Keypress: right
+47.3420 	INFO 	Keyboard events cleared
+47.3416 	EXP 	surround_grating: autoDraw = False
+47.3416 	EXP 	center_grating: autoDraw = False
+47.3416 	EXP 	text_4: autoDraw = False
+47.3416 	EXP 	surround_grating: ori = 15.0
+47.3416 	EXP 	surround_grating: phase = array([0.40658711, 0.40658711])
+47.3416 	EXP 	center_grating: ori = 3.0
+47.3416 	EXP 	center_grating: phase = array([0.88995135, 0.88995135])
+47.8309 	EXP 	surround_grating: autoDraw = True
+47.8309 	EXP 	center_grating: autoDraw = True
+47.9046 	EXP 	surround_grating: autoDraw = False
+47.9046 	EXP 	center_grating: autoDraw = False
+47.9046 	EXP 	text_4: autoDraw = True
+48.6659 	EXP 	New trial (rep=0, index=7): <Trial 7 (7 in rep 0) data={'center': -1, 'surround': -15, 'type': 'p1', 'surr_type': 'negs', 'surr_opacity': 100, 'thisN': 7, 'thisTrialN': 7, 'thisRepN': 0}>
+48.6680 	DATA 	Keypress: left
+48.6719 	INFO 	Keyboard events cleared
+48.6715 	EXP 	surround_grating: autoDraw = False
+48.6715 	EXP 	center_grating: autoDraw = False
+48.6715 	EXP 	text_4: autoDraw = False
+48.6715 	EXP 	surround_grating: ori = -15.0
+48.6715 	EXP 	surround_grating: phase = array([0.30357284, 0.30357284])
+48.6715 	EXP 	center_grating: ori = -1.0
+48.6715 	EXP 	center_grating: phase = array([0.54695442, 0.54695442])
+49.1648 	EXP 	surround_grating: autoDraw = True
+49.1648 	EXP 	center_grating: autoDraw = True
+49.2355 	EXP 	surround_grating: autoDraw = False
+49.2355 	EXP 	center_grating: autoDraw = False
+49.2355 	EXP 	text_4: autoDraw = True
+49.7573 	EXP 	New trial (rep=0, index=8): <Trial 8 (8 in rep 0) data={'center': 0, 'surround': 0, 'type': 'm2', 'surr_type': 'noss', 'surr_opacity': 0, 'thisN': 8, 'thisTrialN': 8, 'thisRepN': 0}>
+49.7608 	DATA 	Keypress: right
+49.7658 	INFO 	Keyboard events cleared
+49.7654 	EXP 	surround_grating: autoDraw = False
+49.7654 	EXP 	center_grating: autoDraw = False
+49.7654 	EXP 	text_4: autoDraw = False
+49.7654 	EXP 	surround_grating: ori = 0.0
+49.7654 	EXP 	surround_grating: phase = array([0.46082883, 0.46082883])
+49.7654 	EXP 	center_grating: ori = 0.0
+49.7654 	EXP 	center_grating: phase = array([0.62064574, 0.62064574])
+50.2554 	EXP 	surround_grating: autoDraw = True
+50.2554 	EXP 	center_grating: autoDraw = True
+50.3325 	EXP 	surround_grating: autoDraw = False
+50.3325 	EXP 	center_grating: autoDraw = False
+50.3325 	EXP 	text_4: autoDraw = True
+50.7901 	EXP 	New trial (rep=0, index=9): <Trial 9 (9 in rep 0) data={'center': -2, 'surround': -15, 'type': 'PSE', 'surr_type': 'negs', 'surr_opacity': 100, 'thisN': 9, 'thisTrialN': 9, 'thisRepN': 0}>
+50.7936 	DATA 	Keypress: left
+50.7985 	INFO 	Keyboard events cleared
+50.7981 	EXP 	surround_grating: autoDraw = False
+50.7981 	EXP 	center_grating: autoDraw = False
+50.7981 	EXP 	text_4: autoDraw = False
+50.7981 	EXP 	surround_grating: ori = -15.0
+50.7981 	EXP 	surround_grating: phase = array([0.5651131, 0.5651131])
+50.7981 	EXP 	center_grating: ori = -2.0
+50.7981 	EXP 	center_grating: phase = array([0.67296462, 0.67296462])
+51.2885 	EXP 	surround_grating: autoDraw = True
+51.2885 	EXP 	center_grating: autoDraw = True
+51.3659 	EXP 	surround_grating: autoDraw = False
+51.3659 	EXP 	center_grating: autoDraw = False
+51.3659 	EXP 	text_4: autoDraw = True
+51.8866 	EXP 	New trial (rep=0, index=10): <Trial 10 (10 in rep 0) data={'center': 4, 'surround': 15, 'type': 'p2', 'surr_type': 'poss', 'surr_opacity': 100, 'thisN': 10, 'thisTrialN': 10, 'thisRepN': 0}>
+51.8893 	DATA 	Keypress: right
+51.8988 	INFO 	Keyboard events cleared
+51.8986 	EXP 	surround_grating: autoDraw = False
+51.8986 	EXP 	center_grating: autoDraw = False
+51.8986 	EXP 	text_4: autoDraw = False
+51.8986 	EXP 	surround_grating: ori = 15.0
+51.8986 	EXP 	surround_grating: phase = array([0.74246854, 0.74246854])
+51.8986 	EXP 	center_grating: ori = 4.0
+51.8986 	EXP 	center_grating: phase = array([0.30967323, 0.30967323])
+52.3811 	EXP 	surround_grating: autoDraw = True
+52.3811 	EXP 	center_grating: autoDraw = True
+52.4547 	EXP 	surround_grating: autoDraw = False
+52.4547 	EXP 	center_grating: autoDraw = False
+52.4653 	EXP 	text_4: autoDraw = True
+53.0013 	EXP 	New trial (rep=0, index=11): <Trial 11 (11 in rep 0) data={'center': 0, 'surround': 15, 'type': 'm2', 'surr_type': 'poss', 'surr_opacity': 100, 'thisN': 11, 'thisTrialN': 11, 'thisRepN': 0}>
+53.0054 	DATA 	Keypress: right
+53.0100 	INFO 	Keyboard events cleared
+53.0096 	EXP 	surround_grating: autoDraw = False
+53.0096 	EXP 	center_grating: autoDraw = False
+53.0096 	EXP 	text_4: autoDraw = False
+53.0096 	EXP 	surround_grating: ori = 15.0
+53.0096 	EXP 	surround_grating: phase = array([0.96725504, 0.96725504])
+53.0096 	EXP 	center_grating: ori = 0.0
+53.0096 	EXP 	center_grating: phase = array([0.7878347, 0.7878347])
+53.4974 	EXP 	surround_grating: autoDraw = True
+53.4974 	EXP 	center_grating: autoDraw = True
+53.5713 	EXP 	surround_grating: autoDraw = False
+53.5713 	EXP 	center_grating: autoDraw = False
+53.5713 	EXP 	text_4: autoDraw = True
+54.0510 	EXP 	New trial (rep=0, index=12): <Trial 12 (12 in rep 0) data={'center': 0, 'surround': 0, 'type': 'p2', 'surr_type': 'noss', 'surr_opacity': 0, 'thisN': 12, 'thisTrialN': 12, 'thisRepN': 0}>
+54.0550 	DATA 	Keypress: left
+54.0597 	INFO 	Keyboard events cleared
+54.0593 	EXP 	surround_grating: autoDraw = False
+54.0593 	EXP 	center_grating: autoDraw = False
+54.0593 	EXP 	text_4: autoDraw = False
+54.0593 	EXP 	surround_grating: ori = 0.0
+54.0593 	EXP 	surround_grating: phase = array([0.27627899, 0.27627899])
+54.0593 	EXP 	center_grating: ori = 0.0
+54.0593 	EXP 	center_grating: phase = array([0.43113079, 0.43113079])
+54.5475 	EXP 	surround_grating: autoDraw = True
+54.5475 	EXP 	center_grating: autoDraw = True
+54.6218 	EXP 	surround_grating: autoDraw = False
+54.6218 	EXP 	center_grating: autoDraw = False
+54.6218 	EXP 	text_4: autoDraw = True
+55.1839 	EXP 	New trial (rep=0, index=13): <Trial 13 (13 in rep 0) data={'center': 0, 'surround': -15, 'type': 'p2', 'surr_type': 'negs', 'surr_opacity': 100, 'thisN': 13, 'thisTrialN': 13, 'thisRepN': 0}>
+55.1872 	DATA 	Keypress: left
+55.1917 	INFO 	Keyboard events cleared
+55.1914 	EXP 	surround_grating: autoDraw = False
+55.1914 	EXP 	center_grating: autoDraw = False
+55.1914 	EXP 	text_4: autoDraw = False
+55.1914 	EXP 	surround_grating: ori = -15.0
+55.1914 	EXP 	surround_grating: phase = array([0.04253908, 0.04253908])
+55.1914 	EXP 	center_grating: ori = 0.0
+55.1914 	EXP 	center_grating: phase = array([0.27178444, 0.27178444])
+55.6814 	EXP 	surround_grating: autoDraw = True
+55.6814 	EXP 	center_grating: autoDraw = True
+55.7556 	EXP 	surround_grating: autoDraw = False
+55.7556 	EXP 	center_grating: autoDraw = False
+55.7556 	EXP 	text_4: autoDraw = True
+56.2665 	EXP 	New trial (rep=0, index=14): <Trial 14 (14 in rep 0) data={'center': 0, 'surround': 15, 'type': 'm2', 'surr_type': 'poss', 'surr_opacity': 100, 'thisN': 14, 'thisTrialN': 14, 'thisRepN': 0}>
+56.2693 	DATA 	Keypress: right
+56.2737 	INFO 	Keyboard events cleared
+56.2734 	EXP 	surround_grating: autoDraw = False
+56.2734 	EXP 	center_grating: autoDraw = False
+56.2734 	EXP 	text_4: autoDraw = False
+56.2734 	EXP 	surround_grating: ori = 15.0
+56.2734 	EXP 	surround_grating: phase = array([0.59220987, 0.59220987])
+56.2734 	EXP 	center_grating: ori = 0.0
+56.2734 	EXP 	center_grating: phase = array([0.67324866, 0.67324866])
+56.7642 	EXP 	surround_grating: autoDraw = True
+56.7642 	EXP 	center_grating: autoDraw = True
+56.8363 	EXP 	surround_grating: autoDraw = False
+56.8363 	EXP 	center_grating: autoDraw = False
+56.8363 	EXP 	text_4: autoDraw = True
+57.2701 	EXP 	New trial (rep=0, index=15): <Trial 15 (15 in rep 0) data={'center': -4, 'surround': 0, 'type': 'm2', 'surr_type': 'noss', 'surr_opacity': 0, 'thisN': 15, 'thisTrialN': 15, 'thisRepN': 0}>
+57.2731 	DATA 	Keypress: left
+57.2821 	INFO 	Keyboard events cleared
+57.2818 	EXP 	surround_grating: autoDraw = False
+57.2818 	EXP 	center_grating: autoDraw = False
+57.2818 	EXP 	text_4: autoDraw = False
+57.2818 	EXP 	surround_grating: ori = 0.0
+57.2818 	EXP 	surround_grating: phase = array([0.57250897, 0.57250897])
+57.2818 	EXP 	center_grating: ori = -4.0
+57.2818 	EXP 	center_grating: phase = array([0.64453193, 0.64453193])
+57.7642 	EXP 	surround_grating: autoDraw = True
+57.7642 	EXP 	center_grating: autoDraw = True
+57.8346 	EXP 	surround_grating: autoDraw = False
+57.8346 	EXP 	center_grating: autoDraw = False
+57.8476 	EXP 	text_4: autoDraw = True
+58.2336 	EXP 	New trial (rep=0, index=16): <Trial 16 (16 in rep 0) data={'center': 2, 'surround': 15, 'type': 'PSE', 'surr_type': 'poss', 'surr_opacity': 100, 'thisN': 16, 'thisTrialN': 16, 'thisRepN': 0}>
+58.2370 	DATA 	Keypress: left
+58.2416 	INFO 	Keyboard events cleared
+58.2413 	EXP 	surround_grating: autoDraw = False
+58.2413 	EXP 	center_grating: autoDraw = False
+58.2413 	EXP 	text_4: autoDraw = False
+58.2413 	EXP 	surround_grating: ori = 15.0
+58.2413 	EXP 	surround_grating: phase = array([0.47785856, 0.47785856])
+58.2413 	EXP 	center_grating: ori = 2.0
+58.2413 	EXP 	center_grating: phase = array([0.11639433, 0.11639433])
+58.7319 	EXP 	surround_grating: autoDraw = True
+58.7319 	EXP 	center_grating: autoDraw = True
+58.8025 	EXP 	surround_grating: autoDraw = False
+58.8025 	EXP 	center_grating: autoDraw = False
+58.8025 	EXP 	text_4: autoDraw = True
+64.8539 	EXP 	New trial (rep=0, index=17): <Trial 17 (17 in rep 0) data={'center': -4, 'surround': -15, 'type': 'm2', 'surr_type': 'negs', 'surr_opacity': 100, 'thisN': 17, 'thisTrialN': 17, 'thisRepN': 0}>
+64.8575 	DATA 	Keypress: right
+64.8648 	INFO 	Keyboard events cleared
+64.8645 	EXP 	surround_grating: autoDraw = False
+64.8645 	EXP 	center_grating: autoDraw = False
+64.8645 	EXP 	text_4: autoDraw = False
+64.8645 	EXP 	surround_grating: ori = -15.0
+64.8645 	EXP 	surround_grating: phase = array([0.85133282, 0.85133282])
+64.8645 	EXP 	center_grating: ori = -4.0
+64.8645 	EXP 	center_grating: phase = array([0.79201669, 0.79201669])
+65.3478 	EXP 	surround_grating: autoDraw = True
+65.3478 	EXP 	center_grating: autoDraw = True
+65.4213 	EXP 	surround_grating: autoDraw = False
+65.4213 	EXP 	center_grating: autoDraw = False
+65.4323 	EXP 	text_4: autoDraw = True
+65.9846 	EXP 	New trial (rep=0, index=18): <Trial 18 (18 in rep 0) data={'center': -1, 'surround': -15, 'type': 'p1', 'surr_type': 'negs', 'surr_opacity': 100, 'thisN': 18, 'thisTrialN': 18, 'thisRepN': 0}>
+65.9887 	DATA 	Keypress: left
+65.9935 	INFO 	Keyboard events cleared
+65.9930 	EXP 	surround_grating: autoDraw = False
+65.9930 	EXP 	center_grating: autoDraw = False
+65.9930 	EXP 	text_4: autoDraw = False
+65.9930 	EXP 	surround_grating: ori = -15.0
+65.9930 	EXP 	surround_grating: phase = array([0.45976239, 0.45976239])
+65.9930 	EXP 	center_grating: ori = -1.0
+65.9930 	EXP 	center_grating: phase = array([0.97270275, 0.97270275])
+66.4819 	EXP 	surround_grating: autoDraw = True
+66.4819 	EXP 	center_grating: autoDraw = True
+66.5549 	EXP 	surround_grating: autoDraw = False
+66.5549 	EXP 	center_grating: autoDraw = False
+66.5549 	EXP 	text_4: autoDraw = True
+67.0671 	EXP 	New trial (rep=0, index=19): <Trial 19 (19 in rep 0) data={'center': 2, 'surround': 15, 'type': 'PSE', 'surr_type': 'poss', 'surr_opacity': 100, 'thisN': 19, 'thisTrialN': 19, 'thisRepN': 0}>
+67.0706 	DATA 	Keypress: right
+67.0752 	INFO 	Keyboard events cleared
+67.0748 	EXP 	surround_grating: autoDraw = False
+67.0748 	EXP 	center_grating: autoDraw = False
+67.0748 	EXP 	text_4: autoDraw = False
+67.0748 	EXP 	surround_grating: ori = 15.0
+67.0748 	EXP 	surround_grating: phase = array([0.85568149, 0.85568149])
+67.0748 	EXP 	center_grating: ori = 2.0
+67.0748 	EXP 	center_grating: phase = array([0.15620642, 0.15620642])
+67.5640 	EXP 	surround_grating: autoDraw = True
+67.5640 	EXP 	center_grating: autoDraw = True
+67.6388 	EXP 	surround_grating: autoDraw = False
+67.6388 	EXP 	center_grating: autoDraw = False
+67.6388 	EXP 	text_4: autoDraw = True
+68.1175 	EXP 	New trial (rep=0, index=20): <Trial 20 (20 in rep 0) data={'center': -2, 'surround': 0, 'type': 'PSE', 'surr_type': 'noss', 'surr_opacity': 0, 'thisN': 20, 'thisTrialN': 20, 'thisRepN': 0}>
+68.1212 	DATA 	Keypress: left
+68.1258 	INFO 	Keyboard events cleared
+68.1254 	EXP 	surround_grating: autoDraw = False
+68.1254 	EXP 	center_grating: autoDraw = False
+68.1254 	EXP 	text_4: autoDraw = False
+68.1254 	EXP 	surround_grating: ori = 0.0
+68.1254 	EXP 	surround_grating: phase = array([0.64589428, 0.64589428])
+68.1254 	EXP 	center_grating: ori = -2.0
+68.1254 	EXP 	center_grating: phase = array([0.09685298, 0.09685298])
+68.6142 	EXP 	surround_grating: autoDraw = True
+68.6142 	EXP 	center_grating: autoDraw = True
+68.6893 	EXP 	surround_grating: autoDraw = False
+68.6893 	EXP 	center_grating: autoDraw = False
+68.6893 	EXP 	text_4: autoDraw = True
+69.0889 	EXP 	New trial (rep=0, index=21): <Trial 21 (21 in rep 0) data={'center': -1, 'surround': 0, 'type': 'p1', 'surr_type': 'noss', 'surr_opacity': 0, 'thisN': 21, 'thisTrialN': 21, 'thisRepN': 0}>
+69.0925 	DATA 	Keypress: left
+69.0978 	INFO 	Keyboard events cleared
+69.0975 	EXP 	surround_grating: autoDraw = False
+69.0975 	EXP 	center_grating: autoDraw = False
+69.0975 	EXP 	text_4: autoDraw = False
+69.0975 	EXP 	surround_grating: ori = 0.0
+69.0975 	EXP 	surround_grating: phase = array([0.04707064, 0.04707064])
+69.0975 	EXP 	center_grating: ori = -1.0
+69.0975 	EXP 	center_grating: phase = array([0.27523228, 0.27523228])
+69.5914 	EXP 	surround_grating: autoDraw = True
+69.5914 	EXP 	center_grating: autoDraw = True
+69.6653 	EXP 	surround_grating: autoDraw = False
+69.6653 	EXP 	center_grating: autoDraw = False
+69.6653 	EXP 	text_4: autoDraw = True
+70.0706 	DATA 	Keypress: left
+70.0758 	EXP 	New trial (rep=0, index=22): <Trial 22 (22 in rep 0) data={'center': 1, 'surround': 15, 'type': 'm1', 'surr_type': 'poss', 'surr_opacity': 100, 'thisN': 22, 'thisTrialN': 22, 'thisRepN': 0}>
+70.0814 	INFO 	Keyboard events cleared
+70.0810 	EXP 	surround_grating: autoDraw = False
+70.0810 	EXP 	center_grating: autoDraw = False
+70.0810 	EXP 	text_4: autoDraw = False
+70.0810 	EXP 	surround_grating: ori = 15.0
+70.0810 	EXP 	surround_grating: phase = array([0.09500346, 0.09500346])
+70.0810 	EXP 	center_grating: ori = 1.0
+70.0810 	EXP 	center_grating: phase = array([0.44158551, 0.44158551])
+70.5740 	EXP 	surround_grating: autoDraw = True
+70.5740 	EXP 	center_grating: autoDraw = True
+70.6491 	EXP 	surround_grating: autoDraw = False
+70.6491 	EXP 	center_grating: autoDraw = False
+70.6491 	EXP 	text_4: autoDraw = True
+71.2844 	EXP 	New trial (rep=0, index=23): <Trial 23 (23 in rep 0) data={'center': 2, 'surround': 0, 'type': 'PSE', 'surr_type': 'noss', 'surr_opacity': 0, 'thisN': 23, 'thisTrialN': 23, 'thisRepN': 0}>
+71.2883 	DATA 	Keypress: left
+71.2930 	INFO 	Keyboard events cleared
+71.2926 	EXP 	surround_grating: autoDraw = False
+71.2926 	EXP 	center_grating: autoDraw = False
+71.2926 	EXP 	text_4: autoDraw = False
+71.2926 	EXP 	surround_grating: ori = 0.0
+71.2926 	EXP 	surround_grating: phase = array([0.70007718, 0.70007718])
+71.2926 	EXP 	center_grating: ori = 2.0
+71.2926 	EXP 	center_grating: phase = array([0.23987005, 0.23987005])
+71.7820 	EXP 	surround_grating: autoDraw = True
+71.7820 	EXP 	center_grating: autoDraw = True
+71.8528 	EXP 	surround_grating: autoDraw = False
+71.8528 	EXP 	center_grating: autoDraw = False
+71.8528 	EXP 	text_4: autoDraw = True
+72.2335 	EXP 	New trial (rep=0, index=24): <Trial 24 (24 in rep 0) data={'center': 1, 'surround': 0, 'type': 'm1', 'surr_type': 'noss', 'surr_opacity': 0, 'thisN': 24, 'thisTrialN': 24, 'thisRepN': 0}>
+72.2365 	DATA 	Keypress: right
+72.2410 	INFO 	Keyboard events cleared
+72.2406 	EXP 	surround_grating: autoDraw = False
+72.2406 	EXP 	center_grating: autoDraw = False
+72.2406 	EXP 	text_4: autoDraw = False
+72.2406 	EXP 	surround_grating: ori = 0.0
+72.2406 	EXP 	surround_grating: phase = array([0.10927244, 0.10927244])
+72.2406 	EXP 	center_grating: ori = 1.0
+72.2406 	EXP 	center_grating: phase = array([0.14843537, 0.14843537])
+72.7309 	EXP 	surround_grating: autoDraw = True
+72.7309 	EXP 	center_grating: autoDraw = True
+72.8008 	EXP 	surround_grating: autoDraw = False
+72.8008 	EXP 	center_grating: autoDraw = False
+72.8008 	EXP 	text_4: autoDraw = True
+73.3876 	EXP 	New trial (rep=0, index=25): <Trial 25 (25 in rep 0) data={'center': 4, 'surround': 0, 'type': 'p2', 'surr_type': 'noss', 'surr_opacity': 0, 'thisN': 25, 'thisTrialN': 25, 'thisRepN': 0}>
+73.3912 	DATA 	Keypress: right
+73.3978 	INFO 	Keyboard events cleared
+73.3975 	EXP 	surround_grating: autoDraw = False
+73.3975 	EXP 	center_grating: autoDraw = False
+73.3975 	EXP 	text_4: autoDraw = False
+73.3975 	EXP 	surround_grating: ori = 0.0
+73.3975 	EXP 	surround_grating: phase = array([0.97940485, 0.97940485])
+73.3975 	EXP 	center_grating: ori = 4.0
+73.3975 	EXP 	center_grating: phase = array([0.83379072, 0.83379072])
+73.8816 	EXP 	surround_grating: autoDraw = True
+73.8816 	EXP 	center_grating: autoDraw = True
+73.9528 	EXP 	surround_grating: autoDraw = False
+73.9528 	EXP 	center_grating: autoDraw = False
+73.9655 	EXP 	text_4: autoDraw = True
+74.3434 	DATA 	Keypress: right
+74.3489 	EXP 	New trial (rep=0, index=26): <Trial 26 (26 in rep 0) data={'center': -2, 'surround': 0, 'type': 'PSE', 'surr_type': 'noss', 'surr_opacity': 0, 'thisN': 26, 'thisTrialN': 26, 'thisRepN': 0}>
+74.3544 	INFO 	Keyboard events cleared
+74.3540 	EXP 	surround_grating: autoDraw = False
+74.3540 	EXP 	center_grating: autoDraw = False
+74.3540 	EXP 	text_4: autoDraw = False
+74.3540 	EXP 	surround_grating: ori = 0.0
+74.3540 	EXP 	surround_grating: phase = array([0.2197119, 0.2197119])
+74.3540 	EXP 	center_grating: ori = -2.0
+74.3540 	EXP 	center_grating: phase = array([0.4717947, 0.4717947])
+74.8384 	EXP 	surround_grating: autoDraw = True
+74.8384 	EXP 	center_grating: autoDraw = True
+74.9153 	EXP 	surround_grating: autoDraw = False
+74.9153 	EXP 	center_grating: autoDraw = False
+74.9192 	EXP 	text_4: autoDraw = True
+75.3235 	EXP 	New trial (rep=0, index=27): <Trial 27 (27 in rep 0) data={'center': 0, 'surround': -15, 'type': 'p2', 'surr_type': 'negs', 'surr_opacity': 100, 'thisN': 27, 'thisTrialN': 27, 'thisRepN': 0}>
+75.3268 	DATA 	Keypress: left
+75.3314 	INFO 	Keyboard events cleared
+75.3310 	EXP 	surround_grating: autoDraw = False
+75.3310 	EXP 	center_grating: autoDraw = False
+75.3310 	EXP 	text_4: autoDraw = False
+75.3310 	EXP 	surround_grating: ori = -15.0
+75.3310 	EXP 	surround_grating: phase = array([0.73885744, 0.73885744])
+75.3310 	EXP 	center_grating: ori = 0.0
+75.3310 	EXP 	center_grating: phase = array([0.16023728, 0.16023728])
+75.8221 	EXP 	surround_grating: autoDraw = True
+75.8221 	EXP 	center_grating: autoDraw = True
+75.8984 	EXP 	surround_grating: autoDraw = False
+75.8984 	EXP 	center_grating: autoDraw = False
+75.8984 	EXP 	text_4: autoDraw = True
+76.3350 	EXP 	New trial (rep=0, index=28): <Trial 28 (28 in rep 0) data={'center': -4, 'surround': -15, 'type': 'm2', 'surr_type': 'negs', 'surr_opacity': 100, 'thisN': 28, 'thisTrialN': 28, 'thisRepN': 0}>
+76.3367 	DATA 	Keypress: right
+76.3406 	INFO 	Keyboard events cleared
+76.3401 	EXP 	surround_grating: autoDraw = False
+76.3401 	EXP 	center_grating: autoDraw = False
+76.3401 	EXP 	text_4: autoDraw = False
+76.3401 	EXP 	surround_grating: ori = -15.0
+76.3401 	EXP 	surround_grating: phase = array([0.79237091, 0.79237091])
+76.3401 	EXP 	center_grating: ori = -4.0
+76.3401 	EXP 	center_grating: phase = array([0.44164393, 0.44164393])
+76.8312 	EXP 	surround_grating: autoDraw = True
+76.8312 	EXP 	center_grating: autoDraw = True
+76.9045 	EXP 	surround_grating: autoDraw = False
+76.9045 	EXP 	center_grating: autoDraw = False
+76.9045 	EXP 	text_4: autoDraw = True
+78.5504 	EXP 	New trial (rep=0, index=29): <Trial 29 (29 in rep 0) data={'center': 0, 'surround': 15, 'type': 'm2', 'surr_type': 'poss', 'surr_opacity': 100, 'thisN': 29, 'thisTrialN': 29, 'thisRepN': 0}>
+78.5541 	DATA 	Keypress: left
+78.5587 	INFO 	Keyboard events cleared
+78.5584 	EXP 	surround_grating: autoDraw = False
+78.5584 	EXP 	center_grating: autoDraw = False
+78.5584 	EXP 	text_4: autoDraw = False
+78.5584 	EXP 	surround_grating: ori = 15.0
+78.5584 	EXP 	surround_grating: phase = array([0.03094943, 0.03094943])
+78.5584 	EXP 	center_grating: ori = 0.0
+78.5584 	EXP 	center_grating: phase = array([0.13303331, 0.13303331])
+79.0488 	EXP 	surround_grating: autoDraw = True
+79.0488 	EXP 	center_grating: autoDraw = True
+79.1206 	EXP 	surround_grating: autoDraw = False
+79.1206 	EXP 	center_grating: autoDraw = False
+79.1206 	EXP 	text_4: autoDraw = True
+79.5006 	EXP 	New trial (rep=0, index=30): <Trial 30 (30 in rep 0) data={'center': -3, 'surround': -15, 'type': 'm1', 'surr_type': 'negs', 'surr_opacity': 100, 'thisN': 30, 'thisTrialN': 30, 'thisRepN': 0}>
+79.5043 	DATA 	Keypress: left
+79.5090 	INFO 	Keyboard events cleared
+79.5087 	EXP 	surround_grating: autoDraw = False
+79.5087 	EXP 	center_grating: autoDraw = False
+79.5087 	EXP 	text_4: autoDraw = False
+79.5087 	EXP 	surround_grating: ori = -15.0
+79.5087 	EXP 	surround_grating: phase = array([0.6588585, 0.6588585])
+79.5087 	EXP 	center_grating: ori = -3.0
+79.5087 	EXP 	center_grating: phase = array([0.97649914, 0.97649914])
+79.9989 	EXP 	surround_grating: autoDraw = True
+79.9989 	EXP 	center_grating: autoDraw = True
+80.0716 	EXP 	surround_grating: autoDraw = False
+80.0716 	EXP 	center_grating: autoDraw = False
+80.0716 	EXP 	text_4: autoDraw = True
+80.5905 	EXP 	New trial (rep=0, index=31): <Trial 31 (31 in rep 0) data={'center': 3, 'surround': 15, 'type': 'p1', 'surr_type': 'poss', 'surr_opacity': 100, 'thisN': 31, 'thisTrialN': 31, 'thisRepN': 0}>
+80.5941 	DATA 	Keypress: left
+80.5989 	INFO 	Keyboard events cleared
+80.5985 	EXP 	surround_grating: autoDraw = False
+80.5985 	EXP 	center_grating: autoDraw = False
+80.5985 	EXP 	text_4: autoDraw = False
+80.5985 	EXP 	surround_grating: ori = 15.0
+80.5985 	EXP 	surround_grating: phase = array([0.6886331, 0.6886331])
+80.5985 	EXP 	center_grating: ori = 3.0
+80.5985 	EXP 	center_grating: phase = array([0.57500945, 0.57500945])
+81.0889 	EXP 	surround_grating: autoDraw = True
+81.0889 	EXP 	center_grating: autoDraw = True
+81.1651 	EXP 	surround_grating: autoDraw = False
+81.1651 	EXP 	center_grating: autoDraw = False
+81.1651 	EXP 	text_4: autoDraw = True
+81.6670 	EXP 	New trial (rep=0, index=32): <Trial 32 (32 in rep 0) data={'center': -4, 'surround': -15, 'type': 'm2', 'surr_type': 'negs', 'surr_opacity': 100, 'thisN': 32, 'thisTrialN': 32, 'thisRepN': 0}>
+81.6705 	DATA 	Keypress: left
+81.6752 	INFO 	Keyboard events cleared
+81.6747 	EXP 	surround_grating: autoDraw = False
+81.6747 	EXP 	center_grating: autoDraw = False
+81.6747 	EXP 	text_4: autoDraw = False
+81.6747 	EXP 	surround_grating: ori = -15.0
+81.6747 	EXP 	surround_grating: phase = array([0.97946372, 0.97946372])
+81.6747 	EXP 	center_grating: ori = -4.0
+81.6747 	EXP 	center_grating: phase = array([0.47495862, 0.47495862])
+82.1652 	EXP 	surround_grating: autoDraw = True
+82.1652 	EXP 	center_grating: autoDraw = True
+82.2356 	EXP 	surround_grating: autoDraw = False
+82.2356 	EXP 	center_grating: autoDraw = False
+82.2356 	EXP 	text_4: autoDraw = True
+82.9171 	EXP 	New trial (rep=0, index=33): <Trial 33 (33 in rep 0) data={'center': 1, 'surround': 15, 'type': 'm1', 'surr_type': 'poss', 'surr_opacity': 100, 'thisN': 33, 'thisTrialN': 33, 'thisRepN': 0}>
+82.9205 	DATA 	Keypress: left
+82.9251 	INFO 	Keyboard events cleared
+82.9247 	EXP 	surround_grating: autoDraw = False
+82.9247 	EXP 	center_grating: autoDraw = False
+82.9247 	EXP 	text_4: autoDraw = False
+82.9247 	EXP 	surround_grating: ori = 15.0
+82.9247 	EXP 	surround_grating: phase = array([0.98027341, 0.98027341])
+82.9247 	EXP 	center_grating: ori = 1.0
+82.9247 	EXP 	center_grating: phase = array([0.84338915, 0.84338915])
+83.4142 	EXP 	surround_grating: autoDraw = True
+83.4142 	EXP 	center_grating: autoDraw = True
+83.4885 	EXP 	surround_grating: autoDraw = False
+83.4885 	EXP 	center_grating: autoDraw = False
+83.4885 	EXP 	text_4: autoDraw = True
+84.0005 	EXP 	New trial (rep=0, index=34): <Trial 34 (34 in rep 0) data={'center': 1, 'surround': 15, 'type': 'm1', 'surr_type': 'poss', 'surr_opacity': 100, 'thisN': 34, 'thisTrialN': 34, 'thisRepN': 0}>
+84.0041 	DATA 	Keypress: left
+84.0088 	INFO 	Keyboard events cleared
+84.0084 	EXP 	surround_grating: autoDraw = False
+84.0084 	EXP 	center_grating: autoDraw = False
+84.0084 	EXP 	text_4: autoDraw = False
+84.0084 	EXP 	surround_grating: ori = 15.0
+84.0084 	EXP 	surround_grating: phase = array([0.50409553, 0.50409553])
+84.0084 	EXP 	center_grating: ori = 1.0
+84.0084 	EXP 	center_grating: phase = array([0.26979926, 0.26979926])
+84.4975 	EXP 	surround_grating: autoDraw = True
+84.4975 	EXP 	center_grating: autoDraw = True
+84.5719 	EXP 	surround_grating: autoDraw = False
+84.5719 	EXP 	center_grating: autoDraw = False
+84.5719 	EXP 	text_4: autoDraw = True
+84.9670 	EXP 	New trial (rep=0, index=35): <Trial 35 (35 in rep 0) data={'center': -3, 'surround': -15, 'type': 'm1', 'surr_type': 'negs', 'surr_opacity': 100, 'thisN': 35, 'thisTrialN': 35, 'thisRepN': 0}>
+84.9705 	DATA 	Keypress: left
+84.9753 	INFO 	Keyboard events cleared
+84.9748 	EXP 	surround_grating: autoDraw = False
+84.9748 	EXP 	center_grating: autoDraw = False
+84.9748 	EXP 	text_4: autoDraw = False
+84.9748 	EXP 	surround_grating: ori = -15.0
+84.9748 	EXP 	surround_grating: phase = array([0.38179142, 0.38179142])
+84.9748 	EXP 	center_grating: ori = -3.0
+84.9748 	EXP 	center_grating: phase = array([0.75700599, 0.75700599])
+85.4641 	EXP 	surround_grating: autoDraw = True
+85.4641 	EXP 	center_grating: autoDraw = True
+85.5384 	EXP 	surround_grating: autoDraw = False
+85.5384 	EXP 	center_grating: autoDraw = False
+85.5384 	EXP 	text_4: autoDraw = True
+86.9856 	DATA 	Keypress: left
+86.9916 	EXP 	New trial (rep=0, index=36): <Trial 36 (36 in rep 0) data={'center': 4, 'surround': 0, 'type': 'p2', 'surr_type': 'noss', 'surr_opacity': 0, 'thisN': 36, 'thisTrialN': 36, 'thisRepN': 0}>
+86.9976 	INFO 	Keyboard events cleared
+86.9973 	EXP 	surround_grating: autoDraw = False
+86.9973 	EXP 	center_grating: autoDraw = False
+86.9973 	EXP 	text_4: autoDraw = False
+86.9973 	EXP 	surround_grating: ori = 0.0
+86.9973 	EXP 	surround_grating: phase = array([0.34370141, 0.34370141])
+86.9973 	EXP 	center_grating: ori = 4.0
+86.9973 	EXP 	center_grating: phase = array([0.91516515, 0.91516515])
+87.4905 	EXP 	surround_grating: autoDraw = True
+87.4905 	EXP 	center_grating: autoDraw = True
+87.5650 	EXP 	surround_grating: autoDraw = False
+87.5650 	EXP 	center_grating: autoDraw = False
+87.5650 	EXP 	text_4: autoDraw = True
+87.9536 	EXP 	New trial (rep=0, index=37): <Trial 37 (37 in rep 0) data={'center': -3, 'surround': -15, 'type': 'm1', 'surr_type': 'negs', 'surr_opacity': 100, 'thisN': 37, 'thisTrialN': 37, 'thisRepN': 0}>
+87.9567 	DATA 	Keypress: right
+87.9655 	INFO 	Keyboard events cleared
+87.9651 	EXP 	surround_grating: autoDraw = False
+87.9651 	EXP 	center_grating: autoDraw = False
+87.9651 	EXP 	text_4: autoDraw = False
+87.9651 	EXP 	surround_grating: ori = -15.0
+87.9651 	EXP 	surround_grating: phase = array([0.6525916, 0.6525916])
+87.9651 	EXP 	center_grating: ori = -3.0
+87.9651 	EXP 	center_grating: phase = array([0.38985397, 0.38985397])
+88.4475 	EXP 	surround_grating: autoDraw = True
+88.4475 	EXP 	center_grating: autoDraw = True
+88.5211 	EXP 	surround_grating: autoDraw = False
+88.5211 	EXP 	center_grating: autoDraw = False
+88.5322 	EXP 	text_4: autoDraw = True
+90.9173 	EXP 	New trial (rep=0, index=38): <Trial 38 (38 in rep 0) data={'center': 2, 'surround': 15, 'type': 'PSE', 'surr_type': 'poss', 'surr_opacity': 100, 'thisN': 38, 'thisTrialN': 38, 'thisRepN': 0}>
+90.9207 	DATA 	Keypress: left
+90.9254 	INFO 	Keyboard events cleared
+90.9249 	EXP 	surround_grating: autoDraw = False
+90.9249 	EXP 	center_grating: autoDraw = False
+90.9249 	EXP 	text_4: autoDraw = False
+90.9249 	EXP 	surround_grating: ori = 15.0
+90.9249 	EXP 	surround_grating: phase = array([0.84923844, 0.84923844])
+90.9249 	EXP 	center_grating: ori = 2.0
+90.9249 	EXP 	center_grating: phase = array([0.34996001, 0.34996001])
+91.4147 	EXP 	surround_grating: autoDraw = True
+91.4147 	EXP 	center_grating: autoDraw = True
+91.4884 	EXP 	surround_grating: autoDraw = False
+91.4884 	EXP 	center_grating: autoDraw = False
+91.4884 	EXP 	text_4: autoDraw = True
+92.1818 	EXP 	New trial (rep=0, index=39): <Trial 39 (39 in rep 0) data={'center': -1, 'surround': -15, 'type': 'p1', 'surr_type': 'negs', 'surr_opacity': 100, 'thisN': 39, 'thisTrialN': 39, 'thisRepN': 0}>
+92.1833 	DATA 	Keypress: left
+92.1864 	INFO 	Keyboard events cleared
+92.1862 	EXP 	surround_grating: autoDraw = False
+92.1862 	EXP 	center_grating: autoDraw = False
+92.1862 	EXP 	text_4: autoDraw = False
+92.1862 	EXP 	surround_grating: ori = -15.0
+92.1862 	EXP 	surround_grating: phase = array([0.58844877, 0.58844877])
+92.1862 	EXP 	center_grating: ori = -1.0
+92.1862 	EXP 	center_grating: phase = array([0.98109097, 0.98109097])
+92.6708 	EXP 	surround_grating: autoDraw = True
+92.6708 	EXP 	center_grating: autoDraw = True
+92.7479 	EXP 	surround_grating: autoDraw = False
+92.7479 	EXP 	center_grating: autoDraw = False
+92.7556 	EXP 	text_4: autoDraw = True
+93.2336 	EXP 	New trial (rep=0, index=40): <Trial 40 (40 in rep 0) data={'center': -3, 'surround': 0, 'type': 'm1', 'surr_type': 'noss', 'surr_opacity': 0, 'thisN': 40, 'thisTrialN': 40, 'thisRepN': 0}>
+93.2372 	DATA 	Keypress: right
+93.2418 	INFO 	Keyboard events cleared
+93.2414 	EXP 	surround_grating: autoDraw = False
+93.2414 	EXP 	center_grating: autoDraw = False
+93.2414 	EXP 	text_4: autoDraw = False
+93.2414 	EXP 	surround_grating: ori = 0.0
+93.2414 	EXP 	surround_grating: phase = array([0.33745602, 0.33745602])
+93.2414 	EXP 	center_grating: ori = -3.0
+93.2414 	EXP 	center_grating: phase = array([0.19590074, 0.19590074])
+93.7308 	EXP 	surround_grating: autoDraw = True
+93.7308 	EXP 	center_grating: autoDraw = True
+93.8038 	EXP 	surround_grating: autoDraw = False
+93.8038 	EXP 	center_grating: autoDraw = False
+93.8038 	EXP 	text_4: autoDraw = True
+94.3005 	EXP 	New trial (rep=0, index=41): <Trial 41 (41 in rep 0) data={'center': 3, 'surround': 0, 'type': 'p1', 'surr_type': 'noss', 'surr_opacity': 0, 'thisN': 41, 'thisTrialN': 41, 'thisRepN': 0}>
+94.3038 	DATA 	Keypress: left
+94.3084 	INFO 	Keyboard events cleared
+94.3080 	EXP 	surround_grating: autoDraw = False
+94.3080 	EXP 	center_grating: autoDraw = False
+94.3080 	EXP 	text_4: autoDraw = False
+94.3080 	EXP 	surround_grating: ori = 0.0
+94.3080 	EXP 	surround_grating: phase = array([0.56519049, 0.56519049])
+94.3080 	EXP 	center_grating: ori = 3.0
+94.3080 	EXP 	center_grating: phase = array([0.27542008, 0.27542008])
+94.7983 	EXP 	surround_grating: autoDraw = True
+94.7983 	EXP 	center_grating: autoDraw = True
+94.8718 	EXP 	surround_grating: autoDraw = False
+94.8718 	EXP 	center_grating: autoDraw = False
+94.8718 	EXP 	text_4: autoDraw = True
+95.2819 	EXP 	New trial (rep=0, index=42): <Trial 42 (42 in rep 0) data={'center': 3, 'surround': 15, 'type': 'p1', 'surr_type': 'poss', 'surr_opacity': 100, 'thisN': 42, 'thisTrialN': 42, 'thisRepN': 0}>
+95.2836 	DATA 	Keypress: right
+95.2868 	INFO 	Keyboard events cleared
+95.2865 	EXP 	surround_grating: autoDraw = False
+95.2865 	EXP 	center_grating: autoDraw = False
+95.2865 	EXP 	text_4: autoDraw = False
+95.2865 	EXP 	surround_grating: ori = 15.0
+95.2865 	EXP 	surround_grating: phase = array([0.41427272, 0.41427272])
+95.2865 	EXP 	center_grating: ori = 3.0
+95.2865 	EXP 	center_grating: phase = array([0.32438541, 0.32438541])
+95.7719 	EXP 	surround_grating: autoDraw = True
+95.7719 	EXP 	center_grating: autoDraw = True
+95.8481 	EXP 	surround_grating: autoDraw = False
+95.8481 	EXP 	center_grating: autoDraw = False
+95.8520 	EXP 	text_4: autoDraw = True
+96.4841 	EXP 	New trial (rep=0, index=43): <Trial 43 (43 in rep 0) data={'center': 2, 'surround': 15, 'type': 'PSE', 'surr_type': 'poss', 'surr_opacity': 100, 'thisN': 43, 'thisTrialN': 43, 'thisRepN': 0}>
+96.4881 	DATA 	Keypress: right
+96.4926 	INFO 	Keyboard events cleared
+96.4922 	EXP 	surround_grating: autoDraw = False
+96.4922 	EXP 	center_grating: autoDraw = False
+96.4922 	EXP 	text_4: autoDraw = False
+96.4922 	EXP 	surround_grating: ori = 15.0
+96.4922 	EXP 	surround_grating: phase = array([0.59754591, 0.59754591])
+96.4922 	EXP 	center_grating: ori = 2.0
+96.4922 	EXP 	center_grating: phase = array([0.14990156, 0.14990156])
+96.9812 	EXP 	surround_grating: autoDraw = True
+96.9812 	EXP 	center_grating: autoDraw = True
+97.0536 	EXP 	surround_grating: autoDraw = False
+97.0536 	EXP 	center_grating: autoDraw = False
+97.0536 	EXP 	text_4: autoDraw = True
+101.4010 	EXP 	New trial (rep=0, index=44): <Trial 44 (44 in rep 0) data={'center': 2, 'surround': 0, 'type': 'PSE', 'surr_type': 'noss', 'surr_opacity': 0, 'thisN': 44, 'thisTrialN': 44, 'thisRepN': 0}>
+101.4049 	DATA 	Keypress: right
+101.4096 	INFO 	Keyboard events cleared
+101.4093 	EXP 	surround_grating: autoDraw = False
+101.4093 	EXP 	center_grating: autoDraw = False
+101.4093 	EXP 	text_4: autoDraw = False
+101.4093 	EXP 	surround_grating: ori = 0.0
+101.4093 	EXP 	surround_grating: phase = array([0.76435513, 0.76435513])
+101.4093 	EXP 	center_grating: ori = 2.0
+101.4093 	EXP 	center_grating: phase = array([0.22932253, 0.22932253])
+101.8982 	EXP 	surround_grating: autoDraw = True
+101.8982 	EXP 	center_grating: autoDraw = True
+101.9699 	EXP 	surround_grating: autoDraw = False
+101.9699 	EXP 	center_grating: autoDraw = False
+101.9699 	EXP 	text_4: autoDraw = True
+102.3511 	EXP 	New trial (rep=0, index=45): <Trial 45 (45 in rep 0) data={'center': -2, 'surround': -15, 'type': 'PSE', 'surr_type': 'negs', 'surr_opacity': 100, 'thisN': 45, 'thisTrialN': 45, 'thisRepN': 0}>
+102.3550 	DATA 	Keypress: right
+102.3597 	INFO 	Keyboard events cleared
+102.3593 	EXP 	surround_grating: autoDraw = False
+102.3593 	EXP 	center_grating: autoDraw = False
+102.3593 	EXP 	text_4: autoDraw = False
+102.3593 	EXP 	surround_grating: ori = -15.0
+102.3593 	EXP 	surround_grating: phase = array([0.02588189, 0.02588189])
+102.3593 	EXP 	center_grating: ori = -2.0
+102.3593 	EXP 	center_grating: phase = array([0.85339558, 0.85339558])
+102.8483 	EXP 	surround_grating: autoDraw = True
+102.8483 	EXP 	center_grating: autoDraw = True
+102.9195 	EXP 	surround_grating: autoDraw = False
+102.9195 	EXP 	center_grating: autoDraw = False
+102.9195 	EXP 	text_4: autoDraw = True
+105.3391 	EXP 	New trial (rep=0, index=46): <Trial 46 (46 in rep 0) data={'center': 4, 'surround': 15, 'type': 'p2', 'surr_type': 'poss', 'surr_opacity': 100, 'thisN': 46, 'thisTrialN': 46, 'thisRepN': 0}>
+105.3426 	DATA 	Keypress: right
+105.3477 	INFO 	Keyboard events cleared
+105.3473 	EXP 	surround_grating: autoDraw = False
+105.3473 	EXP 	center_grating: autoDraw = False
+105.3473 	EXP 	text_4: autoDraw = False
+105.3473 	EXP 	surround_grating: ori = 15.0
+105.3473 	EXP 	surround_grating: phase = array([0.1129309, 0.1129309])
+105.3473 	EXP 	center_grating: ori = 4.0
+105.3473 	EXP 	center_grating: phase = array([0.8667247, 0.8667247])
+105.8385 	EXP 	surround_grating: autoDraw = True
+105.8385 	EXP 	center_grating: autoDraw = True
+105.9154 	EXP 	surround_grating: autoDraw = False
+105.9154 	EXP 	center_grating: autoDraw = False
+105.9154 	EXP 	text_4: autoDraw = True
+106.3684 	EXP 	New trial (rep=0, index=47): <Trial 47 (47 in rep 0) data={'center': 1, 'surround': 0, 'type': 'm1', 'surr_type': 'noss', 'surr_opacity': 0, 'thisN': 47, 'thisTrialN': 47, 'thisRepN': 0}>
+106.3721 	DATA 	Keypress: right
+106.3767 	INFO 	Keyboard events cleared
+106.3764 	EXP 	surround_grating: autoDraw = False
+106.3764 	EXP 	center_grating: autoDraw = False
+106.3764 	EXP 	text_4: autoDraw = False
+106.3764 	EXP 	surround_grating: ori = 0.0
+106.3764 	EXP 	surround_grating: phase = array([0.07750312, 0.07750312])
+106.3764 	EXP 	center_grating: ori = 1.0
+106.3764 	EXP 	center_grating: phase = array([0.20069587, 0.20069587])
+106.8640 	EXP 	surround_grating: autoDraw = True
+106.8640 	EXP 	center_grating: autoDraw = True
+106.9351 	EXP 	surround_grating: autoDraw = False
+106.9351 	EXP 	center_grating: autoDraw = False
+106.9351 	EXP 	text_4: autoDraw = True
+107.3345 	EXP 	New trial (rep=0, index=48): <Trial 48 (48 in rep 0) data={'center': 4, 'surround': 15, 'type': 'p2', 'surr_type': 'poss', 'surr_opacity': 100, 'thisN': 48, 'thisTrialN': 48, 'thisRepN': 0}>
+107.3386 	DATA 	Keypress: right
+107.3432 	INFO 	Keyboard events cleared
+107.3428 	EXP 	surround_grating: autoDraw = False
+107.3428 	EXP 	center_grating: autoDraw = False
+107.3428 	EXP 	text_4: autoDraw = False
+107.3428 	EXP 	surround_grating: ori = 15.0
+107.3428 	EXP 	surround_grating: phase = array([0.7197789, 0.7197789])
+107.3428 	EXP 	center_grating: ori = 4.0
+107.3428 	EXP 	center_grating: phase = array([0.89680528, 0.89680528])
+107.8308 	EXP 	surround_grating: autoDraw = True
+107.8308 	EXP 	center_grating: autoDraw = True
+107.9035 	EXP 	surround_grating: autoDraw = False
+107.9035 	EXP 	center_grating: autoDraw = False
+107.9035 	EXP 	text_4: autoDraw = True
+108.2316 	EXP 	New trial (rep=0, index=49): <Trial 49 (49 in rep 0) data={'center': -2, 'surround': -15, 'type': 'PSE', 'surr_type': 'negs', 'surr_opacity': 100, 'thisN': 49, 'thisTrialN': 49, 'thisRepN': 0}>
+108.2330 	DATA 	Keypress: right
+108.2361 	INFO 	Keyboard events cleared
+108.2358 	EXP 	surround_grating: autoDraw = False
+108.2358 	EXP 	center_grating: autoDraw = False
+108.2358 	EXP 	text_4: autoDraw = False
+108.2358 	EXP 	surround_grating: ori = -15.0
+108.2358 	EXP 	surround_grating: phase = array([0.69237407, 0.69237407])
+108.2358 	EXP 	center_grating: ori = -2.0
+108.2358 	EXP 	center_grating: phase = array([0.56428402, 0.56428402])
+108.7213 	EXP 	surround_grating: autoDraw = True
+108.7213 	EXP 	center_grating: autoDraw = True
+108.8019 	EXP 	surround_grating: autoDraw = False
+108.8019 	EXP 	center_grating: autoDraw = False
+108.8146 	EXP 	text_4: autoDraw = True
+109.3743 	EXP 	New trial (rep=0, index=50): <Trial 50 (50 in rep 0) data={'center': 4, 'surround': 15, 'type': 'p2', 'surr_type': 'poss', 'surr_opacity': 100, 'thisN': 50, 'thisTrialN': 50, 'thisRepN': 0}>
+109.3792 	DATA 	Keypress: left
+109.3850 	INFO 	Keyboard events cleared
+109.3847 	EXP 	surround_grating: autoDraw = False
+109.3847 	EXP 	center_grating: autoDraw = False
+109.3847 	EXP 	text_4: autoDraw = False
+109.3847 	EXP 	surround_grating: ori = 15.0
+109.3847 	EXP 	surround_grating: phase = array([0.82159803, 0.82159803])
+109.3847 	EXP 	center_grating: ori = 4.0
+109.3847 	EXP 	center_grating: phase = array([0.59902646, 0.59902646])
+109.8727 	EXP 	surround_grating: autoDraw = True
+109.8727 	EXP 	center_grating: autoDraw = True
+109.9484 	EXP 	surround_grating: autoDraw = False
+109.9484 	EXP 	center_grating: autoDraw = False
+109.9525 	EXP 	text_4: autoDraw = True
+110.3836 	EXP 	New trial (rep=0, index=51): <Trial 51 (51 in rep 0) data={'center': 3, 'surround': 0, 'type': 'p1', 'surr_type': 'noss', 'surr_opacity': 0, 'thisN': 51, 'thisTrialN': 51, 'thisRepN': 0}>
+110.3872 	DATA 	Keypress: right
+110.3913 	INFO 	Keyboard events cleared
+110.3906 	EXP 	surround_grating: autoDraw = False
+110.3906 	EXP 	center_grating: autoDraw = False
+110.3906 	EXP 	text_4: autoDraw = False
+110.3906 	EXP 	surround_grating: ori = 0.0
+110.3906 	EXP 	surround_grating: phase = array([0.37728428, 0.37728428])
+110.3906 	EXP 	center_grating: ori = 3.0
+110.3906 	EXP 	center_grating: phase = array([0.19985095, 0.19985095])
+110.8806 	EXP 	surround_grating: autoDraw = True
+110.8806 	EXP 	center_grating: autoDraw = True
+110.9522 	EXP 	surround_grating: autoDraw = False
+110.9522 	EXP 	center_grating: autoDraw = False
+110.9522 	EXP 	text_4: autoDraw = True
+111.3164 	EXP 	New trial (rep=0, index=52): <Trial 52 (52 in rep 0) data={'center': 3, 'surround': 15, 'type': 'p1', 'surr_type': 'poss', 'surr_opacity': 100, 'thisN': 52, 'thisTrialN': 52, 'thisRepN': 0}>
+111.3198 	DATA 	Keypress: right
+111.3236 	INFO 	Keyboard events cleared
+111.3233 	EXP 	surround_grating: autoDraw = False
+111.3233 	EXP 	center_grating: autoDraw = False
+111.3233 	EXP 	text_4: autoDraw = False
+111.3233 	EXP 	surround_grating: ori = 15.0
+111.3233 	EXP 	surround_grating: phase = array([0.40771208, 0.40771208])
+111.3233 	EXP 	center_grating: ori = 3.0
+111.3233 	EXP 	center_grating: phase = array([0.68733499, 0.68733499])
+111.8150 	EXP 	surround_grating: autoDraw = True
+111.8150 	EXP 	center_grating: autoDraw = True
+111.8852 	EXP 	surround_grating: autoDraw = False
+111.8852 	EXP 	center_grating: autoDraw = False
+111.8852 	EXP 	text_4: autoDraw = True
+113.0511 	EXP 	New trial (rep=0, index=53): <Trial 53 (53 in rep 0) data={'center': -3, 'surround': -15, 'type': 'm1', 'surr_type': 'negs', 'surr_opacity': 100, 'thisN': 53, 'thisTrialN': 53, 'thisRepN': 0}>
+113.0547 	DATA 	Keypress: right
+113.0593 	INFO 	Keyboard events cleared
+113.0590 	EXP 	surround_grating: autoDraw = False
+113.0590 	EXP 	center_grating: autoDraw = False
+113.0590 	EXP 	text_4: autoDraw = False
+113.0590 	EXP 	surround_grating: ori = -15.0
+113.0590 	EXP 	surround_grating: phase = array([0.54596622, 0.54596622])
+113.0590 	EXP 	center_grating: ori = -3.0
+113.0590 	EXP 	center_grating: phase = array([0.44330669, 0.44330669])
+113.5479 	EXP 	surround_grating: autoDraw = True
+113.5479 	EXP 	center_grating: autoDraw = True
+113.6216 	EXP 	surround_grating: autoDraw = False
+113.6216 	EXP 	center_grating: autoDraw = False
+113.6216 	EXP 	text_4: autoDraw = True
+114.2504 	EXP 	New trial (rep=0, index=54): <Trial 54 (54 in rep 0) data={'center': 0, 'surround': 0, 'type': 'p2', 'surr_type': 'noss', 'surr_opacity': 0, 'thisN': 54, 'thisTrialN': 54, 'thisRepN': 0}>
+114.2539 	DATA 	Keypress: left
+114.2582 	INFO 	Keyboard events cleared
+114.2578 	EXP 	surround_grating: autoDraw = False
+114.2578 	EXP 	center_grating: autoDraw = False
+114.2578 	EXP 	text_4: autoDraw = False
+114.2578 	EXP 	surround_grating: ori = 0.0
+114.2578 	EXP 	surround_grating: phase = array([0.81678873, 0.81678873])
+114.2578 	EXP 	center_grating: ori = 0.0
+114.2578 	EXP 	center_grating: phase = array([0.88712588, 0.88712588])
+114.7477 	EXP 	surround_grating: autoDraw = True
+114.7477 	EXP 	center_grating: autoDraw = True
+114.8215 	EXP 	surround_grating: autoDraw = False
+114.8215 	EXP 	center_grating: autoDraw = False
+114.8215 	EXP 	text_4: autoDraw = True
+115.5344 	EXP 	New trial (rep=0, index=55): <Trial 55 (55 in rep 0) data={'center': -4, 'surround': 0, 'type': 'm2', 'surr_type': 'noss', 'surr_opacity': 0, 'thisN': 55, 'thisTrialN': 55, 'thisRepN': 0}>
+115.5386 	DATA 	Keypress: left
+115.5434 	INFO 	Keyboard events cleared
+115.5430 	EXP 	surround_grating: autoDraw = False
+115.5430 	EXP 	center_grating: autoDraw = False
+115.5430 	EXP 	text_4: autoDraw = False
+115.5430 	EXP 	surround_grating: ori = 0.0
+115.5430 	EXP 	surround_grating: phase = array([0.08428317, 0.08428317])
+115.5430 	EXP 	center_grating: ori = -4.0
+115.5430 	EXP 	center_grating: phase = array([0.10242894, 0.10242894])
+116.0308 	EXP 	surround_grating: autoDraw = True
+116.0308 	EXP 	center_grating: autoDraw = True
+116.1038 	EXP 	surround_grating: autoDraw = False
+116.1038 	EXP 	center_grating: autoDraw = False
+116.1038 	EXP 	text_4: autoDraw = True
+116.4731 	EXP 	New trial (rep=0, index=56): <Trial 56 (56 in rep 0) data={'center': 0, 'surround': 15, 'type': 'm2', 'surr_type': 'poss', 'surr_opacity': 100, 'thisN': 56, 'thisTrialN': 56, 'thisRepN': 0}>
+116.4765 	DATA 	Keypress: left
+116.4813 	INFO 	Keyboard events cleared
+116.4808 	EXP 	surround_grating: autoDraw = False
+116.4808 	EXP 	center_grating: autoDraw = False
+116.4808 	EXP 	text_4: autoDraw = False
+116.4808 	EXP 	surround_grating: ori = 15.0
+116.4808 	EXP 	surround_grating: phase = array([0.44256612, 0.44256612])
+116.4808 	EXP 	center_grating: ori = 0.0
+116.4808 	EXP 	center_grating: phase = array([0.11784474, 0.11784474])
+116.9738 	EXP 	surround_grating: autoDraw = True
+116.9738 	EXP 	center_grating: autoDraw = True
+117.0489 	EXP 	surround_grating: autoDraw = False
+117.0489 	EXP 	center_grating: autoDraw = False
+117.0489 	EXP 	text_4: autoDraw = True
+117.5063 	EXP 	New trial (rep=0, index=57): <Trial 57 (57 in rep 0) data={'center': -3, 'surround': 0, 'type': 'm1', 'surr_type': 'noss', 'surr_opacity': 0, 'thisN': 57, 'thisTrialN': 57, 'thisRepN': 0}>
+117.5099 	DATA 	Keypress: left
+117.5145 	INFO 	Keyboard events cleared
+117.5142 	EXP 	surround_grating: autoDraw = False
+117.5142 	EXP 	center_grating: autoDraw = False
+117.5142 	EXP 	text_4: autoDraw = False
+117.5142 	EXP 	surround_grating: ori = 0.0
+117.5142 	EXP 	surround_grating: phase = array([0.60752665, 0.60752665])
+117.5142 	EXP 	center_grating: ori = -3.0
+117.5142 	EXP 	center_grating: phase = array([0.81232457, 0.81232457])
+118.0062 	EXP 	surround_grating: autoDraw = True
+118.0062 	EXP 	center_grating: autoDraw = True
+118.0818 	EXP 	surround_grating: autoDraw = False
+118.0818 	EXP 	center_grating: autoDraw = False
+118.0818 	EXP 	text_4: autoDraw = True
+118.4426 	DATA 	Keypress: left
+118.4484 	EXP 	New trial (rep=0, index=58): <Trial 58 (58 in rep 0) data={'center': -1, 'surround': -15, 'type': 'p1', 'surr_type': 'negs', 'surr_opacity': 100, 'thisN': 58, 'thisTrialN': 58, 'thisRepN': 0}>
+118.4537 	INFO 	Keyboard events cleared
+118.4534 	EXP 	surround_grating: autoDraw = False
+118.4534 	EXP 	center_grating: autoDraw = False
+118.4534 	EXP 	text_4: autoDraw = False
+118.4534 	EXP 	surround_grating: ori = -15.0
+118.4534 	EXP 	surround_grating: phase = array([0.85157556, 0.85157556])
+118.4534 	EXP 	center_grating: ori = -1.0
+118.4534 	EXP 	center_grating: phase = array([0.10190221, 0.10190221])
+118.9384 	EXP 	surround_grating: autoDraw = True
+118.9384 	EXP 	center_grating: autoDraw = True
+119.0151 	EXP 	surround_grating: autoDraw = False
+119.0151 	EXP 	center_grating: autoDraw = False
+119.0213 	EXP 	text_4: autoDraw = True
+119.7064 	EXP 	New trial (rep=0, index=59): <Trial 59 (59 in rep 0) data={'center': 0, 'surround': -15, 'type': 'p2', 'surr_type': 'negs', 'surr_opacity': 100, 'thisN': 59, 'thisTrialN': 59, 'thisRepN': 0}>
+119.7098 	DATA 	Keypress: right
+119.7143 	INFO 	Keyboard events cleared
+119.7140 	EXP 	surround_grating: autoDraw = False
+119.7140 	EXP 	center_grating: autoDraw = False
+119.7140 	EXP 	text_4: autoDraw = False
+119.7140 	EXP 	surround_grating: ori = -15.0
+119.7140 	EXP 	surround_grating: phase = array([0.65546616, 0.65546616])
+119.7140 	EXP 	center_grating: ori = 0.0
+119.7140 	EXP 	center_grating: phase = array([0.44023232, 0.44023232])
+120.2062 	EXP 	surround_grating: autoDraw = True
+120.2062 	EXP 	center_grating: autoDraw = True
+120.2819 	EXP 	surround_grating: autoDraw = False
+120.2819 	EXP 	center_grating: autoDraw = False
+120.2819 	EXP 	text_4: autoDraw = True
+120.7099 	DATA 	Keypress: right
+120.7147 	INFO 	Keyboard events cleared
+120.7143 	EXP 	surround_grating: autoDraw = False
+120.7143 	EXP 	center_grating: autoDraw = False
+120.7143 	EXP 	text_4: autoDraw = False
+120.7143 	EXP 	text_14: autoDraw = True
+121.9099 	DATA 	Keypress: space
+121.9147 	EXP 	text_14: autoDraw = False
+121.9149 	EXP 	tilt_mocs: status = STOPPED
+121.9442 	INFO 	saved data to '/Users/bwinsto2/Downloads/tilt_mocs/data/191038_tilt_mocs_2025-08-16_11h23.38.929.csv'
+121.9468 	INFO 	saved data to /Users/bwinsto2/Downloads/tilt_mocs/data/191038_tilt_mocs_2025-08-16_11h23.38.929.psydat

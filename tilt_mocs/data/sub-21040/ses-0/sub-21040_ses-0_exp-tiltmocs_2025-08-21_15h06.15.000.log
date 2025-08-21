@@ -1,0 +1,66 @@
+21.5225 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+21.5284 	INFO 	Loaded monitor calibration from ['2025_08_13 14:32']
+21.8807 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fc3037c6bb0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fc3037c6ac0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fc3036f05e0>, multiSample=False, name='window1', numSamples=2, pos=[320.0, 150.0], screen=0, size=array([1600, 1200]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+21.8808 	EXP 	window1: backgroundImage = ''
+21.8808 	EXP 	window1: backgroundFit = 'none'
+21.9051 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.9061 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.9069 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.9079 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.9087 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.9093 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.9101 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.9111 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.9118 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.9121 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.9128 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.9136 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.9143 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.9150 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.9157 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.9165 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.9173 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.9178 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.9184 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.9194 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.9199 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.9205 	DEBUG 	Uploading Texture Font fontname to graphics card
+21.9251 	DEBUG 	Upload of Texture Font fontname complete
+21.9323 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.9334 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.9344 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.9346 	DEBUG 	Uploading Texture Font fontname to graphics card
+21.9368 	DEBUG 	Upload of Texture Font fontname complete
+21.9386 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+21.9386 	EXP 	window1: recordFrameIntervals = False
+22.2562 	EXP 	window1: recordFrameIntervals = True
+23.0907 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+23.1018 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+23.1030 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+23.1046 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+23.1066 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+23.1085 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+23.1104 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+23.1114 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+23.1130 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+23.1148 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+23.1166 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+23.1170 	DEBUG 	Uploading Texture Font fontname to graphics card
+23.1219 	DEBUG 	Upload of Texture Font fontname complete
+23.2163 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+29.1123 	INFO 	keyboard.Keyboard is using iohub backend.
+29.1123 	INFO 	keyboard.Keyboard is using iohub backend.
+29.1123 	INFO 	keyboard.Keyboard is using iohub backend.
+29.1124 	INFO 	keyboard.Keyboard is using iohub backend.
+29.1124 	INFO 	keyboard.Keyboard is using iohub backend.
+29.1124 	INFO 	keyboard.Keyboard is using iohub backend.
+29.1124 	INFO 	keyboard.Keyboard is using iohub backend.
+29.1125 	INFO 	keyboard.Keyboard is using iohub backend.
+29.1125 	INFO 	keyboard.Keyboard is using iohub backend.
+29.1125 	EXP 	tilt_mocs: status = STARTED
+29.1831 	DEBUG 	Saving data for tilt_mocs ExperimentHandler
+29.1838 	INFO 	saved data to /Users/bwinsto2/Documents/Github/tilt/tilt_mocs/data/sub-21040/ses-0/sub-21040_ses-0_exp-tiltmocs_2025-08-21_15h06.15.000.psydat
+29.1841 	INFO 	saved data to '/Users/bwinsto2/Documents/Github/tilt/tilt_mocs/data/sub-21040/ses-0/sub-21040_ses-0_exp-tiltmocs_2025-08-21_15h06.15.000.csv'

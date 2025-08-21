@@ -1,0 +1,8 @@
+21.4747 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+21.4765 	INFO 	Loaded monitor calibration from ['2025_08_13 14:32']
+21.8356 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7ff3e2c4bac0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7ff3e2c4b9a0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7ff3e2c734c0>, multiSample=False, name='window1', numSamples=2, pos=[320.0, 150.0], screen=0, size=array([1600, 1200]), stencilBits=0, stereo=False, title='PsychoPy', units='deg', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+21.8357 	EXP 	window1: backgroundImage = ''
+21.8357 	EXP 	window1: backgroundFit = 'none'
+21.8615 	DEBUG 	Saving data for tilt_staircase ExperimentHandler
+21.8640 	INFO 	saved data to /Users/bwinsto2/Downloads/data/178915_tilt_staircase_2025-08-13_14h48.13.826.psydat
+21.8646 	INFO 	saved data to '/Users/bwinsto2/Downloads/data/178915_tilt_staircase_2025-08-13_14h48.13.826.csv'

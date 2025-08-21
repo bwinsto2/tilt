@@ -1,0 +1,7 @@
+﻿label,nReps,startVal,maxVal,minVal,stepSizes,stepType,nUp,nDown,nReversals
+negc_negs,30,-15,15,-15,"[5,2,1,0.5]",lin,1,1,8
+posc_negs,30,15,15,-15,"[5,2,1,0.5]",lin,1,1,8
+negc_poss,30,-15,15,-15,"[5,2,1,0.5]",lin,1,1,8
+posc_poss,30,15,15,-15,"[5,2,1,0.5]",lin,1,1,8
+negc_noss,30,-15,15,-15,"[5,2,1,0.5]",lin,1,1,8
+posc_noss,30,15,15,-15,"[5,2,1,0.5]",lin,1,1,8

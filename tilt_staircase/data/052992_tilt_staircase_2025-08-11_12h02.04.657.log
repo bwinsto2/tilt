@@ -1,0 +1,62 @@
+7.4684 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+7.4696 	INFO 	Loaded monitor calibration from ['2025_01_25 22:17']
+7.7145 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fa7507ce9d0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fa7507ce8b0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fa7507fc3d0>, multiSample=False, name='window1', numSamples=2, pos=[1320.0, 420.0], screen=1, size=array([800, 600]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.7146 	EXP 	window1: backgroundImage = ''
+7.7146 	EXP 	window1: backgroundFit = 'none'
+7.7294 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7306 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7316 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7326 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7339 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7344 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7351 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7360 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7365 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7368 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7375 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7381 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7389 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7396 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7401 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7408 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7416 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7420 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7425 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7433 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7438 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7442 	DEBUG 	Uploading Texture Font fontname to graphics card
+7.7484 	DEBUG 	Upload of Texture Font fontname complete
+7.7543 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7553 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7562 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7563 	DEBUG 	Uploading Texture Font fontname to graphics card
+7.7584 	DEBUG 	Upload of Texture Font fontname complete
+7.7601 	EXP 	window1: Attempting to measure frame rate of screen (1) ...
+7.7601 	EXP 	window1: recordFrameIntervals = False
+8.0189 	EXP 	window1: recordFrameIntervals = True
+8.8542 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+8.8613 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.8622 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.8633 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.8647 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.8660 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.8674 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.8681 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.8692 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.8705 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.8717 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.8720 	DEBUG 	Uploading Texture Font fontname to graphics card
+8.8751 	DEBUG 	Upload of Texture Font fontname complete
+8.8951 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+10.4106 	INFO 	keyboard.Keyboard is using iohub backend.
+10.4107 	INFO 	keyboard.Keyboard is using iohub backend.
+10.4107 	EXP 	tilt_staircase: status = STARTED
+10.4166 	EXP 	Created surround = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, interpolate=True, mask='circle', maskParams=None, name='surround', opacity=1, ori=1.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([7., 7.]), size=array([0.75, 0.75]), tex='sin', texRes=128.0, units='height', win=Window(...))
+10.4184 	EXP 	Created center = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, interpolate=True, mask='circle', maskParams=None, name='center', opacity=1, ori=1.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([2., 2.]), size=array([0.3, 0.3]), tex='sin', texRes=128.0, units='height', win=Window(...))
+10.4256 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([ 1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.4388 	DEBUG 	Saving data for tilt_staircase ExperimentHandler
+10.4396 	INFO 	saved data to /Users/bwinsto2/Downloads/data/052992_tilt_staircase_2025-08-11_12h02.04.657.psydat
+10.4402 	INFO 	saved data to '/Users/bwinsto2/Downloads/data/052992_tilt_staircase_2025-08-11_12h02.04.657.csv'

@@ -1,0 +1,2362 @@
+6.9363 	INFO 	Loaded monitor calibration from ['2025_08_13 14:32']
+7.1907 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fa8d20bf9a0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fa8d20bf880>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fa8d0e2a310>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.1908 	EXP 	window1: backgroundImage = ''
+7.1908 	EXP 	window1: backgroundFit = 'none'
+7.2440 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+7.2440 	EXP 	window1: recordFrameIntervals = False
+7.5422 	EXP 	window1: recordFrameIntervals = True
+8.3786 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+12.0520 	INFO 	keyboard.Keyboard is using iohub backend.
+12.0520 	INFO 	keyboard.Keyboard is using iohub backend.
+12.0520 	INFO 	keyboard.Keyboard is using iohub backend.
+12.0521 	INFO 	keyboard.Keyboard is using iohub backend.
+12.0521 	INFO 	keyboard.Keyboard is using iohub backend.
+12.0521 	INFO 	keyboard.Keyboard is using iohub backend.
+12.0521 	INFO 	keyboard.Keyboard is using iohub backend.
+12.0521 	INFO 	keyboard.Keyboard is using iohub backend.
+12.0522 	INFO 	keyboard.Keyboard is using iohub backend.
+12.0522 	INFO 	keyboard.Keyboard is using iohub backend.
+12.0522 	EXP 	tilt_staircase: status = STARTED
+12.1047 	EXP 	Created text_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_5', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.1115 	EXP 	Created text_6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_6', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.1136 	EXP 	Created surround_practice_3 = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, interpolate=True, mask='circle', maskParams=None, name='surround_practice_3', opacity=1, ori=15.0, phase=array([1., 1.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([2.5, 2.5]), size=array([6., 6.]), tex='sin', texRes=128.0, units='deg', win=Window(...))
+12.1150 	EXP 	Created center_practice_3 = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([0.2, 0.2, 0.2]), colorSpace='rgb', contrast=0.2, depth=-2.0, draggable=False, interpolate=True, mask='circle', maskParams=None, name='center_practice_3', opacity=1, ori=2.5, phase=array([1., 1.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([2.5, 2.5]), size=array([2., 2.]), tex='sin', texRes=128.0, units='deg', win=Window(...))
+12.1164 	EXP 	Created surround_practice = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([0.2, 0.2, 0.2]), colorSpace='rgb', contrast=0.2, depth=0.0, draggable=False, interpolate=True, mask='circle', maskParams=None, name='surround_practice', opacity=1, ori=1.0, phase=array([1., 1.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([2.5, 2.5]), size=array([6., 6.]), tex='sin', texRes=128.0, units='deg', win=Window(...))
+12.1177 	EXP 	Created center_practice = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, interpolate=True, mask='circle', maskParams=None, name='center_practice', opacity=1, ori=1.0, phase=array([1., 1.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([2.5, 2.5]), size=array([2., 2.]), tex='sin', texRes=128.0, units='deg', win=Window(...))
+12.1212 	EXP 	Created text_11 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_11', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.1217 	EXP 	Created text_7 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_7', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+12.1287 	EXP 	Created text_8 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_8', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.1302 	EXP 	Created surround_practice_2 = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([0.2, 0.2, 0.2]), colorSpace='rgb', contrast=0.2, depth=0.0, draggable=False, interpolate=True, mask='circle', maskParams=None, name='surround_practice_2', opacity=1.0, ori=1.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([2.5, 2.5]), size=array([6., 6.]), tex='sin', texRes=128.0, units='deg', win=Window(...))
+12.1316 	EXP 	Created center_practice_2 = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([0.2, 0.2, 0.2]), colorSpace='rgb', contrast=0.2, depth=-1.0, draggable=False, interpolate=True, mask='circle', maskParams=None, name='center_practice_2', opacity=1, ori=1.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([2.5, 2.5]), size=array([2., 2.]), tex='sin', texRes=128.0, units='deg', win=Window(...))
+12.1339 	EXP 	Created text_12 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_12', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.1344 	EXP 	Created text_7 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_7', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+12.1389 	EXP 	Created text_13 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_13', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.1405 	EXP 	Created surround_grating = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([0.2, 0.2, 0.2]), colorSpace='rgb', contrast=0.2, depth=-2.0, draggable=False, interpolate=True, mask='circle', maskParams=None, name='surround_grating', opacity=1.0, ori=1.0, phase=array([1., 1.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([2.5, 2.5]), size=array([6., 6.]), tex='sin', texRes=128.0, units='deg', win=Window(...))
+12.1419 	EXP 	Created center_grating = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([0.2, 0.2, 0.2]), colorSpace='rgb', contrast=0.2, depth=-3.0, draggable=False, interpolate=True, mask='circle', maskParams=None, name='center_grating', opacity=1, ori=1.0, phase=array([1., 1.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([2.5, 2.5]), size=array([2., 2.]), tex='sin', texRes=128.0, units='deg', win=Window(...))
+12.1443 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_3', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.1460 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_4', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='thank you and have a pleasant day ', units='height', win=Window(...), wrapWidth=1)
+0.0194 	INFO 	Keyboard events cleared
+0.0191 	EXP 	text_5: autoDraw = True
+4.9019 	WARNING 	t of last frame was 21.95ms (=1/45)
+18.8524 	DATA 	Keypress: space
+18.8594 	WARNING 	t of last frame was 83.42ms (=1/11)
+19.1797 	DATA 	Keypress: space
+19.1849 	INFO 	Keyboard events cleared
+19.1844 	WARNING 	t of last frame was 24.77ms (=1/40)
+19.1844 	EXP 	text_5: autoDraw = False
+19.1844 	EXP 	text_6: autoDraw = True
+20.6583 	DATA 	Keypress: space
+20.6622 	INFO 	Keyboard events cleared
+20.6618 	EXP 	text_6: autoDraw = False
+20.6618 	EXP 	surround_practice_3: phase = array([0.83354748, 0.83354748])
+20.6618 	EXP 	center_practice_3: phase = array([0.02384634, 0.02384634])
+20.6618 	EXP 	surround_practice_3: autoDraw = True
+20.6618 	EXP 	center_practice_3: autoDraw = True
+20.6618 	EXP 	surround_practice_3: tex = 'sin'
+20.6618 	EXP 	center_practice_3: tex = 'sin'
+21.6320 	EXP 	Imported tilt_practice_1.csv as conditions, 4 conditions, 3 params
+21.6327 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'center': 30, 'surround': 0, 'correct': 'right', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+21.7378 	DATA 	Keypress: left
+21.7423 	INFO 	Keyboard events cleared
+21.7418 	WARNING 	t of last frame was 126.06ms (=1/7)
+21.7418 	EXP 	surround_practice_3: autoDraw = False
+21.7418 	EXP 	center_practice_3: autoDraw = False
+21.7418 	EXP 	surround_practice: ori = 0.0
+21.7418 	EXP 	surround_practice: phase = array([0.83354748, 0.83354748])
+21.7418 	EXP 	center_practice: ori = 30.0
+21.7418 	EXP 	center_practice: phase = array([0.02384634, 0.02384634])
+22.1227 	EXP 	surround_practice: autoDraw = True
+22.1227 	EXP 	center_practice: autoDraw = True
+22.1227 	EXP 	surround_practice: tex = 'sin'
+22.1227 	EXP 	center_practice: tex = 'sin'
+22.7330 	DATA 	Keypress: space
+22.7594 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+23.1165 	EXP 	surround_practice: autoDraw = False
+23.1165 	EXP 	center_practice: autoDraw = False
+23.1165 	EXP 	text_11: autoDraw = True
+23.1337 	DATA 	Keypress: right
+23.1417 	EXP 	surround_practice: autoDraw = False
+23.1417 	EXP 	center_practice: autoDraw = False
+23.1417 	EXP 	text_11: autoDraw = False
+23.1417 	EXP 	text_7: height = 0.05
+23.1417 	EXP 	text_7: height = 0.05
+23.1417 	EXP 	text_7: height = 0.05
+23.1417 	EXP 	text_7: text = 'Correct'
+23.1417 	EXP 	text_7: autoDraw = True
+24.6273 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'center': -30, 'surround': 0, 'correct': 'left', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+24.6336 	INFO 	Keyboard events cleared
+24.6332 	EXP 	text_7: autoDraw = False
+24.6332 	EXP 	text_7: autoDraw = False
+24.6332 	EXP 	surround_practice: ori = 0.0
+24.6332 	EXP 	surround_practice: phase = array([0.51616093, 0.51616093])
+24.6332 	EXP 	center_practice: ori = -30.0
+24.6332 	EXP 	center_practice: phase = array([0.53735436, 0.53735436])
+25.1249 	EXP 	surround_practice: autoDraw = True
+25.1249 	EXP 	center_practice: autoDraw = True
+25.5651 	DATA 	Keypress: left
+25.5694 	EXP 	surround_practice: autoDraw = False
+25.5694 	EXP 	center_practice: autoDraw = False
+25.5694 	EXP 	text_11: autoDraw = False
+25.5694 	EXP 	text_7: text = 'Correct'
+25.5694 	EXP 	text_7: autoDraw = True
+27.0598 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'center': 30, 'surround': 60, 'correct': 'right', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+27.0657 	INFO 	Keyboard events cleared
+27.0650 	EXP 	text_7: autoDraw = False
+27.0650 	EXP 	text_7: autoDraw = False
+27.0650 	EXP 	surround_practice: ori = 60.0
+27.0650 	EXP 	surround_practice: phase = array([0.7013499, 0.7013499])
+27.0650 	EXP 	center_practice: ori = 30.0
+27.0650 	EXP 	center_practice: phase = array([0.84802811, 0.84802811])
+27.5585 	EXP 	surround_practice: autoDraw = True
+27.5585 	EXP 	center_practice: autoDraw = True
+27.9488 	DATA 	Keypress: right
+27.9589 	EXP 	surround_practice: autoDraw = False
+27.9589 	EXP 	center_practice: autoDraw = False
+27.9589 	EXP 	text_11: autoDraw = False
+27.9589 	EXP 	text_7: text = 'Correct'
+27.9589 	EXP 	text_7: autoDraw = True
+29.4438 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'center': -30, 'surround': -60, 'correct': 'left', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+29.4501 	INFO 	Keyboard events cleared
+29.4496 	EXP 	text_7: autoDraw = False
+29.4496 	EXP 	text_7: autoDraw = False
+29.4496 	EXP 	surround_practice: ori = -60.0
+29.4496 	EXP 	surround_practice: phase = array([0.83417985, 0.83417985])
+29.4496 	EXP 	center_practice: ori = -30.0
+29.4496 	EXP 	center_practice: phase = array([0.42518142, 0.42518142])
+29.9519 	EXP 	surround_practice: autoDraw = True
+29.9519 	EXP 	center_practice: autoDraw = True
+30.3039 	DATA 	Keypress: left
+30.3082 	EXP 	surround_practice: autoDraw = False
+30.3082 	EXP 	center_practice: autoDraw = False
+30.3082 	EXP 	text_11: autoDraw = False
+30.3082 	EXP 	text_7: text = 'Correct'
+30.3082 	EXP 	text_7: autoDraw = True
+31.8020 	INFO 	Keyboard events cleared
+31.8015 	EXP 	text_7: autoDraw = False
+31.8015 	EXP 	text_7: autoDraw = False
+31.8015 	EXP 	text_8: autoDraw = True
+32.1059 	EXP 	Imported tilt_practice_2.csv as conditions, 6 conditions, 4 params
+32.1062 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'center': -30, 'surround': -60, 'correct': 'left', 'opacity': 100, 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+32.1100 	DATA 	Keypress: space
+32.1141 	INFO 	Keyboard events cleared
+32.1137 	EXP 	text_8: autoDraw = False
+32.1137 	EXP 	surround_practice_2: ori = -60.0
+32.1137 	EXP 	center_practice_2: ori = -30.0
+32.5958 	EXP 	surround_practice_2: autoDraw = True
+32.5958 	EXP 	center_practice_2: autoDraw = True
+32.5958 	EXP 	surround_practice_2: tex = 'sin'
+32.5958 	EXP 	center_practice_2: tex = 'sin'
+32.6635 	EXP 	surround_practice_2: autoDraw = False
+32.6635 	EXP 	center_practice_2: autoDraw = False
+32.6752 	EXP 	text_12: autoDraw = True
+33.0369 	DATA 	Keypress: left
+33.0415 	EXP 	surround_practice_2: autoDraw = False
+33.0415 	EXP 	center_practice_2: autoDraw = False
+33.0415 	EXP 	text_12: autoDraw = False
+33.0415 	EXP 	text_7: text = 'Correct'
+33.0415 	EXP 	text_7: autoDraw = True
+34.5275 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'center': -30, 'surround': 0, 'correct': 'left', 'opacity': 100, 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+34.5331 	INFO 	Keyboard events cleared
+34.5326 	EXP 	text_7: autoDraw = False
+34.5326 	EXP 	text_7: autoDraw = False
+34.5326 	EXP 	surround_practice_2: ori = 0.0
+34.5326 	EXP 	center_practice_2: ori = -30.0
+35.0349 	EXP 	surround_practice_2: autoDraw = True
+35.0349 	EXP 	center_practice_2: autoDraw = True
+35.1092 	EXP 	surround_practice_2: autoDraw = False
+35.1092 	EXP 	center_practice_2: autoDraw = False
+35.1092 	EXP 	text_12: autoDraw = True
+35.4830 	DATA 	Keypress: left
+35.5089 	EXP 	surround_practice_2: autoDraw = False
+35.5089 	EXP 	center_practice_2: autoDraw = False
+35.5089 	EXP 	text_12: autoDraw = False
+35.5089 	EXP 	text_7: text = 'Correct'
+35.5089 	EXP 	text_7: autoDraw = True
+36.9932 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'center': 30, 'surround': 60, 'correct': 'right', 'opacity': 100, 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+36.9994 	INFO 	Keyboard events cleared
+36.9989 	EXP 	text_7: autoDraw = False
+36.9989 	EXP 	surround_practice_2: ori = 60.0
+36.9989 	EXP 	center_practice_2: ori = 30.0
+37.4848 	EXP 	surround_practice_2: autoDraw = True
+37.4848 	EXP 	center_practice_2: autoDraw = True
+37.5600 	EXP 	surround_practice_2: autoDraw = False
+37.5600 	EXP 	center_practice_2: autoDraw = False
+37.5661 	EXP 	text_12: autoDraw = True
+37.8191 	DATA 	Keypress: right
+37.8249 	EXP 	surround_practice_2: autoDraw = False
+37.8249 	EXP 	center_practice_2: autoDraw = False
+37.8249 	EXP 	text_12: autoDraw = False
+37.8249 	EXP 	text_7: text = 'Correct'
+37.8249 	EXP 	text_7: autoDraw = True
+39.3110 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'center': 30, 'surround': 0, 'correct': 'right', 'opacity': 100, 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+39.3178 	INFO 	Keyboard events cleared
+39.3171 	EXP 	text_7: autoDraw = False
+39.3171 	EXP 	text_7: autoDraw = False
+39.3171 	EXP 	surround_practice_2: ori = 0.0
+39.3171 	EXP 	center_practice_2: ori = 30.0
+39.8082 	EXP 	surround_practice_2: autoDraw = True
+39.8082 	EXP 	center_practice_2: autoDraw = True
+39.8820 	EXP 	surround_practice_2: autoDraw = False
+39.8820 	EXP 	center_practice_2: autoDraw = False
+39.8930 	EXP 	text_12: autoDraw = True
+40.3156 	DATA 	Keypress: right
+40.3255 	EXP 	surround_practice_2: autoDraw = False
+40.3255 	EXP 	center_practice_2: autoDraw = False
+40.3255 	EXP 	text_12: autoDraw = False
+40.3255 	EXP 	text_7: text = 'Correct'
+40.3255 	EXP 	text_7: autoDraw = True
+41.8105 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'center': -30, 'surround': 69, 'correct': 'left', 'opacity': 0, 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+41.8163 	INFO 	Keyboard events cleared
+41.8157 	EXP 	text_7: autoDraw = False
+41.8157 	EXP 	text_7: autoDraw = False
+41.8157 	EXP 	surround_practice_2: ori = 69.0
+41.8157 	EXP 	center_practice_2: ori = -30.0
+42.3169 	EXP 	surround_practice_2: autoDraw = True
+42.3169 	EXP 	center_practice_2: autoDraw = True
+42.3926 	EXP 	surround_practice_2: autoDraw = False
+42.3926 	EXP 	center_practice_2: autoDraw = False
+42.3986 	EXP 	text_12: autoDraw = True
+42.7203 	DATA 	Keypress: left
+42.7250 	EXP 	surround_practice_2: autoDraw = False
+42.7250 	EXP 	center_practice_2: autoDraw = False
+42.7250 	EXP 	text_12: autoDraw = False
+42.7250 	EXP 	text_7: text = 'Correct'
+42.7250 	EXP 	text_7: autoDraw = True
+44.2104 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'center': 30, 'surround': 69, 'correct': 'right', 'opacity': 0, 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+44.2160 	INFO 	Keyboard events cleared
+44.2154 	EXP 	text_7: autoDraw = False
+44.2154 	EXP 	text_7: autoDraw = False
+44.2154 	EXP 	surround_practice_2: ori = 69.0
+44.2154 	EXP 	center_practice_2: ori = 30.0
+44.7153 	EXP 	surround_practice_2: autoDraw = True
+44.7153 	EXP 	center_practice_2: autoDraw = True
+44.7918 	EXP 	surround_practice_2: autoDraw = False
+44.7918 	EXP 	center_practice_2: autoDraw = False
+44.7918 	EXP 	text_12: autoDraw = True
+45.0207 	DATA 	Keypress: right
+45.0247 	EXP 	surround_practice_2: autoDraw = False
+45.0247 	EXP 	center_practice_2: autoDraw = False
+45.0247 	EXP 	text_12: autoDraw = False
+45.0247 	EXP 	text_7: text = 'Correct'
+45.0247 	EXP 	text_7: autoDraw = True
+46.5178 	INFO 	Keyboard events cleared
+46.5174 	EXP 	text_7: autoDraw = False
+46.5174 	EXP 	text_7: autoDraw = False
+46.5174 	EXP 	text_13: autoDraw = True
+47.1101 	EXP 	Imported tilt_staircase.csv as conditions, 6 conditions, 10 params
+47.2273 	DATA 	Keypress: space
+47.2311 	INFO 	Keyboard events cleared
+47.2307 	EXP 	text_13: autoDraw = False
+47.2307 	EXP 	surround_grating: ori = 30.0
+47.2307 	EXP 	surround_grating: phase = array([0.32976594, 0.32976594])
+47.2307 	EXP 	center_grating: ori = 15.0
+47.2307 	EXP 	center_grating: phase = array([0.0872087, 0.0872087])
+47.6077 	EXP 	surround_grating: autoDraw = True
+47.6077 	EXP 	center_grating: autoDraw = True
+47.6077 	EXP 	surround_grating: tex = 'sin'
+47.6077 	EXP 	center_grating: tex = 'sin'
+47.6751 	EXP 	text_3: autoDraw = True
+47.6792 	EXP 	surround_grating: autoDraw = False
+47.6792 	EXP 	center_grating: autoDraw = False
+48.0649 	DATA 	Keypress: right
+48.0695 	INFO 	Keyboard events cleared
+48.0692 	EXP 	surround_grating: autoDraw = False
+48.0692 	EXP 	center_grating: autoDraw = False
+48.0692 	EXP 	text_3: autoDraw = False
+48.0692 	EXP 	surround_grating: ori = 69.0
+48.0692 	EXP 	surround_grating: phase = array([0.07410617, 0.07410617])
+48.0692 	EXP 	center_grating: ori = 15.0
+48.0692 	EXP 	center_grating: phase = array([0.56176922, 0.56176922])
+48.5582 	EXP 	surround_grating: autoDraw = True
+48.5582 	EXP 	center_grating: autoDraw = True
+48.6325 	EXP 	surround_grating: autoDraw = False
+48.6325 	EXP 	center_grating: autoDraw = False
+48.6325 	EXP 	text_3: autoDraw = True
+49.2643 	DATA 	Keypress: right
+49.2681 	INFO 	Keyboard events cleared
+49.2676 	EXP 	surround_grating: autoDraw = False
+49.2676 	EXP 	center_grating: autoDraw = False
+49.2676 	EXP 	text_3: autoDraw = False
+49.2676 	EXP 	surround_grating: ori = -30.0
+49.2676 	EXP 	surround_grating: phase = array([0.8176602, 0.8176602])
+49.2676 	EXP 	center_grating: ori = 15.0
+49.2676 	EXP 	center_grating: phase = array([0.23766767, 0.23766767])
+49.7592 	EXP 	surround_grating: autoDraw = True
+49.7592 	EXP 	center_grating: autoDraw = True
+49.8323 	EXP 	surround_grating: autoDraw = False
+49.8323 	EXP 	center_grating: autoDraw = False
+49.8323 	EXP 	text_3: autoDraw = True
+50.3495 	DATA 	Keypress: right
+50.3542 	INFO 	Keyboard events cleared
+50.3538 	EXP 	surround_grating: autoDraw = False
+50.3538 	EXP 	center_grating: autoDraw = False
+50.3538 	EXP 	text_3: autoDraw = False
+50.3538 	EXP 	surround_grating: ori = -30.0
+50.3538 	EXP 	surround_grating: phase = array([0.74826248, 0.74826248])
+50.3538 	EXP 	center_grating: ori = -15.0
+50.3538 	EXP 	center_grating: phase = array([0.59603126, 0.59603126])
+50.8417 	EXP 	surround_grating: autoDraw = True
+50.8417 	EXP 	center_grating: autoDraw = True
+50.9139 	EXP 	surround_grating: autoDraw = False
+50.9139 	EXP 	center_grating: autoDraw = False
+50.9139 	EXP 	text_3: autoDraw = True
+51.3331 	DATA 	Keypress: left
+51.3380 	INFO 	Keyboard events cleared
+51.3375 	EXP 	surround_grating: autoDraw = False
+51.3375 	EXP 	center_grating: autoDraw = False
+51.3375 	EXP 	text_3: autoDraw = False
+51.3375 	EXP 	surround_grating: ori = 69.0
+51.3375 	EXP 	surround_grating: phase = array([0.54587637, 0.54587637])
+51.3375 	EXP 	center_grating: ori = -15.0
+51.3375 	EXP 	center_grating: phase = array([0.20314168, 0.20314168])
+51.8248 	EXP 	surround_grating: autoDraw = True
+51.8248 	EXP 	center_grating: autoDraw = True
+51.8996 	EXP 	surround_grating: autoDraw = False
+51.8996 	EXP 	center_grating: autoDraw = False
+51.8996 	EXP 	text_3: autoDraw = True
+52.2543 	DATA 	Keypress: left
+52.2592 	INFO 	Keyboard events cleared
+52.2588 	EXP 	surround_grating: autoDraw = False
+52.2588 	EXP 	center_grating: autoDraw = False
+52.2588 	EXP 	text_3: autoDraw = False
+52.2588 	EXP 	surround_grating: ori = 30.0
+52.2588 	EXP 	surround_grating: phase = array([0.37839373, 0.37839373])
+52.2588 	EXP 	center_grating: ori = -15.0
+52.2588 	EXP 	center_grating: phase = array([0.01668801, 0.01668801])
+52.7515 	EXP 	surround_grating: autoDraw = True
+52.7515 	EXP 	center_grating: autoDraw = True
+52.8263 	EXP 	surround_grating: autoDraw = False
+52.8263 	EXP 	center_grating: autoDraw = False
+52.8263 	EXP 	text_3: autoDraw = True
+53.2312 	DATA 	Keypress: left
+53.2360 	INFO 	Keyboard events cleared
+53.2356 	EXP 	surround_grating: autoDraw = False
+53.2356 	EXP 	center_grating: autoDraw = False
+53.2356 	EXP 	text_3: autoDraw = False
+53.2356 	EXP 	surround_grating: ori = -30.0
+53.2356 	EXP 	surround_grating: phase = array([0.58472056, 0.58472056])
+53.2356 	EXP 	center_grating: ori = 10.0
+53.2356 	EXP 	center_grating: phase = array([0.53983633, 0.53983633])
+53.7181 	EXP 	surround_grating: autoDraw = True
+53.7181 	EXP 	center_grating: autoDraw = True
+53.7931 	EXP 	surround_grating: autoDraw = False
+53.7931 	EXP 	center_grating: autoDraw = False
+53.7991 	EXP 	text_3: autoDraw = True
+54.1495 	DATA 	Keypress: right
+54.1542 	INFO 	Keyboard events cleared
+54.1538 	EXP 	surround_grating: autoDraw = False
+54.1538 	EXP 	center_grating: autoDraw = False
+54.1538 	EXP 	text_3: autoDraw = False
+54.1538 	EXP 	surround_grating: ori = 69.0
+54.1538 	EXP 	surround_grating: phase = array([0.92217847, 0.92217847])
+54.1538 	EXP 	center_grating: ori = -10.0
+54.1538 	EXP 	center_grating: phase = array([0.49102157, 0.49102157])
+54.6415 	EXP 	surround_grating: autoDraw = True
+54.6415 	EXP 	center_grating: autoDraw = True
+54.7158 	EXP 	surround_grating: autoDraw = False
+54.7158 	EXP 	center_grating: autoDraw = False
+54.7158 	EXP 	text_3: autoDraw = True
+55.0984 	DATA 	Keypress: left
+55.1030 	INFO 	Keyboard events cleared
+55.1026 	EXP 	surround_grating: autoDraw = False
+55.1026 	EXP 	center_grating: autoDraw = False
+55.1026 	EXP 	text_3: autoDraw = False
+55.1026 	EXP 	surround_grating: ori = 30.0
+55.1026 	EXP 	surround_grating: phase = array([0.20585569, 0.20585569])
+55.1026 	EXP 	center_grating: ori = 10.0
+55.1026 	EXP 	center_grating: phase = array([0.68388091, 0.68388091])
+55.5915 	EXP 	surround_grating: autoDraw = True
+55.5915 	EXP 	center_grating: autoDraw = True
+55.6658 	EXP 	surround_grating: autoDraw = False
+55.6658 	EXP 	center_grating: autoDraw = False
+55.6658 	EXP 	text_3: autoDraw = True
+56.0317 	DATA 	Keypress: right
+56.0429 	INFO 	Keyboard events cleared
+56.0425 	EXP 	surround_grating: autoDraw = False
+56.0425 	EXP 	center_grating: autoDraw = False
+56.0425 	EXP 	text_3: autoDraw = False
+56.0425 	EXP 	surround_grating: ori = 30.0
+56.0425 	EXP 	surround_grating: phase = array([0.95874408, 0.95874408])
+56.0425 	EXP 	center_grating: ori = -10.0
+56.0425 	EXP 	center_grating: phase = array([0.95387094, 0.95387094])
+56.5348 	EXP 	surround_grating: autoDraw = True
+56.5348 	EXP 	center_grating: autoDraw = True
+56.6097 	EXP 	surround_grating: autoDraw = False
+56.6097 	EXP 	center_grating: autoDraw = False
+56.6158 	EXP 	text_3: autoDraw = True
+57.0164 	DATA 	Keypress: left
+57.0209 	INFO 	Keyboard events cleared
+57.0205 	EXP 	surround_grating: autoDraw = False
+57.0205 	EXP 	center_grating: autoDraw = False
+57.0205 	EXP 	text_3: autoDraw = False
+57.0205 	EXP 	surround_grating: ori = -30.0
+57.0205 	EXP 	surround_grating: phase = array([0.80844638, 0.80844638])
+57.0205 	EXP 	center_grating: ori = -10.0
+57.0205 	EXP 	center_grating: phase = array([0.14619228, 0.14619228])
+57.5094 	EXP 	surround_grating: autoDraw = True
+57.5094 	EXP 	center_grating: autoDraw = True
+57.5797 	EXP 	surround_grating: autoDraw = False
+57.5797 	EXP 	center_grating: autoDraw = False
+57.5797 	EXP 	text_3: autoDraw = True
+58.4318 	DATA 	Keypress: left
+58.4429 	INFO 	Keyboard events cleared
+58.4425 	EXP 	surround_grating: autoDraw = False
+58.4425 	EXP 	center_grating: autoDraw = False
+58.4425 	EXP 	text_3: autoDraw = False
+58.4425 	EXP 	surround_grating: ori = 69.0
+58.4425 	EXP 	surround_grating: phase = array([0.46391721, 0.46391721])
+58.4425 	EXP 	center_grating: ori = 10.0
+58.4425 	EXP 	center_grating: phase = array([0.66208361, 0.66208361])
+58.9347 	EXP 	surround_grating: autoDraw = True
+58.9347 	EXP 	center_grating: autoDraw = True
+59.0093 	EXP 	surround_grating: autoDraw = False
+59.0093 	EXP 	center_grating: autoDraw = False
+59.0159 	EXP 	text_3: autoDraw = True
+59.3991 	DATA 	Keypress: right
+59.4036 	INFO 	Keyboard events cleared
+59.4032 	EXP 	surround_grating: autoDraw = False
+59.4032 	EXP 	center_grating: autoDraw = False
+59.4032 	EXP 	text_3: autoDraw = False
+59.4032 	EXP 	surround_grating: ori = -30.0
+59.4032 	EXP 	surround_grating: phase = array([0.6970761, 0.6970761])
+59.4032 	EXP 	center_grating: ori = 5.0
+59.4032 	EXP 	center_grating: phase = array([0.12512598, 0.12512598])
+59.8915 	EXP 	surround_grating: autoDraw = True
+59.8915 	EXP 	center_grating: autoDraw = True
+59.9651 	EXP 	surround_grating: autoDraw = False
+59.9651 	EXP 	center_grating: autoDraw = False
+59.9651 	EXP 	text_3: autoDraw = True
+60.3995 	DATA 	Keypress: right
+60.4039 	INFO 	Keyboard events cleared
+60.4036 	EXP 	surround_grating: autoDraw = False
+60.4036 	EXP 	center_grating: autoDraw = False
+60.4036 	EXP 	text_3: autoDraw = False
+60.4036 	EXP 	surround_grating: ori = 69.0
+60.4036 	EXP 	surround_grating: phase = array([0.52440576, 0.52440576])
+60.4036 	EXP 	center_grating: ori = -5.0
+60.4036 	EXP 	center_grating: phase = array([0.12822595, 0.12822595])
+60.8915 	EXP 	surround_grating: autoDraw = True
+60.8915 	EXP 	center_grating: autoDraw = True
+60.9659 	EXP 	surround_grating: autoDraw = False
+60.9659 	EXP 	center_grating: autoDraw = False
+60.9659 	EXP 	text_3: autoDraw = True
+61.3300 	DATA 	Keypress: left
+61.3342 	INFO 	Keyboard events cleared
+61.3339 	EXP 	surround_grating: autoDraw = False
+61.3339 	EXP 	center_grating: autoDraw = False
+61.3339 	EXP 	text_3: autoDraw = False
+61.3339 	EXP 	surround_grating: ori = 30.0
+61.3339 	EXP 	surround_grating: phase = array([0.89418866, 0.89418866])
+61.3339 	EXP 	center_grating: ori = 5.0
+61.3339 	EXP 	center_grating: phase = array([0.54213088, 0.54213088])
+61.8183 	EXP 	surround_grating: autoDraw = True
+61.8183 	EXP 	center_grating: autoDraw = True
+61.8926 	EXP 	surround_grating: autoDraw = False
+61.8926 	EXP 	center_grating: autoDraw = False
+61.8994 	EXP 	text_3: autoDraw = True
+62.3649 	DATA 	Keypress: right
+62.3695 	INFO 	Keyboard events cleared
+62.3692 	EXP 	surround_grating: autoDraw = False
+62.3692 	EXP 	center_grating: autoDraw = False
+62.3692 	EXP 	text_3: autoDraw = False
+62.3692 	EXP 	surround_grating: ori = -30.0
+62.3692 	EXP 	surround_grating: phase = array([0.15716684, 0.15716684])
+62.3692 	EXP 	center_grating: ori = -5.0
+62.3692 	EXP 	center_grating: phase = array([0.28640153, 0.28640153])
+62.8582 	EXP 	surround_grating: autoDraw = True
+62.8582 	EXP 	center_grating: autoDraw = True
+62.9326 	EXP 	surround_grating: autoDraw = False
+62.9326 	EXP 	center_grating: autoDraw = False
+62.9326 	EXP 	text_3: autoDraw = True
+63.6834 	DATA 	Keypress: left
+63.6882 	INFO 	Keyboard events cleared
+63.6878 	EXP 	surround_grating: autoDraw = False
+63.6878 	EXP 	center_grating: autoDraw = False
+63.6878 	EXP 	text_3: autoDraw = False
+63.6878 	EXP 	surround_grating: ori = 30.0
+63.6878 	EXP 	surround_grating: phase = array([0.28000258, 0.28000258])
+63.6878 	EXP 	center_grating: ori = -5.0
+63.6878 	EXP 	center_grating: phase = array([0.36657541, 0.36657541])
+64.1755 	EXP 	surround_grating: autoDraw = True
+64.1755 	EXP 	center_grating: autoDraw = True
+64.2484 	EXP 	surround_grating: autoDraw = False
+64.2484 	EXP 	center_grating: autoDraw = False
+64.2484 	EXP 	text_3: autoDraw = True
+64.6659 	DATA 	Keypress: left
+64.6930 	INFO 	Keyboard events cleared
+64.6926 	EXP 	surround_grating: autoDraw = False
+64.6926 	EXP 	center_grating: autoDraw = False
+64.6926 	EXP 	text_3: autoDraw = False
+64.6926 	EXP 	surround_grating: ori = 69.0
+64.6926 	EXP 	surround_grating: phase = array([0.47271632, 0.47271632])
+64.6926 	EXP 	center_grating: ori = 5.0
+64.6926 	EXP 	center_grating: phase = array([0.22813089, 0.22813089])
+65.1671 	EXP 	surround_grating: autoDraw = True
+65.1671 	EXP 	center_grating: autoDraw = True
+65.2431 	EXP 	surround_grating: autoDraw = False
+65.2431 	EXP 	center_grating: autoDraw = False
+65.2490 	EXP 	text_3: autoDraw = True
+65.6658 	DATA 	Keypress: right
+65.6703 	INFO 	Keyboard events cleared
+65.6699 	EXP 	surround_grating: autoDraw = False
+65.6699 	EXP 	center_grating: autoDraw = False
+65.6699 	EXP 	text_3: autoDraw = False
+65.6699 	EXP 	surround_grating: ori = 30.0
+65.6699 	EXP 	surround_grating: phase = array([0.74242215, 0.74242215])
+65.6699 	EXP 	center_grating: ori = 0.0
+65.6699 	EXP 	center_grating: phase = array([0.54708014, 0.54708014])
+66.1584 	EXP 	surround_grating: autoDraw = True
+66.1584 	EXP 	center_grating: autoDraw = True
+66.2326 	EXP 	surround_grating: autoDraw = False
+66.2326 	EXP 	center_grating: autoDraw = False
+66.2326 	EXP 	text_3: autoDraw = True
+66.7880 	DATA 	Keypress: left
+66.7927 	INFO 	Keyboard events cleared
+66.7923 	EXP 	surround_grating: autoDraw = False
+66.7923 	EXP 	center_grating: autoDraw = False
+66.7923 	EXP 	text_3: autoDraw = False
+66.7923 	EXP 	surround_grating: ori = -30.0
+66.7923 	EXP 	surround_grating: phase = array([0.3975295, 0.3975295])
+66.7923 	EXP 	center_grating: ori = 0.0
+66.7923 	EXP 	center_grating: phase = array([0.50214136, 0.50214136])
+67.2842 	EXP 	surround_grating: autoDraw = True
+67.2842 	EXP 	center_grating: autoDraw = True
+67.3593 	EXP 	surround_grating: autoDraw = False
+67.3593 	EXP 	center_grating: autoDraw = False
+67.3593 	EXP 	text_3: autoDraw = True
+67.7829 	DATA 	Keypress: right
+67.7877 	INFO 	Keyboard events cleared
+67.7873 	EXP 	surround_grating: autoDraw = False
+67.7873 	EXP 	center_grating: autoDraw = False
+67.7873 	EXP 	text_3: autoDraw = False
+67.7873 	EXP 	surround_grating: ori = 69.0
+67.7873 	EXP 	surround_grating: phase = array([0.58042795, 0.58042795])
+67.7873 	EXP 	center_grating: ori = 0.0
+67.7873 	EXP 	center_grating: phase = array([0.3541938, 0.3541938])
+68.2748 	EXP 	surround_grating: autoDraw = True
+68.2748 	EXP 	center_grating: autoDraw = True
+68.3494 	EXP 	surround_grating: autoDraw = False
+68.3494 	EXP 	center_grating: autoDraw = False
+68.3494 	EXP 	text_3: autoDraw = True
+69.5713 	DATA 	Keypress: left
+69.5761 	INFO 	Keyboard events cleared
+69.5757 	EXP 	surround_grating: autoDraw = False
+69.5757 	EXP 	center_grating: autoDraw = False
+69.5757 	EXP 	text_3: autoDraw = False
+69.5757 	EXP 	surround_grating: ori = 30.0
+69.5757 	EXP 	surround_grating: phase = array([0.06577253, 0.06577253])
+69.5757 	EXP 	center_grating: ori = 0.0
+69.5757 	EXP 	center_grating: phase = array([0.87118755, 0.87118755])
+70.0683 	EXP 	surround_grating: autoDraw = True
+70.0683 	EXP 	center_grating: autoDraw = True
+70.1428 	EXP 	surround_grating: autoDraw = False
+70.1428 	EXP 	center_grating: autoDraw = False
+70.1428 	EXP 	text_3: autoDraw = True
+70.6168 	DATA 	Keypress: left
+70.6215 	INFO 	Keyboard events cleared
+70.6211 	EXP 	surround_grating: autoDraw = False
+70.6211 	EXP 	center_grating: autoDraw = False
+70.6211 	EXP 	text_3: autoDraw = False
+70.6211 	EXP 	surround_grating: ori = 69.0
+70.6211 	EXP 	surround_grating: phase = array([0.6578303, 0.6578303])
+70.6211 	EXP 	center_grating: ori = 0.0
+70.6211 	EXP 	center_grating: phase = array([0.6400229, 0.6400229])
+71.1082 	EXP 	surround_grating: autoDraw = True
+71.1082 	EXP 	center_grating: autoDraw = True
+71.1820 	EXP 	surround_grating: autoDraw = False
+71.1820 	EXP 	center_grating: autoDraw = False
+71.1820 	EXP 	text_3: autoDraw = True
+72.0326 	DATA 	Keypress: right
+72.0373 	INFO 	Keyboard events cleared
+72.0369 	EXP 	surround_grating: autoDraw = False
+72.0369 	EXP 	center_grating: autoDraw = False
+72.0369 	EXP 	text_3: autoDraw = False
+72.0369 	EXP 	surround_grating: ori = -30.0
+72.0369 	EXP 	surround_grating: phase = array([0.86298135, 0.86298135])
+72.0369 	EXP 	center_grating: ori = 0.0
+72.0369 	EXP 	center_grating: phase = array([0.00775605, 0.00775605])
+72.5260 	EXP 	surround_grating: autoDraw = True
+72.5260 	EXP 	center_grating: autoDraw = True
+72.5987 	EXP 	surround_grating: autoDraw = False
+72.5987 	EXP 	center_grating: autoDraw = False
+72.5987 	EXP 	text_3: autoDraw = True
+73.0373 	DATA 	Keypress: right
+73.0421 	INFO 	Keyboard events cleared
+73.0417 	EXP 	surround_grating: autoDraw = False
+73.0417 	EXP 	center_grating: autoDraw = False
+73.0417 	EXP 	text_3: autoDraw = False
+73.0417 	EXP 	surround_grating: ori = 30.0
+73.0417 	EXP 	surround_grating: phase = array([0.43332893, 0.43332893])
+73.0417 	EXP 	center_grating: ori = 5.0
+73.0417 	EXP 	center_grating: phase = array([0.1369506, 0.1369506])
+73.5344 	EXP 	surround_grating: autoDraw = True
+73.5344 	EXP 	center_grating: autoDraw = True
+73.6096 	EXP 	surround_grating: autoDraw = False
+73.6096 	EXP 	center_grating: autoDraw = False
+73.6096 	EXP 	text_3: autoDraw = True
+74.0546 	DATA 	Keypress: right
+74.0593 	INFO 	Keyboard events cleared
+74.0590 	EXP 	surround_grating: autoDraw = False
+74.0590 	EXP 	center_grating: autoDraw = False
+74.0590 	EXP 	text_3: autoDraw = False
+74.0590 	EXP 	surround_grating: ori = -30.0
+74.0590 	EXP 	surround_grating: phase = array([0.63448943, 0.63448943])
+74.0590 	EXP 	center_grating: ori = -5.0
+74.0590 	EXP 	center_grating: phase = array([0.14582763, 0.14582763])
+74.5493 	EXP 	surround_grating: autoDraw = True
+74.5493 	EXP 	center_grating: autoDraw = True
+74.6259 	EXP 	surround_grating: autoDraw = False
+74.6259 	EXP 	center_grating: autoDraw = False
+74.6259 	EXP 	text_3: autoDraw = True
+75.1810 	DATA 	Keypress: left
+75.1855 	INFO 	Keyboard events cleared
+75.1851 	EXP 	surround_grating: autoDraw = False
+75.1851 	EXP 	center_grating: autoDraw = False
+75.1851 	EXP 	text_3: autoDraw = False
+75.1851 	EXP 	surround_grating: ori = -30.0
+75.1851 	EXP 	surround_grating: phase = array([0.2178366, 0.2178366])
+75.1851 	EXP 	center_grating: ori = -2.0
+75.1851 	EXP 	center_grating: phase = array([0.2554596, 0.2554596])
+75.6747 	EXP 	surround_grating: autoDraw = True
+75.6747 	EXP 	center_grating: autoDraw = True
+75.7491 	EXP 	surround_grating: autoDraw = False
+75.7491 	EXP 	center_grating: autoDraw = False
+75.7491 	EXP 	text_3: autoDraw = True
+76.5455 	DATA 	Keypress: right
+76.5488 	INFO 	Keyboard events cleared
+76.5485 	EXP 	surround_grating: autoDraw = False
+76.5485 	EXP 	center_grating: autoDraw = False
+76.5485 	EXP 	text_3: autoDraw = False
+76.5485 	EXP 	surround_grating: ori = 69.0
+76.5485 	EXP 	surround_grating: phase = array([0.42221233, 0.42221233])
+76.5485 	EXP 	center_grating: ori = 5.0
+76.5485 	EXP 	center_grating: phase = array([0.5765801, 0.5765801])
+77.0417 	EXP 	surround_grating: autoDraw = True
+77.0417 	EXP 	center_grating: autoDraw = True
+77.1144 	EXP 	surround_grating: autoDraw = False
+77.1144 	EXP 	center_grating: autoDraw = False
+77.1144 	EXP 	text_3: autoDraw = True
+77.6323 	DATA 	Keypress: right
+77.6596 	INFO 	Keyboard events cleared
+77.6592 	EXP 	surround_grating: autoDraw = False
+77.6592 	EXP 	center_grating: autoDraw = False
+77.6592 	EXP 	text_3: autoDraw = False
+77.6592 	EXP 	surround_grating: ori = 30.0
+77.6592 	EXP 	surround_grating: phase = array([0.28178689, 0.28178689])
+77.6592 	EXP 	center_grating: ori = 2.0
+77.6592 	EXP 	center_grating: phase = array([0.50393536, 0.50393536])
+78.1330 	EXP 	surround_grating: autoDraw = True
+78.1330 	EXP 	center_grating: autoDraw = True
+78.2084 	EXP 	surround_grating: autoDraw = False
+78.2084 	EXP 	center_grating: autoDraw = False
+78.2142 	EXP 	text_3: autoDraw = True
+80.4142 	DATA 	Keypress: left
+80.4190 	INFO 	Keyboard events cleared
+80.4184 	EXP 	surround_grating: autoDraw = False
+80.4184 	EXP 	center_grating: autoDraw = False
+80.4184 	EXP 	text_3: autoDraw = False
+80.4184 	EXP 	surround_grating: ori = 69.0
+80.4184 	EXP 	surround_grating: phase = array([0.71333403, 0.71333403])
+80.4184 	EXP 	center_grating: ori = -5.0
+80.4184 	EXP 	center_grating: phase = array([0.6577769, 0.6577769])
+80.9013 	EXP 	surround_grating: autoDraw = True
+80.9013 	EXP 	center_grating: autoDraw = True
+80.9760 	EXP 	surround_grating: autoDraw = False
+80.9760 	EXP 	center_grating: autoDraw = False
+80.9817 	EXP 	text_3: autoDraw = True
+81.3646 	DATA 	Keypress: left
+81.3756 	INFO 	Keyboard events cleared
+81.3751 	EXP 	surround_grating: autoDraw = False
+81.3751 	EXP 	center_grating: autoDraw = False
+81.3751 	EXP 	text_3: autoDraw = False
+81.3751 	EXP 	surround_grating: ori = -30.0
+81.3751 	EXP 	surround_grating: phase = array([0.2359354, 0.2359354])
+81.3751 	EXP 	center_grating: ori = -3.0
+81.3751 	EXP 	center_grating: phase = array([0.40069983, 0.40069983])
+81.8677 	EXP 	surround_grating: autoDraw = True
+81.8677 	EXP 	center_grating: autoDraw = True
+81.9426 	EXP 	surround_grating: autoDraw = False
+81.9426 	EXP 	center_grating: autoDraw = False
+81.9426 	EXP 	text_3: autoDraw = True
+82.7373 	DATA 	Keypress: left
+82.7419 	INFO 	Keyboard events cleared
+82.7416 	EXP 	surround_grating: autoDraw = False
+82.7416 	EXP 	center_grating: autoDraw = False
+82.7416 	EXP 	text_3: autoDraw = False
+82.7416 	EXP 	surround_grating: ori = 30.0
+82.7416 	EXP 	surround_grating: phase = array([0.34442811, 0.34442811])
+82.7416 	EXP 	center_grating: ori = 3.0
+82.7416 	EXP 	center_grating: phase = array([0.96423365, 0.96423365])
+83.2347 	EXP 	surround_grating: autoDraw = True
+83.2347 	EXP 	center_grating: autoDraw = True
+83.3097 	EXP 	surround_grating: autoDraw = False
+83.3097 	EXP 	center_grating: autoDraw = False
+83.3097 	EXP 	text_3: autoDraw = True
+83.7825 	DATA 	Keypress: right
+83.7871 	INFO 	Keyboard events cleared
+83.7867 	EXP 	surround_grating: autoDraw = False
+83.7867 	EXP 	center_grating: autoDraw = False
+83.7867 	EXP 	text_3: autoDraw = False
+83.7867 	EXP 	surround_grating: ori = 69.0
+83.7867 	EXP 	surround_grating: phase = array([0.19106532, 0.19106532])
+83.7867 	EXP 	center_grating: ori = -3.0
+83.7867 	EXP 	center_grating: phase = array([0.29950869, 0.29950869])
+84.2747 	EXP 	surround_grating: autoDraw = True
+84.2747 	EXP 	center_grating: autoDraw = True
+84.3489 	EXP 	surround_grating: autoDraw = False
+84.3489 	EXP 	center_grating: autoDraw = False
+84.3489 	EXP 	text_3: autoDraw = True
+84.7707 	DATA 	Keypress: left
+84.7754 	INFO 	Keyboard events cleared
+84.7750 	EXP 	surround_grating: autoDraw = False
+84.7750 	EXP 	center_grating: autoDraw = False
+84.7750 	EXP 	text_3: autoDraw = False
+84.7750 	EXP 	surround_grating: ori = -30.0
+84.7750 	EXP 	surround_grating: phase = array([0.05512046, 0.05512046])
+84.7750 	EXP 	center_grating: ori = -4.0
+84.7750 	EXP 	center_grating: phase = array([0.26707147, 0.26707147])
+85.2680 	EXP 	surround_grating: autoDraw = True
+85.2680 	EXP 	center_grating: autoDraw = True
+85.3429 	EXP 	surround_grating: autoDraw = False
+85.3429 	EXP 	center_grating: autoDraw = False
+85.3429 	EXP 	text_3: autoDraw = True
+85.8650 	DATA 	Keypress: right
+85.8696 	INFO 	Keyboard events cleared
+85.8691 	EXP 	surround_grating: autoDraw = False
+85.8691 	EXP 	center_grating: autoDraw = False
+85.8691 	EXP 	text_3: autoDraw = False
+85.8691 	EXP 	surround_grating: ori = 30.0
+85.8691 	EXP 	surround_grating: phase = array([0.9551531, 0.9551531])
+85.8691 	EXP 	center_grating: ori = 4.0
+85.8691 	EXP 	center_grating: phase = array([0.92084163, 0.92084163])
+86.3581 	EXP 	surround_grating: autoDraw = True
+86.3581 	EXP 	center_grating: autoDraw = True
+86.4320 	EXP 	surround_grating: autoDraw = False
+86.4320 	EXP 	center_grating: autoDraw = False
+86.4320 	EXP 	text_3: autoDraw = True
+86.8879 	DATA 	Keypress: right
+86.8930 	INFO 	Keyboard events cleared
+86.8925 	EXP 	surround_grating: autoDraw = False
+86.8925 	EXP 	center_grating: autoDraw = False
+86.8925 	EXP 	text_3: autoDraw = False
+86.8925 	EXP 	surround_grating: ori = 69.0
+86.8925 	EXP 	surround_grating: phase = array([0.82228126, 0.82228126])
+86.8925 	EXP 	center_grating: ori = 3.0
+86.8925 	EXP 	center_grating: phase = array([0.75604506, 0.75604506])
+87.3846 	EXP 	surround_grating: autoDraw = True
+87.3846 	EXP 	center_grating: autoDraw = True
+87.4597 	EXP 	surround_grating: autoDraw = False
+87.4597 	EXP 	center_grating: autoDraw = False
+87.4597 	EXP 	text_3: autoDraw = True
+87.8815 	DATA 	Keypress: right
+87.8861 	INFO 	Keyboard events cleared
+87.8857 	EXP 	surround_grating: autoDraw = False
+87.8857 	EXP 	center_grating: autoDraw = False
+87.8857 	EXP 	text_3: autoDraw = False
+87.8857 	EXP 	surround_grating: ori = -30.0
+87.8857 	EXP 	surround_grating: phase = array([0.61373269, 0.61373269])
+87.8857 	EXP 	center_grating: ori = -6.0
+87.8857 	EXP 	center_grating: phase = array([0.13348346, 0.13348346])
+88.3756 	EXP 	surround_grating: autoDraw = True
+88.3756 	EXP 	center_grating: autoDraw = True
+88.4487 	EXP 	surround_grating: autoDraw = False
+88.4487 	EXP 	center_grating: autoDraw = False
+88.4487 	EXP 	text_3: autoDraw = True
+88.8978 	DATA 	Keypress: left
+88.9025 	INFO 	Keyboard events cleared
+88.9021 	EXP 	surround_grating: autoDraw = False
+88.9021 	EXP 	center_grating: autoDraw = False
+88.9021 	EXP 	text_3: autoDraw = False
+88.9021 	EXP 	surround_grating: ori = 69.0
+88.9021 	EXP 	surround_grating: phase = array([0.08242764, 0.08242764])
+88.9021 	EXP 	center_grating: ori = -1.0
+88.9021 	EXP 	center_grating: phase = array([0.26950605, 0.26950605])
+89.3916 	EXP 	surround_grating: autoDraw = True
+89.3916 	EXP 	center_grating: autoDraw = True
+89.4653 	EXP 	surround_grating: autoDraw = False
+89.4653 	EXP 	center_grating: autoDraw = False
+89.4653 	EXP 	text_3: autoDraw = True
+90.1149 	DATA 	Keypress: left
+90.1195 	INFO 	Keyboard events cleared
+90.1192 	EXP 	surround_grating: autoDraw = False
+90.1192 	EXP 	center_grating: autoDraw = False
+90.1192 	EXP 	text_3: autoDraw = False
+90.1192 	EXP 	surround_grating: ori = 30.0
+90.1192 	EXP 	surround_grating: phase = array([0.94311873, 0.94311873])
+90.1192 	EXP 	center_grating: ori = 3.0
+90.1192 	EXP 	center_grating: phase = array([0.64590273, 0.64590273])
+90.6083 	EXP 	surround_grating: autoDraw = True
+90.6083 	EXP 	center_grating: autoDraw = True
+90.6824 	EXP 	surround_grating: autoDraw = False
+90.6824 	EXP 	center_grating: autoDraw = False
+90.6824 	EXP 	text_3: autoDraw = True
+91.1470 	DATA 	Keypress: right
+91.1510 	INFO 	Keyboard events cleared
+91.1506 	EXP 	surround_grating: autoDraw = False
+91.1506 	EXP 	center_grating: autoDraw = False
+91.1506 	EXP 	text_3: autoDraw = False
+91.1506 	EXP 	surround_grating: ori = 69.0
+91.1506 	EXP 	surround_grating: phase = array([0.79112964, 0.79112964])
+91.1506 	EXP 	center_grating: ori = 1.0
+91.1506 	EXP 	center_grating: phase = array([0.57846083, 0.57846083])
+91.6427 	EXP 	surround_grating: autoDraw = True
+91.6427 	EXP 	center_grating: autoDraw = True
+91.7138 	EXP 	surround_grating: autoDraw = False
+91.7138 	EXP 	center_grating: autoDraw = False
+91.7138 	EXP 	text_3: autoDraw = True
+92.4377 	DATA 	Keypress: right
+92.4427 	INFO 	Keyboard events cleared
+92.4423 	EXP 	surround_grating: autoDraw = False
+92.4423 	EXP 	center_grating: autoDraw = False
+92.4423 	EXP 	text_3: autoDraw = False
+92.4423 	EXP 	surround_grating: ori = 30.0
+92.4423 	EXP 	surround_grating: phase = array([0.93998113, 0.93998113])
+92.4423 	EXP 	center_grating: ori = 1.0
+92.4423 	EXP 	center_grating: phase = array([0.35425256, 0.35425256])
+92.9349 	EXP 	surround_grating: autoDraw = True
+92.9349 	EXP 	center_grating: autoDraw = True
+93.0095 	EXP 	surround_grating: autoDraw = False
+93.0095 	EXP 	center_grating: autoDraw = False
+93.0095 	EXP 	text_3: autoDraw = True
+93.5320 	DATA 	Keypress: left
+93.5368 	INFO 	Keyboard events cleared
+93.5364 	EXP 	surround_grating: autoDraw = False
+93.5364 	EXP 	center_grating: autoDraw = False
+93.5364 	EXP 	text_3: autoDraw = False
+93.5364 	EXP 	surround_grating: ori = -30.0
+93.5364 	EXP 	surround_grating: phase = array([0.63845264, 0.63845264])
+93.5364 	EXP 	center_grating: ori = -1.0
+93.5364 	EXP 	center_grating: phase = array([0.8261307, 0.8261307])
+94.0258 	EXP 	surround_grating: autoDraw = True
+94.0258 	EXP 	center_grating: autoDraw = True
+94.0987 	EXP 	surround_grating: autoDraw = False
+94.0987 	EXP 	center_grating: autoDraw = False
+94.0987 	EXP 	text_3: autoDraw = True
+95.7315 	DATA 	Keypress: right
+95.7361 	INFO 	Keyboard events cleared
+95.7357 	EXP 	surround_grating: autoDraw = False
+95.7357 	EXP 	center_grating: autoDraw = False
+95.7357 	EXP 	text_3: autoDraw = False
+95.7357 	EXP 	surround_grating: ori = -30.0
+95.7357 	EXP 	surround_grating: phase = array([0.23766362, 0.23766362])
+95.7357 	EXP 	center_grating: ori = -2.0
+95.7357 	EXP 	center_grating: phase = array([0.31841954, 0.31841954])
+96.2250 	EXP 	surround_grating: autoDraw = True
+96.2250 	EXP 	center_grating: autoDraw = True
+96.2990 	EXP 	surround_grating: autoDraw = False
+96.2990 	EXP 	center_grating: autoDraw = False
+96.2990 	EXP 	text_3: autoDraw = True
+97.2155 	DATA 	Keypress: left
+97.2202 	INFO 	Keyboard events cleared
+97.2198 	EXP 	surround_grating: autoDraw = False
+97.2198 	EXP 	center_grating: autoDraw = False
+97.2198 	EXP 	text_3: autoDraw = False
+97.2198 	EXP 	surround_grating: ori = -30.0
+97.2198 	EXP 	surround_grating: phase = array([0.45345928, 0.45345928])
+97.2198 	EXP 	center_grating: ori = -5.0
+97.2198 	EXP 	center_grating: phase = array([0.93843273, 0.93843273])
+97.7081 	EXP 	surround_grating: autoDraw = True
+97.7081 	EXP 	center_grating: autoDraw = True
+97.7824 	EXP 	surround_grating: autoDraw = False
+97.7824 	EXP 	center_grating: autoDraw = False
+97.7824 	EXP 	text_3: autoDraw = True
+98.2545 	DATA 	Keypress: left
+98.2592 	INFO 	Keyboard events cleared
+98.2588 	EXP 	surround_grating: autoDraw = False
+98.2588 	EXP 	center_grating: autoDraw = False
+98.2588 	EXP 	text_3: autoDraw = False
+98.2588 	EXP 	surround_grating: ori = 30.0
+98.2588 	EXP 	surround_grating: phase = array([0.13525982, 0.13525982])
+98.2588 	EXP 	center_grating: ori = 2.0
+98.2588 	EXP 	center_grating: phase = array([0.9262526, 0.9262526])
+98.7505 	EXP 	surround_grating: autoDraw = True
+98.7505 	EXP 	center_grating: autoDraw = True
+98.8262 	EXP 	surround_grating: autoDraw = False
+98.8262 	EXP 	center_grating: autoDraw = False
+98.8262 	EXP 	text_3: autoDraw = True
+100.0820 	DATA 	Keypress: left
+100.0868 	INFO 	Keyboard events cleared
+100.0863 	EXP 	surround_grating: autoDraw = False
+100.0863 	EXP 	center_grating: autoDraw = False
+100.0863 	EXP 	text_3: autoDraw = False
+100.0863 	EXP 	surround_grating: ori = 69.0
+100.0863 	EXP 	surround_grating: phase = array([0.64283294, 0.64283294])
+100.0863 	EXP 	center_grating: ori = 1.0
+100.0863 	EXP 	center_grating: phase = array([0.77128747, 0.77128747])
+100.5765 	EXP 	surround_grating: autoDraw = True
+100.5765 	EXP 	center_grating: autoDraw = True
+100.6487 	EXP 	surround_grating: autoDraw = False
+100.6487 	EXP 	center_grating: autoDraw = False
+100.6487 	EXP 	text_3: autoDraw = True
+101.3324 	DATA 	Keypress: right
+101.3368 	INFO 	Keyboard events cleared
+101.3364 	EXP 	surround_grating: autoDraw = False
+101.3364 	EXP 	center_grating: autoDraw = False
+101.3364 	EXP 	text_3: autoDraw = False
+101.3364 	EXP 	surround_grating: ori = 69.0
+101.3364 	EXP 	surround_grating: phase = array([0.15305315, 0.15305315])
+101.3364 	EXP 	center_grating: ori = -1.0
+101.3364 	EXP 	center_grating: phase = array([0.82290083, 0.82290083])
+101.8247 	EXP 	surround_grating: autoDraw = True
+101.8247 	EXP 	center_grating: autoDraw = True
+101.8991 	EXP 	surround_grating: autoDraw = False
+101.8991 	EXP 	center_grating: autoDraw = False
+101.8991 	EXP 	text_3: autoDraw = True
+102.4137 	DATA 	Keypress: left
+102.4253 	INFO 	Keyboard events cleared
+102.4250 	EXP 	surround_grating: autoDraw = False
+102.4250 	EXP 	center_grating: autoDraw = False
+102.4250 	EXP 	text_3: autoDraw = False
+102.4250 	EXP 	surround_grating: ori = 30.0
+102.4250 	EXP 	surround_grating: phase = array([0.09464173, 0.09464173])
+102.4250 	EXP 	center_grating: ori = 2.0
+102.4250 	EXP 	center_grating: phase = array([0.86213003, 0.86213003])
+102.9184 	EXP 	surround_grating: autoDraw = True
+102.9184 	EXP 	center_grating: autoDraw = True
+102.9929 	EXP 	surround_grating: autoDraw = False
+102.9929 	EXP 	center_grating: autoDraw = False
+102.9929 	EXP 	text_3: autoDraw = True
+103.7480 	DATA 	Keypress: right
+103.7590 	INFO 	Keyboard events cleared
+103.7586 	EXP 	surround_grating: autoDraw = False
+103.7586 	EXP 	center_grating: autoDraw = False
+103.7586 	EXP 	text_3: autoDraw = False
+103.7586 	EXP 	surround_grating: ori = 69.0
+103.7586 	EXP 	surround_grating: phase = array([0.65103318, 0.65103318])
+103.7586 	EXP 	center_grating: ori = 0.0
+103.7586 	EXP 	center_grating: phase = array([0.42084742, 0.42084742])
+104.2508 	EXP 	surround_grating: autoDraw = True
+104.2508 	EXP 	center_grating: autoDraw = True
+104.3263 	EXP 	surround_grating: autoDraw = False
+104.3263 	EXP 	center_grating: autoDraw = False
+104.3322 	EXP 	text_3: autoDraw = True
+107.3643 	DATA 	Keypress: up
+108.4663 	DATA 	Keypress: left
+108.4710 	INFO 	Keyboard events cleared
+108.4706 	EXP 	surround_grating: autoDraw = False
+108.4706 	EXP 	center_grating: autoDraw = False
+108.4706 	EXP 	text_3: autoDraw = False
+108.4706 	EXP 	surround_grating: ori = -30.0
+108.4706 	EXP 	surround_grating: phase = array([0.21956703, 0.21956703])
+108.4706 	EXP 	center_grating: ori = -4.0
+108.4706 	EXP 	center_grating: phase = array([0.01820271, 0.01820271])
+108.9595 	EXP 	surround_grating: autoDraw = True
+108.9595 	EXP 	center_grating: autoDraw = True
+109.0323 	EXP 	surround_grating: autoDraw = False
+109.0323 	EXP 	center_grating: autoDraw = False
+109.0323 	EXP 	text_3: autoDraw = True
+109.5661 	DATA 	Keypress: left
+109.5708 	INFO 	Keyboard events cleared
+109.5703 	EXP 	surround_grating: autoDraw = False
+109.5703 	EXP 	center_grating: autoDraw = False
+109.5703 	EXP 	text_3: autoDraw = False
+109.5703 	EXP 	surround_grating: ori = 69.0
+109.5703 	EXP 	surround_grating: phase = array([0.51167031, 0.51167031])
+109.5703 	EXP 	center_grating: ori = 0.0
+109.5703 	EXP 	center_grating: phase = array([0.86225985, 0.86225985])
+110.0588 	EXP 	surround_grating: autoDraw = True
+110.0588 	EXP 	center_grating: autoDraw = True
+110.1321 	EXP 	surround_grating: autoDraw = False
+110.1321 	EXP 	center_grating: autoDraw = False
+110.1321 	EXP 	text_3: autoDraw = True
+110.8312 	DATA 	Keypress: right
+110.8359 	INFO 	Keyboard events cleared
+110.8355 	EXP 	surround_grating: autoDraw = False
+110.8355 	EXP 	center_grating: autoDraw = False
+110.8355 	EXP 	text_3: autoDraw = False
+110.8355 	EXP 	surround_grating: ori = -30.0
+110.8355 	EXP 	surround_grating: phase = array([0.16888015, 0.16888015])
+110.8355 	EXP 	center_grating: ori = -1.5
+110.8355 	EXP 	center_grating: phase = array([0.17140189, 0.17140189])
+111.3248 	EXP 	surround_grating: autoDraw = True
+111.3248 	EXP 	center_grating: autoDraw = True
+111.3988 	EXP 	surround_grating: autoDraw = False
+111.3988 	EXP 	center_grating: autoDraw = False
+111.3988 	EXP 	text_3: autoDraw = True
+112.7706 	DATA 	Keypress: right
+112.7754 	INFO 	Keyboard events cleared
+112.7750 	EXP 	surround_grating: autoDraw = False
+112.7750 	EXP 	center_grating: autoDraw = False
+112.7750 	EXP 	text_3: autoDraw = False
+112.7750 	EXP 	surround_grating: ori = 30.0
+112.7750 	EXP 	surround_grating: phase = array([0.76374706, 0.76374706])
+112.7750 	EXP 	center_grating: ori = 3.0
+112.7750 	EXP 	center_grating: phase = array([0.02616116, 0.02616116])
+113.2678 	EXP 	surround_grating: autoDraw = True
+113.2678 	EXP 	center_grating: autoDraw = True
+113.3430 	EXP 	surround_grating: autoDraw = False
+113.3430 	EXP 	center_grating: autoDraw = False
+113.3430 	EXP 	text_3: autoDraw = True
+113.8703 	DATA 	Keypress: right
+113.8749 	INFO 	Keyboard events cleared
+113.8746 	EXP 	surround_grating: autoDraw = False
+113.8746 	EXP 	center_grating: autoDraw = False
+113.8746 	EXP 	text_3: autoDraw = False
+113.8746 	EXP 	surround_grating: ori = 30.0
+113.8746 	EXP 	surround_grating: phase = array([0.49631267, 0.49631267])
+113.8746 	EXP 	center_grating: ori = 1.0
+113.8746 	EXP 	center_grating: phase = array([0.81335518, 0.81335518])
+114.3686 	EXP 	surround_grating: autoDraw = True
+114.3686 	EXP 	center_grating: autoDraw = True
+114.4429 	EXP 	surround_grating: autoDraw = False
+114.4429 	EXP 	center_grating: autoDraw = False
+114.4429 	EXP 	text_3: autoDraw = True
+115.9145 	DATA 	Keypress: right
+115.9190 	INFO 	Keyboard events cleared
+115.9187 	EXP 	surround_grating: autoDraw = False
+115.9187 	EXP 	center_grating: autoDraw = False
+115.9187 	EXP 	text_3: autoDraw = False
+115.9187 	EXP 	surround_grating: ori = 69.0
+115.9187 	EXP 	surround_grating: phase = array([0.41415858, 0.41415858])
+115.9187 	EXP 	center_grating: ori = 0.5
+115.9187 	EXP 	center_grating: phase = array([0.81424507, 0.81424507])
+116.4094 	EXP 	surround_grating: autoDraw = True
+116.4094 	EXP 	center_grating: autoDraw = True
+116.4820 	EXP 	surround_grating: autoDraw = False
+116.4820 	EXP 	center_grating: autoDraw = False
+116.4820 	EXP 	text_3: autoDraw = True
+116.9825 	DATA 	Keypress: right
+116.9870 	INFO 	Keyboard events cleared
+116.9867 	EXP 	surround_grating: autoDraw = False
+116.9867 	EXP 	center_grating: autoDraw = False
+116.9867 	EXP 	text_3: autoDraw = False
+116.9867 	EXP 	surround_grating: ori = -30.0
+116.9867 	EXP 	surround_grating: phase = array([0.73060534, 0.73060534])
+116.9867 	EXP 	center_grating: ori = -3.0
+116.9867 	EXP 	center_grating: phase = array([0.02368783, 0.02368783])
+117.4750 	EXP 	surround_grating: autoDraw = True
+117.4750 	EXP 	center_grating: autoDraw = True
+117.5455 	EXP 	surround_grating: autoDraw = False
+117.5455 	EXP 	center_grating: autoDraw = False
+117.5455 	EXP 	text_3: autoDraw = True
+118.0481 	DATA 	Keypress: left
+118.0589 	INFO 	Keyboard events cleared
+118.0586 	EXP 	surround_grating: autoDraw = False
+118.0586 	EXP 	center_grating: autoDraw = False
+118.0586 	EXP 	text_3: autoDraw = False
+118.0586 	EXP 	surround_grating: ori = 69.0
+118.0586 	EXP 	surround_grating: phase = array([0.56757745, 0.56757745])
+118.0586 	EXP 	center_grating: ori = -0.5
+118.0586 	EXP 	center_grating: phase = array([0.63839374, 0.63839374])
+118.5511 	EXP 	surround_grating: autoDraw = True
+118.5511 	EXP 	center_grating: autoDraw = True
+118.6261 	EXP 	surround_grating: autoDraw = False
+118.6261 	EXP 	center_grating: autoDraw = False
+118.6261 	EXP 	text_3: autoDraw = True
+119.2168 	DATA 	Keypress: left
+119.2216 	INFO 	Keyboard events cleared
+119.2212 	EXP 	surround_grating: autoDraw = False
+119.2212 	EXP 	center_grating: autoDraw = False
+119.2212 	EXP 	text_3: autoDraw = False
+119.2212 	EXP 	surround_grating: ori = 30.0
+119.2212 	EXP 	surround_grating: phase = array([0.3114644, 0.3114644])
+119.2212 	EXP 	center_grating: ori = 2.5
+119.2212 	EXP 	center_grating: phase = array([0.40892966, 0.40892966])
+119.7080 	EXP 	surround_grating: autoDraw = True
+119.7080 	EXP 	center_grating: autoDraw = True
+119.7822 	EXP 	surround_grating: autoDraw = False
+119.7822 	EXP 	center_grating: autoDraw = False
+119.7822 	EXP 	text_3: autoDraw = True
+120.7705 	DATA 	Keypress: right
+120.7751 	INFO 	Keyboard events cleared
+120.7748 	EXP 	surround_grating: autoDraw = False
+120.7748 	EXP 	center_grating: autoDraw = False
+120.7748 	EXP 	text_3: autoDraw = False
+120.7748 	EXP 	surround_grating: ori = 30.0
+120.7748 	EXP 	surround_grating: phase = array([0.31841425, 0.31841425])
+120.7748 	EXP 	center_grating: ori = 0.0
+120.7748 	EXP 	center_grating: phase = array([0.65092641, 0.65092641])
+121.2581 	EXP 	surround_grating: autoDraw = True
+121.2581 	EXP 	center_grating: autoDraw = True
+121.3318 	EXP 	surround_grating: autoDraw = False
+121.3318 	EXP 	center_grating: autoDraw = False
+121.3429 	EXP 	text_3: autoDraw = True
+121.8158 	DATA 	Keypress: left
+121.8203 	INFO 	Keyboard events cleared
+121.8199 	EXP 	surround_grating: autoDraw = False
+121.8199 	EXP 	center_grating: autoDraw = False
+121.8199 	EXP 	text_3: autoDraw = False
+121.8199 	EXP 	surround_grating: ori = -30.0
+121.8199 	EXP 	surround_grating: phase = array([0.89203665, 0.89203665])
+121.8199 	EXP 	center_grating: ori = -2.0
+121.8199 	EXP 	center_grating: phase = array([0.70565295, 0.70565295])
+122.3080 	EXP 	surround_grating: autoDraw = True
+122.3080 	EXP 	center_grating: autoDraw = True
+122.3820 	EXP 	surround_grating: autoDraw = False
+122.3820 	EXP 	center_grating: autoDraw = False
+122.3820 	EXP 	text_3: autoDraw = True
+123.1827 	DATA 	Keypress: left
+123.1873 	INFO 	Keyboard events cleared
+123.1869 	EXP 	surround_grating: autoDraw = False
+123.1869 	EXP 	center_grating: autoDraw = False
+123.1869 	EXP 	text_3: autoDraw = False
+123.1869 	EXP 	surround_grating: ori = 30.0
+123.1869 	EXP 	surround_grating: phase = array([0.20233487, 0.20233487])
+123.1869 	EXP 	center_grating: ori = 0.5
+123.1869 	EXP 	center_grating: phase = array([0.94011224, 0.94011224])
+123.6746 	EXP 	surround_grating: autoDraw = True
+123.6746 	EXP 	center_grating: autoDraw = True
+123.7493 	EXP 	surround_grating: autoDraw = False
+123.7493 	EXP 	center_grating: autoDraw = False
+123.7493 	EXP 	text_3: autoDraw = True
+125.3207 	DATA 	Keypress: left
+125.3255 	INFO 	Keyboard events cleared
+125.3251 	EXP 	surround_grating: autoDraw = False
+125.3251 	EXP 	center_grating: autoDraw = False
+125.3251 	EXP 	text_3: autoDraw = False
+125.3251 	EXP 	surround_grating: ori = 30.0
+125.3251 	EXP 	surround_grating: phase = array([0.92256939, 0.92256939])
+125.3251 	EXP 	center_grating: ori = 2.0
+125.3251 	EXP 	center_grating: phase = array([0.08984506, 0.08984506])
+125.8185 	EXP 	surround_grating: autoDraw = True
+125.8185 	EXP 	center_grating: autoDraw = True
+125.8925 	EXP 	surround_grating: autoDraw = False
+125.8925 	EXP 	center_grating: autoDraw = False
+125.8925 	EXP 	text_3: autoDraw = True
+126.7168 	DATA 	Keypress: right
+126.7260 	INFO 	Keyboard events cleared
+126.7256 	EXP 	surround_grating: autoDraw = False
+126.7256 	EXP 	center_grating: autoDraw = False
+126.7256 	EXP 	text_3: autoDraw = False
+126.7256 	EXP 	surround_grating: ori = -30.0
+126.7256 	EXP 	surround_grating: phase = array([0.21655044, 0.21655044])
+126.7256 	EXP 	center_grating: ori = -1.5
+126.7256 	EXP 	center_grating: phase = array([0.8379344, 0.8379344])
+127.2080 	EXP 	surround_grating: autoDraw = True
+127.2080 	EXP 	center_grating: autoDraw = True
+127.2822 	EXP 	surround_grating: autoDraw = False
+127.2822 	EXP 	center_grating: autoDraw = False
+127.2822 	EXP 	text_3: autoDraw = True
+128.1159 	DATA 	Keypress: right
+128.1206 	INFO 	Keyboard events cleared
+128.1202 	EXP 	surround_grating: autoDraw = False
+128.1202 	EXP 	center_grating: autoDraw = False
+128.1202 	EXP 	text_3: autoDraw = False
+128.1202 	EXP 	surround_grating: ori = 69.0
+128.1202 	EXP 	surround_grating: phase = array([0.77659332, 0.77659332])
+128.1202 	EXP 	center_grating: ori = 0.0
+128.1202 	EXP 	center_grating: phase = array([0.79354227, 0.79354227])
+128.6086 	EXP 	surround_grating: autoDraw = True
+128.6086 	EXP 	center_grating: autoDraw = True
+128.6832 	EXP 	surround_grating: autoDraw = False
+128.6832 	EXP 	center_grating: autoDraw = False
+128.6832 	EXP 	text_3: autoDraw = True
+130.0648 	DATA 	Keypress: left
+130.0695 	INFO 	Keyboard events cleared
+130.0691 	EXP 	surround_grating: autoDraw = False
+130.0691 	EXP 	center_grating: autoDraw = False
+130.0691 	EXP 	text_3: autoDraw = False
+130.0691 	EXP 	surround_grating: ori = 69.0
+130.0691 	EXP 	surround_grating: phase = array([0.36881049, 0.36881049])
+130.0691 	EXP 	center_grating: ori = 0.0
+130.0691 	EXP 	center_grating: phase = array([0.01583144, 0.01583144])
+130.5580 	EXP 	surround_grating: autoDraw = True
+130.5580 	EXP 	center_grating: autoDraw = True
+130.6323 	EXP 	surround_grating: autoDraw = False
+130.6323 	EXP 	center_grating: autoDraw = False
+130.6323 	EXP 	text_3: autoDraw = True
+131.3016 	DATA 	Keypress: left
+131.3084 	INFO 	Keyboard events cleared
+131.3081 	EXP 	surround_grating: autoDraw = False
+131.3081 	EXP 	center_grating: autoDraw = False
+131.3081 	EXP 	text_3: autoDraw = False
+131.3081 	EXP 	surround_grating: ori = -30.0
+131.3081 	EXP 	surround_grating: phase = array([0.09513421, 0.09513421])
+131.3081 	EXP 	center_grating: ori = -2.0
+131.3081 	EXP 	center_grating: phase = array([0.01081859, 0.01081859])
+131.7929 	EXP 	surround_grating: autoDraw = True
+131.7929 	EXP 	center_grating: autoDraw = True
+131.8641 	EXP 	surround_grating: autoDraw = False
+131.8641 	EXP 	center_grating: autoDraw = False
+131.8757 	EXP 	text_3: autoDraw = True
+133.1801 	DATA 	Keypress: left
+133.1837 	INFO 	Keyboard events cleared
+133.1833 	EXP 	surround_grating: autoDraw = False
+133.1833 	EXP 	center_grating: autoDraw = False
+133.1833 	EXP 	text_3: autoDraw = False
+133.1833 	EXP 	surround_grating: ori = -30.0
+133.1833 	EXP 	surround_grating: phase = array([0.30077139, 0.30077139])
+133.1833 	EXP 	center_grating: ori = -2.0
+133.1833 	EXP 	center_grating: phase = array([0.74321172, 0.74321172])
+133.6755 	EXP 	surround_grating: autoDraw = True
+133.6755 	EXP 	center_grating: autoDraw = True
+133.7486 	EXP 	surround_grating: autoDraw = False
+133.7486 	EXP 	center_grating: autoDraw = False
+133.7486 	EXP 	text_3: autoDraw = True
+135.6655 	DATA 	Keypress: left
+135.6700 	INFO 	Keyboard events cleared
+135.6696 	EXP 	surround_grating: autoDraw = False
+135.6696 	EXP 	center_grating: autoDraw = False
+135.6696 	EXP 	text_3: autoDraw = False
+135.6696 	EXP 	surround_grating: ori = 30.0
+135.6696 	EXP 	surround_grating: phase = array([0.87166658, 0.87166658])
+135.6696 	EXP 	center_grating: ori = 1.5
+135.6696 	EXP 	center_grating: phase = array([0.53933261, 0.53933261])
+136.1580 	EXP 	surround_grating: autoDraw = True
+136.1580 	EXP 	center_grating: autoDraw = True
+136.2298 	EXP 	surround_grating: autoDraw = False
+136.2298 	EXP 	center_grating: autoDraw = False
+136.2298 	EXP 	text_3: autoDraw = True
+136.8288 	DATA 	Keypress: right
+136.8320 	INFO 	Keyboard events cleared
+136.8317 	EXP 	surround_grating: autoDraw = False
+136.8317 	EXP 	center_grating: autoDraw = False
+136.8317 	EXP 	text_3: autoDraw = False
+136.8317 	EXP 	surround_grating: ori = 69.0
+136.8317 	EXP 	surround_grating: phase = array([0.94254107, 0.94254107])
+136.8317 	EXP 	center_grating: ori = 0.5
+136.8317 	EXP 	center_grating: phase = array([0.86775427, 0.86775427])
+137.3254 	EXP 	surround_grating: autoDraw = True
+137.3254 	EXP 	center_grating: autoDraw = True
+137.3984 	EXP 	surround_grating: autoDraw = False
+137.3984 	EXP 	center_grating: autoDraw = False
+137.3984 	EXP 	text_3: autoDraw = True
+137.9384 	DATA 	Keypress: right
+137.9596 	INFO 	Keyboard events cleared
+137.9592 	EXP 	surround_grating: autoDraw = False
+137.9592 	EXP 	center_grating: autoDraw = False
+137.9592 	EXP 	text_3: autoDraw = False
+137.9592 	EXP 	surround_grating: ori = 69.0
+137.9592 	EXP 	surround_grating: phase = array([0.98800894, 0.98800894])
+137.9592 	EXP 	center_grating: ori = 0.5
+137.9592 	EXP 	center_grating: phase = array([0.15312845, 0.15312845])
+138.4321 	EXP 	surround_grating: autoDraw = True
+138.4321 	EXP 	center_grating: autoDraw = True
+138.5082 	EXP 	surround_grating: autoDraw = False
+138.5082 	EXP 	center_grating: autoDraw = False
+138.5082 	EXP 	text_3: autoDraw = True
+139.0372 	DATA 	Keypress: right
+139.0420 	INFO 	Keyboard events cleared
+139.0416 	EXP 	surround_grating: autoDraw = False
+139.0416 	EXP 	center_grating: autoDraw = False
+139.0416 	EXP 	text_3: autoDraw = False
+139.0416 	EXP 	surround_grating: ori = 30.0
+139.0416 	EXP 	surround_grating: phase = array([0.38040962, 0.38040962])
+139.0416 	EXP 	center_grating: ori = 1.0
+139.0416 	EXP 	center_grating: phase = array([0.82383017, 0.82383017])
+139.5344 	EXP 	surround_grating: autoDraw = True
+139.5344 	EXP 	center_grating: autoDraw = True
+139.6094 	EXP 	surround_grating: autoDraw = False
+139.6094 	EXP 	center_grating: autoDraw = False
+139.6094 	EXP 	text_3: autoDraw = True
+141.9819 	DATA 	Keypress: right
+141.9866 	INFO 	Keyboard events cleared
+141.9863 	EXP 	surround_grating: autoDraw = False
+141.9863 	EXP 	center_grating: autoDraw = False
+141.9863 	EXP 	text_3: autoDraw = False
+141.9863 	EXP 	surround_grating: ori = -30.0
+141.9863 	EXP 	surround_grating: phase = array([0.10833908, 0.10833908])
+141.9863 	EXP 	center_grating: ori = -1.0
+141.9863 	EXP 	center_grating: phase = array([0.34097593, 0.34097593])
+142.4746 	EXP 	surround_grating: autoDraw = True
+142.4746 	EXP 	center_grating: autoDraw = True
+142.5493 	EXP 	surround_grating: autoDraw = False
+142.5493 	EXP 	center_grating: autoDraw = False
+142.5493 	EXP 	text_3: autoDraw = True
+143.0330 	DATA 	Keypress: right
+143.0376 	INFO 	Keyboard events cleared
+143.0372 	EXP 	surround_grating: autoDraw = False
+143.0372 	EXP 	center_grating: autoDraw = False
+143.0372 	EXP 	text_3: autoDraw = False
+143.0372 	EXP 	surround_grating: ori = 69.0
+143.0372 	EXP 	surround_grating: phase = array([0.73047132, 0.73047132])
+143.0372 	EXP 	center_grating: ori = 0.0
+143.0372 	EXP 	center_grating: phase = array([0.6236684, 0.6236684])
+143.5247 	EXP 	surround_grating: autoDraw = True
+143.5247 	EXP 	center_grating: autoDraw = True
+143.5986 	EXP 	surround_grating: autoDraw = False
+143.5986 	EXP 	center_grating: autoDraw = False
+143.5986 	EXP 	text_3: autoDraw = True
+145.0479 	DATA 	Keypress: left
+145.0523 	INFO 	Keyboard events cleared
+145.0520 	EXP 	surround_grating: autoDraw = False
+145.0520 	EXP 	center_grating: autoDraw = False
+145.0520 	EXP 	text_3: autoDraw = False
+145.0520 	EXP 	surround_grating: ori = 30.0
+145.0520 	EXP 	surround_grating: phase = array([0.83187001, 0.83187001])
+145.0520 	EXP 	center_grating: ori = 0.5
+145.0520 	EXP 	center_grating: phase = array([0.79967154, 0.79967154])
+145.5412 	EXP 	surround_grating: autoDraw = True
+145.5412 	EXP 	center_grating: autoDraw = True
+145.6156 	EXP 	surround_grating: autoDraw = False
+145.6156 	EXP 	center_grating: autoDraw = False
+145.6156 	EXP 	text_3: autoDraw = True
+146.0163 	DATA 	Keypress: left
+146.0205 	INFO 	Keyboard events cleared
+146.0201 	EXP 	surround_grating: autoDraw = False
+146.0201 	EXP 	center_grating: autoDraw = False
+146.0201 	EXP 	text_3: autoDraw = False
+146.0201 	EXP 	surround_grating: ori = -30.0
+146.0201 	EXP 	surround_grating: phase = array([0.94288089, 0.94288089])
+146.0201 	EXP 	center_grating: ori = -1.5
+146.0201 	EXP 	center_grating: phase = array([0.00886651, 0.00886651])
+146.5082 	EXP 	surround_grating: autoDraw = True
+146.5082 	EXP 	center_grating: autoDraw = True
+146.5790 	EXP 	surround_grating: autoDraw = False
+146.5790 	EXP 	center_grating: autoDraw = False
+146.5920 	EXP 	text_3: autoDraw = True
+147.1494 	DATA 	Keypress: right
+147.1540 	INFO 	Keyboard events cleared
+147.1537 	EXP 	surround_grating: autoDraw = False
+147.1537 	EXP 	center_grating: autoDraw = False
+147.1537 	EXP 	text_3: autoDraw = False
+147.1537 	EXP 	surround_grating: ori = 30.0
+147.1537 	EXP 	surround_grating: phase = array([0.70141761, 0.70141761])
+147.1537 	EXP 	center_grating: ori = 1.0
+147.1537 	EXP 	center_grating: phase = array([0.04405226, 0.04405226])
+147.6429 	EXP 	surround_grating: autoDraw = True
+147.6429 	EXP 	center_grating: autoDraw = True
+147.7158 	EXP 	surround_grating: autoDraw = False
+147.7158 	EXP 	center_grating: autoDraw = False
+147.7158 	EXP 	text_3: autoDraw = True
+148.5308 	DATA 	Keypress: right
+148.5356 	INFO 	Keyboard events cleared
+148.5352 	EXP 	surround_grating: autoDraw = False
+148.5352 	EXP 	center_grating: autoDraw = False
+148.5352 	EXP 	text_3: autoDraw = False
+148.5352 	EXP 	surround_grating: ori = 69.0
+148.5352 	EXP 	surround_grating: phase = array([0.38057484, 0.38057484])
+148.5352 	EXP 	center_grating: ori = 0.0
+148.5352 	EXP 	center_grating: phase = array([0.10759615, 0.10759615])
+149.0247 	EXP 	surround_grating: autoDraw = True
+149.0247 	EXP 	center_grating: autoDraw = True
+149.0989 	EXP 	surround_grating: autoDraw = False
+149.0989 	EXP 	center_grating: autoDraw = False
+149.0989 	EXP 	text_3: autoDraw = True
+149.7639 	DATA 	Keypress: left
+149.7759 	INFO 	Keyboard events cleared
+149.7754 	EXP 	surround_grating: autoDraw = False
+149.7754 	EXP 	center_grating: autoDraw = False
+149.7754 	EXP 	text_3: autoDraw = False
+149.7754 	EXP 	surround_grating: ori = -30.0
+149.7754 	EXP 	surround_grating: phase = array([0.18582496, 0.18582496])
+149.7754 	EXP 	center_grating: ori = -1.5
+149.7754 	EXP 	center_grating: phase = array([0.62559246, 0.62559246])
+150.2676 	EXP 	surround_grating: autoDraw = True
+150.2676 	EXP 	center_grating: autoDraw = True
+150.3427 	EXP 	surround_grating: autoDraw = False
+150.3427 	EXP 	center_grating: autoDraw = False
+150.3488 	EXP 	text_3: autoDraw = True
+151.2151 	DATA 	Keypress: right
+151.2261 	INFO 	Keyboard events cleared
+151.2257 	EXP 	surround_grating: autoDraw = False
+151.2257 	EXP 	center_grating: autoDraw = False
+151.2257 	EXP 	text_3: autoDraw = False
+151.2257 	EXP 	surround_grating: ori = -30.0
+151.2257 	EXP 	surround_grating: phase = array([0.82876838, 0.82876838])
+151.2257 	EXP 	center_grating: ori = -2.0
+151.2257 	EXP 	center_grating: phase = array([0.1703041, 0.1703041])
+151.7179 	EXP 	surround_grating: autoDraw = True
+151.7179 	EXP 	center_grating: autoDraw = True
+151.7928 	EXP 	surround_grating: autoDraw = False
+151.7928 	EXP 	center_grating: autoDraw = False
+151.7990 	EXP 	text_3: autoDraw = True
+152.5162 	DATA 	Keypress: right
+152.5210 	INFO 	Keyboard events cleared
+152.5206 	EXP 	surround_grating: autoDraw = False
+152.5206 	EXP 	center_grating: autoDraw = False
+152.5206 	EXP 	text_3: autoDraw = False
+152.5206 	EXP 	surround_grating: ori = -30.0
+152.5206 	EXP 	surround_grating: phase = array([0.21006763, 0.21006763])
+152.5206 	EXP 	center_grating: ori = -2.0
+152.5206 	EXP 	center_grating: phase = array([0.21509169, 0.21509169])
+153.0082 	EXP 	surround_grating: autoDraw = True
+153.0082 	EXP 	center_grating: autoDraw = True
+153.0819 	EXP 	surround_grating: autoDraw = False
+153.0819 	EXP 	center_grating: autoDraw = False
+153.0819 	EXP 	text_3: autoDraw = True
+153.7382 	DATA 	Keypress: right
+153.7429 	INFO 	Keyboard events cleared
+153.7425 	EXP 	surround_grating: autoDraw = False
+153.7425 	EXP 	center_grating: autoDraw = False
+153.7425 	EXP 	text_3: autoDraw = False
+153.7425 	EXP 	surround_grating: ori = 69.0
+153.7425 	EXP 	surround_grating: phase = array([0.39901001, 0.39901001])
+153.7425 	EXP 	center_grating: ori = 0.5
+153.7425 	EXP 	center_grating: phase = array([0.67596926, 0.67596926])
+154.2339 	EXP 	surround_grating: autoDraw = True
+154.2339 	EXP 	center_grating: autoDraw = True
+154.3094 	EXP 	surround_grating: autoDraw = False
+154.3094 	EXP 	center_grating: autoDraw = False
+154.3094 	EXP 	text_3: autoDraw = True
+156.8042 	DATA 	Keypress: right
+156.8089 	INFO 	Keyboard events cleared
+156.8086 	EXP 	surround_grating: autoDraw = False
+156.8086 	EXP 	center_grating: autoDraw = False
+156.8086 	EXP 	text_3: autoDraw = False
+156.8086 	EXP 	surround_grating: ori = 30.0
+156.8086 	EXP 	surround_grating: phase = array([0.86041977, 0.86041977])
+156.8086 	EXP 	center_grating: ori = 1.0
+156.8086 	EXP 	center_grating: phase = array([0.4929687, 0.4929687])
+157.3014 	EXP 	surround_grating: autoDraw = True
+157.3014 	EXP 	center_grating: autoDraw = True
+157.3761 	EXP 	surround_grating: autoDraw = False
+157.3761 	EXP 	center_grating: autoDraw = False
+157.3761 	EXP 	text_3: autoDraw = True
+157.8148 	DATA 	Keypress: left
+157.8258 	INFO 	Keyboard events cleared
+157.8253 	EXP 	surround_grating: autoDraw = False
+157.8253 	EXP 	center_grating: autoDraw = False
+157.8253 	EXP 	text_3: autoDraw = False
+157.8253 	EXP 	surround_grating: ori = 69.0
+157.8253 	EXP 	surround_grating: phase = array([0.61176101, 0.61176101])
+157.8253 	EXP 	center_grating: ori = 0.5
+157.8253 	EXP 	center_grating: phase = array([0.9178186, 0.9178186])
+158.3180 	EXP 	surround_grating: autoDraw = True
+158.3180 	EXP 	center_grating: autoDraw = True
+158.3927 	EXP 	surround_grating: autoDraw = False
+158.3927 	EXP 	center_grating: autoDraw = False
+158.3991 	EXP 	text_3: autoDraw = True
+161.0156 	DATA 	Keypress: left
+161.0205 	INFO 	Keyboard events cleared
+161.0200 	EXP 	surround_grating: autoDraw = False
+161.0200 	EXP 	center_grating: autoDraw = False
+161.0200 	EXP 	text_3: autoDraw = False
+161.0200 	EXP 	surround_grating: ori = 30.0
+161.0200 	EXP 	surround_grating: phase = array([0.80669574, 0.80669574])
+161.0200 	EXP 	center_grating: ori = 0.5
+161.0200 	EXP 	center_grating: phase = array([0.97827447, 0.97827447])
+161.5079 	EXP 	surround_grating: autoDraw = True
+161.5079 	EXP 	center_grating: autoDraw = True
+161.5821 	EXP 	surround_grating: autoDraw = False
+161.5821 	EXP 	center_grating: autoDraw = False
+161.5821 	EXP 	text_3: autoDraw = True
+162.1482 	DATA 	Keypress: left
+162.1528 	INFO 	Keyboard events cleared
+162.1523 	EXP 	surround_grating: autoDraw = False
+162.1523 	EXP 	center_grating: autoDraw = False
+162.1523 	EXP 	text_3: autoDraw = False
+162.1523 	EXP 	surround_grating: ori = 30.0
+162.1523 	EXP 	surround_grating: phase = array([0.31220433, 0.31220433])
+162.1523 	EXP 	center_grating: ori = 1.0
+162.1523 	EXP 	center_grating: phase = array([0.21486811, 0.21486811])
+162.6421 	EXP 	surround_grating: autoDraw = True
+162.6421 	EXP 	center_grating: autoDraw = True
+162.7153 	EXP 	surround_grating: autoDraw = False
+162.7153 	EXP 	center_grating: autoDraw = False
+162.7153 	EXP 	text_3: autoDraw = True
+163.2826 	DATA 	Keypress: left
+163.2872 	INFO 	Keyboard events cleared
+163.2868 	EXP 	surround_grating: autoDraw = False
+163.2868 	EXP 	center_grating: autoDraw = False
+163.2868 	EXP 	text_3: autoDraw = False
+163.2868 	EXP 	surround_grating: ori = -30.0
+163.2868 	EXP 	surround_grating: phase = array([0.06701696, 0.06701696])
+163.2868 	EXP 	center_grating: ori = -2.5
+163.2868 	EXP 	center_grating: phase = array([0.54464635, 0.54464635])
+163.7745 	EXP 	surround_grating: autoDraw = True
+163.7745 	EXP 	center_grating: autoDraw = True
+163.8486 	EXP 	surround_grating: autoDraw = False
+163.8486 	EXP 	center_grating: autoDraw = False
+163.8486 	EXP 	text_3: autoDraw = True
+164.4358 	DATA 	Keypress: left
+164.4417 	INFO 	Keyboard events cleared
+164.4413 	EXP 	surround_grating: autoDraw = False
+164.4413 	EXP 	center_grating: autoDraw = False
+164.4413 	EXP 	text_3: autoDraw = False
+164.4413 	EXP 	surround_grating: ori = 30.0
+164.4413 	EXP 	surround_grating: phase = array([0.40351132, 0.40351132])
+164.4413 	EXP 	center_grating: ori = 1.5
+164.4413 	EXP 	center_grating: phase = array([0.46545981, 0.46545981])
+164.9252 	EXP 	surround_grating: autoDraw = True
+164.9252 	EXP 	center_grating: autoDraw = True
+164.9989 	EXP 	surround_grating: autoDraw = False
+164.9989 	EXP 	center_grating: autoDraw = False
+165.0095 	EXP 	text_3: autoDraw = True
+165.6323 	DATA 	Keypress: left
+165.6369 	INFO 	Keyboard events cleared
+165.6364 	EXP 	surround_grating: autoDraw = False
+165.6364 	EXP 	center_grating: autoDraw = False
+165.6364 	EXP 	text_3: autoDraw = False
+165.6364 	EXP 	surround_grating: ori = 69.0
+165.6364 	EXP 	surround_grating: phase = array([0.0981, 0.0981])
+165.6364 	EXP 	center_grating: ori = 0.0
+165.6364 	EXP 	center_grating: phase = array([0.83016526, 0.83016526])
+166.1254 	EXP 	surround_grating: autoDraw = True
+166.1254 	EXP 	center_grating: autoDraw = True
+166.1988 	EXP 	surround_grating: autoDraw = False
+166.1988 	EXP 	center_grating: autoDraw = False
+166.1988 	EXP 	text_3: autoDraw = True
+168.2814 	DATA 	Keypress: left
+168.2858 	INFO 	Keyboard events cleared
+168.2854 	EXP 	surround_grating: autoDraw = False
+168.2854 	EXP 	center_grating: autoDraw = False
+168.2854 	EXP 	text_3: autoDraw = False
+168.2854 	EXP 	surround_grating: ori = -30.0
+168.2854 	EXP 	surround_grating: phase = array([0.30838872, 0.30838872])
+168.2854 	EXP 	center_grating: ori = -2.5
+168.2854 	EXP 	center_grating: phase = array([0.8725851, 0.8725851])
+168.7746 	EXP 	surround_grating: autoDraw = True
+168.7746 	EXP 	center_grating: autoDraw = True
+168.8486 	EXP 	surround_grating: autoDraw = False
+168.8486 	EXP 	center_grating: autoDraw = False
+168.8486 	EXP 	text_3: autoDraw = True
+169.4711 	DATA 	Keypress: left
+169.4760 	INFO 	Keyboard events cleared
+169.4756 	EXP 	surround_grating: autoDraw = False
+169.4756 	EXP 	center_grating: autoDraw = False
+169.4756 	EXP 	text_3: autoDraw = False
+169.4756 	EXP 	surround_grating: ori = 69.0
+169.4756 	EXP 	surround_grating: phase = array([0.9906899, 0.9906899])
+169.4756 	EXP 	center_grating: ori = 1.0
+169.4756 	EXP 	center_grating: phase = array([0.9969638, 0.9969638])
+169.9679 	EXP 	surround_grating: autoDraw = True
+169.9679 	EXP 	center_grating: autoDraw = True
+170.0424 	EXP 	surround_grating: autoDraw = False
+170.0424 	EXP 	center_grating: autoDraw = False
+170.0424 	EXP 	text_3: autoDraw = True
+170.6515 	DATA 	Keypress: right
+170.6587 	INFO 	Keyboard events cleared
+170.6582 	EXP 	surround_grating: autoDraw = False
+170.6582 	EXP 	center_grating: autoDraw = False
+170.6582 	EXP 	text_3: autoDraw = False
+170.6582 	EXP 	surround_grating: ori = 30.0
+170.6582 	EXP 	surround_grating: phase = array([0.38892459, 0.38892459])
+170.6582 	EXP 	center_grating: ori = 2.0
+170.6582 	EXP 	center_grating: phase = array([0.55732313, 0.55732313])
+171.1414 	EXP 	surround_grating: autoDraw = True
+171.1414 	EXP 	center_grating: autoDraw = True
+171.2152 	EXP 	surround_grating: autoDraw = False
+171.2152 	EXP 	center_grating: autoDraw = False
+171.2261 	EXP 	text_3: autoDraw = True
+172.0869 	DATA 	Keypress: right
+172.0917 	INFO 	Keyboard events cleared
+172.0913 	EXP 	surround_grating: autoDraw = False
+172.0913 	EXP 	center_grating: autoDraw = False
+172.0913 	EXP 	text_3: autoDraw = False
+172.0913 	EXP 	surround_grating: ori = 69.0
+172.0913 	EXP 	surround_grating: phase = array([0.23088361, 0.23088361])
+172.0913 	EXP 	center_grating: ori = 0.5
+172.0913 	EXP 	center_grating: phase = array([0.34742052, 0.34742052])
+172.5745 	EXP 	surround_grating: autoDraw = True
+172.5745 	EXP 	center_grating: autoDraw = True
+172.6475 	EXP 	surround_grating: autoDraw = False
+172.6475 	EXP 	center_grating: autoDraw = False
+172.6593 	EXP 	text_3: autoDraw = True
+173.2707 	DATA 	Keypress: right
+173.2754 	INFO 	Keyboard events cleared
+173.2750 	EXP 	surround_grating: autoDraw = False
+173.2750 	EXP 	center_grating: autoDraw = False
+173.2750 	EXP 	text_3: autoDraw = False
+173.2750 	EXP 	surround_grating: ori = 69.0
+173.2750 	EXP 	surround_grating: phase = array([0.91898134, 0.91898134])
+173.2750 	EXP 	center_grating: ori = 0.5
+173.2750 	EXP 	center_grating: phase = array([0.77469504, 0.77469504])
+173.7650 	EXP 	surround_grating: autoDraw = True
+173.7650 	EXP 	center_grating: autoDraw = True
+173.8413 	EXP 	surround_grating: autoDraw = False
+173.8413 	EXP 	center_grating: autoDraw = False
+173.8413 	EXP 	text_3: autoDraw = True
+175.6324 	DATA 	Keypress: left
+175.6371 	INFO 	Keyboard events cleared
+175.6367 	EXP 	surround_grating: autoDraw = False
+175.6367 	EXP 	center_grating: autoDraw = False
+175.6367 	EXP 	text_3: autoDraw = False
+175.6367 	EXP 	surround_grating: ori = 30.0
+175.6367 	EXP 	surround_grating: phase = array([0.15660031, 0.15660031])
+175.6367 	EXP 	center_grating: ori = 1.5
+175.6367 	EXP 	center_grating: phase = array([0.92539838, 0.92539838])
+176.1254 	EXP 	surround_grating: autoDraw = True
+176.1254 	EXP 	center_grating: autoDraw = True
+176.1992 	EXP 	surround_grating: autoDraw = False
+176.1992 	EXP 	center_grating: autoDraw = False
+176.1992 	EXP 	text_3: autoDraw = True
+177.0463 	DATA 	Keypress: right
+177.0498 	INFO 	Keyboard events cleared
+177.0494 	EXP 	surround_grating: autoDraw = False
+177.0494 	EXP 	center_grating: autoDraw = False
+177.0494 	EXP 	text_3: autoDraw = False
+177.0494 	EXP 	surround_grating: ori = -30.0
+177.0494 	EXP 	surround_grating: phase = array([0.42922624, 0.42922624])
+177.0494 	EXP 	center_grating: ori = -2.0
+177.0494 	EXP 	center_grating: phase = array([0.75445093, 0.75445093])
+177.5413 	EXP 	surround_grating: autoDraw = True
+177.5413 	EXP 	center_grating: autoDraw = True
+177.6152 	EXP 	surround_grating: autoDraw = False
+177.6152 	EXP 	center_grating: autoDraw = False
+177.6152 	EXP 	text_3: autoDraw = True
+178.1045 	DATA 	Keypress: right
+178.1092 	INFO 	Keyboard events cleared
+178.1088 	EXP 	surround_grating: autoDraw = False
+178.1088 	EXP 	center_grating: autoDraw = False
+178.1088 	EXP 	text_3: autoDraw = False
+178.1088 	EXP 	surround_grating: ori = -30.0
+178.1088 	EXP 	surround_grating: phase = array([0.87177133, 0.87177133])
+178.1088 	EXP 	center_grating: ori = -2.0
+178.1088 	EXP 	center_grating: phase = array([0.20056142, 0.20056142])
+178.6011 	EXP 	surround_grating: autoDraw = True
+178.6011 	EXP 	center_grating: autoDraw = True
+178.6759 	EXP 	surround_grating: autoDraw = False
+178.6759 	EXP 	center_grating: autoDraw = False
+178.6759 	EXP 	text_3: autoDraw = True
+179.7703 	DATA 	Keypress: right
+179.7750 	INFO 	Keyboard events cleared
+179.7747 	EXP 	surround_grating: autoDraw = False
+179.7747 	EXP 	center_grating: autoDraw = False
+179.7747 	EXP 	text_3: autoDraw = False
+179.7747 	EXP 	surround_grating: ori = 69.0
+179.7747 	EXP 	surround_grating: phase = array([0.95744684, 0.95744684])
+179.7747 	EXP 	center_grating: ori = 1.0
+179.7747 	EXP 	center_grating: phase = array([0.40091095, 0.40091095])
+180.2674 	EXP 	surround_grating: autoDraw = True
+180.2674 	EXP 	center_grating: autoDraw = True
+180.3428 	EXP 	surround_grating: autoDraw = False
+180.3428 	EXP 	center_grating: autoDraw = False
+180.3428 	EXP 	text_3: autoDraw = True
+180.8649 	DATA 	Keypress: right
+180.8696 	INFO 	Keyboard events cleared
+180.8692 	EXP 	surround_grating: autoDraw = False
+180.8692 	EXP 	center_grating: autoDraw = False
+180.8692 	EXP 	text_3: autoDraw = False
+180.8692 	EXP 	surround_grating: ori = -30.0
+180.8692 	EXP 	surround_grating: phase = array([0.18520129, 0.18520129])
+180.8692 	EXP 	center_grating: ori = -2.5
+180.8692 	EXP 	center_grating: phase = array([0.54297587, 0.54297587])
+181.3589 	EXP 	surround_grating: autoDraw = True
+181.3589 	EXP 	center_grating: autoDraw = True
+181.4297 	EXP 	surround_grating: autoDraw = False
+181.4297 	EXP 	center_grating: autoDraw = False
+181.4297 	EXP 	text_3: autoDraw = True
+182.0986 	DATA 	Keypress: left
+182.1031 	INFO 	Keyboard events cleared
+182.1028 	EXP 	surround_grating: autoDraw = False
+182.1028 	EXP 	center_grating: autoDraw = False
+182.1028 	EXP 	text_3: autoDraw = False
+182.1028 	EXP 	surround_grating: ori = 30.0
+182.1028 	EXP 	surround_grating: phase = array([0.81617021, 0.81617021])
+182.1028 	EXP 	center_grating: ori = 1.0
+182.1028 	EXP 	center_grating: phase = array([0.15009658, 0.15009658])
+182.5914 	EXP 	surround_grating: autoDraw = True
+182.5914 	EXP 	center_grating: autoDraw = True
+182.6659 	EXP 	surround_grating: autoDraw = False
+182.6659 	EXP 	center_grating: autoDraw = False
+182.6659 	EXP 	text_3: autoDraw = True
+183.3209 	DATA 	Keypress: right
+183.3257 	INFO 	Keyboard events cleared
+183.3253 	EXP 	surround_grating: autoDraw = False
+183.3253 	EXP 	center_grating: autoDraw = False
+183.3253 	EXP 	text_3: autoDraw = False
+183.3253 	EXP 	surround_grating: ori = -30.0
+183.3253 	EXP 	surround_grating: phase = array([0.47237055, 0.47237055])
+183.3253 	EXP 	center_grating: ori = -2.5
+183.3253 	EXP 	center_grating: phase = array([0.1092051, 0.1092051])
+183.8174 	EXP 	surround_grating: autoDraw = True
+183.8174 	EXP 	center_grating: autoDraw = True
+183.8923 	EXP 	surround_grating: autoDraw = False
+183.8923 	EXP 	center_grating: autoDraw = False
+183.8923 	EXP 	text_3: autoDraw = True
+184.6660 	DATA 	Keypress: left
+184.6707 	INFO 	Keyboard events cleared
+184.6703 	EXP 	surround_grating: autoDraw = False
+184.6703 	EXP 	center_grating: autoDraw = False
+184.6703 	EXP 	text_3: autoDraw = False
+184.6703 	EXP 	surround_grating: ori = 69.0
+184.6703 	EXP 	surround_grating: phase = array([0.11048946, 0.11048946])
+184.6703 	EXP 	center_grating: ori = 0.0
+184.6703 	EXP 	center_grating: phase = array([0.37765571, 0.37765571])
+185.1579 	EXP 	surround_grating: autoDraw = True
+185.1579 	EXP 	center_grating: autoDraw = True
+185.2325 	EXP 	surround_grating: autoDraw = False
+185.2325 	EXP 	center_grating: autoDraw = False
+185.2325 	EXP 	text_3: autoDraw = True
+189.2641 	DATA 	Keypress: left
+189.2687 	INFO 	Keyboard events cleared
+189.2683 	EXP 	surround_grating: autoDraw = False
+189.2683 	EXP 	center_grating: autoDraw = False
+189.2683 	EXP 	text_3: autoDraw = False
+189.2683 	EXP 	surround_grating: ori = 30.0
+189.2683 	EXP 	surround_grating: phase = array([0.50144167, 0.50144167])
+189.2683 	EXP 	center_grating: ori = 1.5
+189.2683 	EXP 	center_grating: phase = array([0.328865, 0.328865])
+189.7507 	EXP 	surround_grating: autoDraw = True
+189.7507 	EXP 	center_grating: autoDraw = True
+189.8260 	EXP 	surround_grating: autoDraw = False
+189.8260 	EXP 	center_grating: autoDraw = False
+189.8318 	EXP 	text_3: autoDraw = True
+190.3650 	DATA 	Keypress: right
+190.3760 	INFO 	Keyboard events cleared
+190.3756 	EXP 	surround_grating: autoDraw = False
+190.3756 	EXP 	center_grating: autoDraw = False
+190.3756 	EXP 	text_3: autoDraw = False
+190.3756 	EXP 	surround_grating: ori = 30.0
+190.3756 	EXP 	surround_grating: phase = array([0.16684313, 0.16684313])
+190.3756 	EXP 	center_grating: ori = 1.0
+190.3756 	EXP 	center_grating: phase = array([0.57301927, 0.57301927])
+190.8674 	EXP 	surround_grating: autoDraw = True
+190.8674 	EXP 	center_grating: autoDraw = True
+190.9479 	EXP 	surround_grating: autoDraw = False
+190.9479 	EXP 	center_grating: autoDraw = False
+190.9479 	EXP 	text_3: autoDraw = True
+193.9482 	DATA 	Keypress: left
+193.9593 	INFO 	Keyboard events cleared
+193.9589 	EXP 	surround_grating: autoDraw = False
+193.9589 	EXP 	center_grating: autoDraw = False
+193.9589 	EXP 	text_3: autoDraw = False
+193.9589 	EXP 	surround_grating: ori = 69.0
+193.9589 	EXP 	surround_grating: phase = array([0.5800109, 0.5800109])
+193.9589 	EXP 	center_grating: ori = 0.5
+193.9589 	EXP 	center_grating: phase = array([0.2508622, 0.2508622])
+194.4504 	EXP 	surround_grating: autoDraw = True
+194.4504 	EXP 	center_grating: autoDraw = True
+194.5260 	EXP 	surround_grating: autoDraw = False
+194.5260 	EXP 	center_grating: autoDraw = False
+194.5319 	EXP 	text_3: autoDraw = True
+194.9805 	DATA 	Keypress: right
+194.9851 	INFO 	Keyboard events cleared
+194.9847 	EXP 	surround_grating: autoDraw = False
+194.9847 	EXP 	center_grating: autoDraw = False
+194.9847 	EXP 	text_3: autoDraw = False
+194.9847 	EXP 	surround_grating: ori = 69.0
+194.9847 	EXP 	surround_grating: phase = array([0.65770163, 0.65770163])
+194.9847 	EXP 	center_grating: ori = 0.5
+194.9847 	EXP 	center_grating: phase = array([0.7008977, 0.7008977])
+195.4745 	EXP 	surround_grating: autoDraw = True
+195.4745 	EXP 	center_grating: autoDraw = True
+195.5492 	EXP 	surround_grating: autoDraw = False
+195.5492 	EXP 	center_grating: autoDraw = False
+195.5492 	EXP 	text_3: autoDraw = True
+196.2552 	DATA 	Keypress: right
+196.2593 	INFO 	Keyboard events cleared
+196.2589 	EXP 	surround_grating: autoDraw = False
+196.2589 	EXP 	center_grating: autoDraw = False
+196.2589 	EXP 	text_3: autoDraw = False
+196.2589 	EXP 	surround_grating: ori = -30.0
+196.2589 	EXP 	surround_grating: phase = array([0.4269088, 0.4269088])
+196.2589 	EXP 	center_grating: ori = -2.0
+196.2589 	EXP 	center_grating: phase = array([0.6017201, 0.6017201])
+196.7493 	EXP 	surround_grating: autoDraw = True
+196.7493 	EXP 	center_grating: autoDraw = True
+196.8247 	EXP 	surround_grating: autoDraw = False
+196.8247 	EXP 	center_grating: autoDraw = False
+196.8300 	EXP 	text_3: autoDraw = True
+197.4139 	DATA 	Keypress: right
+197.4178 	INFO 	Keyboard events cleared
+197.4174 	EXP 	surround_grating: autoDraw = False
+197.4174 	EXP 	center_grating: autoDraw = False
+197.4174 	EXP 	text_3: autoDraw = False
+197.4174 	EXP 	surround_grating: ori = -30.0
+197.4174 	EXP 	surround_grating: phase = array([0.2485574, 0.2485574])
+197.4174 	EXP 	center_grating: ori = -2.0
+197.4174 	EXP 	center_grating: phase = array([0.81290096, 0.81290096])
+197.9080 	EXP 	surround_grating: autoDraw = True
+197.9080 	EXP 	center_grating: autoDraw = True
+197.9828 	EXP 	surround_grating: autoDraw = False
+197.9828 	EXP 	center_grating: autoDraw = False
+197.9828 	EXP 	text_3: autoDraw = True
+200.5155 	DATA 	Keypress: left
+200.5202 	INFO 	Keyboard events cleared
+200.5198 	EXP 	surround_grating: autoDraw = False
+200.5198 	EXP 	center_grating: autoDraw = False
+200.5198 	EXP 	text_3: autoDraw = False
+200.5198 	EXP 	surround_grating: ori = 30.0
+200.5198 	EXP 	surround_grating: phase = array([0.15014515, 0.15014515])
+200.5198 	EXP 	center_grating: ori = 0.5
+200.5198 	EXP 	center_grating: phase = array([0.95595636, 0.95595636])
+201.0081 	EXP 	surround_grating: autoDraw = True
+201.0081 	EXP 	center_grating: autoDraw = True
+201.0805 	EXP 	surround_grating: autoDraw = False
+201.0805 	EXP 	center_grating: autoDraw = False
+201.0805 	EXP 	text_3: autoDraw = True
+201.7024 	DATA 	Keypress: left
+201.7080 	INFO 	Keyboard events cleared
+201.7077 	EXP 	surround_grating: autoDraw = False
+201.7077 	EXP 	center_grating: autoDraw = False
+201.7077 	EXP 	text_3: autoDraw = False
+201.7077 	EXP 	surround_grating: ori = -30.0
+201.7077 	EXP 	surround_grating: phase = array([0.42883513, 0.42883513])
+201.7077 	EXP 	center_grating: ori = -2.5
+201.7077 	EXP 	center_grating: phase = array([0.98856073, 0.98856073])
+202.1924 	EXP 	surround_grating: autoDraw = True
+202.1924 	EXP 	center_grating: autoDraw = True
+202.2647 	EXP 	surround_grating: autoDraw = False
+202.2647 	EXP 	center_grating: autoDraw = False
+202.2759 	EXP 	text_3: autoDraw = True
+206.2989 	DATA 	Keypress: right
+206.3036 	INFO 	Keyboard events cleared
+206.3031 	EXP 	surround_grating: autoDraw = False
+206.3031 	EXP 	center_grating: autoDraw = False
+206.3031 	EXP 	text_3: autoDraw = False
+206.3031 	EXP 	surround_grating: ori = 69.0
+206.3031 	EXP 	surround_grating: phase = array([0.17780565, 0.17780565])
+206.3031 	EXP 	center_grating: ori = 0.0
+206.3031 	EXP 	center_grating: phase = array([0.01309726, 0.01309726])
+206.7914 	EXP 	surround_grating: autoDraw = True
+206.7914 	EXP 	center_grating: autoDraw = True
+206.8631 	EXP 	surround_grating: autoDraw = False
+206.8631 	EXP 	center_grating: autoDraw = False
+206.8631 	EXP 	text_3: autoDraw = True
+208.8167 	DATA 	Keypress: right
+208.8215 	INFO 	Keyboard events cleared
+208.8210 	EXP 	surround_grating: autoDraw = False
+208.8210 	EXP 	center_grating: autoDraw = False
+208.8210 	EXP 	text_3: autoDraw = False
+208.8210 	EXP 	surround_grating: ori = 69.0
+208.8210 	EXP 	surround_grating: phase = array([0.44160578, 0.44160578])
+208.8210 	EXP 	center_grating: ori = 0.0
+208.8210 	EXP 	center_grating: phase = array([0.33123689, 0.33123689])
+209.3078 	EXP 	surround_grating: autoDraw = True
+209.3078 	EXP 	center_grating: autoDraw = True
+209.3821 	EXP 	surround_grating: autoDraw = False
+209.3821 	EXP 	center_grating: autoDraw = False
+209.3821 	EXP 	text_3: autoDraw = True
+210.8151 	DATA 	Keypress: left
+210.8198 	INFO 	Keyboard events cleared
+210.8194 	EXP 	surround_grating: autoDraw = False
+210.8194 	EXP 	center_grating: autoDraw = False
+210.8194 	EXP 	text_3: autoDraw = False
+210.8194 	EXP 	surround_grating: ori = 30.0
+210.8194 	EXP 	surround_grating: phase = array([0.06766458, 0.06766458])
+210.8194 	EXP 	center_grating: ori = 1.5
+210.8194 	EXP 	center_grating: phase = array([0.53232888, 0.53232888])
+211.3078 	EXP 	surround_grating: autoDraw = True
+211.3078 	EXP 	center_grating: autoDraw = True
+211.3824 	EXP 	surround_grating: autoDraw = False
+211.3824 	EXP 	center_grating: autoDraw = False
+211.3824 	EXP 	text_3: autoDraw = True
+212.2492 	DATA 	Keypress: left
+212.2538 	INFO 	Keyboard events cleared
+212.2534 	EXP 	surround_grating: autoDraw = False
+212.2534 	EXP 	center_grating: autoDraw = False
+212.2534 	EXP 	text_3: autoDraw = False
+212.2534 	EXP 	surround_grating: ori = -30.0
+212.2534 	EXP 	surround_grating: phase = array([0.19434046, 0.19434046])
+212.2534 	EXP 	center_grating: ori = -1.5
+212.2534 	EXP 	center_grating: phase = array([0.59000795, 0.59000795])
+212.7414 	EXP 	surround_grating: autoDraw = True
+212.7414 	EXP 	center_grating: autoDraw = True
+212.8138 	EXP 	surround_grating: autoDraw = False
+212.8138 	EXP 	center_grating: autoDraw = False
+212.8138 	EXP 	text_3: autoDraw = True
+213.5986 	DATA 	Keypress: right
+213.6033 	INFO 	Keyboard events cleared
+213.6029 	EXP 	surround_grating: autoDraw = False
+213.6029 	EXP 	center_grating: autoDraw = False
+213.6029 	EXP 	text_3: autoDraw = False
+213.6029 	EXP 	surround_grating: ori = 30.0
+213.6029 	EXP 	surround_grating: phase = array([0.61525792, 0.61525792])
+213.6029 	EXP 	center_grating: ori = 1.0
+213.6029 	EXP 	center_grating: phase = array([0.58498703, 0.58498703])
+214.0922 	EXP 	surround_grating: autoDraw = True
+214.0922 	EXP 	center_grating: autoDraw = True
+214.1652 	EXP 	surround_grating: autoDraw = False
+214.1652 	EXP 	center_grating: autoDraw = False
+214.1652 	EXP 	text_3: autoDraw = True
+218.1798 	DATA 	Keypress: right
+218.1915 	INFO 	Keyboard events cleared
+218.1911 	EXP 	surround_grating: autoDraw = False
+218.1911 	EXP 	center_grating: autoDraw = False
+218.1911 	EXP 	text_3: autoDraw = False
+218.1911 	EXP 	surround_grating: ori = 69.0
+218.1911 	EXP 	surround_grating: phase = array([0.2959721, 0.2959721])
+218.1911 	EXP 	center_grating: ori = 0.5
+218.1911 	EXP 	center_grating: phase = array([0.61674801, 0.61674801])
+218.6846 	EXP 	surround_grating: autoDraw = True
+218.6846 	EXP 	center_grating: autoDraw = True
+218.7592 	EXP 	surround_grating: autoDraw = False
+218.7592 	EXP 	center_grating: autoDraw = False
+218.7592 	EXP 	text_3: autoDraw = True
+219.5708 	DATA 	Keypress: right
+219.5755 	INFO 	Keyboard events cleared
+219.5751 	EXP 	surround_grating: autoDraw = False
+219.5751 	EXP 	center_grating: autoDraw = False
+219.5751 	EXP 	text_3: autoDraw = False
+219.5751 	EXP 	surround_grating: ori = -30.0
+219.5751 	EXP 	surround_grating: phase = array([0.60158433, 0.60158433])
+219.5751 	EXP 	center_grating: ori = -2.0
+219.5751 	EXP 	center_grating: phase = array([0.75890566, 0.75890566])
+220.0675 	EXP 	surround_grating: autoDraw = True
+220.0675 	EXP 	center_grating: autoDraw = True
+220.1425 	EXP 	surround_grating: autoDraw = False
+220.1425 	EXP 	center_grating: autoDraw = False
+220.1425 	EXP 	text_3: autoDraw = True
+221.0978 	DATA 	Keypress: right
+221.1087 	INFO 	Keyboard events cleared
+221.1083 	EXP 	surround_grating: autoDraw = False
+221.1083 	EXP 	center_grating: autoDraw = False
+221.1083 	EXP 	text_3: autoDraw = False
+221.1083 	EXP 	surround_grating: ori = -30.0
+221.1083 	EXP 	surround_grating: phase = array([0.66096442, 0.66096442])
+221.1083 	EXP 	center_grating: ori = -3.0
+221.1083 	EXP 	center_grating: phase = array([0.45843038, 0.45843038])
+221.6010 	EXP 	surround_grating: autoDraw = True
+221.6010 	EXP 	center_grating: autoDraw = True
+221.6759 	EXP 	surround_grating: autoDraw = False
+221.6759 	EXP 	center_grating: autoDraw = False
+221.6759 	EXP 	text_3: autoDraw = True
+222.2483 	DATA 	Keypress: left
+222.2529 	INFO 	Keyboard events cleared
+222.2525 	EXP 	surround_grating: autoDraw = False
+222.2525 	EXP 	center_grating: autoDraw = False
+222.2525 	EXP 	text_3: autoDraw = False
+222.2525 	EXP 	surround_grating: ori = 30.0
+222.2525 	EXP 	surround_grating: phase = array([0.90082975, 0.90082975])
+222.2525 	EXP 	center_grating: ori = 0.5
+222.2525 	EXP 	center_grating: phase = array([0.67367565, 0.67367565])
+222.7411 	EXP 	surround_grating: autoDraw = True
+222.7411 	EXP 	center_grating: autoDraw = True
+222.8157 	EXP 	surround_grating: autoDraw = False
+222.8157 	EXP 	center_grating: autoDraw = False
+222.8157 	EXP 	text_3: autoDraw = True
+223.7645 	DATA 	Keypress: left
+223.7690 	INFO 	Keyboard events cleared
+223.7686 	EXP 	surround_grating: autoDraw = False
+223.7686 	EXP 	center_grating: autoDraw = False
+223.7686 	EXP 	text_3: autoDraw = False
+223.7686 	EXP 	surround_grating: ori = 69.0
+223.7686 	EXP 	surround_grating: phase = array([0.12584817, 0.12584817])
+223.7686 	EXP 	center_grating: ori = -0.5
+223.7686 	EXP 	center_grating: phase = array([0.07181723, 0.07181723])
+224.2578 	EXP 	surround_grating: autoDraw = True
+224.2578 	EXP 	center_grating: autoDraw = True
+224.3295 	EXP 	surround_grating: autoDraw = False
+224.3295 	EXP 	center_grating: autoDraw = False
+224.3295 	EXP 	text_3: autoDraw = True
+224.9497 	DATA 	Keypress: left
+224.9619 	INFO 	Keyboard events cleared
+224.9616 	EXP 	surround_grating: autoDraw = False
+224.9616 	EXP 	center_grating: autoDraw = False
+224.9616 	EXP 	text_3: autoDraw = False
+224.9616 	EXP 	surround_grating: ori = 30.0
+224.9616 	EXP 	surround_grating: phase = array([0.5723108, 0.5723108])
+224.9616 	EXP 	center_grating: ori = 2.0
+224.9616 	EXP 	center_grating: phase = array([0.21472224, 0.21472224])
+225.4505 	EXP 	surround_grating: autoDraw = True
+225.4505 	EXP 	center_grating: autoDraw = True
+225.5259 	EXP 	surround_grating: autoDraw = False
+225.5259 	EXP 	center_grating: autoDraw = False
+225.5318 	EXP 	text_3: autoDraw = True
+226.1987 	DATA 	Keypress: right
+226.2033 	INFO 	Keyboard events cleared
+226.2029 	EXP 	surround_grating: autoDraw = False
+226.2029 	EXP 	center_grating: autoDraw = False
+226.2029 	EXP 	text_3: autoDraw = False
+226.2029 	EXP 	surround_grating: ori = 69.0
+226.2029 	EXP 	surround_grating: phase = array([0.67544118, 0.67544118])
+226.2029 	EXP 	center_grating: ori = 0.0
+226.2029 	EXP 	center_grating: phase = array([0.45879952, 0.45879952])
+226.6926 	EXP 	surround_grating: autoDraw = True
+226.6926 	EXP 	center_grating: autoDraw = True
+226.7656 	EXP 	surround_grating: autoDraw = False
+226.7656 	EXP 	center_grating: autoDraw = False
+226.7656 	EXP 	text_3: autoDraw = True
+227.3975 	DATA 	Keypress: left
+227.4022 	INFO 	Keyboard events cleared
+227.4018 	EXP 	surround_grating: autoDraw = False
+227.4018 	EXP 	center_grating: autoDraw = False
+227.4018 	EXP 	text_3: autoDraw = False
+227.4018 	EXP 	surround_grating: ori = -30.0
+227.4018 	EXP 	surround_grating: phase = array([0.17584897, 0.17584897])
+227.4018 	EXP 	center_grating: ori = -2.5
+227.4018 	EXP 	center_grating: phase = array([0.64261909, 0.64261909])
+227.8911 	EXP 	surround_grating: autoDraw = True
+227.8911 	EXP 	center_grating: autoDraw = True
+227.9657 	EXP 	surround_grating: autoDraw = False
+227.9657 	EXP 	center_grating: autoDraw = False
+227.9657 	EXP 	text_3: autoDraw = True
+228.8315 	DATA 	Keypress: left
+228.8360 	INFO 	Keyboard events cleared
+228.8356 	EXP 	surround_grating: autoDraw = False
+228.8356 	EXP 	center_grating: autoDraw = False
+228.8356 	EXP 	text_3: autoDraw = False
+228.8356 	EXP 	surround_grating: ori = 69.0
+228.8356 	EXP 	surround_grating: phase = array([0.11320961, 0.11320961])
+228.8356 	EXP 	center_grating: ori = 0.0
+228.8356 	EXP 	center_grating: phase = array([0.20110608, 0.20110608])
+229.3253 	EXP 	surround_grating: autoDraw = True
+229.3253 	EXP 	center_grating: autoDraw = True
+229.3984 	EXP 	surround_grating: autoDraw = False
+229.3984 	EXP 	center_grating: autoDraw = False
+229.3984 	EXP 	text_3: autoDraw = True
+230.2312 	DATA 	Keypress: left
+230.2358 	INFO 	Keyboard events cleared
+230.2354 	EXP 	surround_grating: autoDraw = False
+230.2354 	EXP 	center_grating: autoDraw = False
+230.2354 	EXP 	text_3: autoDraw = False
+230.2354 	EXP 	surround_grating: ori = -30.0
+230.2354 	EXP 	surround_grating: phase = array([0.20401978, 0.20401978])
+230.2354 	EXP 	center_grating: ori = -2.5
+230.2354 	EXP 	center_grating: phase = array([0.24648738, 0.24648738])
+230.7244 	EXP 	surround_grating: autoDraw = True
+230.7244 	EXP 	center_grating: autoDraw = True
+230.7988 	EXP 	surround_grating: autoDraw = False
+230.7988 	EXP 	center_grating: autoDraw = False
+230.7988 	EXP 	text_3: autoDraw = True
+231.6711 	DATA 	Keypress: left
+231.6761 	INFO 	Keyboard events cleared
+231.6756 	EXP 	surround_grating: autoDraw = False
+231.6756 	EXP 	center_grating: autoDraw = False
+231.6756 	EXP 	text_3: autoDraw = False
+231.6756 	EXP 	surround_grating: ori = 30.0
+231.6756 	EXP 	surround_grating: phase = array([0.91033896, 0.91033896])
+231.6756 	EXP 	center_grating: ori = 1.0
+231.6756 	EXP 	center_grating: phase = array([0.81202036, 0.81202036])
+232.1577 	EXP 	surround_grating: autoDraw = True
+232.1577 	EXP 	center_grating: autoDraw = True
+232.2310 	EXP 	surround_grating: autoDraw = False
+232.2310 	EXP 	center_grating: autoDraw = False
+232.2425 	EXP 	text_3: autoDraw = True
+232.7811 	DATA 	Keypress: left
+232.7859 	INFO 	Keyboard events cleared
+232.7853 	EXP 	surround_grating: autoDraw = False
+232.7853 	EXP 	center_grating: autoDraw = False
+232.7853 	EXP 	text_3: autoDraw = False
+232.7853 	EXP 	surround_grating: ori = 30.0
+232.7853 	EXP 	surround_grating: phase = array([0.77537559, 0.77537559])
+232.7853 	EXP 	center_grating: ori = 1.5
+232.7853 	EXP 	center_grating: phase = array([0.14535335, 0.14535335])
+233.2754 	EXP 	surround_grating: autoDraw = True
+233.2754 	EXP 	center_grating: autoDraw = True
+233.3483 	EXP 	surround_grating: autoDraw = False
+233.3483 	EXP 	center_grating: autoDraw = False
+233.3483 	EXP 	text_3: autoDraw = True
+233.9867 	DATA 	Keypress: right
+233.9914 	INFO 	Keyboard events cleared
+233.9910 	EXP 	surround_grating: autoDraw = False
+233.9910 	EXP 	center_grating: autoDraw = False
+233.9910 	EXP 	text_3: autoDraw = False
+233.9910 	EXP 	surround_grating: ori = 69.0
+233.9910 	EXP 	surround_grating: phase = array([0.59326631, 0.59326631])
+233.9910 	EXP 	center_grating: ori = 0.5
+233.9910 	EXP 	center_grating: phase = array([0.78330262, 0.78330262])
+234.4842 	EXP 	surround_grating: autoDraw = True
+234.4842 	EXP 	center_grating: autoDraw = True
+234.5589 	EXP 	surround_grating: autoDraw = False
+234.5589 	EXP 	center_grating: autoDraw = False
+234.5589 	EXP 	text_3: autoDraw = True
+235.9024 	DATA 	Keypress: up
+239.5984 	DATA 	Keypress: right
+239.6032 	INFO 	Keyboard events cleared
+239.6028 	EXP 	surround_grating: autoDraw = False
+239.6028 	EXP 	center_grating: autoDraw = False
+239.6028 	EXP 	text_3: autoDraw = False
+239.6028 	EXP 	surround_grating: ori = -30.0
+239.6028 	EXP 	surround_grating: phase = array([0.03154786, 0.03154786])
+239.6028 	EXP 	center_grating: ori = -2.0
+239.6028 	EXP 	center_grating: phase = array([0.49914658, 0.49914658])
+240.0919 	EXP 	surround_grating: autoDraw = True
+240.0919 	EXP 	center_grating: autoDraw = True
+240.1654 	EXP 	surround_grating: autoDraw = False
+240.1654 	EXP 	center_grating: autoDraw = False
+240.1654 	EXP 	text_3: autoDraw = True
+242.2323 	DATA 	Keypress: left
+242.2370 	INFO 	Keyboard events cleared
+242.2366 	EXP 	surround_grating: autoDraw = False
+242.2366 	EXP 	center_grating: autoDraw = False
+242.2366 	EXP 	text_3: autoDraw = False
+242.2366 	EXP 	surround_grating: ori = 30.0
+242.2366 	EXP 	surround_grating: phase = array([0.26386039, 0.26386039])
+242.2366 	EXP 	center_grating: ori = 1.0
+242.2366 	EXP 	center_grating: phase = array([0.29003259, 0.29003259])
+242.7244 	EXP 	surround_grating: autoDraw = True
+242.7244 	EXP 	center_grating: autoDraw = True
+242.7960 	EXP 	surround_grating: autoDraw = False
+242.7960 	EXP 	center_grating: autoDraw = False
+242.7960 	EXP 	text_3: autoDraw = True
+244.1819 	DATA 	Keypress: right
+244.1864 	INFO 	Keyboard events cleared
+244.1861 	EXP 	surround_grating: autoDraw = False
+244.1861 	EXP 	center_grating: autoDraw = False
+244.1861 	EXP 	text_3: autoDraw = False
+244.1861 	EXP 	surround_grating: ori = 69.0
+244.1861 	EXP 	surround_grating: phase = array([0.951274, 0.951274])
+244.1861 	EXP 	center_grating: ori = 0.5
+244.1861 	EXP 	center_grating: phase = array([0.71624134, 0.71624134])
+244.6747 	EXP 	surround_grating: autoDraw = True
+244.6747 	EXP 	center_grating: autoDraw = True
+244.7479 	EXP 	surround_grating: autoDraw = False
+244.7479 	EXP 	center_grating: autoDraw = False
+244.7479 	EXP 	text_3: autoDraw = True
+247.7537 	DATA 	Keypress: left
+247.7586 	INFO 	Keyboard events cleared
+247.7581 	EXP 	surround_grating: autoDraw = False
+247.7581 	EXP 	center_grating: autoDraw = False
+247.7581 	EXP 	text_3: autoDraw = False
+247.7581 	EXP 	surround_grating: ori = 30.0
+247.7581 	EXP 	surround_grating: phase = array([0.69928798, 0.69928798])
+247.7581 	EXP 	center_grating: ori = 1.5
+247.7581 	EXP 	center_grating: phase = array([0.48296097, 0.48296097])
+248.2504 	EXP 	surround_grating: autoDraw = True
+248.2504 	EXP 	center_grating: autoDraw = True
+248.3256 	EXP 	surround_grating: autoDraw = False
+248.3256 	EXP 	center_grating: autoDraw = False
+248.3256 	EXP 	text_3: autoDraw = True
+249.4040 	DATA 	Keypress: left
+249.4087 	INFO 	Keyboard events cleared
+249.4083 	EXP 	surround_grating: autoDraw = False
+249.4083 	EXP 	center_grating: autoDraw = False
+249.4083 	EXP 	text_3: autoDraw = False
+249.4083 	EXP 	surround_grating: ori = -30.0
+249.4083 	EXP 	surround_grating: phase = array([0.78920053, 0.78920053])
+249.4083 	EXP 	center_grating: ori = -2.0
+249.4083 	EXP 	center_grating: phase = array([0.52763211, 0.52763211])
+249.9004 	EXP 	surround_grating: autoDraw = True
+249.9004 	EXP 	center_grating: autoDraw = True
+249.9759 	EXP 	surround_grating: autoDraw = False
+249.9759 	EXP 	center_grating: autoDraw = False
+249.9759 	EXP 	text_3: autoDraw = True
+250.5997 	DATA 	Keypress: left
+250.6045 	INFO 	Keyboard events cleared
+250.6041 	EXP 	surround_grating: autoDraw = False
+250.6041 	EXP 	center_grating: autoDraw = False
+250.6041 	EXP 	text_3: autoDraw = False
+250.6041 	EXP 	surround_grating: ori = 30.0
+250.6041 	EXP 	surround_grating: phase = array([0.82635649, 0.82635649])
+250.6041 	EXP 	center_grating: ori = 0.5
+250.6041 	EXP 	center_grating: phase = array([0.30684008, 0.30684008])
+251.0916 	EXP 	surround_grating: autoDraw = True
+251.0916 	EXP 	center_grating: autoDraw = True
+251.1660 	EXP 	surround_grating: autoDraw = False
+251.1660 	EXP 	center_grating: autoDraw = False
+251.1660 	EXP 	text_3: autoDraw = True
+251.6826 	DATA 	Keypress: left
+251.6872 	INFO 	Keyboard events cleared
+251.6868 	EXP 	surround_grating: autoDraw = False
+251.6868 	EXP 	center_grating: autoDraw = False
+251.6868 	EXP 	text_3: autoDraw = False
+251.6868 	EXP 	surround_grating: ori = -30.0
+251.6868 	EXP 	surround_grating: phase = array([0.93570499, 0.93570499])
+251.6868 	EXP 	center_grating: ori = -1.5
+251.6868 	EXP 	center_grating: phase = array([0.75190479, 0.75190479])
+252.1756 	EXP 	surround_grating: autoDraw = True
+252.1756 	EXP 	center_grating: autoDraw = True
+252.2482 	EXP 	surround_grating: autoDraw = False
+252.2482 	EXP 	center_grating: autoDraw = False
+252.2482 	EXP 	text_3: autoDraw = True
+252.8535 	DATA 	Keypress: right
+252.8583 	INFO 	Keyboard events cleared
+252.8578 	EXP 	surround_grating: autoDraw = False
+252.8578 	EXP 	center_grating: autoDraw = False
+252.8578 	EXP 	text_3: autoDraw = False
+252.8578 	EXP 	surround_grating: ori = -30.0
+252.8578 	EXP 	surround_grating: phase = array([0.70642122, 0.70642122])
+252.8578 	EXP 	center_grating: ori = -1.5
+252.8578 	EXP 	center_grating: phase = array([0.62851737, 0.62851737])
+253.3511 	EXP 	surround_grating: autoDraw = True
+253.3511 	EXP 	center_grating: autoDraw = True
+253.4258 	EXP 	surround_grating: autoDraw = False
+253.4258 	EXP 	center_grating: autoDraw = False
+253.4258 	EXP 	text_3: autoDraw = True
+254.5982 	DATA 	Keypress: right
+254.6030 	INFO 	Keyboard events cleared
+254.6025 	EXP 	surround_grating: autoDraw = False
+254.6025 	EXP 	center_grating: autoDraw = False
+254.6025 	EXP 	text_3: autoDraw = False
+254.6025 	EXP 	surround_grating: ori = 69.0
+254.6025 	EXP 	surround_grating: phase = array([0.61166609, 0.61166609])
+254.6025 	EXP 	center_grating: ori = 1.0
+254.6025 	EXP 	center_grating: phase = array([0.64102377, 0.64102377])
+255.0922 	EXP 	surround_grating: autoDraw = True
+255.0922 	EXP 	center_grating: autoDraw = True
+255.1651 	EXP 	surround_grating: autoDraw = False
+255.1651 	EXP 	center_grating: autoDraw = False
+255.1651 	EXP 	text_3: autoDraw = True
+255.9493 	DATA 	Keypress: right
+255.9540 	INFO 	Keyboard events cleared
+255.9536 	EXP 	surround_grating: autoDraw = False
+255.9536 	EXP 	center_grating: autoDraw = False
+255.9536 	EXP 	text_3: autoDraw = False
+255.9536 	EXP 	surround_grating: ori = 69.0
+255.9536 	EXP 	surround_grating: phase = array([0.93040768, 0.93040768])
+255.9536 	EXP 	center_grating: ori = 0.0
+255.9536 	EXP 	center_grating: phase = array([0.95397716, 0.95397716])
+256.4412 	EXP 	surround_grating: autoDraw = True
+256.4412 	EXP 	center_grating: autoDraw = True
+256.5136 	EXP 	surround_grating: autoDraw = False
+256.5136 	EXP 	center_grating: autoDraw = False
+256.5136 	EXP 	text_3: autoDraw = True
+257.7542 	DATA 	Keypress: left
+257.7593 	INFO 	Keyboard events cleared
+257.7589 	EXP 	surround_grating: autoDraw = False
+257.7589 	EXP 	center_grating: autoDraw = False
+257.7589 	EXP 	text_3: autoDraw = False
+257.7589 	EXP 	surround_grating: ori = 30.0
+257.7589 	EXP 	surround_grating: phase = array([0.08934838, 0.08934838])
+257.7589 	EXP 	center_grating: ori = 2.0
+257.7589 	EXP 	center_grating: phase = array([0.84498526, 0.84498526])
+258.2508 	EXP 	surround_grating: autoDraw = True
+258.2508 	EXP 	center_grating: autoDraw = True
+258.3259 	EXP 	surround_grating: autoDraw = False
+258.3259 	EXP 	center_grating: autoDraw = False
+258.3259 	EXP 	text_3: autoDraw = True
+258.8871 	DATA 	Keypress: right
+258.8917 	INFO 	Keyboard events cleared
+258.8913 	EXP 	surround_grating: autoDraw = False
+258.8913 	EXP 	center_grating: autoDraw = False
+258.8913 	EXP 	text_3: autoDraw = False
+258.8913 	EXP 	surround_grating: ori = 69.0
+258.8913 	EXP 	surround_grating: phase = array([0.49240838, 0.49240838])
+258.8913 	EXP 	center_grating: ori = 0.5
+258.8913 	EXP 	center_grating: phase = array([0.11467299, 0.11467299])
+259.3849 	EXP 	surround_grating: autoDraw = True
+259.3849 	EXP 	center_grating: autoDraw = True
+259.4588 	EXP 	surround_grating: autoDraw = False
+259.4588 	EXP 	center_grating: autoDraw = False
+259.4588 	EXP 	text_3: autoDraw = True
+260.4702 	DATA 	Keypress: left
+260.4749 	INFO 	Keyboard events cleared
+260.4745 	EXP 	surround_grating: autoDraw = False
+260.4745 	EXP 	center_grating: autoDraw = False
+260.4745 	EXP 	text_3: autoDraw = False
+260.4745 	EXP 	surround_grating: ori = -30.0
+260.4745 	EXP 	surround_grating: phase = array([0.52673858, 0.52673858])
+260.4745 	EXP 	center_grating: ori = -2.0
+260.4745 	EXP 	center_grating: phase = array([0.04182354, 0.04182354])
+260.9661 	EXP 	surround_grating: autoDraw = True
+260.9661 	EXP 	center_grating: autoDraw = True
+261.0413 	EXP 	surround_grating: autoDraw = False
+261.0413 	EXP 	center_grating: autoDraw = False
+261.0413 	EXP 	text_3: autoDraw = True
+262.8307 	DATA 	Keypress: right
+262.8355 	INFO 	Keyboard events cleared
+262.8350 	EXP 	surround_grating: autoDraw = False
+262.8350 	EXP 	center_grating: autoDraw = False
+262.8350 	EXP 	text_3: autoDraw = False
+262.8350 	EXP 	surround_grating: ori = 69.0
+262.8350 	EXP 	surround_grating: phase = array([0.30284786, 0.30284786])
+262.8350 	EXP 	center_grating: ori = 0.5
+262.8350 	EXP 	center_grating: phase = array([0.64521939, 0.64521939])
+263.3243 	EXP 	surround_grating: autoDraw = True
+263.3243 	EXP 	center_grating: autoDraw = True
+263.3986 	EXP 	surround_grating: autoDraw = False
+263.3986 	EXP 	center_grating: autoDraw = False
+263.3986 	EXP 	text_3: autoDraw = True
+264.4654 	DATA 	Keypress: right
+264.4701 	INFO 	Keyboard events cleared
+264.4697 	EXP 	surround_grating: autoDraw = False
+264.4697 	EXP 	center_grating: autoDraw = False
+264.4697 	EXP 	text_3: autoDraw = False
+264.4697 	EXP 	surround_grating: ori = 30.0
+264.4697 	EXP 	surround_grating: phase = array([0.75335728, 0.75335728])
+264.4697 	EXP 	center_grating: ori = 1.5
+264.4697 	EXP 	center_grating: phase = array([0.01953025, 0.01953025])
+264.9577 	EXP 	surround_grating: autoDraw = True
+264.9577 	EXP 	center_grating: autoDraw = True
+265.0326 	EXP 	surround_grating: autoDraw = False
+265.0326 	EXP 	center_grating: autoDraw = False
+265.0326 	EXP 	text_3: autoDraw = True
+266.6701 	DATA 	Keypress: right
+266.6748 	INFO 	Keyboard events cleared
+266.6744 	EXP 	surround_grating: autoDraw = False
+266.6744 	EXP 	center_grating: autoDraw = False
+266.6744 	EXP 	text_3: autoDraw = False
+266.6744 	EXP 	surround_grating: ori = 30.0
+266.6744 	EXP 	surround_grating: phase = array([0.38344816, 0.38344816])
+266.6744 	EXP 	center_grating: ori = 1.0
+266.6744 	EXP 	center_grating: phase = array([0.1762465, 0.1762465])
+267.1665 	EXP 	surround_grating: autoDraw = True
+267.1665 	EXP 	center_grating: autoDraw = True
+267.2422 	EXP 	surround_grating: autoDraw = False
+267.2422 	EXP 	center_grating: autoDraw = False
+267.2422 	EXP 	text_3: autoDraw = True
+267.9035 	DATA 	Keypress: left
+267.9082 	INFO 	Keyboard events cleared
+267.9078 	EXP 	surround_grating: autoDraw = False
+267.9078 	EXP 	center_grating: autoDraw = False
+267.9078 	EXP 	text_3: autoDraw = False
+267.9078 	EXP 	surround_grating: ori = -30.0
+267.9078 	EXP 	surround_grating: phase = array([0.12731247, 0.12731247])
+267.9078 	EXP 	center_grating: ori = -2.0
+267.9078 	EXP 	center_grating: phase = array([0.09636291, 0.09636291])
+268.4005 	EXP 	surround_grating: autoDraw = True
+268.4005 	EXP 	center_grating: autoDraw = True
+268.4758 	EXP 	surround_grating: autoDraw = False
+268.4758 	EXP 	center_grating: autoDraw = False
+268.4758 	EXP 	text_3: autoDraw = True
+269.0808 	DATA 	Keypress: right
+269.0854 	INFO 	Keyboard events cleared
+269.0851 	EXP 	surround_grating: autoDraw = False
+269.0851 	EXP 	center_grating: autoDraw = False
+269.0851 	EXP 	text_3: autoDraw = False
+269.0851 	EXP 	surround_grating: ori = 30.0
+269.0851 	EXP 	surround_grating: phase = array([0.54631352, 0.54631352])
+269.0851 	EXP 	center_grating: ori = 1.5
+269.0851 	EXP 	center_grating: phase = array([0.97756264, 0.97756264])
+269.5746 	EXP 	surround_grating: autoDraw = True
+269.5746 	EXP 	center_grating: autoDraw = True
+269.6484 	EXP 	surround_grating: autoDraw = False
+269.6484 	EXP 	center_grating: autoDraw = False
+269.6484 	EXP 	text_3: autoDraw = True
+270.4147 	DATA 	Keypress: right
+270.4193 	INFO 	Keyboard events cleared
+270.4189 	EXP 	surround_grating: autoDraw = False
+270.4189 	EXP 	center_grating: autoDraw = False
+270.4189 	EXP 	text_3: autoDraw = False
+270.4189 	EXP 	surround_grating: ori = 30.0
+270.4189 	EXP 	surround_grating: phase = array([0.34943077, 0.34943077])
+270.4189 	EXP 	center_grating: ori = 1.0
+270.4189 	EXP 	center_grating: phase = array([0.82689982, 0.82689982])
+270.9079 	EXP 	surround_grating: autoDraw = True
+270.9079 	EXP 	center_grating: autoDraw = True
+270.9805 	EXP 	surround_grating: autoDraw = False
+270.9805 	EXP 	center_grating: autoDraw = False
+270.9805 	EXP 	text_3: autoDraw = True
+272.3704 	DATA 	Keypress: left
+272.3749 	INFO 	Keyboard events cleared
+272.3746 	EXP 	surround_grating: autoDraw = False
+272.3746 	EXP 	center_grating: autoDraw = False
+272.3746 	EXP 	text_3: autoDraw = False
+272.3746 	EXP 	surround_grating: ori = -30.0
+272.3746 	EXP 	surround_grating: phase = array([0.72051683, 0.72051683])
+272.3746 	EXP 	center_grating: ori = -2.5
+272.3746 	EXP 	center_grating: phase = array([0.82800258, 0.82800258])
+272.8673 	EXP 	surround_grating: autoDraw = True
+272.8673 	EXP 	center_grating: autoDraw = True
+272.9424 	EXP 	surround_grating: autoDraw = False
+272.9424 	EXP 	center_grating: autoDraw = False
+272.9424 	EXP 	text_3: autoDraw = True
+273.4992 	DATA 	Keypress: left
+273.5040 	INFO 	Keyboard events cleared
+273.5037 	EXP 	surround_grating: autoDraw = False
+273.5037 	EXP 	center_grating: autoDraw = False
+273.5037 	EXP 	text_3: autoDraw = False
+273.5037 	EXP 	surround_grating: ori = -30.0
+273.5037 	EXP 	surround_grating: phase = array([0.38912893, 0.38912893])
+273.5037 	EXP 	center_grating: ori = -2.5
+273.5037 	EXP 	center_grating: phase = array([0.02262145, 0.02262145])
+273.9909 	EXP 	surround_grating: autoDraw = True
+273.9909 	EXP 	center_grating: autoDraw = True
+274.0658 	EXP 	surround_grating: autoDraw = False
+274.0658 	EXP 	center_grating: autoDraw = False
+274.0658 	EXP 	text_3: autoDraw = True
+274.6483 	DATA 	Keypress: left
+274.6529 	INFO 	Keyboard events cleared
+274.6525 	EXP 	surround_grating: autoDraw = False
+274.6525 	EXP 	center_grating: autoDraw = False
+274.6525 	EXP 	text_3: autoDraw = False
+274.6525 	EXP 	surround_grating: ori = 69.0
+274.6525 	EXP 	surround_grating: phase = array([0.90442635, 0.90442635])
+274.6525 	EXP 	center_grating: ori = 0.0
+274.6525 	EXP 	center_grating: phase = array([0.20252921, 0.20252921])
+275.1411 	EXP 	surround_grating: autoDraw = True
+275.1411 	EXP 	center_grating: autoDraw = True
+275.2148 	EXP 	surround_grating: autoDraw = False
+275.2148 	EXP 	center_grating: autoDraw = False
+275.2148 	EXP 	text_3: autoDraw = True
+275.7649 	DATA 	Keypress: left
+275.7696 	INFO 	Keyboard events cleared
+275.7692 	EXP 	surround_grating: autoDraw = False
+275.7692 	EXP 	center_grating: autoDraw = False
+275.7692 	EXP 	text_3: autoDraw = False
+275.7692 	EXP 	surround_grating: ori = 69.0
+275.7692 	EXP 	surround_grating: phase = array([0.89816676, 0.89816676])
+275.7692 	EXP 	center_grating: ori = 1.0
+275.7692 	EXP 	center_grating: phase = array([0.59556016, 0.59556016])
+276.2578 	EXP 	surround_grating: autoDraw = True
+276.2578 	EXP 	center_grating: autoDraw = True
+276.3317 	EXP 	surround_grating: autoDraw = False
+276.3317 	EXP 	center_grating: autoDraw = False
+276.3317 	EXP 	text_3: autoDraw = True
+278.0982 	DATA 	Keypress: left
+278.1119 	INFO 	Keyboard events cleared
+278.1115 	EXP 	surround_grating: autoDraw = False
+278.1115 	EXP 	center_grating: autoDraw = False
+278.1115 	EXP 	text_3: autoDraw = False
+278.1115 	EXP 	text_4: autoDraw = True
+278.8519 	DATA 	Keypress: left
+278.8576 	EXP 	text_4: autoDraw = False
+278.8577 	EXP 	tilt_staircase: status = STOPPED
+278.9097 	INFO 	saved data to '/Users/bwinsto2/Downloads/data/730109_tilt_staircase_2025-08-15_12h13.30.959.csv'
+278.9150 	INFO 	saved data to /Users/bwinsto2/Downloads/data/730109_tilt_staircase_2025-08-15_12h13.30.959.psydat

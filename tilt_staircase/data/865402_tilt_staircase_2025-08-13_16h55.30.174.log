@@ -1,0 +1,200 @@
+7.5958 	INFO 	Loaded monitor calibration from ['2025_08_13 14:32']
+7.7862 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fdbc2718940>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fdbc2718850>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fdbaab2a2b0>, multiSample=False, name='window1', numSamples=2, pos=[320.0, 150.0], screen=0, size=array([1600, 1200]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.7863 	EXP 	window1: backgroundImage = ''
+7.7863 	EXP 	window1: backgroundFit = 'none'
+7.7945 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7954 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7962 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7972 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7981 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7986 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7994 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.8004 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.8008 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.8012 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.8020 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.8028 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.8035 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.8042 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.8049 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.8057 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.8065 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.8070 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.8074 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.8083 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.8088 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.8090 	DEBUG 	Uploading Texture Font fontname to graphics card
+7.8126 	DEBUG 	Upload of Texture Font fontname complete
+7.8182 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.8193 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.8203 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.8205 	DEBUG 	Uploading Texture Font fontname to graphics card
+7.8226 	DEBUG 	Upload of Texture Font fontname complete
+7.8243 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+7.8243 	EXP 	window1: recordFrameIntervals = False
+8.0102 	EXP 	window1: recordFrameIntervals = True
+8.8447 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+8.8518 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.8526 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.8540 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.8556 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.8570 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.8585 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.8593 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.8606 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.8620 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.8633 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.8636 	DEBUG 	Uploading Texture Font fontname to graphics card
+8.8667 	DEBUG 	Upload of Texture Font fontname complete
+8.8875 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+12.5012 	INFO 	keyboard.Keyboard is using iohub backend.
+12.5012 	INFO 	keyboard.Keyboard is using iohub backend.
+12.5012 	INFO 	keyboard.Keyboard is using iohub backend.
+12.5012 	INFO 	keyboard.Keyboard is using iohub backend.
+12.5013 	INFO 	keyboard.Keyboard is using iohub backend.
+12.5013 	INFO 	keyboard.Keyboard is using iohub backend.
+12.5013 	INFO 	keyboard.Keyboard is using iohub backend.
+12.5013 	INFO 	keyboard.Keyboard is using iohub backend.
+12.5013 	INFO 	keyboard.Keyboard is using iohub backend.
+12.5013 	INFO 	keyboard.Keyboard is using iohub backend.
+12.5014 	EXP 	tilt_staircase: status = STARTED
+12.5476 	EXP 	Created text_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_5', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.5548 	EXP 	Created text_6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_6', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.5571 	EXP 	Created surround_practice = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, interpolate=True, mask='circle', maskParams=None, name='surround_practice', opacity=1, ori=1.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([1.5, 1.5]), size=array([6., 6.]), tex='sin', texRes=128.0, units='deg', win=Window(...))
+12.5586 	EXP 	Created center_practice = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, interpolate=True, mask='circle', maskParams=None, name='center_practice', opacity=1, ori=1.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([1.5, 1.5]), size=array([2., 2.]), tex='sin', texRes=128.0, units='deg', win=Window(...))
+12.5603 	EXP 	Created text_9 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_9', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+12.5637 	EXP 	Created text_11 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_11', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.5642 	EXP 	Created text_7 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_7', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+12.5681 	EXP 	Created text_8 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_8', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.5696 	EXP 	Created surround_practice_2 = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, interpolate=True, mask='circle', maskParams=None, name='surround_practice_2', opacity=1, ori=1.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([1.5, 1.5]), size=array([6., 6.]), tex='sin', texRes=128.0, units='deg', win=Window(...))
+12.5710 	EXP 	Created center_practice_2 = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, interpolate=True, mask='circle', maskParams=None, name='center_practice_2', opacity=1, ori=1.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([1.5, 1.5]), size=array([2., 2.]), tex='sin', texRes=128.0, units='deg', win=Window(...))
+12.5721 	EXP 	Created text_10 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_10', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+12.5745 	EXP 	Created text_12 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_12', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.5750 	EXP 	Created text_7 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_7', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+12.5794 	EXP 	Created text_13 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_13', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.5808 	EXP 	Created surround_grating = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, interpolate=True, mask='circle', maskParams=None, name='surround_grating', opacity=1, ori=1.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([1.5, 1.5]), size=array([6., 6.]), tex='sin', texRes=128.0, units='deg', win=Window(...))
+12.5823 	EXP 	Created center_grating = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, interpolate=True, mask='circle', maskParams=None, name='center_grating', opacity=1, ori=1.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([1.5, 1.5]), size=array([2., 2.]), tex='sin', texRes=128.0, units='deg', win=Window(...))
+12.5834 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+12.5858 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_3', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.5875 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_4', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='thank you and have a pleasant day ', units='height', win=Window(...), wrapWidth=1)
+0.0258 	INFO 	Keyboard events cleared
+0.0255 	EXP 	text_5: autoDraw = True
+0.9725 	DATA 	Keypress: space
+0.9761 	INFO 	Keyboard events cleared
+0.9757 	WARNING 	t of last frame was 34.74ms (=1/28)
+0.9757 	EXP 	text_5: autoDraw = False
+0.9757 	EXP 	text_6: autoDraw = True
+1.4140 	DEBUG 	Read csv file with pandas: tilt_practice_1.csv
+1.4150 	DEBUG 	Clearing unnamed columns from tilt_practice_1.csv
+1.4162 	EXP 	Imported tilt_practice_1.csv as conditions, 4 conditions, 3 params
+1.4165 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'center': 30, 'surround': 0, 'corrAns': 'right', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+1.4233 	DATA 	Keypress: space
+1.4261 	INFO 	Keyboard events cleared
+1.4258 	EXP 	text_6: autoDraw = False
+1.4258 	EXP 	surround_practice: ori = 0.0
+1.4258 	EXP 	center_practice: ori = 30.0
+1.4258 	EXP 	text_9: autoDraw = True
+1.9126 	EXP 	surround_practice: autoDraw = True
+1.9126 	EXP 	center_practice: autoDraw = True
+1.9126 	EXP 	surround_practice: tex = 'sin'
+1.9126 	EXP 	center_practice: tex = 'sin'
+1.9200 	EXP 	text_9: autoDraw = False
+2.8542 	DATA 	Keypress: right
+2.8669 	INFO 	Keyboard events cleared
+2.8666 	WARNING 	t of last frame was 62.62ms (=1/15)
+2.8666 	EXP 	surround_practice: autoDraw = False
+2.8666 	EXP 	center_practice: autoDraw = False
+2.8666 	EXP 	text_9: autoDraw = False
+2.8666 	EXP 	text_11: autoDraw = False
+2.8666 	EXP 	text_7: height = 0.05
+2.8666 	EXP 	text_7: height = 0.05
+2.8666 	EXP 	text_7: height = 0.05
+2.8666 	EXP 	text_7: text = 'Correct. Press Spacebar.'
+2.8666 	EXP 	text_7: autoDraw = True
+5.5938 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'center': -30, 'surround': 0, 'corrAns': 'left', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+5.5956 	DATA 	Keypress: space
+5.6036 	INFO 	Keyboard events cleared
+5.6033 	EXP 	text_7: autoDraw = False
+5.6033 	EXP 	surround_practice: ori = 0.0
+5.6033 	EXP 	center_practice: ori = -30.0
+5.6033 	EXP 	text_9: autoDraw = True
+6.0917 	EXP 	surround_practice: autoDraw = True
+6.0917 	EXP 	center_practice: autoDraw = True
+6.0917 	EXP 	text_9: autoDraw = False
+6.5307 	DATA 	Keypress: left
+6.5368 	INFO 	Keyboard events cleared
+6.5366 	EXP 	surround_practice: autoDraw = False
+6.5366 	EXP 	center_practice: autoDraw = False
+6.5366 	EXP 	text_9: autoDraw = False
+6.5366 	EXP 	text_11: autoDraw = False
+6.5366 	EXP 	text_7: height = 0.05
+6.5366 	EXP 	text_7: height = 0.05
+6.5366 	EXP 	text_7: height = 0.05
+6.5366 	EXP 	text_7: text = 'Incorrect. Press Spacebar.'
+6.5366 	EXP 	text_7: autoDraw = True
+10.5225 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'center': 30, 'surround': 60, 'corrAns': 'right', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+10.5242 	DATA 	Keypress: space
+10.5269 	INFO 	Keyboard events cleared
+10.5267 	EXP 	text_7: autoDraw = False
+10.5267 	EXP 	surround_practice: ori = 60.0
+10.5267 	EXP 	center_practice: ori = 30.0
+10.5267 	EXP 	text_9: autoDraw = True
+11.0200 	EXP 	surround_practice: autoDraw = True
+11.0200 	EXP 	center_practice: autoDraw = True
+11.0248 	EXP 	text_9: autoDraw = False
+12.0081 	EXP 	surround_practice: autoDraw = False
+12.0081 	EXP 	center_practice: autoDraw = False
+12.0201 	EXP 	text_11: autoDraw = True
+13.2600 	DATA 	Keypress: right
+13.2626 	INFO 	Keyboard events cleared
+13.2624 	EXP 	surround_practice: autoDraw = False
+13.2624 	EXP 	center_practice: autoDraw = False
+13.2624 	EXP 	text_9: autoDraw = False
+13.2624 	EXP 	text_11: autoDraw = False
+13.2624 	EXP 	text_7: height = 0.05
+13.2624 	EXP 	text_7: height = 0.05
+13.2624 	EXP 	text_7: height = 0.05
+13.2624 	EXP 	text_7: text = 'Correct. Press Spacebar.'
+13.2624 	EXP 	text_7: autoDraw = True
+14.3897 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'center': -30, 'surround': -60, 'corrAns': 'left', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+14.3916 	DATA 	Keypress: space
+14.3943 	INFO 	Keyboard events cleared
+14.3941 	EXP 	text_7: autoDraw = False
+14.3941 	EXP 	surround_practice: ori = -60.0
+14.3941 	EXP 	center_practice: ori = -30.0
+14.3941 	EXP 	text_9: autoDraw = True
+14.8867 	EXP 	surround_practice: autoDraw = True
+14.8867 	EXP 	center_practice: autoDraw = True
+14.8913 	EXP 	text_9: autoDraw = False
+15.8755 	EXP 	surround_practice: autoDraw = False
+15.8755 	EXP 	center_practice: autoDraw = False
+15.8872 	EXP 	text_11: autoDraw = True
+17.4453 	DATA 	Keypress: left
+17.4488 	INFO 	Keyboard events cleared
+17.4485 	EXP 	surround_practice: autoDraw = False
+17.4485 	EXP 	center_practice: autoDraw = False
+17.4485 	EXP 	text_9: autoDraw = False
+17.4485 	EXP 	text_11: autoDraw = False
+17.4485 	EXP 	text_7: height = 0.05
+17.4485 	EXP 	text_7: height = 0.05
+17.4485 	EXP 	text_7: height = 0.05
+17.4485 	EXP 	text_7: text = 'Incorrect. Press Spacebar.'
+17.4485 	EXP 	text_7: autoDraw = True
+18.1243 	DATA 	Keypress: left
+18.2749 	DATA 	Keypress: space
+18.2776 	INFO 	Keyboard events cleared
+18.2774 	EXP 	text_7: autoDraw = False
+18.2774 	EXP 	text_8: autoDraw = True
+53.7599 	WARNING 	t of last frame was 34.61ms (=1/28)
+62.8176 	WARNING 	t of last frame was 59.91ms (=1/16)
+68.7778 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+72.7790 	DATA 	Keypress: escape
+72.8390 	EXP 	tilt_staircase: status = STOPPED
+72.8414 	EXP 	text_8: autoDraw = False
+72.8431 	EXP 	tilt_staircase: status = STOPPED
+72.8473 	INFO 	saved data to '/Users/bwinsto2/Downloads/data/865402_tilt_staircase_2025-08-13_16h55.30.174.csv'
+72.8483 	INFO 	saved data to /Users/bwinsto2/Downloads/data/865402_tilt_staircase_2025-08-13_16h55.30.174.psydat
+73.2162 	DEBUG 	Saving data for tilt_staircase ExperimentHandler

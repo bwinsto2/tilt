@@ -1,0 +1,66 @@
+6.0619 	INFO 	Loaded monitor calibration from ['2025_08_13 14:32']
+6.2752 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f956b0c9c70>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f956b0c9b80>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f9550577610>, multiSample=False, name='window1', numSamples=2, pos=[320.0, 150.0], screen=0, size=array([1600, 1200]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.2753 	EXP 	window1: backgroundImage = ''
+6.2753 	EXP 	window1: backgroundFit = 'none'
+6.2846 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.2855 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.2863 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.2873 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.2883 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.2888 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.2896 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.2906 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.2911 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.2915 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.2923 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.2931 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.2939 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.2947 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.2954 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.2962 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.2971 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.2976 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.2983 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.2993 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.2998 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.3000 	DEBUG 	Uploading Texture Font fontname to graphics card
+6.3037 	DEBUG 	Upload of Texture Font fontname complete
+6.3094 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.3104 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.3115 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.3116 	DEBUG 	Uploading Texture Font fontname to graphics card
+6.3136 	DEBUG 	Upload of Texture Font fontname complete
+6.3152 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+6.3152 	EXP 	window1: recordFrameIntervals = False
+6.4909 	EXP 	window1: recordFrameIntervals = True
+7.2202 	EXP 	Screen (0) actual frame rate measured at 316.57Hz
+7.2202 	EXP 	window1: recordFrameIntervals = False
+7.2273 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.2281 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.2292 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.2306 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.2320 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.2335 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.2343 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.2369 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.2386 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.2399 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.2402 	DEBUG 	Uploading Texture Font fontname to graphics card
+7.2437 	DEBUG 	Upload of Texture Font fontname complete
+7.2665 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+10.4517 	INFO 	keyboard.Keyboard is using iohub backend.
+10.4518 	INFO 	keyboard.Keyboard is using iohub backend.
+10.4518 	INFO 	keyboard.Keyboard is using iohub backend.
+10.4518 	INFO 	keyboard.Keyboard is using iohub backend.
+10.4518 	INFO 	keyboard.Keyboard is using iohub backend.
+10.4519 	INFO 	keyboard.Keyboard is using iohub backend.
+10.4519 	INFO 	keyboard.Keyboard is using iohub backend.
+10.4519 	EXP 	tilt_staircase: status = STARTED
+10.5149 	EXP 	Created text_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_5', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.5229 	EXP 	Created text_6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_6', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.5254 	EXP 	Created surround_practice = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, interpolate=True, mask='circle', maskParams=None, name='surround_practice', opacity=1, ori=1.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([1.5, 1.5]), size=array([5., 5.]), tex='sin', texRes=128.0, units='deg', win=Window(...))
+10.5270 	EXP 	Created center_practice = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, interpolate=True, mask='circle', maskParams=None, name='center_practice', opacity=1, ori=1.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([1.5, 1.5]), size=array([2., 2.]), tex='sin', texRes=128.0, units='deg', win=Window(...))
+10.5288 	EXP 	Created text_9 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_9', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+10.5376 	DEBUG 	Saving data for tilt_staircase ExperimentHandler
+10.5382 	INFO 	saved data to /Users/bwinsto2/Downloads/data/031529_tilt_staircase_2025-08-13_16h07.57.131.psydat
+10.5385 	INFO 	saved data to '/Users/bwinsto2/Downloads/data/031529_tilt_staircase_2025-08-13_16h07.57.131.csv'

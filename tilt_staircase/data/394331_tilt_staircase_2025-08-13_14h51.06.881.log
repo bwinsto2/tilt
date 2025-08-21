@@ -1,0 +1,906 @@
+5.0867 	INFO 	Loaded monitor calibration from ['2025_08_13 14:32']
+5.2764 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f99f2e9aa60>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f99f2e9a940>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f99f2ec33d0>, multiSample=False, name='window1', numSamples=2, pos=[320.0, 150.0], screen=0, size=array([1600, 1200]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.2764 	EXP 	window1: backgroundImage = ''
+5.2764 	EXP 	window1: backgroundFit = 'none'
+5.2868 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2877 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2885 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2895 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2905 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2910 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2918 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2928 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2932 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2937 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2945 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2953 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2961 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2969 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2975 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2982 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2990 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2995 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.3003 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.3031 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.3045 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.3047 	DEBUG 	Uploading Texture Font fontname to graphics card
+5.3084 	DEBUG 	Upload of Texture Font fontname complete
+5.3138 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.3148 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.3157 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.3158 	DEBUG 	Uploading Texture Font fontname to graphics card
+5.3178 	DEBUG 	Upload of Texture Font fontname complete
+5.3194 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+5.3194 	EXP 	window1: recordFrameIntervals = False
+5.5085 	EXP 	window1: recordFrameIntervals = True
+6.3418 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+6.3472 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.3478 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.3486 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.3496 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.3506 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.3516 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.3520 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.3529 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.3539 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.3561 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.3563 	DEBUG 	Uploading Texture Font fontname to graphics card
+6.3587 	DEBUG 	Upload of Texture Font fontname complete
+6.3744 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+9.4908 	INFO 	keyboard.Keyboard is using iohub backend.
+9.4909 	INFO 	keyboard.Keyboard is using iohub backend.
+9.4909 	INFO 	keyboard.Keyboard is using iohub backend.
+9.4909 	EXP 	tilt_staircase: status = STARTED
+9.4963 	EXP 	Created surround = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, interpolate=True, mask='circle', maskParams=None, name='surround', opacity=1, ori=1.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([1.5, 1.5]), size=array([5., 5.]), tex='sin', texRes=128.0, units='deg', win=Window(...))
+9.4978 	EXP 	Created center = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, interpolate=True, mask='circle', maskParams=None, name='center', opacity=1, ori=1.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([1.5, 1.5]), size=array([2., 2.]), tex='sin', texRes=128.0, units='deg', win=Window(...))
+9.5207 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+9.5272 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_3', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.5317 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_4', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='thank you and have a pleasant day ', units='height', win=Window(...), wrapWidth=1)
+0.0195 	DEBUG 	Read csv file with pandas: tilt_staircase.csv
+0.0203 	DEBUG 	Clearing unnamed columns from tilt_staircase.csv
+0.0209 	EXP 	Imported tilt_staircase.csv as conditions, 2 conditions, 10 params
+0.1056 	DEBUG 	Using /Applications/PsychoPy.app/Contents/Resources/lib/python3.8/psychopy/data/staircase.py as origin file
+0.1058 	DEBUG 	Using /Applications/PsychoPy.app/Contents/Resources/lib/python3.8/psychopy/data/staircase.py as origin file
+0.1121 	INFO 	Keyboard events cleared
+0.1118 	WARNING 	t of last frame was 104.08ms (=1/9)
+0.1118 	EXP 	surround: ori = 50.0
+0.1118 	EXP 	center: ori = 20.0
+0.1118 	EXP 	text_2: autoDraw = True
+0.5033 	EXP 	surround: autoDraw = True
+0.5033 	EXP 	center: autoDraw = True
+0.5033 	EXP 	surround: tex = 'sin'
+0.5033 	EXP 	center: tex = 'sin'
+0.5768 	EXP 	text_3: autoDraw = True
+0.5816 	EXP 	surround: autoDraw = False
+0.5816 	EXP 	center: autoDraw = False
+0.6101 	EXP 	text_2: autoDraw = False
+3.5127 	DATA 	Keypress: left
+3.5243 	INFO 	Keyboard events cleared
+3.5239 	WARNING 	t of last frame was 106.96ms (=1/9)
+3.5239 	EXP 	surround: autoDraw = False
+3.5239 	EXP 	center: autoDraw = False
+3.5239 	EXP 	text_2: autoDraw = False
+3.5239 	EXP 	text_3: autoDraw = False
+3.5239 	EXP 	surround: ori = 10.0
+3.5239 	EXP 	center: ori = -20.0
+3.5239 	EXP 	text_2: autoDraw = True
+3.9602 	EXP 	surround: autoDraw = True
+3.9602 	EXP 	center: autoDraw = True
+4.0150 	EXP 	text_2: autoDraw = False
+4.0320 	EXP 	surround: autoDraw = False
+4.0320 	EXP 	center: autoDraw = False
+4.0320 	EXP 	text_3: autoDraw = True
+4.7742 	DATA 	Keypress: left
+4.7774 	INFO 	Keyboard events cleared
+4.7771 	EXP 	surround: autoDraw = False
+4.7771 	EXP 	center: autoDraw = False
+4.7771 	EXP 	text_2: autoDraw = False
+4.7771 	EXP 	text_3: autoDraw = False
+4.7771 	EXP 	surround: ori = 15.0
+4.7771 	EXP 	center: ori = -15.0
+4.7771 	EXP 	text_2: autoDraw = True
+5.2607 	EXP 	surround: autoDraw = True
+5.2607 	EXP 	center: autoDraw = True
+5.2660 	EXP 	text_2: autoDraw = False
+5.3333 	EXP 	surround: autoDraw = False
+5.3333 	EXP 	center: autoDraw = False
+5.3333 	EXP 	text_3: autoDraw = True
+5.8550 	DATA 	Keypress: left
+5.8602 	INFO 	Keyboard events cleared
+5.8600 	EXP 	surround: autoDraw = False
+5.8600 	EXP 	center: autoDraw = False
+5.8600 	EXP 	text_2: autoDraw = False
+5.8600 	EXP 	text_3: autoDraw = False
+5.8600 	EXP 	surround: ori = 55.0
+5.8600 	EXP 	center: ori = 25.0
+5.8600 	EXP 	text_2: autoDraw = True
+6.3505 	EXP 	surround: autoDraw = True
+6.3505 	EXP 	center: autoDraw = True
+6.3505 	EXP 	text_2: autoDraw = False
+6.4277 	EXP 	surround: autoDraw = False
+6.4277 	EXP 	center: autoDraw = False
+6.4277 	EXP 	text_3: autoDraw = True
+7.3501 	DATA 	Keypress: right
+7.3537 	INFO 	Keyboard events cleared
+7.3534 	EXP 	surround: autoDraw = False
+7.3534 	EXP 	center: autoDraw = False
+7.3534 	EXP 	text_2: autoDraw = False
+7.3534 	EXP 	text_3: autoDraw = False
+7.3534 	EXP 	surround: ori = 53.0
+7.3534 	EXP 	center: ori = 23.0
+7.3534 	EXP 	text_2: autoDraw = True
+7.8434 	EXP 	surround: autoDraw = True
+7.8434 	EXP 	center: autoDraw = True
+7.8482 	EXP 	text_2: autoDraw = False
+7.9150 	EXP 	surround: autoDraw = False
+7.9150 	EXP 	center: autoDraw = False
+7.9271 	EXP 	text_3: autoDraw = True
+8.4861 	DATA 	Keypress: right
+8.4938 	INFO 	Keyboard events cleared
+8.4935 	EXP 	surround: autoDraw = False
+8.4935 	EXP 	center: autoDraw = False
+8.4935 	EXP 	text_2: autoDraw = False
+8.4935 	EXP 	text_3: autoDraw = False
+8.4935 	EXP 	surround: ori = 20.0
+8.4935 	EXP 	center: ori = -10.0
+8.4935 	EXP 	text_2: autoDraw = True
+8.9777 	EXP 	surround: autoDraw = True
+8.9777 	EXP 	center: autoDraw = True
+8.9829 	EXP 	text_2: autoDraw = False
+9.0501 	EXP 	surround: autoDraw = False
+9.0501 	EXP 	center: autoDraw = False
+9.0609 	EXP 	text_3: autoDraw = True
+9.5501 	DATA 	Keypress: left
+9.5540 	INFO 	Keyboard events cleared
+9.5536 	EXP 	surround: autoDraw = False
+9.5536 	EXP 	center: autoDraw = False
+9.5536 	EXP 	text_2: autoDraw = False
+9.5536 	EXP 	text_3: autoDraw = False
+9.5536 	EXP 	surround: ori = 51.0
+9.5536 	EXP 	center: ori = 21.0
+9.5536 	EXP 	text_2: autoDraw = True
+10.0435 	EXP 	surround: autoDraw = True
+10.0435 	EXP 	center: autoDraw = True
+10.0497 	EXP 	text_2: autoDraw = False
+10.1144 	EXP 	surround: autoDraw = False
+10.1144 	EXP 	center: autoDraw = False
+10.1267 	EXP 	text_3: autoDraw = True
+10.8560 	DATA 	Keypress: right
+10.8602 	INFO 	Keyboard events cleared
+10.8600 	EXP 	surround: autoDraw = False
+10.8600 	EXP 	center: autoDraw = False
+10.8600 	EXP 	text_2: autoDraw = False
+10.8600 	EXP 	text_3: autoDraw = False
+10.8600 	EXP 	surround: ori = 25.0
+10.8600 	EXP 	center: ori = -5.0
+10.8600 	EXP 	text_2: autoDraw = True
+11.3508 	EXP 	surround: autoDraw = True
+11.3508 	EXP 	center: autoDraw = True
+11.3508 	EXP 	text_2: autoDraw = False
+11.4277 	EXP 	surround: autoDraw = False
+11.4277 	EXP 	center: autoDraw = False
+11.4277 	EXP 	text_3: autoDraw = True
+12.4167 	DATA 	Keypress: left
+12.4207 	INFO 	Keyboard events cleared
+12.4204 	EXP 	surround: autoDraw = False
+12.4204 	EXP 	center: autoDraw = False
+12.4204 	EXP 	text_2: autoDraw = False
+12.4204 	EXP 	text_3: autoDraw = False
+12.4204 	EXP 	surround: ori = 49.0
+12.4204 	EXP 	center: ori = 19.0
+12.4204 	EXP 	text_2: autoDraw = True
+12.9107 	EXP 	surround: autoDraw = True
+12.9107 	EXP 	center: autoDraw = True
+12.9160 	EXP 	text_2: autoDraw = False
+12.9836 	EXP 	surround: autoDraw = False
+12.9836 	EXP 	center: autoDraw = False
+12.9836 	EXP 	text_3: autoDraw = True
+13.6222 	DATA 	Keypress: right
+13.6269 	INFO 	Keyboard events cleared
+13.6267 	EXP 	surround: autoDraw = False
+13.6267 	EXP 	center: autoDraw = False
+13.6267 	EXP 	text_2: autoDraw = False
+13.6267 	EXP 	text_3: autoDraw = False
+13.6267 	EXP 	surround: ori = 30.0
+13.6267 	EXP 	center: ori = 0.0
+13.6267 	EXP 	text_2: autoDraw = True
+14.1174 	EXP 	surround: autoDraw = True
+14.1174 	EXP 	center: autoDraw = True
+14.1174 	EXP 	text_2: autoDraw = False
+14.1943 	EXP 	surround: autoDraw = False
+14.1943 	EXP 	center: autoDraw = False
+14.1943 	EXP 	text_3: autoDraw = True
+15.4556 	DATA 	Keypress: right
+15.4604 	INFO 	Keyboard events cleared
+15.4600 	EXP 	surround: autoDraw = False
+15.4600 	EXP 	center: autoDraw = False
+15.4600 	EXP 	text_2: autoDraw = False
+15.4600 	EXP 	text_3: autoDraw = False
+15.4600 	EXP 	surround: ori = 28.0
+15.4600 	EXP 	center: ori = -2.0
+15.4600 	EXP 	text_2: autoDraw = True
+15.9506 	EXP 	surround: autoDraw = True
+15.9506 	EXP 	center: autoDraw = True
+15.9506 	EXP 	text_2: autoDraw = False
+16.0277 	EXP 	surround: autoDraw = False
+16.0277 	EXP 	center: autoDraw = False
+16.0277 	EXP 	text_3: autoDraw = True
+16.9216 	DATA 	Keypress: left
+16.9270 	INFO 	Keyboard events cleared
+16.9268 	EXP 	surround: autoDraw = False
+16.9268 	EXP 	center: autoDraw = False
+16.9268 	EXP 	text_2: autoDraw = False
+16.9268 	EXP 	text_3: autoDraw = False
+16.9268 	EXP 	surround: ori = 47.0
+16.9268 	EXP 	center: ori = 17.0
+16.9268 	EXP 	text_2: autoDraw = True
+17.4145 	EXP 	surround: autoDraw = True
+17.4145 	EXP 	center: autoDraw = True
+17.4145 	EXP 	text_2: autoDraw = False
+17.4934 	EXP 	surround: autoDraw = False
+17.4934 	EXP 	center: autoDraw = False
+17.4987 	EXP 	text_3: autoDraw = True
+18.5836 	DATA 	Keypress: right
+18.5873 	INFO 	Keyboard events cleared
+18.5870 	EXP 	surround: autoDraw = False
+18.5870 	EXP 	center: autoDraw = False
+18.5870 	EXP 	text_2: autoDraw = False
+18.5870 	EXP 	text_3: autoDraw = False
+18.5870 	EXP 	surround: ori = 45.0
+18.5870 	EXP 	center: ori = 15.0
+18.5870 	EXP 	text_2: autoDraw = True
+19.0776 	EXP 	surround: autoDraw = True
+19.0776 	EXP 	center: autoDraw = True
+19.0836 	EXP 	text_2: autoDraw = False
+19.1501 	EXP 	surround: autoDraw = False
+19.1501 	EXP 	center: autoDraw = False
+19.1501 	EXP 	text_3: autoDraw = True
+19.9508 	DATA 	Keypress: right
+19.9603 	INFO 	Keyboard events cleared
+19.9601 	EXP 	surround: autoDraw = False
+19.9601 	EXP 	center: autoDraw = False
+19.9601 	EXP 	text_2: autoDraw = False
+19.9601 	EXP 	text_3: autoDraw = False
+19.9601 	EXP 	surround: ori = 29.0
+19.9601 	EXP 	center: ori = -1.0
+19.9601 	EXP 	text_2: autoDraw = True
+20.4479 	EXP 	surround: autoDraw = True
+20.4479 	EXP 	center: autoDraw = True
+20.4479 	EXP 	text_2: autoDraw = False
+20.5267 	EXP 	surround: autoDraw = False
+20.5267 	EXP 	center: autoDraw = False
+20.5267 	EXP 	text_3: autoDraw = True
+21.3719 	WARNING 	t of last frame was 61.23ms (=1/16)
+21.4177 	WARNING 	t of last frame was 45.80ms (=1/21)
+21.5047 	DATA 	Keypress: left
+21.5107 	INFO 	Keyboard events cleared
+21.5103 	EXP 	surround: autoDraw = False
+21.5103 	EXP 	center: autoDraw = False
+21.5103 	EXP 	text_2: autoDraw = False
+21.5103 	EXP 	text_3: autoDraw = False
+21.5103 	EXP 	surround: ori = 30.0
+21.5103 	EXP 	center: ori = 0.0
+21.5103 	EXP 	text_2: autoDraw = True
+22.0000 	EXP 	surround: autoDraw = True
+22.0000 	EXP 	center: autoDraw = True
+22.0000 	EXP 	text_2: autoDraw = False
+22.0777 	EXP 	surround: autoDraw = False
+22.0777 	EXP 	center: autoDraw = False
+22.0777 	EXP 	text_3: autoDraw = True
+22.7335 	DATA 	Keypress: left
+22.7364 	INFO 	Keyboard events cleared
+22.7361 	EXP 	surround: autoDraw = False
+22.7361 	EXP 	center: autoDraw = False
+22.7361 	EXP 	text_2: autoDraw = False
+22.7361 	EXP 	text_3: autoDraw = False
+22.7361 	EXP 	surround: ori = 43.0
+22.7361 	EXP 	center: ori = 13.0
+22.7361 	EXP 	text_2: autoDraw = True
+23.2311 	EXP 	surround: autoDraw = True
+23.2311 	EXP 	center: autoDraw = True
+23.2311 	EXP 	text_2: autoDraw = False
+23.3101 	EXP 	surround: autoDraw = False
+23.3101 	EXP 	center: autoDraw = False
+23.3101 	EXP 	text_3: autoDraw = True
+23.6310 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+24.0472 	DATA 	Keypress: right
+24.0498 	INFO 	Keyboard events cleared
+24.0495 	EXP 	surround: autoDraw = False
+24.0495 	EXP 	center: autoDraw = False
+24.0495 	EXP 	text_2: autoDraw = False
+24.0495 	EXP 	text_3: autoDraw = False
+24.0495 	EXP 	surround: ori = 31.0
+24.0495 	EXP 	center: ori = 1.0
+24.0495 	EXP 	text_2: autoDraw = True
+24.5434 	EXP 	surround: autoDraw = True
+24.5434 	EXP 	center: autoDraw = True
+24.5434 	EXP 	text_2: autoDraw = False
+24.6190 	EXP 	surround: autoDraw = False
+24.6190 	EXP 	center: autoDraw = False
+24.6190 	EXP 	text_3: autoDraw = True
+25.4514 	DATA 	Keypress: right
+25.4545 	INFO 	Keyboard events cleared
+25.4542 	EXP 	surround: autoDraw = False
+25.4542 	EXP 	center: autoDraw = False
+25.4542 	EXP 	text_2: autoDraw = False
+25.4542 	EXP 	text_3: autoDraw = False
+25.4542 	EXP 	surround: ori = 41.0
+25.4542 	EXP 	center: ori = 11.0
+25.4542 	EXP 	text_2: autoDraw = True
+25.9477 	EXP 	surround: autoDraw = True
+25.9477 	EXP 	center: autoDraw = True
+25.9477 	EXP 	text_2: autoDraw = False
+26.0141 	EXP 	surround: autoDraw = False
+26.0141 	EXP 	center: autoDraw = False
+26.0267 	EXP 	text_3: autoDraw = True
+26.6806 	DATA 	Keypress: right
+26.6838 	INFO 	Keyboard events cleared
+26.6835 	EXP 	surround: autoDraw = False
+26.6835 	EXP 	center: autoDraw = False
+26.6835 	EXP 	text_2: autoDraw = False
+26.6835 	EXP 	text_3: autoDraw = False
+26.6835 	EXP 	surround: ori = 39.0
+26.6835 	EXP 	center: ori = 9.0
+26.6835 	EXP 	text_2: autoDraw = True
+27.1766 	EXP 	surround: autoDraw = True
+27.1766 	EXP 	center: autoDraw = True
+27.1806 	EXP 	text_2: autoDraw = False
+27.2474 	EXP 	surround: autoDraw = False
+27.2474 	EXP 	center: autoDraw = False
+27.2474 	EXP 	text_3: autoDraw = True
+27.8540 	DATA 	Keypress: right
+27.8607 	INFO 	Keyboard events cleared
+27.8605 	EXP 	surround: autoDraw = False
+27.8605 	EXP 	center: autoDraw = False
+27.8605 	EXP 	text_2: autoDraw = False
+27.8605 	EXP 	text_3: autoDraw = False
+27.8605 	EXP 	surround: ori = 30.5
+27.8605 	EXP 	center: ori = 0.5
+27.8605 	EXP 	text_2: autoDraw = True
+28.3501 	EXP 	surround: autoDraw = True
+28.3501 	EXP 	center: autoDraw = True
+28.3501 	EXP 	text_2: autoDraw = False
+28.4278 	EXP 	surround: autoDraw = False
+28.4278 	EXP 	center: autoDraw = False
+28.4278 	EXP 	text_3: autoDraw = True
+29.3335 	DATA 	Keypress: right
+29.3374 	INFO 	Keyboard events cleared
+29.3371 	EXP 	surround: autoDraw = False
+29.3371 	EXP 	center: autoDraw = False
+29.3371 	EXP 	text_2: autoDraw = False
+29.3371 	EXP 	text_3: autoDraw = False
+29.3371 	EXP 	surround: ori = 30.0
+29.3371 	EXP 	center: ori = 0.0
+29.3371 	EXP 	text_2: autoDraw = True
+29.8276 	EXP 	surround: autoDraw = True
+29.8276 	EXP 	center: autoDraw = True
+29.8337 	EXP 	text_2: autoDraw = False
+29.9002 	EXP 	surround: autoDraw = False
+29.9002 	EXP 	center: autoDraw = False
+29.9002 	EXP 	text_3: autoDraw = True
+31.6057 	DATA 	Keypress: right
+31.6102 	INFO 	Keyboard events cleared
+31.6100 	EXP 	surround: autoDraw = False
+31.6100 	EXP 	center: autoDraw = False
+31.6100 	EXP 	text_2: autoDraw = False
+31.6100 	EXP 	text_3: autoDraw = False
+31.6100 	EXP 	surround: ori = 37.0
+31.6100 	EXP 	center: ori = 7.0
+31.6100 	EXP 	text_2: autoDraw = True
+32.1008 	EXP 	surround: autoDraw = True
+32.1008 	EXP 	center: autoDraw = True
+32.1008 	EXP 	text_2: autoDraw = False
+32.1776 	EXP 	surround: autoDraw = False
+32.1776 	EXP 	center: autoDraw = False
+32.1776 	EXP 	text_3: autoDraw = True
+32.7497 	DATA 	Keypress: right
+32.7536 	INFO 	Keyboard events cleared
+32.7533 	EXP 	surround: autoDraw = False
+32.7533 	EXP 	center: autoDraw = False
+32.7533 	EXP 	text_2: autoDraw = False
+32.7533 	EXP 	text_3: autoDraw = False
+32.7533 	EXP 	surround: ori = 35.0
+32.7533 	EXP 	center: ori = 5.0
+32.7533 	EXP 	text_2: autoDraw = True
+33.2440 	EXP 	surround: autoDraw = True
+33.2440 	EXP 	center: autoDraw = True
+33.2495 	EXP 	text_2: autoDraw = False
+33.3170 	EXP 	surround: autoDraw = False
+33.3170 	EXP 	center: autoDraw = False
+33.3170 	EXP 	text_3: autoDraw = True
+33.8831 	DATA 	Keypress: right
+33.8869 	INFO 	Keyboard events cleared
+33.8867 	EXP 	surround: autoDraw = False
+33.8867 	EXP 	center: autoDraw = False
+33.8867 	EXP 	text_2: autoDraw = False
+33.8867 	EXP 	text_3: autoDraw = False
+33.8867 	EXP 	surround: ori = 29.5
+33.8867 	EXP 	center: ori = -0.5
+33.8867 	EXP 	text_2: autoDraw = True
+34.3773 	EXP 	surround: autoDraw = True
+34.3773 	EXP 	center: autoDraw = True
+34.3827 	EXP 	text_2: autoDraw = False
+34.4502 	EXP 	surround: autoDraw = False
+34.4502 	EXP 	center: autoDraw = False
+34.4502 	EXP 	text_3: autoDraw = True
+35.7000 	DATA 	Keypress: right
+35.7036 	INFO 	Keyboard events cleared
+35.7033 	EXP 	surround: autoDraw = False
+35.7033 	EXP 	center: autoDraw = False
+35.7033 	EXP 	text_2: autoDraw = False
+35.7033 	EXP 	text_3: autoDraw = False
+35.7033 	EXP 	surround: ori = 33.0
+35.7033 	EXP 	center: ori = 3.0
+35.7033 	EXP 	text_2: autoDraw = True
+36.1934 	EXP 	surround: autoDraw = True
+36.1934 	EXP 	center: autoDraw = True
+36.1982 	EXP 	text_2: autoDraw = False
+36.2651 	EXP 	surround: autoDraw = False
+36.2651 	EXP 	center: autoDraw = False
+36.2651 	EXP 	text_3: autoDraw = True
+36.7990 	DATA 	Keypress: right
+36.8020 	INFO 	Keyboard events cleared
+36.8018 	EXP 	surround: autoDraw = False
+36.8018 	EXP 	center: autoDraw = False
+36.8018 	EXP 	text_2: autoDraw = False
+36.8018 	EXP 	text_3: autoDraw = False
+36.8018 	EXP 	surround: ori = 29.0
+36.8018 	EXP 	center: ori = -1.0
+36.8018 	EXP 	text_2: autoDraw = True
+37.2933 	EXP 	surround: autoDraw = True
+37.2933 	EXP 	center: autoDraw = True
+37.2981 	EXP 	text_2: autoDraw = False
+37.3657 	EXP 	surround: autoDraw = False
+37.3657 	EXP 	center: autoDraw = False
+37.3657 	EXP 	text_3: autoDraw = True
+39.9026 	DATA 	Keypress: left
+39.9080 	INFO 	Keyboard events cleared
+39.9074 	EXP 	surround: autoDraw = False
+39.9074 	EXP 	center: autoDraw = False
+39.9074 	EXP 	text_2: autoDraw = False
+39.9074 	EXP 	text_3: autoDraw = False
+39.9074 	EXP 	surround: ori = 31.0
+39.9074 	EXP 	center: ori = 1.0
+39.9074 	EXP 	text_2: autoDraw = True
+40.3992 	EXP 	surround: autoDraw = True
+40.3992 	EXP 	center: autoDraw = True
+40.3992 	EXP 	text_2: autoDraw = False
+40.4773 	EXP 	surround: autoDraw = False
+40.4773 	EXP 	center: autoDraw = False
+40.4773 	EXP 	text_3: autoDraw = True
+41.0543 	DATA 	Keypress: left
+41.0605 	INFO 	Keyboard events cleared
+41.0603 	EXP 	surround: autoDraw = False
+41.0603 	EXP 	center: autoDraw = False
+41.0603 	EXP 	text_2: autoDraw = False
+41.0603 	EXP 	text_3: autoDraw = False
+41.0603 	EXP 	surround: ori = 29.25
+41.0603 	EXP 	center: ori = -0.75
+41.0603 	EXP 	text_2: autoDraw = True
+41.5499 	EXP 	surround: autoDraw = True
+41.5499 	EXP 	center: autoDraw = True
+41.5499 	EXP 	text_2: autoDraw = False
+41.6270 	EXP 	surround: autoDraw = False
+41.6270 	EXP 	center: autoDraw = False
+41.6270 	EXP 	text_3: autoDraw = True
+42.4183 	DATA 	Keypress: left
+42.4269 	INFO 	Keyboard events cleared
+42.4267 	EXP 	surround: autoDraw = False
+42.4267 	EXP 	center: autoDraw = False
+42.4267 	EXP 	text_2: autoDraw = False
+42.4267 	EXP 	text_3: autoDraw = False
+42.4267 	EXP 	surround: ori = 29.5
+42.4267 	EXP 	center: ori = -0.5
+42.4267 	EXP 	text_2: autoDraw = True
+42.9169 	EXP 	surround: autoDraw = True
+42.9169 	EXP 	center: autoDraw = True
+42.9169 	EXP 	text_2: autoDraw = False
+42.9943 	EXP 	surround: autoDraw = False
+42.9943 	EXP 	center: autoDraw = False
+42.9943 	EXP 	text_3: autoDraw = True
+43.9827 	DATA 	Keypress: left
+43.9858 	INFO 	Keyboard events cleared
+43.9855 	EXP 	surround: autoDraw = False
+43.9855 	EXP 	center: autoDraw = False
+43.9855 	EXP 	text_2: autoDraw = False
+43.9855 	EXP 	text_3: autoDraw = False
+43.9855 	EXP 	surround: ori = 32.0
+43.9855 	EXP 	center: ori = 2.0
+43.9855 	EXP 	text_2: autoDraw = True
+44.4777 	EXP 	surround: autoDraw = True
+44.4777 	EXP 	center: autoDraw = True
+44.4834 	EXP 	text_2: autoDraw = False
+44.5502 	EXP 	surround: autoDraw = False
+44.5502 	EXP 	center: autoDraw = False
+44.5502 	EXP 	text_3: autoDraw = True
+45.1826 	DATA 	Keypress: right
+45.1863 	INFO 	Keyboard events cleared
+45.1861 	EXP 	surround: autoDraw = False
+45.1861 	EXP 	center: autoDraw = False
+45.1861 	EXP 	text_2: autoDraw = False
+45.1861 	EXP 	text_3: autoDraw = False
+45.1861 	EXP 	surround: ori = 31.5
+45.1861 	EXP 	center: ori = 1.5
+45.1861 	EXP 	text_2: autoDraw = True
+45.6766 	EXP 	surround: autoDraw = True
+45.6766 	EXP 	center: autoDraw = True
+45.6813 	EXP 	text_2: autoDraw = False
+45.7471 	EXP 	surround: autoDraw = False
+45.7471 	EXP 	center: autoDraw = False
+45.7471 	EXP 	text_3: autoDraw = True
+46.3034 	DATA 	Keypress: right
+46.3104 	INFO 	Keyboard events cleared
+46.3101 	EXP 	surround: autoDraw = False
+46.3101 	EXP 	center: autoDraw = False
+46.3101 	EXP 	text_2: autoDraw = False
+46.3101 	EXP 	text_3: autoDraw = False
+46.3101 	EXP 	surround: ori = 29.75
+46.3101 	EXP 	center: ori = -0.25
+46.3101 	EXP 	text_2: autoDraw = True
+46.7974 	EXP 	surround: autoDraw = True
+46.7974 	EXP 	center: autoDraw = True
+46.7974 	EXP 	text_2: autoDraw = False
+46.8641 	EXP 	surround: autoDraw = False
+46.8641 	EXP 	center: autoDraw = False
+46.8765 	EXP 	text_3: autoDraw = True
+47.5357 	DATA 	Keypress: right
+47.5435 	INFO 	Keyboard events cleared
+47.5433 	EXP 	surround: autoDraw = False
+47.5433 	EXP 	center: autoDraw = False
+47.5433 	EXP 	text_2: autoDraw = False
+47.5433 	EXP 	text_3: autoDraw = False
+47.5433 	EXP 	surround: ori = 31.0
+47.5433 	EXP 	center: ori = 1.0
+47.5433 	EXP 	text_2: autoDraw = True
+48.0307 	EXP 	surround: autoDraw = True
+48.0307 	EXP 	center: autoDraw = True
+48.0307 	EXP 	text_2: autoDraw = False
+48.0977 	EXP 	surround: autoDraw = False
+48.0977 	EXP 	center: autoDraw = False
+48.1101 	EXP 	text_3: autoDraw = True
+48.6973 	DATA 	Keypress: right
+48.6998 	INFO 	Keyboard events cleared
+48.6995 	EXP 	surround: autoDraw = False
+48.6995 	EXP 	center: autoDraw = False
+48.6995 	EXP 	text_2: autoDraw = False
+48.6995 	EXP 	text_3: autoDraw = False
+48.6995 	EXP 	surround: ori = 29.65
+48.6995 	EXP 	center: ori = -0.35
+48.6995 	EXP 	text_2: autoDraw = True
+49.1933 	EXP 	surround: autoDraw = True
+49.1933 	EXP 	center: autoDraw = True
+49.1971 	EXP 	text_2: autoDraw = False
+49.2638 	EXP 	surround: autoDraw = False
+49.2638 	EXP 	center: autoDraw = False
+49.2638 	EXP 	text_3: autoDraw = True
+52.4416 	DATA 	Keypress: right
+52.4613 	INFO 	Keyboard events cleared
+52.4610 	EXP 	surround: autoDraw = False
+52.4610 	EXP 	center: autoDraw = False
+52.4610 	EXP 	text_2: autoDraw = False
+52.4610 	EXP 	text_3: autoDraw = False
+52.4610 	EXP 	surround: ori = 29.55
+52.4610 	EXP 	center: ori = -0.44999999999999996
+52.4610 	EXP 	text_2: autoDraw = True
+52.9316 	EXP 	surround: autoDraw = True
+52.9316 	EXP 	center: autoDraw = True
+52.9476 	EXP 	text_2: autoDraw = False
+53.0101 	EXP 	surround: autoDraw = False
+53.0101 	EXP 	center: autoDraw = False
+53.0145 	EXP 	text_3: autoDraw = True
+53.6571 	DATA 	Keypress: left
+53.6620 	INFO 	Keyboard events cleared
+53.6603 	EXP 	surround: autoDraw = False
+53.6603 	EXP 	center: autoDraw = False
+53.6603 	EXP 	text_2: autoDraw = False
+53.6603 	EXP 	text_3: autoDraw = False
+53.6603 	EXP 	surround: ori = 30.5
+53.6603 	EXP 	center: ori = 0.5
+53.6603 	EXP 	text_2: autoDraw = True
+54.1475 	EXP 	surround: autoDraw = True
+54.1475 	EXP 	center: autoDraw = True
+54.1475 	EXP 	text_2: autoDraw = False
+54.2136 	EXP 	surround: autoDraw = False
+54.2136 	EXP 	center: autoDraw = False
+54.2304 	EXP 	text_3: autoDraw = True
+55.3979 	DATA 	Keypress: right
+55.4006 	INFO 	Keyboard events cleared
+55.4004 	EXP 	surround: autoDraw = False
+55.4004 	EXP 	center: autoDraw = False
+55.4004 	EXP 	text_2: autoDraw = False
+55.4004 	EXP 	text_3: autoDraw = False
+55.4004 	EXP 	surround: ori = 30.0
+55.4004 	EXP 	center: ori = 0.0
+55.4004 	EXP 	text_2: autoDraw = True
+55.8934 	EXP 	surround: autoDraw = True
+55.8934 	EXP 	center: autoDraw = True
+55.8981 	EXP 	text_2: autoDraw = False
+55.9647 	EXP 	surround: autoDraw = False
+55.9647 	EXP 	center: autoDraw = False
+55.9647 	EXP 	text_3: autoDraw = True
+57.4331 	DATA 	Keypress: right
+57.4367 	INFO 	Keyboard events cleared
+57.4363 	EXP 	surround: autoDraw = False
+57.4363 	EXP 	center: autoDraw = False
+57.4363 	EXP 	text_2: autoDraw = False
+57.4363 	EXP 	text_3: autoDraw = False
+57.4363 	EXP 	surround: ori = 29.65
+57.4363 	EXP 	center: ori = -0.35
+57.4363 	EXP 	text_2: autoDraw = True
+57.9275 	EXP 	surround: autoDraw = True
+57.9275 	EXP 	center: autoDraw = True
+57.9332 	EXP 	text_2: autoDraw = False
+57.9997 	EXP 	surround: autoDraw = False
+57.9997 	EXP 	center: autoDraw = False
+57.9997 	EXP 	text_3: autoDraw = True
+58.9916 	DATA 	Keypress: right
+58.9942 	INFO 	Keyboard events cleared
+58.9940 	EXP 	surround: autoDraw = False
+58.9940 	EXP 	center: autoDraw = False
+58.9940 	EXP 	text_2: autoDraw = False
+58.9940 	EXP 	text_3: autoDraw = False
+58.9940 	EXP 	surround: ori = 29.55
+58.9940 	EXP 	center: ori = -0.44999999999999996
+58.9940 	EXP 	text_2: autoDraw = True
+59.4845 	EXP 	surround: autoDraw = True
+59.4845 	EXP 	center: autoDraw = True
+59.4845 	EXP 	text_2: autoDraw = False
+59.5609 	EXP 	surround: autoDraw = False
+59.5609 	EXP 	center: autoDraw = False
+59.5665 	EXP 	text_3: autoDraw = True
+61.7558 	DATA 	Keypress: left
+61.7602 	INFO 	Keyboard events cleared
+61.7599 	EXP 	surround: autoDraw = False
+61.7599 	EXP 	center: autoDraw = False
+61.7599 	EXP 	text_2: autoDraw = False
+61.7599 	EXP 	text_3: autoDraw = False
+61.7599 	EXP 	surround: ori = 29.5
+61.7599 	EXP 	center: ori = -0.5
+61.7599 	EXP 	text_2: autoDraw = True
+62.2506 	EXP 	surround: autoDraw = True
+62.2506 	EXP 	center: autoDraw = True
+62.2506 	EXP 	text_2: autoDraw = False
+62.3275 	EXP 	surround: autoDraw = False
+62.3275 	EXP 	center: autoDraw = False
+62.3275 	EXP 	text_3: autoDraw = True
+63.4716 	DATA 	Keypress: right
+63.4770 	INFO 	Keyboard events cleared
+63.4768 	EXP 	surround: autoDraw = False
+63.4768 	EXP 	center: autoDraw = False
+63.4768 	EXP 	text_2: autoDraw = False
+63.4768 	EXP 	text_3: autoDraw = False
+63.4768 	EXP 	surround: ori = 29.65
+63.4768 	EXP 	center: ori = -0.35
+63.4768 	EXP 	text_2: autoDraw = True
+63.9678 	EXP 	surround: autoDraw = True
+63.9678 	EXP 	center: autoDraw = True
+63.9678 	EXP 	text_2: autoDraw = False
+64.0443 	EXP 	surround: autoDraw = False
+64.0443 	EXP 	center: autoDraw = False
+64.0443 	EXP 	text_3: autoDraw = True
+65.1889 	DATA 	Keypress: right
+65.1935 	INFO 	Keyboard events cleared
+65.1932 	EXP 	surround: autoDraw = False
+65.1932 	EXP 	center: autoDraw = False
+65.1932 	EXP 	text_2: autoDraw = False
+65.1932 	EXP 	text_3: autoDraw = False
+65.1932 	EXP 	surround: ori = 29.0
+65.1932 	EXP 	center: ori = -1.0
+65.1932 	EXP 	text_2: autoDraw = True
+65.6836 	EXP 	surround: autoDraw = True
+65.6836 	EXP 	center: autoDraw = True
+65.6836 	EXP 	text_2: autoDraw = False
+65.7609 	EXP 	surround: autoDraw = False
+65.7609 	EXP 	center: autoDraw = False
+65.7609 	EXP 	text_3: autoDraw = True
+66.4217 	DATA 	Keypress: left
+66.4269 	INFO 	Keyboard events cleared
+66.4266 	EXP 	surround: autoDraw = False
+66.4266 	EXP 	center: autoDraw = False
+66.4266 	EXP 	text_2: autoDraw = False
+66.4266 	EXP 	text_3: autoDraw = False
+66.4266 	EXP 	surround: ori = 29.25
+66.4266 	EXP 	center: ori = -0.75
+66.4266 	EXP 	text_2: autoDraw = True
+66.9168 	EXP 	surround: autoDraw = True
+66.9168 	EXP 	center: autoDraw = True
+66.9168 	EXP 	text_2: autoDraw = False
+66.9942 	EXP 	surround: autoDraw = False
+66.9942 	EXP 	center: autoDraw = False
+66.9942 	EXP 	text_3: autoDraw = True
+67.5649 	DATA 	Keypress: left
+67.5674 	INFO 	Keyboard events cleared
+67.5672 	EXP 	surround: autoDraw = False
+67.5672 	EXP 	center: autoDraw = False
+67.5672 	EXP 	text_2: autoDraw = False
+67.5672 	EXP 	text_3: autoDraw = False
+67.5672 	EXP 	surround: ori = 29.55
+67.5672 	EXP 	center: ori = -0.44999999999999996
+67.5672 	EXP 	text_2: autoDraw = True
+68.0608 	EXP 	surround: autoDraw = True
+68.0608 	EXP 	center: autoDraw = True
+68.0608 	EXP 	text_2: autoDraw = False
+68.1335 	EXP 	surround: autoDraw = False
+68.1335 	EXP 	center: autoDraw = False
+68.1335 	EXP 	text_3: autoDraw = True
+68.7162 	DATA 	Keypress: left
+68.7201 	INFO 	Keyboard events cleared
+68.7199 	EXP 	surround: autoDraw = False
+68.7199 	EXP 	center: autoDraw = False
+68.7199 	EXP 	text_2: autoDraw = False
+68.7199 	EXP 	text_3: autoDraw = False
+68.7199 	EXP 	surround: ori = 29.5
+68.7199 	EXP 	center: ori = -0.5
+68.7199 	EXP 	text_2: autoDraw = True
+69.2109 	EXP 	surround: autoDraw = True
+69.2109 	EXP 	center: autoDraw = True
+69.2168 	EXP 	text_2: autoDraw = False
+69.2831 	EXP 	surround: autoDraw = False
+69.2831 	EXP 	center: autoDraw = False
+69.2831 	EXP 	text_3: autoDraw = True
+69.7869 	DATA 	Keypress: left
+69.7938 	INFO 	Keyboard events cleared
+69.7934 	EXP 	surround: autoDraw = False
+69.7934 	EXP 	center: autoDraw = False
+69.7934 	EXP 	text_2: autoDraw = False
+69.7934 	EXP 	text_3: autoDraw = False
+69.7934 	EXP 	surround: ori = 29.65
+69.7934 	EXP 	center: ori = -0.35
+69.7934 	EXP 	text_2: autoDraw = True
+70.2836 	EXP 	surround: autoDraw = True
+70.2836 	EXP 	center: autoDraw = True
+70.2836 	EXP 	text_2: autoDraw = False
+70.3609 	EXP 	surround: autoDraw = False
+70.3609 	EXP 	center: autoDraw = False
+70.3609 	EXP 	text_3: autoDraw = True
+71.1331 	DATA 	Keypress: left
+71.1370 	INFO 	Keyboard events cleared
+71.1367 	EXP 	surround: autoDraw = False
+71.1367 	EXP 	center: autoDraw = False
+71.1367 	EXP 	text_2: autoDraw = False
+71.1367 	EXP 	text_3: autoDraw = False
+71.1367 	EXP 	surround: ori = 29.75
+71.1367 	EXP 	center: ori = -0.24999999999999997
+71.1367 	EXP 	text_2: autoDraw = True
+71.6267 	EXP 	surround: autoDraw = True
+71.6267 	EXP 	center: autoDraw = True
+71.6316 	EXP 	text_2: autoDraw = False
+71.6981 	EXP 	surround: autoDraw = False
+71.6981 	EXP 	center: autoDraw = False
+71.6981 	EXP 	text_3: autoDraw = True
+73.5331 	DATA 	Keypress: right
+73.5371 	INFO 	Keyboard events cleared
+73.5368 	EXP 	surround: autoDraw = False
+73.5368 	EXP 	center: autoDraw = False
+73.5368 	EXP 	text_2: autoDraw = False
+73.5368 	EXP 	text_3: autoDraw = False
+73.5368 	EXP 	surround: ori = 29.75
+73.5368 	EXP 	center: ori = -0.25
+73.5368 	EXP 	text_2: autoDraw = True
+74.0275 	EXP 	surround: autoDraw = True
+74.0275 	EXP 	center: autoDraw = True
+74.0335 	EXP 	text_2: autoDraw = False
+74.1004 	EXP 	surround: autoDraw = False
+74.1004 	EXP 	center: autoDraw = False
+74.1004 	EXP 	text_3: autoDraw = True
+74.7887 	DATA 	Keypress: left
+74.7935 	INFO 	Keyboard events cleared
+74.7933 	EXP 	surround: autoDraw = False
+74.7933 	EXP 	center: autoDraw = False
+74.7933 	EXP 	text_2: autoDraw = False
+74.7933 	EXP 	text_3: autoDraw = False
+74.7933 	EXP 	surround: ori = 30.0
+74.7933 	EXP 	center: ori = 0.0
+74.7933 	EXP 	text_2: autoDraw = True
+75.2839 	EXP 	surround: autoDraw = True
+75.2839 	EXP 	center: autoDraw = True
+75.2839 	EXP 	text_2: autoDraw = False
+75.3609 	EXP 	surround: autoDraw = False
+75.3609 	EXP 	center: autoDraw = False
+75.3609 	EXP 	text_3: autoDraw = True
+76.2643 	DATA 	Keypress: left
+76.2670 	INFO 	Keyboard events cleared
+76.2667 	EXP 	surround: autoDraw = False
+76.2667 	EXP 	center: autoDraw = False
+76.2667 	EXP 	text_2: autoDraw = False
+76.2667 	EXP 	text_3: autoDraw = False
+76.2667 	EXP 	surround: ori = 29.65
+76.2667 	EXP 	center: ori = -0.35
+76.2667 	EXP 	text_2: autoDraw = True
+76.7608 	EXP 	surround: autoDraw = True
+76.7608 	EXP 	center: autoDraw = True
+76.7608 	EXP 	text_2: autoDraw = False
+76.8329 	EXP 	surround: autoDraw = False
+76.8329 	EXP 	center: autoDraw = False
+76.8329 	EXP 	text_3: autoDraw = True
+77.4894 	DATA 	Keypress: left
+77.4936 	INFO 	Keyboard events cleared
+77.4933 	EXP 	surround: autoDraw = False
+77.4933 	EXP 	center: autoDraw = False
+77.4933 	EXP 	text_2: autoDraw = False
+77.4933 	EXP 	text_3: autoDraw = False
+77.4933 	EXP 	surround: ori = 30.25
+77.4933 	EXP 	center: ori = 0.25
+77.4933 	EXP 	text_2: autoDraw = True
+77.9838 	EXP 	surround: autoDraw = True
+77.9838 	EXP 	center: autoDraw = True
+77.9838 	EXP 	text_2: autoDraw = False
+78.0609 	EXP 	surround: autoDraw = False
+78.0609 	EXP 	center: autoDraw = False
+78.0665 	EXP 	text_3: autoDraw = True
+78.8719 	DATA 	Keypress: right
+78.8767 	INFO 	Keyboard events cleared
+78.8765 	EXP 	surround: autoDraw = False
+78.8765 	EXP 	center: autoDraw = False
+78.8765 	EXP 	text_2: autoDraw = False
+78.8765 	EXP 	text_3: autoDraw = False
+78.8765 	EXP 	surround: ori = 30.15
+78.8765 	EXP 	center: ori = 0.15
+78.8765 	EXP 	text_2: autoDraw = True
+79.3672 	EXP 	surround: autoDraw = True
+79.3672 	EXP 	center: autoDraw = True
+79.3672 	EXP 	text_2: autoDraw = False
+79.4442 	EXP 	surround: autoDraw = False
+79.4442 	EXP 	center: autoDraw = False
+79.4442 	EXP 	text_3: autoDraw = True
+80.3482 	DATA 	Keypress: right
+80.3512 	INFO 	Keyboard events cleared
+80.3508 	EXP 	surround: autoDraw = False
+80.3508 	EXP 	center: autoDraw = False
+80.3508 	EXP 	text_2: autoDraw = False
+80.3508 	EXP 	text_3: autoDraw = False
+80.3508 	EXP 	surround: ori = 30.05
+80.3508 	EXP 	center: ori = 0.04999999999999999
+80.3508 	EXP 	text_2: autoDraw = True
+80.8434 	EXP 	surround: autoDraw = True
+80.8434 	EXP 	center: autoDraw = True
+80.8484 	EXP 	text_2: autoDraw = False
+80.9159 	EXP 	surround: autoDraw = False
+80.9159 	EXP 	center: autoDraw = False
+80.9159 	EXP 	text_3: autoDraw = True
+82.0180 	DATA 	Keypress: right
+82.0267 	INFO 	Keyboard events cleared
+82.0265 	EXP 	surround: autoDraw = False
+82.0265 	EXP 	center: autoDraw = False
+82.0265 	EXP 	text_2: autoDraw = False
+82.0265 	EXP 	text_3: autoDraw = False
+82.0265 	EXP 	surround: ori = 29.95
+82.0265 	EXP 	center: ori = -0.05000000000000002
+82.0265 	EXP 	text_2: autoDraw = True
+82.5161 	EXP 	surround: autoDraw = True
+82.5161 	EXP 	center: autoDraw = True
+82.5161 	EXP 	text_2: autoDraw = False
+82.5939 	EXP 	surround: autoDraw = False
+82.5939 	EXP 	center: autoDraw = False
+82.5939 	EXP 	text_3: autoDraw = True
+83.1134 	DATA 	Keypress: left
+83.1160 	INFO 	Keyboard events cleared
+83.1157 	EXP 	surround: autoDraw = False
+83.1157 	EXP 	center: autoDraw = False
+83.1157 	EXP 	text_2: autoDraw = False
+83.1157 	EXP 	text_3: autoDraw = False
+83.1157 	EXP 	surround: ori = 30.05
+83.1157 	EXP 	center: ori = 0.04999999999999999
+83.1157 	EXP 	text_2: autoDraw = True
+83.6099 	EXP 	surround: autoDraw = True
+83.6099 	EXP 	center: autoDraw = True
+83.6138 	EXP 	text_2: autoDraw = False
+83.6804 	EXP 	surround: autoDraw = False
+83.6804 	EXP 	center: autoDraw = False
+83.6804 	EXP 	text_3: autoDraw = True
+84.9397 	DATA 	Keypress: right
+84.9437 	INFO 	Keyboard events cleared
+84.9434 	EXP 	surround: autoDraw = False
+84.9434 	EXP 	center: autoDraw = False
+84.9434 	EXP 	text_2: autoDraw = False
+84.9434 	EXP 	text_3: autoDraw = False
+84.9434 	EXP 	text_4: autoDraw = True
+86.3212 	DATA 	Keypress: right
+86.3268 	EXP 	text_4: autoDraw = False
+86.3288 	EXP 	tilt_staircase: status = STOPPED
+86.3426 	INFO 	saved data to '/Users/bwinsto2/Downloads/data/394331_tilt_staircase_2025-08-13_14h51.06.881.csv'
+86.3441 	INFO 	saved data to /Users/bwinsto2/Downloads/data/394331_tilt_staircase_2025-08-13_14h51.06.881.psydat
+87.0158 	DEBUG 	Saving data for tilt_staircase ExperimentHandler

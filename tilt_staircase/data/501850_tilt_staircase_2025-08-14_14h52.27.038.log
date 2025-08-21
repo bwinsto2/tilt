@@ -1,0 +1,734 @@
+5.5545 	INFO 	Loaded monitor calibration from ['2025_08_13 14:32']
+5.7423 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f9b1ae79c10>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f9b1ae79b20>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f9b2203e490>, multiSample=False, name='window1', numSamples=2, pos=[320.0, 150.0], screen=0, size=array([1600, 1200]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.7424 	EXP 	window1: backgroundImage = ''
+5.7424 	EXP 	window1: backgroundFit = 'none'
+5.7524 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7532 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7539 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7548 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7556 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7560 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7567 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7576 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7579 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7582 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7589 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7596 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7602 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7609 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7615 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7622 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7629 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7633 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7638 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7647 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7652 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7654 	DEBUG 	Uploading Texture Font fontname to graphics card
+5.7690 	DEBUG 	Upload of Texture Font fontname complete
+5.7744 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7753 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7761 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7763 	DEBUG 	Uploading Texture Font fontname to graphics card
+5.7784 	DEBUG 	Upload of Texture Font fontname complete
+5.7801 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+5.7801 	EXP 	window1: recordFrameIntervals = False
+5.9699 	EXP 	window1: recordFrameIntervals = True
+6.8053 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+6.8125 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.8133 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.8144 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.8158 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.8171 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.8184 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.8192 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.8203 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.8216 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.8229 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.8232 	DEBUG 	Uploading Texture Font fontname to graphics card
+6.8262 	DEBUG 	Upload of Texture Font fontname complete
+6.8469 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+10.4690 	INFO 	keyboard.Keyboard is using iohub backend.
+10.4691 	INFO 	keyboard.Keyboard is using iohub backend.
+10.4691 	INFO 	keyboard.Keyboard is using iohub backend.
+10.4691 	INFO 	keyboard.Keyboard is using iohub backend.
+10.4691 	INFO 	keyboard.Keyboard is using iohub backend.
+10.4691 	INFO 	keyboard.Keyboard is using iohub backend.
+10.4692 	INFO 	keyboard.Keyboard is using iohub backend.
+10.4692 	INFO 	keyboard.Keyboard is using iohub backend.
+10.4692 	INFO 	keyboard.Keyboard is using iohub backend.
+10.4692 	EXP 	tilt_staircase: status = STARTED
+10.5137 	EXP 	Created text_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_5', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.5206 	EXP 	Created text_6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_6', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.5226 	EXP 	Created surround_practice = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, interpolate=True, mask='circle', maskParams=None, name='surround_practice', opacity=1, ori=1.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([8.5, 8.5]), size=array([0.8, 0.8]), tex='sin', texRes=128.0, units='height', win=Window(...))
+10.5240 	EXP 	Created center_practice = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, interpolate=True, mask='circle', maskParams=None, name='center_practice', opacity=1, ori=1.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([4., 4.]), size=array([0.25, 0.25]), tex='sin', texRes=128.0, units='height', win=Window(...))
+10.5257 	EXP 	Created text_9 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_9', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+10.5292 	EXP 	Created text_11 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_11', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.5298 	EXP 	Created text_7 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_7', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.5365 	EXP 	Created text_8 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_8', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.5380 	EXP 	Created surround_practice_2 = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, interpolate=True, mask='circle', maskParams=None, name='surround_practice_2', opacity=1.0, ori=1.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([8.5, 8.5]), size=array([0.8, 0.8]), tex='sin', texRes=128.0, units='height', win=Window(...))
+10.5394 	EXP 	Created center_practice_2 = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, interpolate=True, mask='circle', maskParams=None, name='center_practice_2', opacity=1, ori=1.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([4., 4.]), size=array([0.25, 0.25]), tex='sin', texRes=128.0, units='height', win=Window(...))
+10.5405 	EXP 	Created text_10 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_10', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+10.5429 	EXP 	Created text_12 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_12', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.5434 	EXP 	Created text_7 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_7', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.5479 	EXP 	Created text_13 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_13', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.5493 	EXP 	Created surround_grating = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, interpolate=True, mask='circle', maskParams=None, name='surround_grating', opacity=1.0, ori=1.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([8.5, 8.5]), size=array([0.8, 0.8]), tex='sin', texRes=128.0, units='height', win=Window(...))
+10.5507 	EXP 	Created center_grating = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, interpolate=True, mask='circle', maskParams=None, name='center_grating', opacity=1, ori=1.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([4., 4.]), size=array([0.25, 0.25]), tex='sin', texRes=128.0, units='height', win=Window(...))
+10.5519 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+10.5542 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_3', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.5560 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_4', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='thank you and have a pleasant day ', units='height', win=Window(...), wrapWidth=1)
+0.0200 	INFO 	Keyboard events cleared
+0.0198 	EXP 	text_5: autoDraw = True
+0.6498 	DATA 	Keypress: space
+0.6534 	INFO 	Keyboard events cleared
+0.6531 	WARNING 	t of last frame was 37.50ms (=1/26)
+0.6531 	EXP 	text_5: autoDraw = False
+0.6531 	EXP 	text_6: autoDraw = True
+0.8555 	DEBUG 	Read csv file with pandas: tilt_practice_1.csv
+0.8565 	DEBUG 	Clearing unnamed columns from tilt_practice_1.csv
+0.8569 	EXP 	Imported tilt_practice_1.csv as conditions, 4 conditions, 3 params
+0.8572 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'center': 30, 'surround': 0, 'correct': 'right', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+0.8639 	DATA 	Keypress: space
+0.8666 	INFO 	Keyboard events cleared
+0.8663 	EXP 	text_6: autoDraw = False
+0.8663 	EXP 	surround_practice: ori = 0.0
+0.8663 	EXP 	center_practice: ori = 30.0
+0.8663 	EXP 	text_9: autoDraw = True
+1.3535 	EXP 	surround_practice: autoDraw = True
+1.3535 	EXP 	center_practice: autoDraw = True
+1.3535 	EXP 	surround_practice: tex = 'sin'
+1.3535 	EXP 	center_practice: tex = 'sin'
+1.3611 	EXP 	text_9: autoDraw = False
+2.3193 	DATA 	Keypress: right
+2.3212 	WARNING 	t of last frame was 26.72ms (=1/37)
+2.3212 	EXP 	surround_practice: autoDraw = False
+2.3212 	EXP 	center_practice: autoDraw = False
+2.3212 	EXP 	text_9: autoDraw = False
+2.3212 	EXP 	text_11: autoDraw = False
+2.3212 	EXP 	text_7: height = 0.05
+2.3212 	EXP 	text_7: height = 0.05
+2.3212 	EXP 	text_7: height = 0.05
+2.3212 	EXP 	text_7: text = 'Correct. Press Spacebar.'
+2.3212 	EXP 	text_7: autoDraw = True
+3.0028 	DATA 	Keypress: space
+3.8007 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'center': -30, 'surround': 0, 'correct': 'left', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+3.8114 	INFO 	Keyboard events cleared
+3.8112 	EXP 	text_7: autoDraw = False
+3.8112 	EXP 	surround_practice: ori = 0.0
+3.8112 	EXP 	center_practice: ori = -30.0
+3.8112 	EXP 	text_9: autoDraw = True
+4.2944 	EXP 	surround_practice: autoDraw = True
+4.2944 	EXP 	center_practice: autoDraw = True
+4.2991 	EXP 	text_9: autoDraw = False
+4.6781 	DATA 	Keypress: left
+4.6911 	WARNING 	t of last frame was 25.68ms (=1/38)
+4.6911 	EXP 	surround_practice: autoDraw = False
+4.6911 	EXP 	center_practice: autoDraw = False
+4.6911 	EXP 	text_9: autoDraw = False
+4.6911 	EXP 	text_11: autoDraw = False
+4.6911 	EXP 	text_7: text = 'Correct. Press Spacebar.'
+4.6911 	EXP 	text_7: autoDraw = True
+4.7112 	WARNING 	t of last frame was 20.11ms (=1/49)
+6.1692 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'center': 30, 'surround': 60, 'correct': 'right', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+6.1789 	INFO 	Keyboard events cleared
+6.1787 	EXP 	text_7: autoDraw = False
+6.1787 	EXP 	surround_practice: ori = 60.0
+6.1787 	EXP 	center_practice: ori = 30.0
+6.1787 	EXP 	text_9: autoDraw = True
+6.6662 	EXP 	surround_practice: autoDraw = True
+6.6662 	EXP 	center_practice: autoDraw = True
+6.6662 	EXP 	text_9: autoDraw = False
+7.2651 	DATA 	Keypress: right
+7.2675 	EXP 	surround_practice: autoDraw = False
+7.2675 	EXP 	center_practice: autoDraw = False
+7.2675 	EXP 	text_9: autoDraw = False
+7.2675 	EXP 	text_11: autoDraw = False
+7.2675 	EXP 	text_7: text = 'Correct. Press Spacebar.'
+7.2675 	EXP 	text_7: autoDraw = True
+8.7633 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'center': -30, 'surround': -60, 'correct': 'left', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+8.7661 	INFO 	Keyboard events cleared
+8.7658 	EXP 	text_7: autoDraw = False
+8.7658 	EXP 	text_7: autoDraw = False
+8.7658 	EXP 	surround_practice: ori = -60.0
+8.7658 	EXP 	center_practice: ori = -30.0
+8.7658 	EXP 	text_9: autoDraw = True
+9.2610 	EXP 	surround_practice: autoDraw = True
+9.2610 	EXP 	center_practice: autoDraw = True
+9.2610 	EXP 	text_9: autoDraw = False
+9.4036 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+9.7506 	DATA 	Keypress: left
+9.7546 	EXP 	surround_practice: autoDraw = False
+9.7546 	EXP 	center_practice: autoDraw = False
+9.7546 	EXP 	text_9: autoDraw = False
+9.7546 	EXP 	text_11: autoDraw = False
+9.7546 	EXP 	text_7: text = 'Correct. Press Spacebar.'
+9.7546 	EXP 	text_7: autoDraw = True
+11.2527 	INFO 	Keyboard events cleared
+11.2524 	EXP 	text_7: autoDraw = False
+11.2524 	EXP 	text_7: autoDraw = False
+11.2524 	EXP 	text_8: autoDraw = True
+12.0970 	DEBUG 	Read csv file with pandas: tilt_practice_2.csv
+12.0982 	DEBUG 	Clearing unnamed columns from tilt_practice_2.csv
+12.0988 	EXP 	Imported tilt_practice_2.csv as conditions, 6 conditions, 4 params
+12.0992 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'center': -30, 'surround': -60, 'correct': 'left', 'opacity': 100, 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+12.1029 	DATA 	Keypress: space
+12.1062 	INFO 	Keyboard events cleared
+12.1058 	EXP 	text_8: autoDraw = False
+12.1058 	EXP 	surround_practice_2: ori = -60.0
+12.1058 	EXP 	center_practice_2: ori = -30.0
+12.1058 	EXP 	text_10: autoDraw = True
+12.5611 	EXP 	surround_practice_2: autoDraw = True
+12.5611 	EXP 	center_practice_2: autoDraw = True
+12.5611 	EXP 	surround_practice_2: tex = 'sin'
+12.5611 	EXP 	center_practice_2: tex = 'sin'
+12.5994 	EXP 	text_10: autoDraw = False
+12.6327 	EXP 	surround_practice_2: autoDraw = False
+12.6327 	EXP 	center_practice_2: autoDraw = False
+12.6327 	EXP 	text_12: autoDraw = True
+13.4864 	DATA 	Keypress: left
+13.4993 	EXP 	surround_practice_2: autoDraw = False
+13.4993 	EXP 	center_practice_2: autoDraw = False
+13.4993 	EXP 	text_10: autoDraw = False
+13.4993 	EXP 	text_12: autoDraw = False
+13.4993 	EXP 	text_7: text = 'Correct. Press Spacebar.'
+13.4993 	EXP 	text_7: autoDraw = True
+14.9860 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'center': -30, 'surround': 0, 'correct': 'left', 'opacity': 100, 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+14.9956 	INFO 	Keyboard events cleared
+14.9954 	EXP 	text_7: autoDraw = False
+14.9954 	EXP 	surround_practice_2: ori = 0.0
+14.9954 	EXP 	center_practice_2: ori = -30.0
+14.9954 	EXP 	text_10: autoDraw = True
+15.4844 	EXP 	surround_practice_2: autoDraw = True
+15.4844 	EXP 	center_practice_2: autoDraw = True
+15.4844 	EXP 	text_10: autoDraw = False
+15.5612 	EXP 	surround_practice_2: autoDraw = False
+15.5612 	EXP 	center_practice_2: autoDraw = False
+15.5612 	EXP 	text_12: autoDraw = True
+16.0343 	DATA 	Keypress: left
+16.0367 	EXP 	surround_practice_2: autoDraw = False
+16.0367 	EXP 	center_practice_2: autoDraw = False
+16.0367 	EXP 	text_10: autoDraw = False
+16.0367 	EXP 	text_12: autoDraw = False
+16.0367 	EXP 	text_7: text = 'Correct. Press Spacebar.'
+16.0367 	EXP 	text_7: autoDraw = True
+17.5310 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'center': 30, 'surround': 60, 'correct': 'right', 'opacity': 100, 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+17.5343 	INFO 	Keyboard events cleared
+17.5340 	EXP 	text_7: autoDraw = False
+17.5340 	EXP 	text_7: autoDraw = False
+17.5340 	EXP 	surround_practice_2: ori = 60.0
+17.5340 	EXP 	center_practice_2: ori = 30.0
+17.5340 	EXP 	text_10: autoDraw = True
+18.0278 	EXP 	surround_practice_2: autoDraw = True
+18.0278 	EXP 	center_practice_2: autoDraw = True
+18.0325 	EXP 	text_10: autoDraw = False
+18.0987 	EXP 	surround_practice_2: autoDraw = False
+18.0987 	EXP 	center_practice_2: autoDraw = False
+18.1111 	EXP 	text_12: autoDraw = True
+18.5031 	DATA 	Keypress: right
+18.5111 	EXP 	surround_practice_2: autoDraw = False
+18.5111 	EXP 	center_practice_2: autoDraw = False
+18.5111 	EXP 	text_10: autoDraw = False
+18.5111 	EXP 	text_12: autoDraw = False
+18.5111 	EXP 	text_7: text = 'Correct. Press Spacebar.'
+18.5111 	EXP 	text_7: autoDraw = True
+19.9964 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'center': 30, 'surround': 0, 'correct': 'right', 'opacity': 100, 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+19.9996 	INFO 	Keyboard events cleared
+19.9993 	EXP 	text_7: autoDraw = False
+19.9993 	EXP 	text_7: autoDraw = False
+19.9993 	EXP 	surround_practice_2: ori = 0.0
+19.9993 	EXP 	center_practice_2: ori = 30.0
+19.9993 	EXP 	text_10: autoDraw = True
+20.4944 	EXP 	text_10: autoDraw = False
+20.4994 	EXP 	surround_practice_2: autoDraw = True
+20.4994 	EXP 	center_practice_2: autoDraw = True
+20.5778 	EXP 	surround_practice_2: autoDraw = False
+20.5778 	EXP 	center_practice_2: autoDraw = False
+20.5778 	EXP 	text_12: autoDraw = True
+21.1319 	DATA 	Keypress: right
+21.1342 	EXP 	surround_practice_2: autoDraw = False
+21.1342 	EXP 	center_practice_2: autoDraw = False
+21.1342 	EXP 	text_10: autoDraw = False
+21.1342 	EXP 	text_12: autoDraw = False
+21.1342 	EXP 	text_7: text = 'Correct. Press Spacebar.'
+21.1342 	EXP 	text_7: autoDraw = True
+22.6300 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'center': -30, 'surround': 69, 'correct': 'left', 'opacity': 0, 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+22.6328 	INFO 	Keyboard events cleared
+22.6325 	EXP 	text_7: autoDraw = False
+22.6325 	EXP 	text_7: autoDraw = False
+22.6325 	EXP 	surround_practice_2: ori = 69.0
+22.6325 	EXP 	center_practice_2: ori = -30.0
+22.6325 	EXP 	text_10: autoDraw = True
+23.1278 	EXP 	surround_practice_2: autoDraw = True
+23.1278 	EXP 	center_practice_2: autoDraw = True
+23.1278 	EXP 	text_10: autoDraw = False
+23.1991 	EXP 	surround_practice_2: autoDraw = False
+23.1991 	EXP 	center_practice_2: autoDraw = False
+23.1991 	EXP 	text_12: autoDraw = True
+23.7534 	DATA 	Keypress: left
+23.7611 	EXP 	surround_practice_2: autoDraw = False
+23.7611 	EXP 	center_practice_2: autoDraw = False
+23.7611 	EXP 	text_10: autoDraw = False
+23.7611 	EXP 	text_12: autoDraw = False
+23.7611 	EXP 	text_7: text = 'Correct. Press Spacebar.'
+23.7611 	EXP 	text_7: autoDraw = True
+25.2476 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'center': 30, 'surround': 69, 'correct': 'right', 'opacity': 0, 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+25.2514 	INFO 	Keyboard events cleared
+25.2511 	EXP 	text_7: autoDraw = False
+25.2511 	EXP 	text_7: autoDraw = False
+25.2511 	EXP 	surround_practice_2: ori = 69.0
+25.2511 	EXP 	center_practice_2: ori = 30.0
+25.2511 	EXP 	text_10: autoDraw = True
+25.7452 	EXP 	text_10: autoDraw = False
+25.7510 	EXP 	surround_practice_2: autoDraw = True
+25.7510 	EXP 	center_practice_2: autoDraw = True
+25.8277 	EXP 	surround_practice_2: autoDraw = False
+25.8277 	EXP 	center_practice_2: autoDraw = False
+25.8277 	EXP 	text_12: autoDraw = True
+26.3029 	DATA 	Keypress: right
+26.3110 	EXP 	surround_practice_2: autoDraw = False
+26.3110 	EXP 	center_practice_2: autoDraw = False
+26.3110 	EXP 	text_10: autoDraw = False
+26.3110 	EXP 	text_12: autoDraw = False
+26.3110 	EXP 	text_7: text = 'Correct. Press Spacebar.'
+26.3110 	EXP 	text_7: autoDraw = True
+27.8004 	INFO 	Keyboard events cleared
+27.8001 	EXP 	text_7: autoDraw = False
+27.8001 	EXP 	text_7: autoDraw = False
+27.8001 	EXP 	text_13: autoDraw = True
+29.5091 	DEBUG 	Read csv file with pandas: tilt_staircase.csv
+29.5097 	DEBUG 	Clearing unnamed columns from tilt_staircase.csv
+29.5109 	EXP 	Imported tilt_staircase.csv as conditions, 6 conditions, 10 params
+29.6102 	DEBUG 	Using /Applications/PsychoPy.app/Contents/Resources/lib/python3.8/psychopy/data/staircase.py as origin file
+29.6105 	DEBUG 	Using /Applications/PsychoPy.app/Contents/Resources/lib/python3.8/psychopy/data/staircase.py as origin file
+29.6106 	DEBUG 	Using /Applications/PsychoPy.app/Contents/Resources/lib/python3.8/psychopy/data/staircase.py as origin file
+29.6108 	DEBUG 	Using /Applications/PsychoPy.app/Contents/Resources/lib/python3.8/psychopy/data/staircase.py as origin file
+29.6110 	DEBUG 	Using /Applications/PsychoPy.app/Contents/Resources/lib/python3.8/psychopy/data/staircase.py as origin file
+29.6111 	DEBUG 	Using /Applications/PsychoPy.app/Contents/Resources/lib/python3.8/psychopy/data/staircase.py as origin file
+29.6147 	DATA 	Keypress: space
+29.6184 	INFO 	Keyboard events cleared
+29.6182 	EXP 	text_13: autoDraw = False
+29.6182 	EXP 	surround_grating: ori = 69.0
+29.6182 	EXP 	center_grating: ori = -15.0
+29.6182 	EXP 	text_2: autoDraw = True
+29.9943 	EXP 	surround_grating: autoDraw = True
+29.9943 	EXP 	center_grating: autoDraw = True
+29.9943 	EXP 	surround_grating: tex = 'sin'
+29.9943 	EXP 	center_grating: tex = 'sin'
+30.0667 	EXP 	surround_grating: autoDraw = False
+30.0667 	EXP 	center_grating: autoDraw = False
+30.0667 	EXP 	text_3: autoDraw = True
+30.1161 	EXP 	text_2: autoDraw = False
+30.7173 	DATA 	Keypress: left
+30.7210 	INFO 	Keyboard events cleared
+30.7208 	EXP 	surround_grating: autoDraw = False
+30.7208 	EXP 	center_grating: autoDraw = False
+30.7208 	EXP 	text_2: autoDraw = False
+30.7208 	EXP 	text_3: autoDraw = False
+30.7208 	EXP 	surround_grating: ori = 30.0
+30.7208 	EXP 	center_grating: ori = 15.0
+30.7208 	EXP 	text_2: autoDraw = True
+31.2120 	EXP 	surround_grating: autoDraw = True
+31.2120 	EXP 	center_grating: autoDraw = True
+31.2182 	EXP 	text_2: autoDraw = False
+31.2840 	EXP 	surround_grating: autoDraw = False
+31.2840 	EXP 	center_grating: autoDraw = False
+31.2840 	EXP 	text_3: autoDraw = True
+31.9508 	DATA 	Keypress: right
+31.9547 	INFO 	Keyboard events cleared
+31.9544 	EXP 	surround_grating: autoDraw = False
+31.9544 	EXP 	center_grating: autoDraw = False
+31.9544 	EXP 	text_2: autoDraw = False
+31.9544 	EXP 	text_3: autoDraw = False
+31.9544 	EXP 	surround_grating: ori = -30.0
+31.9544 	EXP 	center_grating: ori = -15.0
+31.9544 	EXP 	text_2: autoDraw = True
+32.4453 	EXP 	surround_grating: autoDraw = True
+32.4453 	EXP 	center_grating: autoDraw = True
+32.4504 	EXP 	text_2: autoDraw = False
+32.5176 	EXP 	surround_grating: autoDraw = False
+32.5176 	EXP 	center_grating: autoDraw = False
+32.5176 	EXP 	text_3: autoDraw = True
+33.2901 	DATA 	Keypress: left
+33.2945 	INFO 	Keyboard events cleared
+33.2943 	EXP 	surround_grating: autoDraw = False
+33.2943 	EXP 	center_grating: autoDraw = False
+33.2943 	EXP 	text_2: autoDraw = False
+33.2943 	EXP 	text_3: autoDraw = False
+33.2943 	EXP 	surround_grating: ori = 69.0
+33.2943 	EXP 	center_grating: ori = 15.0
+33.2943 	EXP 	text_2: autoDraw = True
+33.7851 	EXP 	surround_grating: autoDraw = True
+33.7851 	EXP 	center_grating: autoDraw = True
+33.7851 	EXP 	text_2: autoDraw = False
+33.8619 	EXP 	surround_grating: autoDraw = False
+33.8619 	EXP 	center_grating: autoDraw = False
+33.8679 	EXP 	text_3: autoDraw = True
+34.3379 	DATA 	Keypress: right
+34.3446 	INFO 	Keyboard events cleared
+34.3444 	EXP 	surround_grating: autoDraw = False
+34.3444 	EXP 	center_grating: autoDraw = False
+34.3444 	EXP 	text_2: autoDraw = False
+34.3444 	EXP 	text_3: autoDraw = False
+34.3444 	EXP 	surround_grating: ori = -30.0
+34.3444 	EXP 	center_grating: ori = 15.0
+34.3444 	EXP 	text_2: autoDraw = True
+34.8328 	EXP 	surround_grating: autoDraw = True
+34.8328 	EXP 	center_grating: autoDraw = True
+34.8328 	EXP 	text_2: autoDraw = False
+34.9113 	EXP 	surround_grating: autoDraw = False
+34.9113 	EXP 	center_grating: autoDraw = False
+34.9113 	EXP 	text_3: autoDraw = True
+35.4221 	DATA 	Keypress: right
+35.4281 	INFO 	Keyboard events cleared
+35.4279 	EXP 	surround_grating: autoDraw = False
+35.4279 	EXP 	center_grating: autoDraw = False
+35.4279 	EXP 	text_2: autoDraw = False
+35.4279 	EXP 	text_3: autoDraw = False
+35.4279 	EXP 	surround_grating: ori = 30.0
+35.4279 	EXP 	center_grating: ori = -15.0
+35.4279 	EXP 	text_2: autoDraw = True
+35.9158 	EXP 	surround_grating: autoDraw = True
+35.9158 	EXP 	center_grating: autoDraw = True
+35.9158 	EXP 	text_2: autoDraw = False
+35.9943 	EXP 	surround_grating: autoDraw = False
+35.9943 	EXP 	center_grating: autoDraw = False
+35.9989 	EXP 	text_3: autoDraw = True
+36.5709 	DATA 	Keypress: left
+36.5780 	INFO 	Keyboard events cleared
+36.5777 	EXP 	surround_grating: autoDraw = False
+36.5777 	EXP 	center_grating: autoDraw = False
+36.5777 	EXP 	text_2: autoDraw = False
+36.5777 	EXP 	text_3: autoDraw = False
+36.5777 	EXP 	surround_grating: ori = -30.0
+36.5777 	EXP 	center_grating: ori = 10.0
+36.5777 	EXP 	text_2: autoDraw = True
+37.0677 	EXP 	surround_grating: autoDraw = True
+37.0677 	EXP 	center_grating: autoDraw = True
+37.0677 	EXP 	text_2: autoDraw = False
+37.1453 	EXP 	surround_grating: autoDraw = False
+37.1453 	EXP 	center_grating: autoDraw = False
+37.1453 	EXP 	text_3: autoDraw = True
+37.8718 	DATA 	Keypress: right
+37.8784 	INFO 	Keyboard events cleared
+37.8781 	EXP 	surround_grating: autoDraw = False
+37.8781 	EXP 	center_grating: autoDraw = False
+37.8781 	EXP 	text_2: autoDraw = False
+37.8781 	EXP 	text_3: autoDraw = False
+37.8781 	EXP 	surround_grating: ori = 30.0
+37.8781 	EXP 	center_grating: ori = -10.0
+37.8781 	EXP 	text_2: autoDraw = True
+38.3672 	EXP 	surround_grating: autoDraw = True
+38.3672 	EXP 	center_grating: autoDraw = True
+38.3672 	EXP 	text_2: autoDraw = False
+38.4453 	EXP 	surround_grating: autoDraw = False
+38.4453 	EXP 	center_grating: autoDraw = False
+38.4453 	EXP 	text_3: autoDraw = True
+39.3367 	DATA 	Keypress: left
+39.3446 	INFO 	Keyboard events cleared
+39.3444 	EXP 	surround_grating: autoDraw = False
+39.3444 	EXP 	center_grating: autoDraw = False
+39.3444 	EXP 	text_2: autoDraw = False
+39.3444 	EXP 	text_3: autoDraw = False
+39.3444 	EXP 	surround_grating: ori = 69.0
+39.3444 	EXP 	center_grating: ori = -10.0
+39.3444 	EXP 	text_2: autoDraw = True
+39.8329 	EXP 	surround_grating: autoDraw = True
+39.8329 	EXP 	center_grating: autoDraw = True
+39.8329 	EXP 	text_2: autoDraw = False
+39.9110 	EXP 	surround_grating: autoDraw = False
+39.9110 	EXP 	center_grating: autoDraw = False
+39.9110 	EXP 	text_3: autoDraw = True
+40.3985 	DATA 	Keypress: left
+40.4010 	INFO 	Keyboard events cleared
+40.4008 	EXP 	surround_grating: autoDraw = False
+40.4008 	EXP 	center_grating: autoDraw = False
+40.4008 	EXP 	text_2: autoDraw = False
+40.4008 	EXP 	text_3: autoDraw = False
+40.4008 	EXP 	surround_grating: ori = 30.0
+40.4008 	EXP 	center_grating: ori = 10.0
+40.4008 	EXP 	text_2: autoDraw = True
+40.8945 	EXP 	surround_grating: autoDraw = True
+40.8945 	EXP 	center_grating: autoDraw = True
+40.8992 	EXP 	text_2: autoDraw = False
+40.9668 	EXP 	surround_grating: autoDraw = False
+40.9668 	EXP 	center_grating: autoDraw = False
+40.9668 	EXP 	text_3: autoDraw = True
+41.6173 	DATA 	Keypress: right
+41.6212 	INFO 	Keyboard events cleared
+41.6210 	EXP 	surround_grating: autoDraw = False
+41.6210 	EXP 	center_grating: autoDraw = False
+41.6210 	EXP 	text_2: autoDraw = False
+41.6210 	EXP 	text_3: autoDraw = False
+41.6210 	EXP 	surround_grating: ori = -30.0
+41.6210 	EXP 	center_grating: ori = -10.0
+41.6210 	EXP 	text_2: autoDraw = True
+42.1111 	EXP 	surround_grating: autoDraw = True
+42.1111 	EXP 	center_grating: autoDraw = True
+42.1155 	EXP 	text_2: autoDraw = False
+42.1820 	EXP 	surround_grating: autoDraw = False
+42.1820 	EXP 	center_grating: autoDraw = False
+42.1820 	EXP 	text_3: autoDraw = True
+42.7829 	DATA 	Keypress: left
+42.7856 	INFO 	Keyboard events cleared
+42.7853 	EXP 	surround_grating: autoDraw = False
+42.7853 	EXP 	center_grating: autoDraw = False
+42.7853 	EXP 	text_2: autoDraw = False
+42.7853 	EXP 	text_3: autoDraw = False
+42.7853 	EXP 	surround_grating: ori = 69.0
+42.7853 	EXP 	center_grating: ori = 10.0
+42.7853 	EXP 	text_2: autoDraw = True
+43.2777 	EXP 	surround_grating: autoDraw = True
+43.2777 	EXP 	center_grating: autoDraw = True
+43.2824 	EXP 	text_2: autoDraw = False
+43.3490 	EXP 	surround_grating: autoDraw = False
+43.3490 	EXP 	center_grating: autoDraw = False
+43.3490 	EXP 	text_3: autoDraw = True
+43.7538 	DATA 	Keypress: right
+43.7615 	INFO 	Keyboard events cleared
+43.7611 	EXP 	surround_grating: autoDraw = False
+43.7611 	EXP 	center_grating: autoDraw = False
+43.7611 	EXP 	text_2: autoDraw = False
+43.7611 	EXP 	text_3: autoDraw = False
+43.7611 	EXP 	surround_grating: ori = 69.0
+43.7611 	EXP 	center_grating: ori = -5.0
+43.7611 	EXP 	text_2: autoDraw = True
+44.2489 	EXP 	surround_grating: autoDraw = True
+44.2489 	EXP 	center_grating: autoDraw = True
+44.2489 	EXP 	text_2: autoDraw = False
+44.3277 	EXP 	surround_grating: autoDraw = False
+44.3277 	EXP 	center_grating: autoDraw = False
+44.3277 	EXP 	text_3: autoDraw = True
+44.9655 	DATA 	Keypress: left
+44.9681 	INFO 	Keyboard events cleared
+44.9678 	EXP 	surround_grating: autoDraw = False
+44.9678 	EXP 	center_grating: autoDraw = False
+44.9678 	EXP 	text_2: autoDraw = False
+44.9678 	EXP 	text_3: autoDraw = False
+44.9678 	EXP 	surround_grating: ori = 30.0
+44.9678 	EXP 	center_grating: ori = -5.0
+44.9678 	EXP 	text_2: autoDraw = True
+45.4611 	EXP 	surround_grating: autoDraw = True
+45.4611 	EXP 	center_grating: autoDraw = True
+45.4655 	EXP 	text_2: autoDraw = False
+45.5322 	EXP 	surround_grating: autoDraw = False
+45.5322 	EXP 	center_grating: autoDraw = False
+45.5322 	EXP 	text_3: autoDraw = True
+46.0031 	DATA 	Keypress: left
+46.0114 	INFO 	Keyboard events cleared
+46.0111 	EXP 	surround_grating: autoDraw = False
+46.0111 	EXP 	center_grating: autoDraw = False
+46.0111 	EXP 	text_2: autoDraw = False
+46.0111 	EXP 	text_3: autoDraw = False
+46.0111 	EXP 	surround_grating: ori = -30.0
+46.0111 	EXP 	center_grating: ori = -5.0
+46.0111 	EXP 	text_2: autoDraw = True
+46.4996 	EXP 	surround_grating: autoDraw = True
+46.4996 	EXP 	center_grating: autoDraw = True
+46.4996 	EXP 	text_2: autoDraw = False
+46.5777 	EXP 	surround_grating: autoDraw = False
+46.5777 	EXP 	center_grating: autoDraw = False
+46.5777 	EXP 	text_3: autoDraw = True
+47.0824 	DATA 	Keypress: left
+47.0850 	INFO 	Keyboard events cleared
+47.0848 	EXP 	surround_grating: autoDraw = False
+47.0848 	EXP 	center_grating: autoDraw = False
+47.0848 	EXP 	text_2: autoDraw = False
+47.0848 	EXP 	text_3: autoDraw = False
+47.0848 	EXP 	surround_grating: ori = 30.0
+47.0848 	EXP 	center_grating: ori = 5.0
+47.0848 	EXP 	text_2: autoDraw = True
+47.5777 	EXP 	surround_grating: autoDraw = True
+47.5777 	EXP 	center_grating: autoDraw = True
+47.5826 	EXP 	text_2: autoDraw = False
+47.6490 	EXP 	surround_grating: autoDraw = False
+47.6490 	EXP 	center_grating: autoDraw = False
+47.6490 	EXP 	text_3: autoDraw = True
+48.2320 	DATA 	Keypress: right
+48.2345 	INFO 	Keyboard events cleared
+48.2343 	EXP 	surround_grating: autoDraw = False
+48.2343 	EXP 	center_grating: autoDraw = False
+48.2343 	EXP 	text_2: autoDraw = False
+48.2343 	EXP 	text_3: autoDraw = False
+48.2343 	EXP 	surround_grating: ori = -30.0
+48.2343 	EXP 	center_grating: ori = 5.0
+48.2343 	EXP 	text_2: autoDraw = True
+48.7277 	EXP 	surround_grating: autoDraw = True
+48.7277 	EXP 	center_grating: autoDraw = True
+48.7322 	EXP 	text_2: autoDraw = False
+48.7990 	EXP 	surround_grating: autoDraw = False
+48.7990 	EXP 	center_grating: autoDraw = False
+48.7990 	EXP 	text_3: autoDraw = True
+49.3035 	DATA 	Keypress: right
+49.3113 	INFO 	Keyboard events cleared
+49.3111 	EXP 	surround_grating: autoDraw = False
+49.3111 	EXP 	center_grating: autoDraw = False
+49.3111 	EXP 	text_2: autoDraw = False
+49.3111 	EXP 	text_3: autoDraw = False
+49.3111 	EXP 	surround_grating: ori = 69.0
+49.3111 	EXP 	center_grating: ori = 5.0
+49.3111 	EXP 	text_2: autoDraw = True
+49.7998 	EXP 	surround_grating: autoDraw = True
+49.7998 	EXP 	center_grating: autoDraw = True
+49.7998 	EXP 	text_2: autoDraw = False
+49.8777 	EXP 	surround_grating: autoDraw = False
+49.8777 	EXP 	center_grating: autoDraw = False
+49.8777 	EXP 	text_3: autoDraw = True
+50.3486 	DATA 	Keypress: right
+50.3512 	INFO 	Keyboard events cleared
+50.3509 	EXP 	surround_grating: autoDraw = False
+50.3509 	EXP 	center_grating: autoDraw = False
+50.3509 	EXP 	text_2: autoDraw = False
+50.3509 	EXP 	text_3: autoDraw = False
+50.3509 	EXP 	surround_grating: ori = 69.0
+50.3509 	EXP 	center_grating: ori = 0.0
+50.3509 	EXP 	text_2: autoDraw = True
+50.8444 	EXP 	surround_grating: autoDraw = True
+50.8444 	EXP 	center_grating: autoDraw = True
+50.8488 	EXP 	text_2: autoDraw = False
+50.9154 	EXP 	surround_grating: autoDraw = False
+50.9154 	EXP 	center_grating: autoDraw = False
+50.9154 	EXP 	text_3: autoDraw = True
+52.0859 	DATA 	Keypress: right
+52.0946 	INFO 	Keyboard events cleared
+52.0943 	EXP 	surround_grating: autoDraw = False
+52.0943 	EXP 	center_grating: autoDraw = False
+52.0943 	EXP 	text_2: autoDraw = False
+52.0943 	EXP 	text_3: autoDraw = False
+52.0943 	EXP 	surround_grating: ori = -30.0
+52.0943 	EXP 	center_grating: ori = 0.0
+52.0943 	EXP 	text_2: autoDraw = True
+52.5826 	EXP 	surround_grating: autoDraw = True
+52.5826 	EXP 	center_grating: autoDraw = True
+52.5826 	EXP 	text_2: autoDraw = False
+52.6609 	EXP 	surround_grating: autoDraw = False
+52.6609 	EXP 	center_grating: autoDraw = False
+52.6609 	EXP 	text_3: autoDraw = True
+53.8033 	DATA 	Keypress: right
+53.8113 	INFO 	Keyboard events cleared
+53.8111 	EXP 	surround_grating: autoDraw = False
+53.8111 	EXP 	center_grating: autoDraw = False
+53.8111 	EXP 	text_2: autoDraw = False
+53.8111 	EXP 	text_3: autoDraw = False
+53.8111 	EXP 	surround_grating: ori = 69.0
+53.8111 	EXP 	center_grating: ori = 0.0
+53.8111 	EXP 	text_2: autoDraw = True
+54.3019 	EXP 	surround_grating: autoDraw = True
+54.3019 	EXP 	center_grating: autoDraw = True
+54.3019 	EXP 	text_2: autoDraw = False
+54.3785 	EXP 	surround_grating: autoDraw = False
+54.3785 	EXP 	center_grating: autoDraw = False
+54.3785 	EXP 	text_3: autoDraw = True
+55.6010 	DATA 	Keypress: right
+55.6049 	INFO 	Keyboard events cleared
+55.6047 	EXP 	surround_grating: autoDraw = False
+55.6047 	EXP 	center_grating: autoDraw = False
+55.6047 	EXP 	text_2: autoDraw = False
+55.6047 	EXP 	text_3: autoDraw = False
+55.6047 	EXP 	surround_grating: ori = 30.0
+55.6047 	EXP 	center_grating: ori = 0.0
+55.6047 	EXP 	text_2: autoDraw = True
+56.0949 	EXP 	surround_grating: autoDraw = True
+56.0949 	EXP 	center_grating: autoDraw = True
+56.1003 	EXP 	text_2: autoDraw = False
+56.1668 	EXP 	surround_grating: autoDraw = False
+56.1668 	EXP 	center_grating: autoDraw = False
+56.1668 	EXP 	text_3: autoDraw = True
+56.8728 	DATA 	Keypress: left
+56.8778 	INFO 	Keyboard events cleared
+56.8776 	EXP 	surround_grating: autoDraw = False
+56.8776 	EXP 	center_grating: autoDraw = False
+56.8776 	EXP 	text_2: autoDraw = False
+56.8776 	EXP 	text_3: autoDraw = False
+56.8776 	EXP 	surround_grating: ori = 30.0
+56.8776 	EXP 	center_grating: ori = 0.0
+56.8776 	EXP 	text_2: autoDraw = True
+57.3660 	EXP 	surround_grating: autoDraw = True
+57.3660 	EXP 	center_grating: autoDraw = True
+57.3660 	EXP 	text_2: autoDraw = False
+57.4443 	EXP 	surround_grating: autoDraw = False
+57.4443 	EXP 	center_grating: autoDraw = False
+57.4489 	EXP 	text_3: autoDraw = True
+58.2152 	DATA 	Keypress: left
+58.2176 	INFO 	Keyboard events cleared
+58.2174 	EXP 	surround_grating: autoDraw = False
+58.2174 	EXP 	center_grating: autoDraw = False
+58.2174 	EXP 	text_2: autoDraw = False
+58.2174 	EXP 	text_3: autoDraw = False
+58.2174 	EXP 	surround_grating: ori = -30.0
+58.2174 	EXP 	center_grating: ori = 0.0
+58.2174 	EXP 	text_2: autoDraw = True
+58.7110 	EXP 	surround_grating: autoDraw = True
+58.7110 	EXP 	center_grating: autoDraw = True
+58.7156 	EXP 	text_2: autoDraw = False
+58.7818 	EXP 	surround_grating: autoDraw = False
+58.7818 	EXP 	center_grating: autoDraw = False
+58.7818 	EXP 	text_3: autoDraw = True
+59.3362 	DATA 	Keypress: right
+59.3447 	INFO 	Keyboard events cleared
+59.3444 	EXP 	surround_grating: autoDraw = False
+59.3444 	EXP 	center_grating: autoDraw = False
+59.3444 	EXP 	text_2: autoDraw = False
+59.3444 	EXP 	text_3: autoDraw = False
+59.3444 	EXP 	surround_grating: ori = -30.0
+59.3444 	EXP 	center_grating: ori = -5.0
+59.3444 	EXP 	text_2: autoDraw = True
+59.8329 	EXP 	surround_grating: autoDraw = True
+59.8329 	EXP 	center_grating: autoDraw = True
+59.8329 	EXP 	text_2: autoDraw = False
+59.9110 	EXP 	surround_grating: autoDraw = False
+59.9110 	EXP 	center_grating: autoDraw = False
+59.9110 	EXP 	text_3: autoDraw = True
+60.4176 	DATA 	Keypress: left
+60.4215 	INFO 	Keyboard events cleared
+60.4212 	EXP 	surround_grating: autoDraw = False
+60.4212 	EXP 	center_grating: autoDraw = False
+60.4212 	EXP 	text_2: autoDraw = False
+60.4212 	EXP 	text_3: autoDraw = False
+60.4212 	EXP 	surround_grating: ori = 30.0
+60.4212 	EXP 	center_grating: ori = 2.0
+60.4212 	EXP 	text_2: autoDraw = True
+60.9111 	EXP 	surround_grating: autoDraw = True
+60.9111 	EXP 	center_grating: autoDraw = True
+60.9159 	EXP 	text_2: autoDraw = False
+60.9830 	EXP 	surround_grating: autoDraw = False
+60.9830 	EXP 	center_grating: autoDraw = False
+60.9830 	EXP 	text_3: autoDraw = True
+61.6339 	DATA 	Keypress: right
+61.6377 	INFO 	Keyboard events cleared
+61.6374 	EXP 	surround_grating: autoDraw = False
+61.6374 	EXP 	center_grating: autoDraw = False
+61.6374 	EXP 	text_2: autoDraw = False
+61.6374 	EXP 	text_3: autoDraw = False
+61.6374 	EXP 	surround_grating: ori = 30.0
+61.6374 	EXP 	center_grating: ori = 5.0
+61.6374 	EXP 	text_2: autoDraw = True
+62.1285 	EXP 	surround_grating: autoDraw = True
+62.1285 	EXP 	center_grating: autoDraw = True
+62.1337 	EXP 	text_2: autoDraw = False
+62.2005 	EXP 	surround_grating: autoDraw = False
+62.2005 	EXP 	center_grating: autoDraw = False
+62.2005 	EXP 	text_3: autoDraw = True
+62.6721 	DATA 	Keypress: right
+62.6781 	INFO 	Keyboard events cleared
+62.6778 	EXP 	surround_grating: autoDraw = False
+62.6778 	EXP 	center_grating: autoDraw = False
+62.6778 	EXP 	text_2: autoDraw = False
+62.6778 	EXP 	text_3: autoDraw = False
+62.6778 	EXP 	surround_grating: ori = 69.0
+62.6778 	EXP 	center_grating: ori = -5.0
+62.6778 	EXP 	text_2: autoDraw = True
+63.1677 	EXP 	surround_grating: autoDraw = True
+63.1677 	EXP 	center_grating: autoDraw = True
+63.1677 	EXP 	text_2: autoDraw = False
+63.2452 	EXP 	surround_grating: autoDraw = False
+63.2452 	EXP 	center_grating: autoDraw = False
+63.2452 	EXP 	text_3: autoDraw = True
+63.7895 	DATA 	Keypress: escape
+63.9136 	EXP 	tilt_staircase: status = STOPPED
+63.9160 	EXP 	text_3: autoDraw = False
+63.9177 	EXP 	tilt_staircase: status = STOPPED
+63.9310 	INFO 	saved data to '/Users/bwinsto2/Downloads/data/501850_tilt_staircase_2025-08-14_14h52.27.038.csv'
+63.9330 	INFO 	saved data to /Users/bwinsto2/Downloads/data/501850_tilt_staircase_2025-08-14_14h52.27.038.psydat
+64.2256 	DEBUG 	Saving data for tilt_staircase ExperimentHandler
