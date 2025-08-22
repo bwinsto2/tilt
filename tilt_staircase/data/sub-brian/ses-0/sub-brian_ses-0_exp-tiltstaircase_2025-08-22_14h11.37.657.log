@@ -1,0 +1,20 @@
+32.1187 	WARNING 	Monitor specification not found. Creating a temporary one...
+33.8309 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+33.8325 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fd471b7a3d0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fd471b7a370>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fd471b7a1f0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fd471f02a30>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+33.8327 	EXP 	window1: mouseVisible = True
+33.8328 	EXP 	window1: backgroundImage = ''
+33.8328 	EXP 	window1: backgroundFit = 'none'
+33.8368 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+33.8369 	EXP 	window1: recordFrameIntervals = False
+33.9209 	EXP 	window1: recordFrameIntervals = True
+34.7543 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+34.7555 	EXP 	window1: mouseVisible = False
+65.7584 	EXP 	window1: mouseVisible = True
+65.7606 	INFO 	saved data to /Users/cpcr-neurocog/Desktop/2104/tilt/tilt_staircase/data/sub-brian/ses-0/sub-brian_ses-0_exp-tiltstaircase_2025-08-22_14h11.37.657.psydat
+65.7612 	INFO 	saved data to '/Users/cpcr-neurocog/Desktop/2104/tilt/tilt_staircase/data/sub-brian/ses-0/sub-brian_ses-0_exp-tiltstaircase_2025-08-22_14h11.37.657.csv'

@@ -1,0 +1,20 @@
+9.0782 	INFO 	Loaded monitor calibration from ['2025_08_22 14:11']
+10.4383 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+10.4391 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fa5e4c01190>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fa5e4c01130>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fa5b0828130>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fa5e29187f0>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+10.4394 	EXP 	window1: mouseVisible = True
+10.4394 	EXP 	window1: backgroundImage = ''
+10.4395 	EXP 	window1: backgroundFit = 'none'
+10.4431 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+10.4431 	EXP 	window1: recordFrameIntervals = False
+10.5314 	EXP 	window1: recordFrameIntervals = True
+10.9980 	EXP 	Screen (0) actual frame rate measured at 119.80Hz
+10.9980 	EXP 	window1: recordFrameIntervals = True
+10.9990 	EXP 	window1: mouseVisible = False
+13.7968 	INFO 	keyboard.Keyboard is using iohub backend.
+13.7968 	EXP 	tilt_mocs: status = STARTED
+14.1612 	EXP 	window1: mouseVisible = True
+14.1621 	INFO 	saved data to /Users/cpcr-neurocog/Desktop/2104/tilt/tilt_mocs/data/sub-sofia/ses-0/sub-sofia_ses-0_exp-tiltmocs_2025-08-22_15h03.39.862.psydat
+14.1625 	INFO 	saved data to '/Users/cpcr-neurocog/Desktop/2104/tilt/tilt_mocs/data/sub-sofia/ses-0/sub-sofia_ses-0_exp-tiltmocs_2025-08-22_15h03.39.862.csv'
