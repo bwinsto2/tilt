@@ -84,8 +84,8 @@
       <CodeComponent name="load_stims" plugin="None">
         <Param val="import sys, os" valType="extendedCode" updates="constant" name="Before Experiment"/>
         <Param val="import * as sys from 'sys';&amp;#10;import * as os from 'os';&amp;#10;" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
-        <Param val="sys.path.append('../')&amp;#10;from staircase_to_stimuli import build_trials_from_staircase&amp;#10;sub = str(expInfo['sub']); ses = str(expInfo['ses'])&amp;#10;if int(ses) == 0: #baseline (diagnostic MoCS)&amp;#10;    #find staircase data file&amp;#10;    data_files = os.listdir(f'../tilt_staircase/data/sub-{sub}/ses-{ses}/')&amp;#10;    for file in data_files:&amp;#10;        if 'csv' in file:&amp;#10;            stair_data = f'../tilt_staircase/data/sub-{sub}/ses-{ses}/{file}'&amp;#10;            break&amp;#10;    #build mocs stim from staircase&amp;#10;    baseline_stim_dir = f'./baseline_stims/sub-{sub}/ses-{ses}'; os.mkdir(f'./baseline_stims/sub-{sub}'); os.mkdir(baseline_stim_dir)&amp;#10;    build_trials_from_staircase(stair_data, reps_poss_negs = 40, reps_noss = 20, n_conditions = 7, out_csv = f'{baseline_stim_dir}/sub-{sub}_ses-{ses}_mocs_baseline_stims.csv')&amp;#10;    mocs_stims = ''&amp;#10;elif int(ses) == 1 or int(ses) == 2:&amp;#10;    #test MoCS (drug session)&amp;#10;    #will come from psychometric curve done on baseline mocs&amp;#10;    mocs_stims = ''&amp;#10;    &amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
-        <Param val="import {build_trials_from_staircase} from 'staircase_to_stimuli';&amp;#10;function _pj_snippets(container) {&amp;#10;    function in_es6(left, right) {&amp;#10;        if (((right instanceof Array) || ((typeof right) === &quot;string&quot;))) {&amp;#10;            return (right.indexOf(left) &gt; (- 1));&amp;#10;        } else {&amp;#10;            if (((right instanceof Map) || (right instanceof Set) || (right instanceof WeakMap) || (right instanceof WeakSet))) {&amp;#10;                return right.has(left);&amp;#10;            } else {&amp;#10;                return (left in right);&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;    container[&quot;in_es6&quot;] = in_es6;&amp;#10;    return container;&amp;#10;}&amp;#10;_pj = {};&amp;#10;_pj_snippets(_pj);&amp;#10;sys.path.push(&quot;../&quot;);&amp;#10;sub = expInfo[&quot;sub&quot;].toString();&amp;#10;ses = expInfo[&quot;ses&quot;].toString();&amp;#10;if ((Number.parseInt(ses) === 0)) {&amp;#10;    data_files = os.listdir(`../tilt_staircase/data/sub-${sub}/ses-${ses}/`);&amp;#10;    for (var file, _pj_c = 0, _pj_a = data_files, _pj_b = _pj_a.length; (_pj_c &lt; _pj_b); _pj_c += 1) {&amp;#10;        file = _pj_a[_pj_c];&amp;#10;        if (_pj.in_es6(&quot;csv&quot;, file)) {&amp;#10;            stair_data = `../tilt_staircase/data/sub-${sub}/ses-${ses}/${file}`;&amp;#10;            break;&amp;#10;        }&amp;#10;    }&amp;#10;    baseline_stim_dir = `./baseline_stims/sub-${sub}/ses-${ses}`;&amp;#10;    os.mkdir(`./baseline_stims/sub-${sub}`);&amp;#10;    os.mkdir(baseline_stim_dir);&amp;#10;    build_trials_from_staircase(stair_data, {&quot;reps_poss_negs&quot;: 40, &quot;reps_noss&quot;: 20, &quot;n_conditions&quot;: 7, &quot;out_csv&quot;: `${baseline_stim_dir}/sub-${sub}_ses-${ses}_mocs_baseline_stims.csv`});&amp;#10;    mocs_stims = &quot;&quot;;&amp;#10;} else {&amp;#10;    if (((Number.parseInt(ses) === 1) || (Number.parseInt(ses) === 2))) {&amp;#10;        mocs_stims = &quot;&quot;;&amp;#10;    }&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="sys.path.append('../')&amp;#10;from staircase_to_stimuli import build_trials_from_staircase&amp;#10;sub = str(expInfo['sub']); ses = str(expInfo['ses'])&amp;#10;if int(ses) == 0: #baseline (diagnostic MoCS)&amp;#10;    baseline_stim_dir = f'./baseline_stims/sub-{sub}/ses-{ses}'&amp;#10;    baseline_stim_path = f'{baseline_stim_dir}/sub-{sub}_ses-{ses}_mocs_baseline_stims.csv'&amp;#10;    if os.path.exists(baseline_stim_path) == False:&amp;#10;        #find staircase data file&amp;#10;        data_files = os.listdir(f'../tilt_staircase/data/sub-{sub}/ses-{ses}/')&amp;#10;        for file in data_files:&amp;#10;            if 'csv' in file:&amp;#10;                stair_data = f'../tilt_staircase/data/sub-{sub}/ses-{ses}/{file}'&amp;#10;                break&amp;#10;        #build mocs stim from staircase&amp;#10;        if os.path.exists(f'./baseline_stims/sub-{sub}') == False:&amp;#10;            os.mkdir(f'./baseline_stims/sub-{sub}')&amp;#10;        if os.path.exists(baseline_stim_dir) == False:&amp;#10;            os.mkdir(baseline_stim_dir)&amp;#10;        build_trials_from_staircase(stair_data, reps_poss_negs = 40, reps_noss = 20, n_conditions = 7, out_csv = f'{baseline_stim_dir}/sub-{sub}_ses-{ses}_mocs_baseline_stims.csv')&amp;#10;    mocs_stims = baseline_stim_path&amp;#10;elif int(ses) == 1 or int(ses) == 2:&amp;#10;    #test MoCS (drug session)&amp;#10;    #will come from psychometric curve done on baseline mocs&amp;#10;    mocs_stims = ''&amp;#10;    &amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="import {build_trials_from_staircase} from 'staircase_to_stimuli';&amp;#10;function _pj_snippets(container) {&amp;#10;    function in_es6(left, right) {&amp;#10;        if (((right instanceof Array) || ((typeof right) === &quot;string&quot;))) {&amp;#10;            return (right.indexOf(left) &gt; (- 1));&amp;#10;        } else {&amp;#10;            if (((right instanceof Map) || (right instanceof Set) || (right instanceof WeakMap) || (right instanceof WeakSet))) {&amp;#10;                return right.has(left);&amp;#10;            } else {&amp;#10;                return (left in right);&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;    container[&quot;in_es6&quot;] = in_es6;&amp;#10;    return container;&amp;#10;}&amp;#10;_pj = {};&amp;#10;_pj_snippets(_pj);&amp;#10;sys.path.push(&quot;../&quot;);&amp;#10;sub = expInfo[&quot;sub&quot;].toString();&amp;#10;ses = expInfo[&quot;ses&quot;].toString();&amp;#10;if ((Number.parseInt(ses) === 0)) {&amp;#10;    baseline_stim_dir = `./baseline_stims/sub-${sub}/ses-${ses}`;&amp;#10;    baseline_stim_path = `${baseline_stim_dir}/sub-${sub}_ses-${ses}_mocs_baseline_stims.csv`;&amp;#10;    if ((os.path.exists(baseline_stim_path) === false)) {&amp;#10;        data_files = os.listdir(`../tilt_staircase/data/sub-${sub}/ses-${ses}/`);&amp;#10;        for (var file, _pj_c = 0, _pj_a = data_files, _pj_b = _pj_a.length; (_pj_c &lt; _pj_b); _pj_c += 1) {&amp;#10;            file = _pj_a[_pj_c];&amp;#10;            if (_pj.in_es6(&quot;csv&quot;, file)) {&amp;#10;                stair_data = `../tilt_staircase/data/sub-${sub}/ses-${ses}/${file}`;&amp;#10;                break;&amp;#10;            }&amp;#10;        }&amp;#10;        if ((os.path.exists(`./baseline_stims/sub-${sub}`) === false)) {&amp;#10;            os.mkdir(`./baseline_stims/sub-${sub}`);&amp;#10;        }&amp;#10;        if ((os.path.exists(baseline_stim_dir) === false)) {&amp;#10;            os.mkdir(baseline_stim_dir);&amp;#10;        }&amp;#10;        build_trials_from_staircase(stair_data, {&quot;reps_poss_negs&quot;: 40, &quot;reps_noss&quot;: 20, &quot;n_conditions&quot;: 7, &quot;out_csv&quot;: `${baseline_stim_dir}/sub-${sub}_ses-${ses}_mocs_baseline_stims.csv`});&amp;#10;    }&amp;#10;    mocs_stims = baseline_stim_path;&amp;#10;} else {&amp;#10;    if (((Number.parseInt(ses) === 1) || (Number.parseInt(ses) === 2))) {&amp;#10;        mocs_stims = &quot;&quot;;&amp;#10;    }&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
@@ -1317,6 +1317,88 @@
         <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
       </KeyboardComponent>
     </Routine>
+    <Routine name="break_2">
+      <RoutineSettingsComponent name="break_2" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="break_2" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_2" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Take a short break. Thanks for pushing through! &amp;#10;&amp;#10;Press Spacebar to continue" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <CodeComponent name="code_5" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="var _pj;&amp;#10;function _pj_snippets(container) {&amp;#10;    function in_es6(left, right) {&amp;#10;        if (((right instanceof Array) || ((typeof right) === &quot;string&quot;))) {&amp;#10;            return (right.indexOf(left) &gt; (- 1));&amp;#10;        } else {&amp;#10;            if (((right instanceof Map) || (right instanceof Set) || (right instanceof WeakMap) || (right instanceof WeakSet))) {&amp;#10;                return right.has(left);&amp;#10;            } else {&amp;#10;                return (left in right);&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;    container[&quot;in_es6&quot;] = in_es6;&amp;#10;    return container;&amp;#10;}&amp;#10;_pj = {};&amp;#10;_pj_snippets(_pj);&amp;#10;if ((! _pj.in_es6(trials.thisTrialN, [3, 100, 300, 500]))) {&amp;#10;    continueRoutine = false;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if not trials.thisTrialN in [3, 100, 300, 500]:&amp;#10;    continueRoutine = False" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_5" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <KeyboardComponent name="key_resp_10" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_10" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
   </Routines>
   <Flow>
     <Routine name="instr"/>
@@ -1363,6 +1445,7 @@
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
     <Routine name="trial"/>
+    <Routine name="break_2"/>
     <LoopTerminator name="trials"/>
     <Routine name="end"/>
   </Flow>
