@@ -180,14 +180,15 @@ def build_trials_from_staircase(
 # Variability across blocks (optional helper)
 # ------------------------------
 def summarize_pse_variability(per_block_df: pd.DataFrame) -> pd.DataFrame:
-    import numpy as np
     try:
         from scipy.stats import t as tdist
         t_ppf = lambda p, df: float(tdist.ppf(p, df))
     except Exception:
+        import numpy as np
         t_ppf = lambda p, df: 1.96
     g = per_block_df.dropna(subset=["mean_last_k"]).groupby("condition")["mean_last_k"]
     out = g.agg(n_blocks="count", mean="mean", sd="std").reset_index()
+    import numpy as np
     out["sem"] = out["sd"] / np.sqrt(out["n_blocks"].clip(lower=1))
     out["ci95_lo"] = out.apply(
         lambda r: r["mean"] - t_ppf(0.975, int(r["n_blocks"] - 1)) * r["sem"] if r["n_blocks"] >= 2 else np.nan,
@@ -306,15 +307,17 @@ def mocs_psychometric_tables(df: pd.DataFrame) -> Dict[str, pd.DataFrame]:
         out[s] = piv.sort_values('center').reset_index(drop=True)
     return out
 
-# Logistic functions and fitting
 def _logistic2(x, x0, s):
+    # 2-parameter logistic with lower=0, upper=1
     return 1.0 / (1.0 + np.exp(-(x - x0) / s))
 
 def _logistic4(x, x0, s, gamma, lam):
+    # 4-parameter logistic with guess (gamma) and lapse (lam)
     base = 1.0 / (1.0 + np.exp(-(x - x0) / s))
     return gamma + (1.0 - gamma - lam) * base
 
 def _negloglik_binomial(params, x, k, n, model="logistic2"):
+    # Negative log-likelihood for binomial responses
     if model == "logistic2":
         x0, s = params
         p = _logistic2(x, x0, max(s, 1e-6))
@@ -424,4 +427,22 @@ def plot_mocs_psychometric(df: pd.DataFrame, output_dir: Optional[str] = None, f
             results[surr] = path
         else:
             results[surr] = fig
+    plt.show()
     return results
+
+# ------------------------------
+# CSV plotting wrapper
+# ------------------------------
+def plot_mocs_from_csv(csv_path: str, output_dir: Optional[str] = None, fit: bool = True, model: str = "logistic2"):
+    """
+    Convenience wrapper: load a MoCS CSV and plot psychometric functions.
+    Args:
+        csv_path: path to a MoCS data CSV with columns ['type','surr_type','resp.keys','center']
+        output_dir: if given, save one PNG per surround condition and return dict of paths
+        fit: whether to overlay logistic fits
+        model: 'logistic2' or 'logistic4'
+    Returns:
+        Dict[str, str|matplotlib.figure.Figure]: keys are 'poss','negs','noss' (as available)
+    """
+    df = pd.read_csv(csv_path)
+    return plot_mocs_psychometric(df, output_dir=output_dir, fit=fit, model=model)
