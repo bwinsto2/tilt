@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2024.2.4),
-    on Mon Sep  8 18:58:11 2025
+    on Thu Sep 11 15:20:55 2025
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -62,7 +62,7 @@ or run the experiment with `--pilot` as an argument. To change what pilot
 PILOTING = core.setPilotModeFromArgs()
 # start off with values from experiment settings
 _fullScr = True
-_winSize = [1024, 640]
+_winSize = [1440, 900]
 # if in pilot mode, apply overrides according to preferences
 if PILOTING:
     # force windowed mode
@@ -457,7 +457,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     contrast = 0.2
     
     # Run 'Begin Experiment' code from practice_reps
-    n_practice_reps = 1
+    n_practice_reps = 0
     
     # Run 'Begin Experiment' code from size_n_SF
     online_parameters = False
@@ -566,7 +566,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     # --- Initialize components for Routine "start_instr" ---
     text_13 = visual.TextStim(win=win, name='text_13',
-        text='Time to start the real experiment. \n\nPlease ask any final questions to the experimenter.\n\nPress Spacebar when you are ready to begin.',
+        text='Time to start the real experiment. \n\nIn the real experiment, the text that says "left" and "right" won\'t appear on the screen, but your task is still the same. \n\nYou may find that on some trials the lines look vertical. Please do your best. If you have even a gut feeling one way or the other, please choose that direction. If you have to guess on some, that is okay.  \n\nPlease ask any final questions to the experimenter.\n\nPress Spacebar when you are ready to begin.',
         font='Arial',
         pos=(0, 0), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
@@ -592,13 +592,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         opacity=None, contrast=contrast, blendmode='avg',
         texRes=128.0, interpolate=True, depth=-2.0)
     resp = keyboard.Keyboard(deviceName='resp')
-    text_4 = visual.TextStim(win=win, name='text_4',
-        text='<--                    -->\nleft                   right',
-        font='Arial',
-        pos=(0,0), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
-        color='white', colorSpace='rgb', opacity=None, 
-        languageStyle='LTR',
-        depth=-4.0);
     
     # --- Initialize components for Routine "break_2" ---
     text_2 = visual.TextStim(win=win, name='text_2',
@@ -2046,7 +2039,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # create an object to store info about Routine trial
         trial = data.Routine(
             name='trial',
-            components=[surround_grating, center_grating, resp, text_4],
+            components=[surround_grating, center_grating, resp],
         )
         trial.status = NOT_STARTED
         continueRoutine = True
@@ -2196,26 +2189,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                     # a response ends the routine
                     continueRoutine = False
             
-            # *text_4* updates
-            
-            # if text_4 is starting this frame...
-            if text_4.status == NOT_STARTED and tThisFlip >= 0.58-frameTolerance:
-                # keep track of start time/frame for later
-                text_4.frameNStart = frameN  # exact frame index
-                text_4.tStart = t  # local t and not account for scr refresh
-                text_4.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_4, 'tStartRefresh')  # time at next scr refresh
-                # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'text_4.started')
-                # update status
-                text_4.status = STARTED
-                text_4.setAutoDraw(True)
-            
-            # if text_4 is active this frame...
-            if text_4.status == STARTED:
-                # update params
-                pass
-            
             # check for quit (typically the Esc key)
             if defaultKeyboard.getKeys(keyList=["escape"]):
                 thisExp.status = FINISHED
@@ -2275,7 +2248,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         continueRoutine = True
         # update component parameters for each repeat
         # Run 'Begin Routine' code from code_5
-        if not trials.thisTrialN in [3, 100, 300, 500]:
+        if not trials.thisTrialN in [100, 300, 500]:
             continueRoutine = False
         # create starting attributes for key_resp_10
         key_resp_10.keys = []

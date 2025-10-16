@@ -410,7 +410,7 @@ def plot_mocs_psychometric(df: pd.DataFrame, output_dir: Optional[str] = None, f
                     yhat = _logistic4(xgrid, fitres["x0"], max(fitres["s"], 1e-6),
                                       float(fitres.get("gamma", 0.0)),
                                       float(fitres.get("lambda", 0.0)))
-                plt.plot(xgrid, yhat, '-')
+                #plt.plot(xgrid, yhat, '-')
                 title_txt += "\\n" + f"P50={fitres['threshold_p50']:.3g}, P60={fitres['threshold_p60']:.3g}, P70={fitres['threshold_p70']:.3g}"
             except Exception as e:
                 title_txt += f" (fit failed: {e})"
@@ -418,6 +418,7 @@ def plot_mocs_psychometric(df: pd.DataFrame, output_dir: Optional[str] = None, f
         plt.ylabel("P(Left)")
         plt.title(title_txt)
         plt.ylim(0, 1)
+        plt.axhline(0.5, linestyle=':')
         if output_dir is not None:
             import os
             os.makedirs(output_dir, exist_ok=True)
