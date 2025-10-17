@@ -13,7 +13,7 @@
     <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
     <Param val="" valType="str" updates="None" name="HTML path"/>
     <Param val="" valType="str" updates="None" name="Incomplete URL"/>
-    <Param val="mac_laptop" valType="str" updates="None" name="Monitor"/>
+    <Param val="homewood_tilt_laptop" valType="str" updates="None" name="Monitor"/>
     <Param val="[]" valType="list" updates="None" name="Resources"/>
     <Param val="False" valType="bool" updates="None" name="Save csv file"/>
     <Param val="False" valType="bool" updates="None" name="Save excel file"/>
@@ -182,8 +182,8 @@
       <CodeComponent name="practice_reps" plugin="None">
         <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
-        <Param val="n_practice_reps = 0&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
-        <Param val="n_practice_reps = 0;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="n_practice_reps = 1&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="n_practice_reps = 1;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2024.2.4),
-    on Thu Sep 11 15:20:55 2025
+    on Fri Oct 17 11:19:34 2025
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -128,7 +128,7 @@ def setupData(expInfo, dataDir=None):
     thisExp = data.ExperimentHandler(
         name=expName, version='',
         extraInfo=expInfo, runtimeInfo=None,
-        originPath='/Users/bwinsto2/Documents/Documents - BV-PCR-VPJVMF3/Github/tilt/tilt_mocs/tilt_mocs_lastrun.py',
+        originPath='/Users/cpcr/Documents/tilt/tilt_mocs/tilt_mocs_lastrun.py',
         savePickle=True, saveWideText=True,
         dataFileName=dataDir + os.sep + filename, sortColumns='time'
     )
@@ -197,7 +197,7 @@ def setupWindow(expInfo=None, win=None):
         win = visual.Window(
             size=_winSize, fullscr=_fullScr, screen=0,
             winType='pyglet', allowGUI=False, allowStencil=False,
-            monitor='mac_laptop', color=[0,0,0], colorSpace='rgb',
+            monitor='homewood_tilt_laptop', color=[0,0,0], colorSpace='rgb',
             backgroundImage='', backgroundFit='none',
             blendMode='avg', useFBO=True,
             units='height',
@@ -457,7 +457,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     contrast = 0.2
     
     # Run 'Begin Experiment' code from practice_reps
-    n_practice_reps = 0
+    n_practice_reps = 1
     
     # Run 'Begin Experiment' code from size_n_SF
     online_parameters = False
