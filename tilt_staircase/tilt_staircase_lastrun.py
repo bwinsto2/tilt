@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2024.2.4),
-    on Fri Oct 17 10:44:12 2025
+    on Sat Oct 18 12:10:21 2025
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -126,7 +126,7 @@ def setupData(expInfo, dataDir=None):
     thisExp = data.ExperimentHandler(
         name=expName, version='',
         extraInfo=expInfo, runtimeInfo=None,
-        originPath='/Users/cpcr/Documents/tilt/tilt_staircase/tilt_staircase_lastrun.py',
+        originPath='/Users/bwinsto2/Documents/Documents - BV-PCR-VPJVMF3/Github/tilt/tilt_staircase/tilt_staircase_lastrun.py',
         savePickle=True, saveWideText=True,
         dataFileName=dataDir + os.sep + filename, sortColumns='time'
     )
@@ -195,7 +195,7 @@ def setupWindow(expInfo=None, win=None):
         win = visual.Window(
             size=_winSize, fullscr=_fullScr, screen=0,
             winType='pyglet', allowGUI=False, allowStencil=False,
-            monitor='homewood_tilt_laptop', color=[0,0,0], colorSpace='rgb',
+            monitor='mac_laptop', color=[0,0,0], colorSpace='rgb',
             backgroundImage='', backgroundFit='none',
             blendMode='avg', useFBO=True,
             units='height',
@@ -522,7 +522,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     # --- Initialize components for Routine "start_instr" ---
     text_13 = visual.TextStim(win=win, name='text_13',
-        text='Time to start the real experiment. \n\nPlease ask any final questions to the experimenter.\n\nPress Spacebar when you are ready to begin.',
+        text='Time to start the real experiment. \n\nIn the real experiment, the text that says "left" and "right" won\'t appear on the screen, but your task is still the same. \n\nYou may find that on some trials the lines look vertical. Please do your best. If you have even a gut feeling one way or the other, please choose that direction. If you have to guess on some, that is okay.  \n\nPlease ask any final questions to the experimenter.\n\nPress Spacebar when you are ready to begin.',
         font='Arial',
         pos=(0, 0), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
@@ -550,13 +550,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         opacity=None, contrast=contrast, blendmode='avg',
         texRes=128.0, interpolate=True, depth=-3.0)
     resp = keyboard.Keyboard(deviceName='resp')
-    text_3 = visual.TextStim(win=win, name='text_3',
-        text='<--                    -->\nleft                   right',
-        font='Arial',
-        pos=(0,0), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
-        color='white', colorSpace='rgb', opacity=None, 
-        languageStyle='LTR',
-        depth=-5.0);
     
     # --- Initialize components for Routine "break_2" ---
     text_14 = visual.TextStim(win=win, name='text_14',
@@ -2010,7 +2003,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             # create an object to store info about Routine trial
             trial = data.Routine(
                 name='trial',
-                components=[surround_grating, center_grating, resp, text_3],
+                components=[surround_grating, center_grating, resp],
             )
             trial.status = NOT_STARTED
             continueRoutine = True
@@ -2174,26 +2167,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                             resp.corr = 0
                         # a response ends the routine
                         continueRoutine = False
-                
-                # *text_3* updates
-                
-                # if text_3 is starting this frame...
-                if text_3.status == NOT_STARTED and tThisFlip >= 0.58-frameTolerance:
-                    # keep track of start time/frame for later
-                    text_3.frameNStart = frameN  # exact frame index
-                    text_3.tStart = t  # local t and not account for scr refresh
-                    text_3.tStartRefresh = tThisFlipGlobal  # on global time
-                    win.timeOnFlip(text_3, 'tStartRefresh')  # time at next scr refresh
-                    # add timestamp to datafile
-                    thisExp.timestampOnFlip(win, 'text_3.started')
-                    # update status
-                    text_3.status = STARTED
-                    text_3.setAutoDraw(True)
-                
-                # if text_3 is active this frame...
-                if text_3.status == STARTED:
-                    # update params
-                    pass
                 
                 # check for quit (typically the Esc key)
                 if defaultKeyboard.getKeys(keyList=["escape"]):

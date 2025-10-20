@@ -2,7 +2,8 @@
 import pandas as pd
 import numpy as np
 from typing import Dict, Tuple, Optional
-
+import os
+import re
 import matplotlib.pyplot as plt
 
 PRACTICE_COLS = ['center', 'surround', 'type', 'surr_type', 'surr_opacity']
@@ -95,17 +96,9 @@ def make_stimuli_from_pse(
     surround_mag: float = 15.0,
     reps_poss_negs: int = 1,
     reps_noss: int = 1,
-    n_conditions: int = 5
+    n_conditions: int = 5,
+    extremes_double: bool = True,   # <-- NEW
 ) -> pd.DataFrame:
-    """
-    Create a stimuli/conditions table that matches practice_stims.csv columns:
-      ['center','surround','type','surr_type','surr_opacity']
-
-    Choose `n_conditions`:
-      - 5-condition: m2, m1, PSE, p1, p2  (offsets = ±2*step and ±1*step)
-      - 7-condition: m3, m2, m1, PSE, p1, p2, p3 (offsets = ±3*step, ±2*step, ±1*step)
-    Naming: m1=1*step, m2=2*step, m3=3*step (and p1/p2/p3 accordingly)
-    """
     for key in ['poss','negs','noss']:
         if key not in pse_by_condition:
             raise ValueError("pse_by_condition must include 'poss', 'negs', and 'noss'.")
@@ -113,41 +106,54 @@ def make_stimuli_from_pse(
     if n_conditions == 5:
         offsets = [('m2', -2*step), ('m1', -1*step), ('PSE', 0.0), ('p1', +1*step), ('p2', +2*step)]
     elif n_conditions == 7:
-        offsets = [('m3', -3*step), ('m2', -2*step), ('m1', -1*step), ('PSE', 0.0), ('p1', +1*step), ('p2', +2*step), ('p3', +3*step)]
+        if extremes_double:
+            # m3/p3 jump is 2*step beyond m2/p2 → ±4*step
+            offsets = [('m3', -4*step), ('m2', -2*step), ('m1', -1*step),
+                       ('PSE', 0.0),
+                       ('p1', +1*step), ('p2', +2*step), ('p3', +4*step)]
+        else:
+            offsets = [('m3', -3*step), ('m2', -2*step), ('m1', -1*step),
+                       ('PSE', 0.0),
+                       ('p1', +1*step), ('p2', +2*step), ('p3', +3*step)]
     else:
         raise ValueError('n_conditions must be 5 or 7')
 
     rows = []
 
-    # poss
+    # poss: sweep around its PSE (can cross 0)
     pse = float(pse_by_condition['poss'])
     for tname, delta in offsets:
-        level = abs(pse + delta)
+        level = pse + delta
         for _ in range(int(reps_poss_negs)):
-            rows.append({'center': +level, 'surround': +abs(surround_mag), 'type': tname, 'surr_type': 'poss', 'surr_opacity': 100})
+            rows.append({'center': level, 'surround': +abs(surround_mag),
+                         'type': tname, 'surr_type': 'poss', 'surr_opacity': 100})
 
-    # negs
+    # negs: sweep around its PSE (can cross 0)
     pse = float(pse_by_condition['negs'])
     for tname, delta in offsets:
-        level = abs(pse + delta)
+        level = pse + delta
         for _ in range(int(reps_poss_negs)):
-            rows.append({'center': -level, 'surround': -abs(surround_mag), 'type': tname, 'surr_type': 'negs', 'surr_opacity': 100})
+            rows.append({'center': level, 'surround': -abs(surround_mag),
+                         'type': tname, 'surr_type': 'negs', 'surr_opacity': 100})
 
-    # noss (single sign based on PSE_noss)
-    pse = float(pse_by_condition['noss'])
-    base_sign = +1.0 if pse >= 0 else -1.0
+    # noss: PSE fixed at 0 (your request)
+    pse = 0.0
     for tname, delta in offsets:
-        level = base_sign * abs(pse + delta)
+        level = pse + delta
         for _ in range(int(reps_noss)):
-            rows.append({'center': level, 'surround': 0, 'type': tname, 'surr_type': 'noss', 'surr_opacity': 0})
+            rows.append({'center': level, 'surround': 0,
+                         'type': tname, 'surr_type': 'noss', 'surr_opacity': 0})
 
     out = pd.DataFrame(rows, columns=PRACTICE_COLS)
+
+    # stable ordering
     type_order = {name:i for i, name in enumerate([lab for lab,_ in offsets])}
     surr_order = {'poss':0,'negs':1,'noss':2}
     out['__to'] = out['type'].map(type_order)
     out['__so'] = out['surr_type'].map(surr_order)
     out = out.sort_values(['__so','__to','center']).drop(columns=['__to','__so']).reset_index(drop=True)
     return out
+
 
 # ------------------------------
 # Wrapper: CSV -> stimuli DataFrame (+ optional save)
@@ -381,69 +387,91 @@ def fit_psychometric_logistic(table, model="logistic2"):
         out["threshold_p70"] = float(inv_logit4(0.7))
     return out
 
-def plot_mocs_psychometric(df: pd.DataFrame, output_dir: Optional[str] = None, fit: bool = True, model: str = "logistic2"):
+def _infer_subject_from_path(csv_path: str) -> str:
+    """Extract subject ID or name from filename (handles 'sub-21049999' or 'sub-jeff')."""
+    base = os.path.basename(csv_path)
+    # Match patterns like sub-21049999, sub-jeff, sub_21049999, etc.
+    m = re.search(r"sub[-_]?([A-Za-z0-9]+)", base)
+    if m:
+        return m.group(1)
+    # fallback: drop extension
+    return os.path.splitext(base)[0]
+
+def plot_mocs_psychometric(
+    df: pd.DataFrame,
+    output_dir: Optional[str] = None,
+    fit: bool = True,
+    model: str = "logistic2",
+    subject: Optional[str] = None,
+):
     """
-    Plot empirical psychometric functions for poss, negs, noss:
-      - x-axis: center orientation (deg)
-      - y-axis: P(Left)
-    If `fit` is True, overlays a logistic curve fit (model: 'logistic2' or 'logistic4').
-    If output_dir is provided, saves PNGs there and returns dict of paths;
-    otherwise returns dict of matplotlib Figure objects.
+    Plot empirical psychometric functions for poss, negs, noss.
+    Adds subject info in the title and formats it cleanly.
     """
     tables = mocs_psychometric_tables(df)
     results = {}
+
     for surr, tab in tables.items():
         fig = plt.figure()
-        x = tab['center'].to_numpy()
-        y = tab['p_left'].to_numpy()
+        x = tab["center"].to_numpy()
+        y = tab["p_left"].to_numpy()
         order = np.argsort(x)
-        x = x[order]; y = y[order]
-        plt.plot(x, y, 'o-')
-        title_txt = f"MoCS psychometric – {surr}"
+        x, y = x[order], y[order]
+        plt.plot(x, y, "o-")
+
+        # --- Build title
+        subj_part = f"Subject {subject}" if subject else "Subject unknown"
+        title_txt = f"{subj_part} – {surr}"
+
         if fit and len(np.unique(x)) >= 3:
             try:
                 fitres = fit_psychometric_logistic(tab, model=model)
+                # Compute fit curve
                 xgrid = np.linspace(np.min(x), np.max(x), 200)
                 if model == "logistic2":
                     yhat = _logistic2(xgrid, fitres["x0"], max(fitres["s"], 1e-6))
                 else:
-                    yhat = _logistic4(xgrid, fitres["x0"], max(fitres["s"], 1e-6),
-                                      float(fitres.get("gamma", 0.0)),
-                                      float(fitres.get("lambda", 0.0)))
-                #plt.plot(xgrid, yhat, '-')
-                title_txt += "\\n" + f"P50={fitres['threshold_p50']:.3g}, P60={fitres['threshold_p60']:.3g}, P70={fitres['threshold_p70']:.3g}"
+                    yhat = _logistic4(
+                        xgrid,
+                        fitres["x0"],
+                        max(fitres["s"], 1e-6),
+                        float(fitres.get("gamma", 0.0)),
+                        float(fitres.get("lambda", 0.0)),
+                    )
+                plt.plot(xgrid, yhat, "-", alpha=0.7)
+                # Thresholds summary
+                title_txt += f"\nP50={fitres['threshold_p50']:.2f}, " \
+                             f"P60={fitres['threshold_p60']:.2f}, " \
+                             f"P70={fitres['threshold_p70']:.2f}"
             except Exception as e:
-                title_txt += f" (fit failed: {e})"
+                title_txt += f"\n(fit failed: {e})"
+
         plt.xlabel("Center orientation (deg)")
         plt.ylabel("P(Left)")
         plt.title(title_txt)
         plt.ylim(0, 1)
-        plt.axhline(0.5, linestyle=':')
+        plt.axhline(0.5, linestyle=":")
+
         if output_dir is not None:
-            import os
             os.makedirs(output_dir, exist_ok=True)
-            path = os.path.join(output_dir, f"psychometric_{surr}.png")
+            path = os.path.join(output_dir, f"psychometric_{subject}_{surr}.png")
             fig.savefig(path, bbox_inches="tight")
             plt.close(fig)
             results[surr] = path
         else:
             results[surr] = fig
+
     plt.show()
     return results
 
-# ------------------------------
-# CSV plotting wrapper
-# ------------------------------
-def plot_mocs_from_csv(csv_path: str, output_dir: Optional[str] = None, fit: bool = True, model: str = "logistic2"):
-    """
-    Convenience wrapper: load a MoCS CSV and plot psychometric functions.
-    Args:
-        csv_path: path to a MoCS data CSV with columns ['type','surr_type','resp.keys','center']
-        output_dir: if given, save one PNG per surround condition and return dict of paths
-        fit: whether to overlay logistic fits
-        model: 'logistic2' or 'logistic4'
-    Returns:
-        Dict[str, str|matplotlib.figure.Figure]: keys are 'poss','negs','noss' (as available)
-    """
+
+def plot_mocs_from_csv(
+    csv_path: str,
+    output_dir: Optional[str] = None,
+    fit: bool = True,
+    model: str = "logistic2",
+):
+    """Wrapper that also injects subject name into titles."""
     df = pd.read_csv(csv_path)
-    return plot_mocs_psychometric(df, output_dir=output_dir, fit=fit, model=model)
+    subject = _infer_subject_from_path(csv_path)
+    return plot_mocs_psychometric(df, output_dir=output_dir, fit=fit, model=model, subject=subject)

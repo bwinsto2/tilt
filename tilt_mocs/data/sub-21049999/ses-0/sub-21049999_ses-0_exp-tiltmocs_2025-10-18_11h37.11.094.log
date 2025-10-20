@@ -1,0 +1,26 @@
+36.1346 	WARNING 	Monitor specification not found. Creating a temporary one...
+36.5973 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f85425bacd0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f85425babe0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f8553576700>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+36.5974 	EXP 	window1: backgroundImage = ''
+36.5975 	EXP 	window1: backgroundFit = 'none'
+36.6776 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+36.6776 	EXP 	window1: recordFrameIntervals = False
+37.1454 	EXP 	window1: recordFrameIntervals = True
+37.9808 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+45.0810 	INFO 	keyboard.Keyboard is using iohub backend.
+45.0811 	INFO 	keyboard.Keyboard is using iohub backend.
+45.0811 	INFO 	keyboard.Keyboard is using iohub backend.
+45.0811 	INFO 	keyboard.Keyboard is using iohub backend.
+45.0812 	INFO 	keyboard.Keyboard is using iohub backend.
+45.0812 	INFO 	keyboard.Keyboard is using iohub backend.
+45.0812 	INFO 	keyboard.Keyboard is using iohub backend.
+45.0812 	INFO 	keyboard.Keyboard is using iohub backend.
+45.0813 	INFO 	keyboard.Keyboard is using iohub backend.
+45.0813 	INFO 	keyboard.Keyboard is using iohub backend.
+45.0813 	EXP 	tilt_mocs: status = STARTED
+46.1098 	EXP 	Created text_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_5', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+46.1172 	EXP 	Created text_6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_6', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+46.1433 	INFO 	saved data to /Users/bwinsto2/Documents/Documents - BV-PCR-VPJVMF3/Github/tilt/tilt_mocs/data/sub-21049999/ses-0/sub-21049999_ses-0_exp-tiltmocs_2025-10-18_11h37.11.094.psydat
+46.1525 	INFO 	saved data to '/Users/bwinsto2/Documents/Documents - BV-PCR-VPJVMF3/Github/tilt/tilt_mocs/data/sub-21049999/ses-0/sub-21049999_ses-0_exp-tiltmocs_2025-10-18_11h37.11.094.csv'
