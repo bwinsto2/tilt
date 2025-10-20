@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2024.2.4),
-    on Sat Oct 18 12:10:21 2025
+    on Mon Oct 20 11:52:05 2025
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -126,7 +126,7 @@ def setupData(expInfo, dataDir=None):
     thisExp = data.ExperimentHandler(
         name=expName, version='',
         extraInfo=expInfo, runtimeInfo=None,
-        originPath='/Users/bwinsto2/Documents/Documents - BV-PCR-VPJVMF3/Github/tilt/tilt_staircase/tilt_staircase_lastrun.py',
+        originPath='/Users/cpcr/Documents/tilt/tilt_staircase/tilt_staircase_lastrun.py',
         savePickle=True, saveWideText=True,
         dataFileName=dataDir + os.sep + filename, sortColumns='time'
     )
@@ -195,7 +195,7 @@ def setupWindow(expInfo=None, win=None):
         win = visual.Window(
             size=_winSize, fullscr=_fullScr, screen=0,
             winType='pyglet', allowGUI=False, allowStencil=False,
-            monitor='mac_laptop', color=[0,0,0], colorSpace='rgb',
+            monitor='homewood_tilt_laptop', color=[0,0,0], colorSpace='rgb',
             backgroundImage='', backgroundFit='none',
             blendMode='avg', useFBO=True,
             units='height',
@@ -428,7 +428,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     contrast = 0.2
     
     # Run 'Begin Experiment' code from set_n_blocks
-    n_blocks = 3
+    n_blocks = 2
     
     # --- Initialize components for Routine "instr2" ---
     text_6 = visual.TextStim(win=win, name='text_6',
