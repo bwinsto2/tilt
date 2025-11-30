@@ -475,3 +475,87 @@ def plot_mocs_from_csv(
     df = pd.read_csv(csv_path)
     subject = _infer_subject_from_path(csv_path)
     return plot_mocs_psychometric(df, output_dir=output_dir, fit=fit, model=model, subject=subject)
+
+
+# ------------------------------
+# Generate MOCS stimuli with fixed tilt values
+# ------------------------------
+def make_mocs_stimuli_fixed(
+    surround_mag: float = 15.0,
+    trials_per_condition: int = 56,
+    out_csv: Optional[str] = None
+) -> pd.DataFrame:
+    """
+    Generate MOCS stimuli with fixed tilt values.
+    
+    Parameters:
+    -----------
+    surround_mag : float
+        Magnitude of surround tilt (default 15.0)
+    trials_per_condition : int
+        Number of trials per center/surround combination (default 56)
+        With 6 center values × 3 surround types = 18 conditions,
+        56 trials each gives 1008 total trials
+    out_csv : Optional[str]
+        If provided, save the stimuli to this CSV file
+    
+    Returns:
+    --------
+    pd.DataFrame with columns: center, surround, type, surr_type, surr_opacity
+    
+    Tilt values:
+    - Positive surround: center = -2, 0, 2, 4, 6, 8
+    - Negative surround: center = 2, 0, -2, -4, -6, -8
+    - No surround: center = -4, -2, -1, 1, 2, 4
+    """
+    rows = []
+    
+    # Positive surround: -2, 0, 2, 4, 6, 8
+    poss_centers = [-2, 0, 2, 4, 6, 8]
+    for center in poss_centers:
+        for _ in range(trials_per_condition):
+            rows.append({
+                'center': center,
+                'surround': surround_mag,
+                'type': f'c{center:+d}',  # e.g., 'c-2', 'c+0', 'c+2'
+                'surr_type': 'poss',
+                'surr_opacity': 100
+            })
+    
+    # Negative surround: 2, 0, -2, -4, -6, -8
+    negs_centers = [2, 0, -2, -4, -6, -8]
+    for center in negs_centers:
+        for _ in range(trials_per_condition):
+            rows.append({
+                'center': center,
+                'surround': -surround_mag,
+                'type': f'c{center:+d}',
+                'surr_type': 'negs',
+                'surr_opacity': 100
+            })
+    
+    # No surround: -4, -2, -1, 1, 2, 4
+    noss_centers = [-4, -2, -1, 1, 2, 4]
+    for center in noss_centers:
+        for _ in range(trials_per_condition):
+            rows.append({
+                'center': center,
+                'surround': 0,
+                'type': f'c{center:+d}',
+                'surr_type': 'noss',
+                'surr_opacity': 0
+            })
+    
+    df = pd.DataFrame(rows, columns=PRACTICE_COLS)
+    
+    # Sort by surround type, then center value
+    surr_order = {'poss': 0, 'negs': 1, 'noss': 2}
+    df['__so'] = df['surr_type'].map(surr_order)
+    df = df.sort_values(['__so', 'center']).drop(columns=['__so']).reset_index(drop=True)
+    
+    if out_csv:
+        os.makedirs(os.path.dirname(os.path.abspath(out_csv)), exist_ok=True)
+        df.to_csv(out_csv, index=False)
+        print(f"Saved {len(df)} trials to {out_csv}")
+    
+    return df
