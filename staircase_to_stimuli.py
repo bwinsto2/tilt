@@ -287,6 +287,140 @@ def analyze_mocs_from_csv(path: str):
     return analyze_mocs(df)
 
 # ------------------------------
+# Analysis & plotting for fixed MOCS stimuli
+# ------------------------------
+def _clean_fixed_mocs_df(df: pd.DataFrame) -> pd.DataFrame:
+    """Clean dataframe from fixed MOCS stimuli experiments."""
+    required = ['center', 'surr_type', 'resp.keys']
+    for c in required:
+        if c not in df.columns:
+            raise ValueError(f"Fixed MoCS file missing required column: {c}")
+    d = df.copy()
+    # Filter to valid responses only
+    d = d[d['resp.keys'].isin(['left','right'])]
+    # Filter to valid surround types
+    d = d[d['surr_type'].isin(['poss','negs','noss'])]
+    return d
+
+def fixed_mocs_psychometric_tables(df: pd.DataFrame) -> Dict[str, pd.DataFrame]:
+    """
+    Build per-surround psychometric tables for fixed MOCS stimuli.
+    Returns dict: {'poss': df, 'negs': df, 'noss': df} for those present.
+    Each df has columns: center, n, n_left, n_right, p_left
+    """
+    d = _clean_fixed_mocs_df(df)
+    out = {}
+    for s in ['poss','negs','noss']:
+        g = d[d['surr_type'] == s]
+        if g.empty:
+            continue
+        tbl = (g.groupby('center')['resp.keys']
+                 .value_counts().rename('count').reset_index())
+        piv = (tbl.pivot_table(index='center', columns='resp.keys',
+                               values='count', fill_value=0).reset_index())
+        if 'left' not in piv.columns: piv['left'] = 0
+        if 'right' not in piv.columns: piv['right'] = 0
+        piv = piv.rename(columns={'left':'n_left','right':'n_right'})
+        piv['n'] = piv['n_left'] + piv['n_right']
+        piv['p_left'] = piv['n_left'] / piv['n'].where(piv['n']>0, 1)
+        out[s] = piv.sort_values('center').reset_index(drop=True)
+    return out
+
+def plot_fixed_mocs_psychometric(
+    df: pd.DataFrame,
+    output_dir: Optional[str] = None,
+    fit: bool = True,
+    model: str = "logistic2",
+    subject: Optional[str] = None,
+):
+    """
+    Plot empirical psychometric functions for fixed MOCS stimuli (poss, negs, noss).
+    
+    Parameters:
+    -----------
+    df : pd.DataFrame
+        Dataframe with columns: center, surr_type, resp.keys
+    output_dir : Optional[str]
+        If provided, save plots to this directory
+    fit : bool
+        Whether to fit logistic curves
+    model : str
+        'logistic2' or 'logistic4'
+    subject : Optional[str]
+        Subject ID for plot titles
+    
+    Returns:
+    --------
+    dict mapping surround type to figure or file path
+    """
+    tables = fixed_mocs_psychometric_tables(df)
+    results = {}
+
+    for surr, tab in tables.items():
+        fig = plt.figure()
+        x = tab["center"].to_numpy()
+        y = tab["p_left"].to_numpy()
+        order = np.argsort(x)
+        x, y = x[order], y[order]
+        plt.plot(x, y, "o-")
+
+        # Build title
+        subj_part = f"Subject {subject}" if subject else "Subject unknown"
+        title_txt = f"{subj_part} – {surr}"
+
+        if fit and len(np.unique(x)) >= 3:
+            try:
+                fitres = fit_psychometric_logistic(tab, model=model)
+                # Compute fit curve
+                xgrid = np.linspace(np.min(x), np.max(x), 200)
+                if model == "logistic2":
+                    yhat = _logistic2(xgrid, fitres["x0"], max(fitres["s"], 1e-6))
+                else:
+                    yhat = _logistic4(
+                        xgrid,
+                        fitres["x0"],
+                        max(fitres["s"], 1e-6),
+                        float(fitres.get("gamma", 0.0)),
+                        float(fitres.get("lambda", 0.0)),
+                    )
+                plt.plot(xgrid, yhat, "-", alpha=0.7)
+                # Thresholds summary
+                title_txt += f"\nP50={fitres['threshold_p50']:.2f}, " \
+                             f"P60={fitres['threshold_p60']:.2f}, " \
+                             f"P70={fitres['threshold_p70']:.2f}"
+            except Exception as e:
+                title_txt += f"\n(fit failed: {e})"
+
+        plt.xlabel("Center orientation (deg)")
+        plt.ylabel("P(Left)")
+        plt.title(title_txt)
+        plt.ylim(0, 1)
+        plt.axhline(0.5, linestyle=":")
+
+        if output_dir is not None:
+            os.makedirs(output_dir, exist_ok=True)
+            path = os.path.join(output_dir, f"psychometric_{subject}_{surr}.png")
+            fig.savefig(path, bbox_inches="tight")
+            plt.close(fig)
+            results[surr] = path
+        else:
+            results[surr] = fig
+
+    plt.show()
+    return results
+
+def plot_fixed_mocs_from_csv(
+    csv_path: str,
+    output_dir: Optional[str] = None,
+    fit: bool = True,
+    model: str = "logistic2",
+):
+    """Wrapper to plot fixed MOCS data from CSV file."""
+    df = pd.read_csv(csv_path)
+    subject = _infer_subject_from_path(csv_path)
+    return plot_fixed_mocs_psychometric(df, output_dir=output_dir, fit=fit, model=model, subject=subject)
+
+# ------------------------------
 # Psychometric data & plotting from MoCS (+ logistic fits)
 # ------------------------------
 def mocs_psychometric_tables(df: pd.DataFrame) -> Dict[str, pd.DataFrame]:
@@ -475,6 +609,7 @@ def plot_mocs_from_csv(
     df = pd.read_csv(csv_path)
     subject = _infer_subject_from_path(csv_path)
     return plot_mocs_psychometric(df, output_dir=output_dir, fit=fit, model=model, subject=subject)
+
 
 
 # ------------------------------
