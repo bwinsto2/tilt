@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2024.2.4),
-    on Wed Dec  3 13:01:41 2025
+    on Wed Dec  3 13:25:59 2025
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -2469,7 +2469,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         continueRoutine = True
         # update component parameters for each repeat
         # Run 'Begin Routine' code from code_5
-        if not trials.thisTrialN in [100, 300, 500, 750]:
+        if not trials.thisTrialN in [200, 400]:
             continueRoutine = False
         # create starting attributes for key_resp_10
         key_resp_10.keys = []
