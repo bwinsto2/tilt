@@ -615,9 +615,30 @@ def plot_mocs_from_csv(
 # ------------------------------
 # Generate MOCS stimuli with fixed tilt values
 # ------------------------------
+def _generate_isi_values(n: int) -> list:
+    """
+    Generate ISI values for n trials, distributed as evenly as possible
+    across 4 ISI levels: 0.5, 0.75, 1.0, 1.25.
+    
+    Handles cases where n doesn't divide evenly by 4 by distributing
+    remainder trials across ISI levels.
+    """
+    isi_levels = [0.5, 0.75, 1.0, 1.25]
+    base_count = n // 4
+    remainder = n % 4
+    
+    # Distribute: first 'remainder' ISI levels get one extra trial
+    isi_values = []
+    for i, isi in enumerate(isi_levels):
+        count = base_count + (1 if i < remainder else 0)
+        isi_values.extend([isi] * count)
+    
+    return isi_values
+
+
 def make_mocs_stimuli_fixed(
     surround_mag: float = 15.0,
-    trials_per_condition: int = 56,
+    trials_per_condition: int = 36,
     out_csv: Optional[str] = None
 ) -> pd.DataFrame:
     """
@@ -628,60 +649,69 @@ def make_mocs_stimuli_fixed(
     surround_mag : float
         Magnitude of surround tilt (default 15.0)
     trials_per_condition : int
-        Number of trials per center/surround combination (default 56)
+        Number of trials per center/surround combination (default 36)
         With 6 center values × 3 surround types = 18 conditions,
-        56 trials each gives 1008 total trials
+        36 trials each gives 648 total trials
     out_csv : Optional[str]
         If provided, save the stimuli to this CSV file
     
     Returns:
     --------
-    pd.DataFrame with columns: center, surround, type, surr_type, surr_opacity
+    pd.DataFrame with columns: center, surround, type, surr_type, surr_opacity, isi
     
     Tilt values:
     - Positive surround: center = -2, 0, 2, 4, 6, 8
     - Negative surround: center = 2, 0, -2, -4, -6, -8
     - No surround: center = -4, -2, -1, 1, 2, 4
+    
+    ISI values (0.5, 0.75, 1.0, 1.25) are distributed evenly across trials
+    within each condition.
     """
     rows = []
     
     # Positive surround: -2, 0, 2, 4, 6, 8
     poss_centers = [-2, 0, 2, 4, 6, 8]
     for center in poss_centers:
-        for _ in range(trials_per_condition):
+        isi_values = _generate_isi_values(trials_per_condition)
+        for i in range(trials_per_condition):
             rows.append({
                 'center': center,
                 'surround': surround_mag,
                 'type': f'c{center:+d}',  # e.g., 'c-2', 'c+0', 'c+2'
                 'surr_type': 'poss',
-                'surr_opacity': 100
+                'surr_opacity': 100,
+                'isi': isi_values[i]
             })
     
     # Negative surround: 2, 0, -2, -4, -6, -8
     negs_centers = [2, 0, -2, -4, -6, -8]
     for center in negs_centers:
-        for _ in range(trials_per_condition):
+        isi_values = _generate_isi_values(trials_per_condition)
+        for i in range(trials_per_condition):
             rows.append({
                 'center': center,
                 'surround': -surround_mag,
                 'type': f'c{center:+d}',
                 'surr_type': 'negs',
-                'surr_opacity': 100
+                'surr_opacity': 100,
+                'isi': isi_values[i]
             })
     
     # No surround: -4, -2, -1, 1, 2, 4
     noss_centers = [-4, -2, -1, 1, 2, 4]
     for center in noss_centers:
-        for _ in range(trials_per_condition):
+        isi_values = _generate_isi_values(trials_per_condition)
+        for i in range(trials_per_condition):
             rows.append({
                 'center': center,
                 'surround': 0,
                 'type': f'c{center:+d}',
                 'surr_type': 'noss',
-                'surr_opacity': 0
+                'surr_opacity': 0,
+                'isi': isi_values[i]
             })
     
-    df = pd.DataFrame(rows, columns=PRACTICE_COLS)
+    df = pd.DataFrame(rows)
     
     # Sort by surround type, then center value
     surr_order = {'poss': 0, 'negs': 1, 'noss': 2}

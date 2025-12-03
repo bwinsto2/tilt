@@ -1,5 +1,5 @@
 ﻿center,surround,correct
-30,0,right
--30,0,left
-30,60,right
--30,-60,left
+30,0,period
+-30,0,z
+30,60,period
+-30,-60,z
