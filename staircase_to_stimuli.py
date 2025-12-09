@@ -34,6 +34,16 @@ def _last_k_mean(series: pd.Series, k: int) -> float:
     k_eff = min(k, len(series))
     return float(series.tail(k_eff).mean())
 
+def _normalize_response_keys(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Normalize response keys: convert 'z' -> 'left' and 'period' -> 'right'.
+    This handles both old format (left/right) and new format (z/period).
+    """
+    d = df.copy()
+    if 'resp.keys' in d.columns:
+        d['resp.keys'] = d['resp.keys'].replace({'z': 'left', 'period': 'right'})
+    return d
+
 # ------------------------------
 # PSEs from staircase data
 # ------------------------------
@@ -215,6 +225,7 @@ def _clean_mocs_df(df: pd.DataFrame) -> pd.DataFrame:
         if c not in df.columns:
             raise ValueError(f"MoCS file missing required column: {c}")
     d = df.copy()
+    d = _normalize_response_keys(d)  # Convert z/period to left/right
     valid_types = {'m3','m2','m1','PSE','p1','p2','p3'}
     d = d[d['type'].isin(valid_types)]
     d = d[d['resp.keys'].isin(['left','right'])]
@@ -296,6 +307,7 @@ def _clean_fixed_mocs_df(df: pd.DataFrame) -> pd.DataFrame:
         if c not in df.columns:
             raise ValueError(f"Fixed MoCS file missing required column: {c}")
     d = df.copy()
+    d = _normalize_response_keys(d)  # Convert z/period to left/right
     # Filter to valid responses only
     d = d[d['resp.keys'].isin(['left','right'])]
     # Filter to valid surround types
@@ -323,8 +335,24 @@ def fixed_mocs_psychometric_tables(df: pd.DataFrame) -> Dict[str, pd.DataFrame]:
         piv = piv.rename(columns={'left':'n_left','right':'n_right'})
         piv['n'] = piv['n_left'] + piv['n_right']
         piv['p_left'] = piv['n_left'] / piv['n'].where(piv['n']>0, 1)
+        piv['p_right'] = piv['n_right'] / piv['n'].where(piv['n']>0, 1)
         out[s] = piv.sort_values('center').reset_index(drop=True)
     return out
+
+
+def _find_p50_crossing(x, y):
+    """
+    Find the x-value where the psychometric curve crosses P=0.5.
+    Uses linear interpolation between adjacent points.
+    Returns None if no crossing found.
+    """
+    for i in range(len(y) - 1):
+        if (y[i] <= 0.5 <= y[i+1]) or (y[i] >= 0.5 >= y[i+1]):
+            if y[i+1] - y[i] != 0:
+                x_cross = x[i] + (0.5 - y[i]) * (x[i+1] - x[i]) / (y[i+1] - y[i])
+                return x_cross
+    return None
+
 
 def plot_fixed_mocs_psychometric(
     df: pd.DataFrame,
@@ -359,7 +387,7 @@ def plot_fixed_mocs_psychometric(
     for surr, tab in tables.items():
         fig = plt.figure()
         x = tab["center"].to_numpy()
-        y = tab["p_left"].to_numpy()
+        y = tab["p_right"].to_numpy()
         order = np.argsort(x)
         x, y = x[order], y[order]
         plt.plot(x, y, "o-")
@@ -367,6 +395,12 @@ def plot_fixed_mocs_psychometric(
         # Build title
         subj_part = f"Subject {subject}" if subject else "Subject unknown"
         title_txt = f"{subj_part} – {surr}"
+
+        # Add vertical line at P(50) crossing
+        p50_x = _find_p50_crossing(x, y)
+        if p50_x is not None:
+            plt.axvline(p50_x, linestyle=":", color='gray')
+            title_txt += f" (P50={p50_x:.2f})"
 
         if fit and len(np.unique(x)) >= 3:
             try:
@@ -384,18 +418,13 @@ def plot_fixed_mocs_psychometric(
                         float(fitres.get("lambda", 0.0)),
                     )
                 plt.plot(xgrid, yhat, "-", alpha=0.7)
-                # Thresholds summary
-                title_txt += f"\nP50={fitres['threshold_p50']:.2f}, " \
-                             f"P60={fitres['threshold_p60']:.2f}, " \
-                             f"P70={fitres['threshold_p70']:.2f}"
             except Exception as e:
                 title_txt += f"\n(fit failed: {e})"
 
         plt.xlabel("Center orientation (deg)")
-        plt.ylabel("P(Left)")
+        plt.ylabel("P(Right)")
         plt.title(title_txt)
         plt.ylim(0, 1)
-        plt.axhline(0.5, linestyle=":")
 
         if output_dir is not None:
             os.makedirs(output_dir, exist_ok=True)
@@ -425,9 +454,9 @@ def plot_fixed_mocs_from_csv(
 # ------------------------------
 def mocs_psychometric_tables(df: pd.DataFrame) -> Dict[str, pd.DataFrame]:
     """
-    Build per-surround psychometric tables (probability of 'left' vs center orientation).
+    Build per-surround psychometric tables (probability of 'left'/'right' vs center orientation).
     Returns dict: {'poss': df, 'negs': df, 'noss': df} for those present.
-    Each df has columns: center, n, n_left, p_left
+    Each df has columns: center, n, n_left, n_right, p_left, p_right
     """
     d = _clean_mocs_df(df)
     out = {}
@@ -444,6 +473,7 @@ def mocs_psychometric_tables(df: pd.DataFrame) -> Dict[str, pd.DataFrame]:
         piv = piv.rename(columns={'left':'n_left','right':'n_right'})
         piv['n'] = piv['n_left'] + piv['n_right']
         piv['p_left'] = piv['n_left'] / piv['n'].where(piv['n']>0, 1)
+        piv['p_right'] = piv['n_right'] / piv['n'].where(piv['n']>0, 1)
         out[s] = piv.sort_values('center').reset_index(drop=True)
     return out
 
@@ -548,7 +578,7 @@ def plot_mocs_psychometric(
     for surr, tab in tables.items():
         fig = plt.figure()
         x = tab["center"].to_numpy()
-        y = tab["p_left"].to_numpy()
+        y = tab["p_right"].to_numpy()
         order = np.argsort(x)
         x, y = x[order], y[order]
         plt.plot(x, y, "o-")
@@ -556,6 +586,12 @@ def plot_mocs_psychometric(
         # --- Build title
         subj_part = f"Subject {subject}" if subject else "Subject unknown"
         title_txt = f"{subj_part} – {surr}"
+
+        # Add vertical line at P(50) crossing
+        p50_x = _find_p50_crossing(x, y)
+        if p50_x is not None:
+            plt.axvline(p50_x, linestyle=":", color='gray')
+            title_txt += f" (P50={p50_x:.2f})"
 
         if fit and len(np.unique(x)) >= 3:
             try:
@@ -573,18 +609,13 @@ def plot_mocs_psychometric(
                         float(fitres.get("lambda", 0.0)),
                     )
                 plt.plot(xgrid, yhat, "-", alpha=0.7)
-                # Thresholds summary
-                title_txt += f"\nP50={fitres['threshold_p50']:.2f}, " \
-                             f"P60={fitres['threshold_p60']:.2f}, " \
-                             f"P70={fitres['threshold_p70']:.2f}"
             except Exception as e:
                 title_txt += f"\n(fit failed: {e})"
 
         plt.xlabel("Center orientation (deg)")
-        plt.ylabel("P(Left)")
+        plt.ylabel("P(Right)")
         plt.title(title_txt)
         plt.ylim(0, 1)
-        plt.axhline(0.5, linestyle=":")
 
         if output_dir is not None:
             os.makedirs(output_dir, exist_ok=True)

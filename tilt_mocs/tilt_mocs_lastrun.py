@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2024.2.4),
-    on Fri Dec  5 11:16:34 2025
+    on Tue Dec  9 14:42:23 2025
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -128,7 +128,7 @@ def setupData(expInfo, dataDir=None):
     thisExp = data.ExperimentHandler(
         name=expName, version='',
         extraInfo=expInfo, runtimeInfo=None,
-        originPath='/Users/cpcr/Documents/tilt/tilt_mocs/tilt_mocs_lastrun.py',
+        originPath='/Users/bwinsto2/Documents/Documents - BV-PCR-VPJVMF3/Github/tilt/tilt_mocs/tilt_mocs_lastrun.py',
         savePickle=True, saveWideText=True,
         dataFileName=dataDir + os.sep + filename, sortColumns='time'
     )
@@ -482,14 +482,21 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         
     
     # --- Initialize components for Routine "instr_example" ---
+    noise = visual.NoiseStim(
+        win=win, name='noise',units='cm', 
+        noiseImage=None, mask='circle',
+        ori=0.0, pos=(0, 0), size=surround_size, sf=None,
+        phase=0.0,
+        color=[1,1,1], colorSpace='rgb',     opacity=1.0, blendmode='avg', contrast=contrast,
+        texRes=128, filter=None,
+        noiseType='Binary', noiseElementSize=[0.01], 
+        noiseBaseSf=16.0, noiseBW=1.0,
+        noiseBWO=30.0, noiseOri=0.0,
+        noiseFractalPower=0.0,noiseFilterLower=1.0,
+        noiseFilterUpper=8.0, noiseFilterOrder=0.0,
+        noiseClip=3.0, imageComponent='Phase', interpolate=False, depth=0.0)
+    noise.buildNoise()
     key_resp_11 = keyboard.Keyboard(deviceName='key_resp_11')
-    surround_practice_example = visual.GratingStim(
-        win=win, name='surround_practice_example',units='cm', 
-        tex='sin', mask='circle', anchor='center',
-        ori=1.0, pos=(0,0), draggable=False, size=1.0, sf=1.0, phase=1.0,
-        color=[1,1,1], colorSpace='rgb',
-        opacity=None, contrast=contrast, blendmode='avg',
-        texRes=128.0, interpolate=True, depth=-1.0)
     center_practice_example = visual.GratingStim(
         win=win, name='center_practice_example',units='cm', 
         tex='sin', mask='circle', anchor='center',
@@ -817,7 +824,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # create an object to store info about Routine instr_example
     instr_example = data.Routine(
         name='instr_example',
-        components=[key_resp_11, surround_practice_example, center_practice_example, text_15],
+        components=[noise, key_resp_11, center_practice_example, text_15],
     )
     instr_example.status = NOT_STARTED
     continueRoutine = True
@@ -826,10 +833,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     key_resp_11.keys = []
     key_resp_11.rt = []
     _key_resp_11_allKeys = []
-    surround_practice_example.setSize(surround_size)
-    surround_practice_example.setOri(-30.0)
-    surround_practice_example.setSF(surround_sf)
-    surround_practice_example.setPhase(0.0)
     center_practice_example.setContrast(contrast)
     center_practice_example.setSize(center_size)
     center_practice_example.setOri(15.0)
@@ -865,6 +868,29 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
         # update/draw components on each frame
         
+        # *noise* updates
+        
+        # if noise is starting this frame...
+        if noise.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            noise.frameNStart = frameN  # exact frame index
+            noise.tStart = t  # local t and not account for scr refresh
+            noise.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(noise, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'noise.started')
+            # update status
+            noise.status = STARTED
+            noise.setAutoDraw(True)
+        
+        # if noise is active this frame...
+        if noise.status == STARTED:
+            # update params
+            pass
+        if noise.status == STARTED:
+            if noise._needBuild:
+                noise.buildNoise()
+        
         # *key_resp_11* updates
         waitOnFlip = False
         
@@ -892,26 +918,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                 key_resp_11.duration = _key_resp_11_allKeys[-1].duration
                 # a response ends the routine
                 continueRoutine = False
-        
-        # *surround_practice_example* updates
-        
-        # if surround_practice_example is starting this frame...
-        if surround_practice_example.status == NOT_STARTED and tThisFlip >= 0-frameTolerance:
-            # keep track of start time/frame for later
-            surround_practice_example.frameNStart = frameN  # exact frame index
-            surround_practice_example.tStart = t  # local t and not account for scr refresh
-            surround_practice_example.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(surround_practice_example, 'tStartRefresh')  # time at next scr refresh
-            # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'surround_practice_example.started')
-            # update status
-            surround_practice_example.status = STARTED
-            surround_practice_example.setAutoDraw(True)
-        
-        # if surround_practice_example is active this frame...
-        if surround_practice_example.status == STARTED:
-            # update params
-            pass
         
         # *center_practice_example* updates
         
