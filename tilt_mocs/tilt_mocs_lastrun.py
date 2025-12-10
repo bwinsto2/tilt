@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2024.2.4),
-    on Tue Dec  9 14:42:23 2025
+    on Tue Dec  9 19:01:38 2025
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -62,7 +62,7 @@ or run the experiment with `--pilot` as an argument. To change what pilot
 PILOTING = core.setPilotModeFromArgs()
 # start off with values from experiment settings
 _fullScr = True
-_winSize = [1440, 900]
+_winSize = [3440, 1440]
 # if in pilot mode, apply overrides according to preferences
 if PILOTING:
     # force windowed mode
@@ -482,21 +482,14 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         
     
     # --- Initialize components for Routine "instr_example" ---
-    noise = visual.NoiseStim(
-        win=win, name='noise',units='cm', 
-        noiseImage=None, mask='circle',
-        ori=0.0, pos=(0, 0), size=surround_size, sf=None,
-        phase=0.0,
-        color=[1,1,1], colorSpace='rgb',     opacity=1.0, blendmode='avg', contrast=contrast,
-        texRes=128, filter=None,
-        noiseType='Binary', noiseElementSize=[0.01], 
-        noiseBaseSf=16.0, noiseBW=1.0,
-        noiseBWO=30.0, noiseOri=0.0,
-        noiseFractalPower=0.0,noiseFilterLower=1.0,
-        noiseFilterUpper=8.0, noiseFilterOrder=0.0,
-        noiseClip=3.0, imageComponent='Phase', interpolate=False, depth=0.0)
-    noise.buildNoise()
     key_resp_11 = keyboard.Keyboard(deviceName='key_resp_11')
+    surround_practice_example = visual.GratingStim(
+        win=win, name='surround_practice_example',units='cm', 
+        tex='sin', mask='circle', anchor='center',
+        ori=1.0, pos=(0,0), draggable=False, size=1.0, sf=1.0, phase=1.0,
+        color=[1,1,1], colorSpace='rgb',
+        opacity=None, contrast=contrast, blendmode='avg',
+        texRes=128.0, interpolate=True, depth=-1.0)
     center_practice_example = visual.GratingStim(
         win=win, name='center_practice_example',units='cm', 
         tex='sin', mask='circle', anchor='center',
@@ -511,6 +504,20 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-3.0);
+    noise = visual.NoiseStim(
+        win=win, name='noise',units='cm', 
+        noiseImage=None, mask='circle',
+        ori=0.0, pos=(0, 0), size=surround_size, sf=0.1,
+        phase=0.0,
+        color=[1,1,1], colorSpace='rgb',     opacity=None, blendmode='avg', contrast=contrast,
+        texRes=128, filter=None,
+        noiseType='Binary', noiseElementSize=[0.1], 
+        noiseBaseSf=8.0, noiseBW=1.0,
+        noiseBWO=30.0, noiseOri=0.0,
+        noiseFractalPower=0.0,noiseFilterLower=1.0,
+        noiseFilterUpper=8.0, noiseFilterOrder=0.0,
+        noiseClip=3.0, imageComponent='Phase', interpolate=False, depth=-4.0)
+    noise.buildNoise()
     
     # --- Initialize components for Routine "instr2" ---
     text_6 = visual.TextStim(win=win, name='text_6',
@@ -568,20 +575,34 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     key_resp_5 = keyboard.Keyboard(deviceName='key_resp_5')
     
     # --- Initialize components for Routine "practice_trial_timed" ---
+    noise_2 = visual.NoiseStim(
+        win=win, name='noise_2',units='cm', 
+        noiseImage=None, mask='circle',
+        ori=0.0, pos=(0, 0), size=surround_size, sf=0.1,
+        phase=0.0,
+        color=[1,1,1], colorSpace='rgb',     opacity=1.0, blendmode='avg', contrast=contrast,
+        texRes=128, filter=None,
+        noiseType='Binary', noiseElementSize=[0.1], 
+        noiseBaseSf=8.0, noiseBW=1.0,
+        noiseBWO=30.0, noiseOri=0.0,
+        noiseFractalPower=0.0,noiseFilterLower=1.0,
+        noiseFilterUpper=8.0, noiseFilterOrder=0.0,
+        noiseClip=3.0, imageComponent='Phase', interpolate=False, depth=0.0)
+    noise_2.buildNoise()
     surround_practice_2 = visual.GratingStim(
         win=win, name='surround_practice_2',units='cm', 
         tex='sin', mask='circle', anchor='center',
         ori=1.0, pos=(0,0), draggable=False, size=1.0, sf=1.0, phase=0.0,
         color=[1,1,1], colorSpace='rgb',
         opacity=1.0, contrast=contrast, blendmode='avg',
-        texRes=128.0, interpolate=True, depth=0.0)
+        texRes=128.0, interpolate=True, depth=-1.0)
     center_practice_2 = visual.GratingStim(
         win=win, name='center_practice_2',units='cm', 
         tex='sin', mask='circle', anchor='center',
         ori=1.0, pos=(0,0), draggable=False, size=center_size, sf=1.0, phase=0.0,
         color=[1,1,1], colorSpace='rgb',
         opacity=None, contrast=contrast, blendmode='avg',
-        texRes=128.0, interpolate=True, depth=-1.0)
+        texRes=128.0, interpolate=True, depth=-2.0)
     key_resp_4 = keyboard.Keyboard(deviceName='key_resp_4')
     text_12 = visual.TextStim(win=win, name='text_12',
         text='<--                    -->\nz                      .',
@@ -589,7 +610,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         pos=(0,0), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
-        depth=-3.0);
+        depth=-4.0);
     
     # --- Initialize components for Routine "practice_feedback_timed" ---
     # Run 'Begin Experiment' code from code_7
@@ -613,6 +634,20 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     key_resp_8 = keyboard.Keyboard(deviceName='key_resp_8')
     
     # --- Initialize components for Routine "trial" ---
+    noise_3 = visual.NoiseStim(
+        win=win, name='noise_3',units='cm', 
+        noiseImage=None, mask='circle',
+        ori=0.0, pos=(0, 0), size=surround_size, sf=0.1,
+        phase=0.0,
+        color=[1,1,1], colorSpace='rgb',     opacity=1.0, blendmode='avg', contrast=contrast,
+        texRes=128, filter=None,
+        noiseType='Binary', noiseElementSize=[0.1], 
+        noiseBaseSf=8.0, noiseBW=1.0,
+        noiseBWO=30.0, noiseOri=0.0,
+        noiseFractalPower=0.0,noiseFilterLower=1.0,
+        noiseFilterUpper=8.0, noiseFilterOrder=0.0,
+        noiseClip=3.0, imageComponent='Phase', interpolate=False, depth=0.0)
+    noise_3.buildNoise()
     # Run 'Begin Experiment' code from set_phase
     import random
     surround_grating = visual.GratingStim(
@@ -621,14 +656,14 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         ori=1.0, pos=(0,0), draggable=False, size=1.0, sf=1.0, phase=1.0,
         color=[1,1,1], colorSpace='rgb',
         opacity=1.0, contrast=contrast, blendmode='avg',
-        texRes=128.0, interpolate=True, depth=-1.0)
+        texRes=128.0, interpolate=True, depth=-2.0)
     center_grating = visual.GratingStim(
         win=win, name='center_grating',units='cm', 
         tex='sin', mask='circle', anchor='center',
         ori=1.0, pos=(0,0), draggable=False, size=1.0, sf=1.0, phase=1.0,
         color=[1,1,1], colorSpace='rgb',
         opacity=None, contrast=contrast, blendmode='avg',
-        texRes=128.0, interpolate=True, depth=-2.0)
+        texRes=128.0, interpolate=True, depth=-3.0)
     resp = keyboard.Keyboard(deviceName='resp')
     
     # --- Initialize components for Routine "break_2" ---
@@ -824,7 +859,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # create an object to store info about Routine instr_example
     instr_example = data.Routine(
         name='instr_example',
-        components=[noise, key_resp_11, center_practice_example, text_15],
+        components=[key_resp_11, surround_practice_example, center_practice_example, text_15, noise],
     )
     instr_example.status = NOT_STARTED
     continueRoutine = True
@@ -833,6 +868,10 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     key_resp_11.keys = []
     key_resp_11.rt = []
     _key_resp_11_allKeys = []
+    surround_practice_example.setSize(surround_size)
+    surround_practice_example.setOri(-30.0)
+    surround_practice_example.setSF(surround_sf)
+    surround_practice_example.setPhase(0.0)
     center_practice_example.setContrast(contrast)
     center_practice_example.setSize(center_size)
     center_practice_example.setOri(15.0)
@@ -868,29 +907,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
         # update/draw components on each frame
         
-        # *noise* updates
-        
-        # if noise is starting this frame...
-        if noise.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-            # keep track of start time/frame for later
-            noise.frameNStart = frameN  # exact frame index
-            noise.tStart = t  # local t and not account for scr refresh
-            noise.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(noise, 'tStartRefresh')  # time at next scr refresh
-            # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'noise.started')
-            # update status
-            noise.status = STARTED
-            noise.setAutoDraw(True)
-        
-        # if noise is active this frame...
-        if noise.status == STARTED:
-            # update params
-            pass
-        if noise.status == STARTED:
-            if noise._needBuild:
-                noise.buildNoise()
-        
         # *key_resp_11* updates
         waitOnFlip = False
         
@@ -918,6 +934,26 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                 key_resp_11.duration = _key_resp_11_allKeys[-1].duration
                 # a response ends the routine
                 continueRoutine = False
+        
+        # *surround_practice_example* updates
+        
+        # if surround_practice_example is starting this frame...
+        if surround_practice_example.status == NOT_STARTED and tThisFlip >= 0-frameTolerance:
+            # keep track of start time/frame for later
+            surround_practice_example.frameNStart = frameN  # exact frame index
+            surround_practice_example.tStart = t  # local t and not account for scr refresh
+            surround_practice_example.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(surround_practice_example, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'surround_practice_example.started')
+            # update status
+            surround_practice_example.status = STARTED
+            surround_practice_example.setAutoDraw(True)
+        
+        # if surround_practice_example is active this frame...
+        if surround_practice_example.status == STARTED:
+            # update params
+            pass
         
         # *center_practice_example* updates
         
@@ -958,6 +994,29 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         if text_15.status == STARTED:
             # update params
             pass
+        
+        # *noise* updates
+        
+        # if noise is starting this frame...
+        if noise.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            noise.frameNStart = frameN  # exact frame index
+            noise.tStart = t  # local t and not account for scr refresh
+            noise.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(noise, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'noise.started')
+            # update status
+            noise.status = STARTED
+            noise.setAutoDraw(True)
+        
+        # if noise is active this frame...
+        if noise.status == STARTED:
+            # update params
+            pass
+        if noise.status == STARTED:
+            if noise._needBuild:
+                noise.buildNoise()
         
         # check for quit (typically the Esc key)
         if defaultKeyboard.getKeys(keyList=["escape"]):
@@ -1729,12 +1788,13 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # create an object to store info about Routine practice_trial_timed
         practice_trial_timed = data.Routine(
             name='practice_trial_timed',
-            components=[surround_practice_2, center_practice_2, key_resp_4, text_12],
+            components=[noise_2, surround_practice_2, center_practice_2, key_resp_4, text_12],
         )
         practice_trial_timed.status = NOT_STARTED
         continueRoutine = True
         # update component parameters for each repeat
-        surround_practice_2.setOpacity(opacity)
+        noise_2.setOpacity(noise_opacity)
+        surround_practice_2.setOpacity(orient_opacity)
         surround_practice_2.setSize(surround_size)
         surround_practice_2.setOri(surround)
         surround_practice_2.setSF(surround_sf)
@@ -1776,6 +1836,43 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             tThisFlipGlobal = win.getFutureFlipTime(clock=None)
             frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
             # update/draw components on each frame
+            
+            # *noise_2* updates
+            
+            # if noise_2 is starting this frame...
+            if noise_2.status == NOT_STARTED and tThisFlip >= 0.5-frameTolerance:
+                # keep track of start time/frame for later
+                noise_2.frameNStart = frameN  # exact frame index
+                noise_2.tStart = t  # local t and not account for scr refresh
+                noise_2.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(noise_2, 'tStartRefresh')  # time at next scr refresh
+                # add timestamp to datafile
+                thisExp.timestampOnFlip(win, 'noise_2.started')
+                # update status
+                noise_2.status = STARTED
+                noise_2.setAutoDraw(True)
+            
+            # if noise_2 is active this frame...
+            if noise_2.status == STARTED:
+                # update params
+                pass
+            
+            # if noise_2 is stopping this frame...
+            if noise_2.status == STARTED:
+                # is it time to stop? (based on global clock, using actual start)
+                if tThisFlipGlobal > noise_2.tStartRefresh + 0.08-frameTolerance:
+                    # keep track of stop time/frame for later
+                    noise_2.tStop = t  # not accounting for scr refresh
+                    noise_2.tStopRefresh = tThisFlipGlobal  # on global time
+                    noise_2.frameNStop = frameN  # exact frame index
+                    # add timestamp to datafile
+                    thisExp.timestampOnFlip(win, 'noise_2.stopped')
+                    # update status
+                    noise_2.status = FINISHED
+                    noise_2.setAutoDraw(False)
+            if noise_2.status == STARTED:
+                if noise_2._needBuild:
+                    noise_2.buildNoise()
             
             # *surround_practice_2* updates
             
@@ -2266,15 +2363,16 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # create an object to store info about Routine trial
         trial = data.Routine(
             name='trial',
-            components=[surround_grating, center_grating, resp],
+            components=[noise_3, surround_grating, center_grating, resp],
         )
         trial.status = NOT_STARTED
         continueRoutine = True
         # update component parameters for each repeat
+        noise_3.setOpacity(noise_opacity)
         # Run 'Begin Routine' code from set_phase
         center_phase = random.random()
         surround_phase = random.random()
-        surround_grating.setOpacity(surr_opacity)
+        surround_grating.setOpacity(orient_opacity)
         surround_grating.setSize(surround_size)
         surround_grating.setOri(surround)
         surround_grating.setSF(surround_sf)
@@ -2319,6 +2417,43 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             tThisFlipGlobal = win.getFutureFlipTime(clock=None)
             frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
             # update/draw components on each frame
+            
+            # *noise_3* updates
+            
+            # if noise_3 is starting this frame...
+            if noise_3.status == NOT_STARTED and tThisFlip >= isi-frameTolerance:
+                # keep track of start time/frame for later
+                noise_3.frameNStart = frameN  # exact frame index
+                noise_3.tStart = t  # local t and not account for scr refresh
+                noise_3.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(noise_3, 'tStartRefresh')  # time at next scr refresh
+                # add timestamp to datafile
+                thisExp.timestampOnFlip(win, 'noise_3.started')
+                # update status
+                noise_3.status = STARTED
+                noise_3.setAutoDraw(True)
+            
+            # if noise_3 is active this frame...
+            if noise_3.status == STARTED:
+                # update params
+                pass
+            
+            # if noise_3 is stopping this frame...
+            if noise_3.status == STARTED:
+                # is it time to stop? (based on global clock, using actual start)
+                if tThisFlipGlobal > noise_3.tStartRefresh + 0.08-frameTolerance:
+                    # keep track of stop time/frame for later
+                    noise_3.tStop = t  # not accounting for scr refresh
+                    noise_3.tStopRefresh = tThisFlipGlobal  # on global time
+                    noise_3.frameNStop = frameN  # exact frame index
+                    # add timestamp to datafile
+                    thisExp.timestampOnFlip(win, 'noise_3.stopped')
+                    # update status
+                    noise_3.status = FINISHED
+                    noise_3.setAutoDraw(False)
+            if noise_3.status == STARTED:
+                if noise_3._needBuild:
+                    noise_3.buildNoise()
             
             # *surround_grating* updates
             

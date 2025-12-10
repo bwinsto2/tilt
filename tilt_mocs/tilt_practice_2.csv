@@ -1,7 +1,7 @@
-﻿center,surround,correct,opacity
--30,-60,z,100
--30,0,z,100
-30,60,period,100
-30,0,period,100
--30,69,z,0
-30,69,period,0
+﻿center,surround,correct,orient_opacity,noise_opacity
+-30,-60,z,100,0
+-30,0,z,100,0
+30,60,period,100,0
+30,0,period,100,0
+-30,69,z,0,100
+30,69,period,0,100

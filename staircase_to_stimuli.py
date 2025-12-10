@@ -670,6 +670,9 @@ def _generate_isi_values(n: int) -> list:
 def make_mocs_stimuli_fixed(
     surround_mag: float = 15.0,
     trials_per_condition: int = 36,
+    poss_centers: Optional[list] = None,
+    negs_centers: Optional[list] = None,
+    noss_centers: Optional[list] = None,
     out_csv: Optional[str] = None
 ) -> pd.DataFrame:
     """
@@ -683,25 +686,37 @@ def make_mocs_stimuli_fixed(
         Number of trials per center/surround combination (default 36)
         With 6 center values × 3 surround types = 18 conditions,
         36 trials each gives 648 total trials
+    poss_centers : Optional[list]
+        List of center angles for positive surround (default: [-2, 0, 2, 4, 6, 8])
+    negs_centers : Optional[list]
+        List of center angles for negative surround (default: [2, 0, -2, -4, -6, -8])
+    noss_centers : Optional[list]
+        List of center angles for noise surround (default: [-4, -2, -1, 1, 2, 4])
     out_csv : Optional[str]
         If provided, save the stimuli to this CSV file
     
     Returns:
     --------
-    pd.DataFrame with columns: center, surround, type, surr_type, surr_opacity, isi
+    pd.DataFrame with columns: center, surround, type, surr_type, orient_opacity, noise_opacity, isi
     
-    Tilt values:
-    - Positive surround: center = -2, 0, 2, 4, 6, 8
-    - Negative surround: center = 2, 0, -2, -4, -6, -8
-    - No surround: center = -4, -2, -1, 1, 2, 4
+    Opacity columns:
+    - poss/negs: orient_opacity=100, noise_opacity=0
+    - noss: orient_opacity=0, noise_opacity=100
     
     ISI values (0.5, 0.75, 1.0, 1.25) are distributed evenly across trials
     within each condition.
     """
+    # Set defaults if not provided
+    if poss_centers is None:
+        poss_centers = [-2, 0, 2, 4, 6, 8]
+    if negs_centers is None:
+        negs_centers = [2, 0, -2, -4, -6, -8]
+    if noss_centers is None:
+        noss_centers = [-4, -2, -1, 1, 2, 4]
+    
     rows = []
     
-    # Positive surround: -2, 0, 2, 4, 6, 8
-    poss_centers = [-2, 0, 2, 4, 6, 8]
+    # Positive surround
     for center in poss_centers:
         isi_values = _generate_isi_values(trials_per_condition)
         for i in range(trials_per_condition):
@@ -710,12 +725,12 @@ def make_mocs_stimuli_fixed(
                 'surround': surround_mag,
                 'type': f'c{center:+d}',  # e.g., 'c-2', 'c+0', 'c+2'
                 'surr_type': 'poss',
-                'surr_opacity': 100,
+                'orient_opacity': 100,
+                'noise_opacity': 0,
                 'isi': isi_values[i]
             })
     
-    # Negative surround: 2, 0, -2, -4, -6, -8
-    negs_centers = [2, 0, -2, -4, -6, -8]
+    # Negative surround
     for center in negs_centers:
         isi_values = _generate_isi_values(trials_per_condition)
         for i in range(trials_per_condition):
@@ -724,12 +739,12 @@ def make_mocs_stimuli_fixed(
                 'surround': -surround_mag,
                 'type': f'c{center:+d}',
                 'surr_type': 'negs',
-                'surr_opacity': 100,
+                'orient_opacity': 100,
+                'noise_opacity': 0,
                 'isi': isi_values[i]
             })
     
-    # No surround: -4, -2, -1, 1, 2, 4
-    noss_centers = [-4, -2, -1, 1, 2, 4]
+    # Noise surround
     for center in noss_centers:
         isi_values = _generate_isi_values(trials_per_condition)
         for i in range(trials_per_condition):
@@ -738,7 +753,8 @@ def make_mocs_stimuli_fixed(
                 'surround': 0,
                 'type': f'c{center:+d}',
                 'surr_type': 'noss',
-                'surr_opacity': 0,
+                'orient_opacity': 0,
+                'noise_opacity': 100,
                 'isi': isi_values[i]
             })
     
@@ -755,3 +771,4 @@ def make_mocs_stimuli_fixed(
         print(f"Saved {len(df)} trials to {out_csv}")
     
     return df
+
