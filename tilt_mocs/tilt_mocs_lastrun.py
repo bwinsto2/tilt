@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2024.2.4),
-    on Tue Dec  9 19:43:26 2025
+    on Wed Dec 10 14:28:01 2025
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -462,7 +462,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     key_resp_2 = keyboard.Keyboard(deviceName='key_resp_2')
     # Run 'Begin Experiment' code from set_contrast
     contrast = 0.2
-    noise_contrast = 0.1
+    noise_contrast = 0.15
     # Run 'Begin Experiment' code from practice_reps
     n_practice_reps = 1
     
