@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2024.2.4),
-    on Wed Dec 10 17:32:38 2025
+    on Thu Dec 11 12:57:58 2025
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -2298,7 +2298,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         method='random', 
         extraInfo=expInfo, 
         originPath=-1, 
-        trialList=data.importConditions('mocs_stims_fixed_whole_distribution.csv'), 
+        trialList=data.importConditions('mocs_stims_fixed_42.csv'), 
         seed=None, 
     )
     thisExp.addLoop(trials)  # add the loop to the experiment
@@ -2573,7 +2573,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         continueRoutine = True
         # update component parameters for each repeat
         # Run 'Begin Routine' code from code_5
-        if not trials.thisTrialN in [5, 200, 400]:
+        if not trials.thisTrialN in [150, 300, 500]:
             continueRoutine = False
         # create starting attributes for key_resp_10
         key_resp_10.keys = []
